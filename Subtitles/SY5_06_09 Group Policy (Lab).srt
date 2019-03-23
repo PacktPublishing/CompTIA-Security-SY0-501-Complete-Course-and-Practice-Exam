@@ -1,0 +1,444 @@
+﻿1
+00:00:00,155 --> 00:00:03,239
+- In this demonstration, I'm
+going to show you how to use
+
+2
+00:00:03,239 --> 00:00:05,424
+the Local Group Policy editor to set up
+
+3
+00:00:05,424 --> 00:00:08,098
+some various configurations
+for your machine.
+
+4
+00:00:08,098 --> 00:00:10,514
+We're going to use a
+Windows 10 workstation here
+
+5
+00:00:10,514 --> 00:00:13,012
+as our example machine,
+and we're going to go
+
+6
+00:00:13,012 --> 00:00:14,690
+and do an application whitelist and
+
+7
+00:00:14,690 --> 00:00:18,836
+an application blacklist
+using the Group Policy Editor.
+
+8
+00:00:18,836 --> 00:00:20,813
+To access the Group Policy Editor,
+
+9
+00:00:20,813 --> 00:00:25,092
+we simply need to go and
+start up the GP Edit Program,
+
+10
+00:00:25,092 --> 00:00:27,982
+so we'll go ahead and
+use Edit Group Policy,
+
+11
+00:00:27,982 --> 00:00:31,680
+and let me go ahead and make this larger.
+
+12
+00:00:31,680 --> 00:00:33,439
+And you'll see, down the left side,
+
+13
+00:00:33,439 --> 00:00:35,026
+all of the various configurations
+
+14
+00:00:35,026 --> 00:00:38,531
+we can do on a per user
+or per computer basis.
+
+15
+00:00:38,531 --> 00:00:40,612
+We're going to start with
+the per computer basis
+
+16
+00:00:40,612 --> 00:00:42,445
+with Windows settings.
+
+17
+00:00:44,776 --> 00:00:48,174
+Next, we're going to look
+at the security settings.
+
+18
+00:00:48,174 --> 00:00:50,239
+And under here, we have Account Policies,
+
+19
+00:00:50,239 --> 00:00:52,041
+which show our Password Policies,
+
+20
+00:00:52,041 --> 00:00:54,398
+as well as Local Policies,
+which will allow us
+
+21
+00:00:54,398 --> 00:00:57,471
+to do auditing user rights
+and security options.
+
+22
+00:00:57,471 --> 00:00:58,866
+But what I want to focus on here
+
+23
+00:00:58,866 --> 00:01:00,903
+is application control, so we go into
+
+24
+00:01:00,903 --> 00:01:03,022
+our Application Control policies,
+
+25
+00:01:03,022 --> 00:01:06,646
+which will allow us to create
+whitelists and blacklists.
+
+26
+00:01:06,646 --> 00:01:08,179
+If I go ahead and hit the down arrow,
+
+27
+00:01:08,179 --> 00:01:10,271
+you'll see we have AppLocker.
+
+28
+00:01:10,271 --> 00:01:12,866
+AppLocker will allow us
+to create different rules
+
+29
+00:01:12,866 --> 00:01:15,802
+for installers, for
+scripts, for packaged apps,
+
+30
+00:01:15,802 --> 00:01:17,380
+and what we're going to use right now,
+
+31
+00:01:17,380 --> 00:01:20,139
+which is Executable Rules.
+
+32
+00:01:20,139 --> 00:01:22,839
+Underneath the Executable
+Rules, you will see
+
+33
+00:01:22,839 --> 00:01:24,836
+we currently have no items listed,
+
+34
+00:01:24,836 --> 00:01:26,881
+because this is a brand new computer.
+
+35
+00:01:26,881 --> 00:01:28,823
+I'm going to create a whitelist here
+
+36
+00:01:28,823 --> 00:01:32,126
+and allow a certain application to be run.
+
+37
+00:01:32,126 --> 00:01:37,126
+To do that, we simply right
+click and create a new rule.
+
+38
+00:01:37,504 --> 00:01:41,192
+From here, we're going to be
+able to walk through the Wizard
+
+39
+00:01:41,192 --> 00:01:42,492
+and you'll set up your permissions.
+
+40
+00:01:42,492 --> 00:01:44,074
+Is this going to be an Allow Rule,
+
+41
+00:01:44,074 --> 00:01:45,782
+meaning it's a whitelist rule,
+
+42
+00:01:45,782 --> 00:01:48,480
+or a Deny rule, meaning
+it's a blacklist rule.
+
+43
+00:01:48,480 --> 00:01:50,683
+In my case, I'm going
+to create a Deny Rule,
+
+44
+00:01:50,683 --> 00:01:53,635
+and I'm going to blacklist a program.
+
+45
+00:01:53,635 --> 00:01:55,104
+Next, we're going to say what conditions
+
+46
+00:01:55,104 --> 00:01:56,186
+are going to be met.
+
+47
+00:01:56,186 --> 00:01:57,863
+Is it based on the person who wrote it,
+
+48
+00:01:57,863 --> 00:01:59,135
+the publisher?
+
+49
+00:01:59,135 --> 00:02:00,854
+Like I can block all
+programs that were made
+
+50
+00:02:00,854 --> 00:02:04,803
+by Microsoft, or by Adobe, if I wanted to.
+
+51
+00:02:04,803 --> 00:02:08,104
+Or, is it based on path, a
+certain file and folder name?
+
+52
+00:02:08,104 --> 00:02:10,020
+Or, if it's a piece of malware,
+
+53
+00:02:10,020 --> 00:02:12,174
+you might want to do it
+based on a file hash,
+
+54
+00:02:12,174 --> 00:02:14,504
+because every file has
+its own unique hash,
+
+55
+00:02:14,504 --> 00:02:18,157
+as we'll talk about when we
+get to hashes in cryptography.
+
+56
+00:02:18,157 --> 00:02:19,985
+For right now, I'm going
+to use the path option
+
+57
+00:02:19,985 --> 00:02:23,075
+just to show you how this
+works for an example.
+
+58
+00:02:23,075 --> 00:02:25,269
+Next, we're going to find that file.
+
+59
+00:02:25,269 --> 00:02:27,647
+You can browse and you
+can block things based on
+
+60
+00:02:27,647 --> 00:02:31,120
+the folder it sits in
+or a particular file.
+
+61
+00:02:31,120 --> 00:02:33,258
+For example, I might
+want to make it so that
+
+62
+00:02:33,258 --> 00:02:35,734
+nobody can run any files out of the
+
+63
+00:02:35,734 --> 00:02:38,707
+C Drive and under the Temp folder,
+
+64
+00:02:38,707 --> 00:02:41,020
+which is underneath the Windows folder.
+
+65
+00:02:41,020 --> 00:02:43,931
+So, if I go and click down there,
+
+66
+00:02:43,931 --> 00:02:45,795
+I'll find the Temp folder,
+
+67
+00:02:45,795 --> 00:02:47,302
+and then I'll hit "Okay".
+
+68
+00:02:47,302 --> 00:02:49,330
+This says that anything
+that's trying to be run
+
+69
+00:02:49,330 --> 00:02:50,895
+out of the Temporary directory
+
+70
+00:02:50,895 --> 00:02:52,995
+is not going to be allowed.
+
+71
+00:02:52,995 --> 00:02:54,446
+This is actually a good rule to set up
+
+72
+00:02:54,446 --> 00:02:56,385
+because a lot of malware likes to try
+
+73
+00:02:56,385 --> 00:02:58,604
+to run out of the Temp folder.
+
+74
+00:02:58,604 --> 00:02:59,864
+Then we'll go ahead and click "Next",
+
+75
+00:02:59,864 --> 00:03:01,455
+and you'll see that we have whatever
+
+76
+00:03:01,455 --> 00:03:02,990
+exceptions we want to do.
+
+77
+00:03:02,990 --> 00:03:05,395
+Maybe I want to say that
+I will allow nothing
+
+78
+00:03:05,395 --> 00:03:09,112
+to run out of the Temp
+folder except for Microsoft,
+
+79
+00:03:09,112 --> 00:03:10,625
+and so I can actually browse through
+
+80
+00:03:10,625 --> 00:03:13,123
+and find that reference
+file for Microsoft.
+
+81
+00:03:13,123 --> 00:03:14,202
+In my case, I'm going to block
+
+82
+00:03:14,202 --> 00:03:17,326
+everything coming from that Temp folder.
+
+83
+00:03:17,326 --> 00:03:20,000
+And, I'm going to give it a rule.
+
+84
+00:03:20,000 --> 00:03:25,000
+The rule name is going to
+be "block files from running
+
+85
+00:03:25,056 --> 00:03:26,696
+out of temp directory."
+
+86
+00:03:26,696 --> 00:03:29,258
+This is just used to give you a way
+
+87
+00:03:29,258 --> 00:03:31,743
+to remember what that rule is used for,
+
+88
+00:03:31,743 --> 00:03:35,206
+and you can now see that, by default,
+
+89
+00:03:35,206 --> 00:03:36,789
+everyone is allowed
+
+90
+00:03:37,948 --> 00:03:40,319
+to let anything run from
+the Programs folder.
+
+91
+00:03:40,319 --> 00:03:41,818
+They can also allow
+anything to be run from
+
+92
+00:03:41,818 --> 00:03:46,118
+the Windows folder, and
+they can allow all files.
+
+93
+00:03:46,118 --> 00:03:48,318
+But, everyone is being blocked
+
+94
+00:03:48,318 --> 00:03:50,758
+from running out of the Temp directory.
+
+95
+00:03:50,758 --> 00:03:53,470
+That's the way we create
+whitelist and blacklist rules.
+
+96
+00:03:53,470 --> 00:03:55,600
+In this example, I showed
+you a blacklist rule,
+
+97
+00:03:55,600 --> 00:03:57,359
+but you can go through
+and play around with it
+
+98
+00:03:57,359 --> 00:04:00,488
+and do the exact same thing
+to put whitelist rules
+
+99
+00:04:00,488 --> 00:04:02,558
+where you would deny
+everything by default,
+
+100
+00:04:02,558 --> 00:04:07,558
+and only allow specific programs
+and files that you specify.
+

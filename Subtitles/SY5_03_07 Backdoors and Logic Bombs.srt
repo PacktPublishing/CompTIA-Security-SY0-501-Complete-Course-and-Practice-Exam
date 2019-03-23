@@ -1,0 +1,453 @@
+﻿1
+00:00:00,481 --> 00:00:02,350
+- Backdoors and logic bombs.
+
+2
+00:00:02,350 --> 00:00:05,300
+A backdoor was originally
+placed in computer programs
+
+3
+00:00:05,300 --> 00:00:08,980
+to bypass the normal security
+and authentication functions.
+
+4
+00:00:08,980 --> 00:00:11,460
+Now, if this sounds like
+a horrible idea to you,
+
+5
+00:00:11,460 --> 00:00:14,550
+it really is, and it's a
+horrible security practice.
+
+6
+00:00:14,550 --> 00:00:16,360
+This is something that
+was originally created
+
+7
+00:00:16,360 --> 00:00:19,230
+back in the 80's, by
+manufacturers and programmers
+
+8
+00:00:19,230 --> 00:00:21,340
+as a way for them to
+get back into the system
+
+9
+00:00:21,340 --> 00:00:22,820
+to do maintenance and repairs,
+
+10
+00:00:22,820 --> 00:00:24,865
+without having to go through
+all the authentications
+
+11
+00:00:24,865 --> 00:00:25,970
+and going through the firewalls
+
+12
+00:00:25,970 --> 00:00:27,890
+and the layers of security that they would
+
+13
+00:00:27,890 --> 00:00:29,980
+if they went in the front door.
+
+14
+00:00:29,980 --> 00:00:32,510
+Now, this is a horrible and bad practice,
+
+15
+00:00:32,510 --> 00:00:34,920
+and it should not be
+used in current networks.
+
+16
+00:00:34,920 --> 00:00:37,180
+And these days, it's
+actually considered a breach
+
+17
+00:00:37,180 --> 00:00:39,390
+of good, secure coding practices.
+
+18
+00:00:39,390 --> 00:00:41,560
+But, back in the 80's and the 90's,
+
+19
+00:00:41,560 --> 00:00:44,200
+and even into the early 2000's,
+
+20
+00:00:44,200 --> 00:00:45,700
+backdoors were a commonplace thing
+
+21
+00:00:45,700 --> 00:00:47,520
+that were put in by programmers.
+
+22
+00:00:47,520 --> 00:00:50,980
+Now these days, most software
+does not have a backdoor.
+
+23
+00:00:50,980 --> 00:00:52,880
+It's been patched up and cleared up
+
+24
+00:00:52,880 --> 00:00:55,340
+because they know how bad
+these are for security.
+
+25
+00:00:55,340 --> 00:00:58,390
+But, there is something that
+acts just like a backdoor.
+
+26
+00:00:58,390 --> 00:01:00,460
+What do you think that might be?
+
+27
+00:01:00,460 --> 00:01:03,030
+Well, it's a remote access trojan.
+
+28
+00:01:03,030 --> 00:01:05,900
+A remote access trojan can
+be placed by an attacker
+
+29
+00:01:05,900 --> 00:01:08,920
+to maintain their persistent
+access to your system.
+
+30
+00:01:08,920 --> 00:01:10,860
+So if I'm able to trick you into clicking
+
+31
+00:01:10,860 --> 00:01:13,480
+a spearfishing link, and
+then you install malware
+
+32
+00:01:13,480 --> 00:01:15,140
+based on clicking that link,
+
+33
+00:01:15,140 --> 00:01:17,780
+now I have something that
+can make a call back to me.
+
+34
+00:01:17,780 --> 00:01:20,130
+That can give me that remote access.
+
+35
+00:01:20,130 --> 00:01:23,370
+I have a way to bypass your
+system's natural security
+
+36
+00:01:23,370 --> 00:01:25,090
+and use that remote access trojan
+
+37
+00:01:25,090 --> 00:01:27,410
+as a backdoor, to gain
+access to your system
+
+38
+00:01:27,410 --> 00:01:29,330
+anytime I want.
+
+39
+00:01:29,330 --> 00:01:31,620
+Another insecure coding
+practice that was used by
+
+40
+00:01:31,620 --> 00:01:34,980
+programmers is what we
+refer to as an Easter Egg.
+
+41
+00:01:34,980 --> 00:01:37,400
+An Easter Egg would be
+placed in the code as a joke
+
+42
+00:01:37,400 --> 00:01:39,200
+or a form of gag gift.
+
+43
+00:01:39,200 --> 00:01:41,250
+Essentially, there would
+be different things
+
+44
+00:01:41,250 --> 00:01:43,040
+that would happen in
+different video games,
+
+45
+00:01:43,040 --> 00:01:44,650
+or different pieces of software
+
+46
+00:01:44,650 --> 00:01:46,810
+when certain code was executed.
+
+47
+00:01:46,810 --> 00:01:50,150
+For example, a few years ago,
+you could go to Google.com
+
+48
+00:01:50,150 --> 00:01:52,070
+and type in do a barrel roll,
+
+49
+00:01:52,070 --> 00:01:55,080
+and the whole page would
+do a 360 degree rotation
+
+50
+00:01:55,080 --> 00:01:57,820
+as if it was doing a
+barrel roll in an airplane.
+
+51
+00:01:57,820 --> 00:01:59,790
+There was no real function to doing that
+
+52
+00:01:59,790 --> 00:02:02,140
+except it was a joke, it was a gag.
+
+53
+00:02:02,140 --> 00:02:04,100
+It was a joke that Google
+programmers decided
+
+54
+00:02:04,100 --> 00:02:05,380
+to put into the code.
+
+55
+00:02:05,380 --> 00:02:07,150
+That's a form of an Easter Egg.
+
+56
+00:02:07,150 --> 00:02:09,170
+Now, Easter Eggs are generally harmless
+
+57
+00:02:09,170 --> 00:02:10,680
+but they do add additional code,
+
+58
+00:02:10,680 --> 00:02:12,700
+that can have additional vulnerabilities.
+
+59
+00:02:12,700 --> 00:02:14,730
+The reason for this is because their code,
+
+60
+00:02:14,730 --> 00:02:17,600
+because it's a joke, is usually
+put in at the last minute
+
+61
+00:02:17,600 --> 00:02:21,010
+and it doesn't undergo
+rigorous security testing.
+
+62
+00:02:21,010 --> 00:02:24,150
+Now, why am I talking about
+Easter Eggs in this lesson?
+
+63
+00:02:24,150 --> 00:02:25,610
+Well, it's because it brings us up
+
+64
+00:02:25,610 --> 00:02:27,670
+to the subject of logic bombs.
+
+65
+00:02:27,670 --> 00:02:30,610
+Logic bombs are a descendant
+of those earlier Easter Eggs.
+
+66
+00:02:30,610 --> 00:02:34,370
+But logic bombs were designed
+with malicious intent in mind.
+
+67
+00:02:34,370 --> 00:02:36,160
+Logic bombs are malicious code
+
+68
+00:02:36,160 --> 00:02:37,970
+that's inserted into a program,
+
+69
+00:02:37,970 --> 00:02:40,180
+and it will execute only
+when certain conditions
+
+70
+00:02:40,180 --> 00:02:41,330
+have been met.
+
+71
+00:02:41,330 --> 00:02:43,440
+For example, a disgruntled employee
+
+72
+00:02:43,440 --> 00:02:46,120
+may insert a logic bomb
+into the server's code
+
+73
+00:02:46,120 --> 00:02:48,440
+so that if that employee
+isn't on the payroll anymore,
+
+74
+00:02:48,440 --> 00:02:51,710
+a bad action, like deleting
+all the files, could occur.
+
+75
+00:02:51,710 --> 00:02:53,870
+One of my favorite
+examples of a logic bomb
+
+76
+00:02:53,870 --> 00:02:56,260
+actually comes from the
+movie Jurassic Park.
+
+77
+00:02:56,260 --> 00:02:57,950
+In the movie, the park's programmer,
+
+78
+00:02:57,950 --> 00:03:00,560
+Dennis Nedry, decides he's
+going to put a logic bomb
+
+79
+00:03:00,560 --> 00:03:02,090
+into the power grid system,
+
+80
+00:03:02,090 --> 00:03:04,340
+so that it will go off at a certain time.
+
+81
+00:03:04,340 --> 00:03:06,680
+He does this so that when
+the power gets turned off
+
+82
+00:03:06,680 --> 00:03:09,290
+by the logic bomb, he's able
+to sneak out of the room,
+
+83
+00:03:09,290 --> 00:03:11,620
+go past all the alarms
+and get into the nursery
+
+84
+00:03:11,620 --> 00:03:13,740
+and steal some of the dinosaur embryos.
+
+85
+00:03:13,740 --> 00:03:16,110
+He thinks he's going to get
+off and sell those embryos
+
+86
+00:03:16,110 --> 00:03:17,300
+and become a millionaire.
+
+87
+00:03:17,300 --> 00:03:19,160
+Of course, it goes bad for him because
+
+88
+00:03:19,160 --> 00:03:21,040
+dinosaurs are running rampant in the park
+
+89
+00:03:21,040 --> 00:03:22,900
+because he turned off the electrical grid
+
+90
+00:03:22,900 --> 00:03:24,340
+and he doesn't make it.
+
+91
+00:03:24,340 --> 00:03:26,270
+But that's an example of a logic bomb.
+
+92
+00:03:26,270 --> 00:03:28,300
+He set it up so at a certain time,
+
+93
+00:03:28,300 --> 00:03:31,610
+a certain action would happen
+and it had malicious intent.
+
+94
+00:03:31,610 --> 00:03:34,380
+Now, logic bombs and
+Easter Eggs and backdoors
+
+95
+00:03:34,380 --> 00:03:36,150
+are all things that should not be found
+
+96
+00:03:36,150 --> 00:03:37,510
+inside our code.
+
+97
+00:03:37,510 --> 00:03:40,010
+These all go against our
+secure coding standards
+
+98
+00:03:41,250 --> 00:03:42,500
+and best practices, so
+you want to make sure
+
+99
+00:03:42,500 --> 00:03:45,250
+that none of this is
+existing in your server code,
+
+100
+00:03:45,250 --> 00:03:47,070
+to make sure that you have the most secure
+
+101
+00:03:47,070 --> 00:03:48,323
+network that you can.
+

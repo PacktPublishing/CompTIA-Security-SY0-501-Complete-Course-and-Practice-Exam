@@ -1,0 +1,560 @@
+﻿1
+00:00:00,870 --> 00:00:02,890
+- Securing applications.
+
+2
+00:00:02,890 --> 00:00:05,830
+By far the most commonly
+used productivity suite
+
+3
+00:00:05,830 --> 00:00:08,310
+in the world is Microsoft Office.
+
+4
+00:00:08,310 --> 00:00:10,590
+This includes Word for word processing,
+
+5
+00:00:10,590 --> 00:00:14,040
+Excel for Spreadsheets,
+PowerPoint for slide presentation,
+
+6
+00:00:14,040 --> 00:00:16,610
+Outlook for email, and many others.
+
+7
+00:00:16,610 --> 00:00:19,292
+Now, how can we protect the
+applications themselves,
+
+8
+00:00:19,292 --> 00:00:21,310
+and the files that they create?
+
+9
+00:00:21,310 --> 00:00:24,000
+Well, that's what we're going
+to cover in this lesson.
+
+10
+00:00:24,000 --> 00:00:26,280
+First, let's talk about the obvious.
+
+11
+00:00:26,280 --> 00:00:29,070
+If you have a document and you
+want to protect its content,
+
+12
+00:00:29,070 --> 00:00:31,070
+you should use a password to do it.
+
+13
+00:00:31,070 --> 00:00:32,970
+It's a really simple built in feature
+
+14
+00:00:32,970 --> 00:00:34,900
+across the Office suite.
+
+15
+00:00:34,900 --> 00:00:36,930
+To create a password to
+protect your files from
+
+16
+00:00:36,930 --> 00:00:39,110
+modification, or even being viewed,
+
+17
+00:00:39,110 --> 00:00:41,010
+you can do this using the password protect
+
+18
+00:00:41,010 --> 00:00:43,630
+feature under the tools menu bar option.
+
+19
+00:00:43,630 --> 00:00:46,030
+As shown here on the
+screen, this is an example
+
+20
+00:00:46,030 --> 00:00:48,340
+from Microsoft Word, but it works in Word,
+
+21
+00:00:48,340 --> 00:00:50,290
+Excel and PowerPoint.
+
+22
+00:00:50,290 --> 00:00:53,490
+Also, your files can be set
+to read only if you desire.
+
+23
+00:00:53,490 --> 00:00:55,170
+This will prevent any of your contents
+
+24
+00:00:55,170 --> 00:00:57,880
+from being modified by unauthorized users.
+
+25
+00:00:57,880 --> 00:00:59,460
+Another thing you want to think about
+
+26
+00:00:59,460 --> 00:01:01,540
+when it comes to security is macros.
+
+27
+00:01:01,540 --> 00:01:02,804
+And we talked about that a bit back
+
+28
+00:01:02,804 --> 00:01:05,640
+when we talked about macro viruses.
+
+29
+00:01:05,640 --> 00:01:07,970
+You want to make sure you
+check your macro settings.
+
+30
+00:01:07,970 --> 00:01:09,820
+You can find this under your preferences
+
+31
+00:01:09,820 --> 00:01:13,340
+or your tools options, and
+then going to the security tab.
+
+32
+00:01:13,340 --> 00:01:16,300
+By default, you should
+want to disable macros,
+
+33
+00:01:16,300 --> 00:01:18,150
+with or without notification.
+
+34
+00:01:18,150 --> 00:01:21,090
+This will increase the
+security of your organization.
+
+35
+00:01:21,090 --> 00:01:23,700
+Now, when it's installed
+originally by Microsoft,
+
+36
+00:01:23,700 --> 00:01:26,240
+macros are enabled, so
+you want to take the time
+
+37
+00:01:26,240 --> 00:01:28,660
+to disable this in your baseline image.
+
+38
+00:01:28,660 --> 00:01:31,140
+Most organizations are
+going to decide to disable
+
+39
+00:01:31,140 --> 00:01:33,870
+macros completely and
+not even give their user
+
+40
+00:01:33,870 --> 00:01:35,890
+an option to be able to enable them.
+
+41
+00:01:35,890 --> 00:01:38,760
+To do this, you can set that
+through your group policy
+
+42
+00:01:38,760 --> 00:01:41,150
+inside the Windows
+server and push that out
+
+43
+00:01:41,150 --> 00:01:42,690
+to all of your clients.
+
+44
+00:01:42,690 --> 00:01:44,890
+Another way to secure your information
+
+45
+00:01:44,890 --> 00:01:46,890
+is to use digital certificates.
+
+46
+00:01:46,890 --> 00:01:49,380
+If your organization is already
+using digital certificates
+
+47
+00:01:49,380 --> 00:01:51,400
+as part of its organizational security,
+
+48
+00:01:51,400 --> 00:01:53,680
+you should enable your
+documents to be locked down
+
+49
+00:01:53,680 --> 00:01:55,950
+and only be opened by
+the person presenting
+
+50
+00:01:55,950 --> 00:01:57,690
+a valid digital certificate.
+
+51
+00:01:57,690 --> 00:01:59,690
+This again is another option that you can
+
+52
+00:01:59,690 --> 00:02:01,630
+find inside of Word.
+
+53
+00:02:01,630 --> 00:02:03,330
+Additionally, you want to think about how
+
+54
+00:02:03,330 --> 00:02:04,890
+you're going to encrypt your documents
+
+55
+00:02:04,890 --> 00:02:06,570
+to protect their contents.
+
+56
+00:02:06,570 --> 00:02:08,530
+This can be done within
+the Microsoft Office
+
+57
+00:02:08,530 --> 00:02:10,740
+products themselves, or you can use
+
+58
+00:02:10,740 --> 00:02:12,600
+the underlying system capabilities,
+
+59
+00:02:12,600 --> 00:02:14,820
+something like Bitlocker to Go.
+
+60
+00:02:14,820 --> 00:02:17,270
+So at this point, we have
+some pretty secure files.
+
+61
+00:02:17,270 --> 00:02:19,320
+We've disabled our macros, we've password
+
+62
+00:02:19,320 --> 00:02:21,490
+protected them and we've encrypted them.
+
+63
+00:02:21,490 --> 00:02:24,520
+Let's go and shift our focus
+over to email for a moment.
+
+64
+00:02:24,520 --> 00:02:26,290
+Inside the Microsoft Office suite,
+
+65
+00:02:26,290 --> 00:02:28,570
+there's a program called MS Outlook.
+
+66
+00:02:28,570 --> 00:02:31,000
+Microsoft Outlook is used for email
+
+67
+00:02:31,000 --> 00:02:33,030
+and if you embed your digital signatures
+
+68
+00:02:33,030 --> 00:02:34,970
+and digital certificate configurations
+
+69
+00:02:34,970 --> 00:02:37,040
+into Microsoft Outlook, you can have
+
+70
+00:02:37,040 --> 00:02:39,010
+increased email security.
+
+71
+00:02:39,010 --> 00:02:42,600
+This relies on a PKI or
+public key infrastructure.
+
+72
+00:02:42,600 --> 00:02:43,670
+We'll talk about that when we get
+
+73
+00:02:43,670 --> 00:02:46,610
+into the cryptography section
+of this course later on.
+
+74
+00:02:46,610 --> 00:02:48,110
+Now, another thing when we start talking
+
+75
+00:02:48,110 --> 00:02:49,946
+about Microsoft Outlook is that our emails
+
+76
+00:02:49,946 --> 00:02:53,030
+start getting to be
+overwhelming sometimes,
+
+77
+00:02:53,030 --> 00:02:56,580
+and we have to start saving
+space by archiving them off.
+
+78
+00:02:56,580 --> 00:02:58,470
+In Microsoft Outlook, the way we do this
+
+79
+00:02:58,470 --> 00:03:00,780
+is by archiving them to a PST file.
+
+80
+00:03:00,780 --> 00:03:03,510
+Now, this PST file though should be
+
+81
+00:03:03,510 --> 00:03:05,360
+encrypted or password protected if you're
+
+82
+00:03:05,360 --> 00:03:08,060
+going to to store it on
+a large network share,
+
+83
+00:03:08,060 --> 00:03:09,460
+like a shared drive.
+
+84
+00:03:09,460 --> 00:03:10,962
+I see this a lot in organizations
+
+85
+00:03:10,962 --> 00:03:12,960
+where they'll only give
+you a certain amount
+
+86
+00:03:12,960 --> 00:03:14,670
+of space on the email server.
+
+87
+00:03:14,670 --> 00:03:17,620
+Some people will archive
+their files off into the PST
+
+88
+00:03:17,620 --> 00:03:19,570
+and then put that onto the shared drive.
+
+89
+00:03:19,570 --> 00:03:21,740
+If you're going to do
+that, password protect it
+
+90
+00:03:21,740 --> 00:03:24,490
+and encrypt it for your
+own safety and precaution.
+
+91
+00:03:24,490 --> 00:03:25,960
+Another concern we have when we deal
+
+92
+00:03:25,960 --> 00:03:28,340
+with email is spam and junk mail.
+
+93
+00:03:28,340 --> 00:03:30,220
+And you can get a lot of this.
+
+94
+00:03:30,220 --> 00:03:32,150
+If you want to start
+removing a lot of that,
+
+95
+00:03:32,150 --> 00:03:34,010
+you should set up rules that will end up
+
+96
+00:03:34,010 --> 00:03:36,982
+filtering out that spam
+both on your exchange server
+
+97
+00:03:36,982 --> 00:03:39,630
+as well as on your personal computer.
+
+98
+00:03:39,630 --> 00:03:42,010
+Again, Microsoft Outlook
+will allow you to do this
+
+99
+00:03:42,010 --> 00:03:44,589
+on your application side
+or Microsoft Exchange
+
+100
+00:03:44,589 --> 00:03:47,087
+will allow you to do
+it on the server side.
+
+101
+00:03:47,087 --> 00:03:49,624
+So as we start wrapping up this lesson,
+
+102
+00:03:49,624 --> 00:03:51,560
+let's start talking about what you can do
+
+103
+00:03:51,560 --> 00:03:54,690
+to help protect yourself
+from rogue applications.
+
+104
+00:03:54,690 --> 00:03:56,930
+Now this is going to move beyond
+the Microsoft Office suite,
+
+105
+00:03:56,930 --> 00:03:59,490
+and into every other
+application out there.
+
+106
+00:03:59,490 --> 00:04:01,820
+There's one key tool inside of Windows
+
+107
+00:04:01,820 --> 00:04:02,900
+that helps protect you.
+
+108
+00:04:02,900 --> 00:04:05,490
+It's called the User Account Control.
+
+109
+00:04:05,490 --> 00:04:08,610
+UAC is a security
+component of Windows Vista
+
+110
+00:04:08,610 --> 00:04:11,660
+and newer operating systems
+that keeps every user,
+
+111
+00:04:11,660 --> 00:04:13,980
+besides your actual administrator account
+
+112
+00:04:13,980 --> 00:04:15,680
+in a standard user mode.
+
+113
+00:04:15,680 --> 00:04:17,630
+And this way, when you
+try to run a program,
+
+114
+00:04:17,630 --> 00:04:19,590
+it's going to ask you
+if you want to be run
+
+115
+00:04:19,590 --> 00:04:21,550
+as an administrator and if so,
+
+116
+00:04:21,550 --> 00:04:23,790
+you need to put in the
+administrator credentials.
+
+117
+00:04:23,790 --> 00:04:26,812
+So when you think about UAC
+or User Account Control,
+
+118
+00:04:26,812 --> 00:04:28,350
+just think about the fact that it's going
+
+119
+00:04:28,350 --> 00:04:30,150
+to prevent unauthorized access
+
+120
+00:04:30,150 --> 00:04:33,580
+and avoid user error in the
+form of accidental changes,
+
+121
+00:04:33,580 --> 00:04:36,360
+because it's running
+everything as a standard user,
+
+122
+00:04:36,360 --> 00:04:38,880
+as opposed to running
+it as an administrator.
+
+123
+00:04:38,880 --> 00:04:40,790
+Now in the next lesson,
+I'm going to show you
+
+124
+00:04:40,790 --> 00:04:43,410
+how we can white list and
+black list applications.
+
+125
+00:04:43,410 --> 00:04:45,410
+To keep any applications off your system,
+
+126
+00:04:45,410 --> 00:04:46,590
+that you don't want running
+
+127
+00:04:46,590 --> 00:04:48,953
+and allowing those that you do to be run.
+

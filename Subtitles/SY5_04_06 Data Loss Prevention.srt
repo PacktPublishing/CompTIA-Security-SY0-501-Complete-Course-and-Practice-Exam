@@ -1,0 +1,448 @@
+﻿1
+00:00:00,730 --> 00:00:02,780
+- Data loss prevention.
+
+2
+00:00:02,780 --> 00:00:05,010
+Data loss prevention is set up to monitor
+
+3
+00:00:05,010 --> 00:00:07,670
+the data of a system while it's in use,
+
+4
+00:00:07,670 --> 00:00:09,810
+in transit, or at rest.
+
+5
+00:00:09,810 --> 00:00:12,050
+It does this, in order
+to detect any attempts
+
+6
+00:00:12,050 --> 00:00:13,840
+to steal the data.
+
+7
+00:00:13,840 --> 00:00:15,630
+Let's think about when we had data stored,
+
+8
+00:00:15,630 --> 00:00:17,250
+20 or 30 years ago.
+
+9
+00:00:17,250 --> 00:00:18,890
+Where did they store most of it?
+
+10
+00:00:18,890 --> 00:00:21,380
+Well, most businesses
+stored it printed off,
+
+11
+00:00:21,380 --> 00:00:22,810
+and in a filing cabinet.
+
+12
+00:00:22,810 --> 00:00:24,130
+And if somebody wanted to get it,
+
+13
+00:00:24,130 --> 00:00:25,860
+they'd have to break into your offices,
+
+14
+00:00:25,860 --> 00:00:29,040
+open the filing cabinet, and
+physically take the files.
+
+15
+00:00:29,040 --> 00:00:30,133
+This limited the amount of information
+
+16
+00:00:30,133 --> 00:00:31,810
+that somebody could steal from you,
+
+17
+00:00:31,810 --> 00:00:33,010
+because they really could only steal,
+
+18
+00:00:33,010 --> 00:00:34,720
+what they could carry with them.
+
+19
+00:00:34,720 --> 00:00:37,030
+Then, we started allowing
+people to work remotely,
+
+20
+00:00:37,030 --> 00:00:39,460
+and a lot of data was stored on laptops.
+
+21
+00:00:39,460 --> 00:00:40,960
+If you happened to stop for lunch
+
+22
+00:00:40,960 --> 00:00:42,790
+and you left your laptop
+sitting in your car,
+
+23
+00:00:42,790 --> 00:00:44,330
+somebody could've broken in your car,
+
+24
+00:00:44,330 --> 00:00:45,730
+and stolen your laptop.
+
+25
+00:00:45,730 --> 00:00:49,100
+And they now have access to
+all the data that was on it.
+
+26
+00:00:49,100 --> 00:00:51,180
+The next evolution in data theft occurred
+
+27
+00:00:51,180 --> 00:00:53,550
+when we started using
+external hard drives.
+
+28
+00:00:53,550 --> 00:00:56,090
+These started being used,
+all throughout our offices.
+
+29
+00:00:56,090 --> 00:00:58,670
+These hard drives could
+hold large amounts of data.
+
+30
+00:00:58,670 --> 00:01:00,950
+We could plug it into the
+network, through our laptop,
+
+31
+00:01:00,950 --> 00:01:03,400
+and download a ton of
+information and data,
+
+32
+00:01:03,400 --> 00:01:05,210
+and then walk out of the building with it.
+
+33
+00:01:05,210 --> 00:01:08,410
+But, these were kind of
+large and easy to detect.
+
+34
+00:01:08,410 --> 00:01:10,360
+Next, we started seeing thumb drives,
+
+35
+00:01:10,360 --> 00:01:12,910
+that hold just as much as
+these external hard drives,
+
+36
+00:01:12,910 --> 00:01:15,410
+carrying billions of
+documents out the front door
+
+37
+00:01:15,410 --> 00:01:17,870
+with no one knowing it,
+because they're so small,
+
+38
+00:01:17,870 --> 00:01:19,770
+and fit right in your pocket.
+
+39
+00:01:19,770 --> 00:01:22,200
+But wait, we don't even
+need to do that nowadays,
+
+40
+00:01:22,200 --> 00:01:25,190
+because we have things like
+Dropbox and Google Drive,
+
+41
+00:01:25,190 --> 00:01:27,780
+where we get terabytes of
+storage available to you,
+
+42
+00:01:27,780 --> 00:01:29,080
+hooked up to the network.
+
+43
+00:01:29,080 --> 00:01:29,940
+And I could sit there
+
+44
+00:01:29,940 --> 00:01:32,120
+and upload everything your company has,
+
+45
+00:01:32,120 --> 00:01:34,880
+and get access to it,
+anywhere in the world.
+
+46
+00:01:34,880 --> 00:01:37,250
+This is a huge problem for businesses,
+
+47
+00:01:37,250 --> 00:01:39,740
+because our data and our
+intellectual property
+
+48
+00:01:39,740 --> 00:01:42,570
+is what the currency of
+business is these days.
+
+49
+00:01:42,570 --> 00:01:46,280
+To protect it, we have to use
+data loss prevention systems.
+
+50
+00:01:46,280 --> 00:01:49,860
+These systems come as either
+software or hardware solutions.
+
+51
+00:01:49,860 --> 00:01:52,560
+The first data loss prevention
+system we're going to talk about
+
+52
+00:01:52,560 --> 00:01:55,120
+is an endpoint DLP system.
+
+53
+00:01:55,120 --> 00:01:58,230
+An endpoint system, is
+usually a piece of software
+
+54
+00:01:58,230 --> 00:02:00,930
+that's installed on a
+workstation or a laptop,
+
+55
+00:02:00,930 --> 00:02:03,280
+and it's going to monitor
+the data that's in use
+
+56
+00:02:03,280 --> 00:02:04,310
+on that computer.
+
+57
+00:02:04,310 --> 00:02:06,700
+And if someone tries
+to do a file transfer,
+
+58
+00:02:06,700 --> 00:02:08,520
+it'll either stop that file transfer,
+
+59
+00:02:08,520 --> 00:02:10,670
+or it'll alert the admin of the occurrence
+
+60
+00:02:10,670 --> 00:02:12,700
+based on certain rules and policies.
+
+61
+00:02:12,700 --> 00:02:16,950
+Very much liked an IDS or an
+IPS would, but focused on data.
+
+62
+00:02:16,950 --> 00:02:20,640
+DLPs can be set to detection
+mode, or prevention mode.
+
+63
+00:02:20,640 --> 00:02:23,660
+The next one we have,
+is a network DLP system.
+
+64
+00:02:23,660 --> 00:02:25,940
+This is a piece of software or hardware,
+
+65
+00:02:25,940 --> 00:02:28,720
+that's a solution placed at
+the perimeter of your network.
+
+66
+00:02:28,720 --> 00:02:30,170
+It's sole function in life,
+
+67
+00:02:30,170 --> 00:02:32,170
+is to check all of the data going into,
+
+68
+00:02:32,170 --> 00:02:33,350
+and out of your network,
+
+69
+00:02:33,350 --> 00:02:36,260
+with a special focus on things
+going out of the network.
+
+70
+00:02:36,260 --> 00:02:38,310
+They want to detect data in transit,
+
+71
+00:02:38,310 --> 00:02:40,460
+that shouldn't be leaving the building.
+
+72
+00:02:40,460 --> 00:02:43,420
+The third type we have,
+is called storage DLP.
+
+73
+00:02:43,420 --> 00:02:45,520
+This is a software that's
+installed on a server
+
+74
+00:02:45,520 --> 00:02:47,810
+in the data center and inspects the data
+
+75
+00:02:47,810 --> 00:02:49,830
+while its at rest, on the server.
+
+76
+00:02:49,830 --> 00:02:51,740
+This is usually because
+they've encrypted it
+
+77
+00:02:51,740 --> 00:02:52,870
+or watermarked it,
+
+78
+00:02:52,870 --> 00:02:54,850
+and we want to make sure
+that nobody's accessing
+
+79
+00:02:54,850 --> 00:02:57,240
+the data at times that they shouldn't be.
+
+80
+00:02:57,240 --> 00:02:59,260
+For example, if someone starts downloading
+
+81
+00:02:59,260 --> 00:03:01,560
+large amounts of data
+at two in the morning,
+
+82
+00:03:01,560 --> 00:03:03,040
+that's probably against your policy,
+
+83
+00:03:03,040 --> 00:03:05,110
+and the DLP could catch it.
+
+84
+00:03:05,110 --> 00:03:08,640
+The fourth type of DLP, is
+a cloud-based DLP system.
+
+85
+00:03:08,640 --> 00:03:11,670
+These systems are usually offered
+as software, as a service,
+
+86
+00:03:11,670 --> 00:03:14,260
+and it's part of your cloud
+service and storage needs.
+
+87
+00:03:14,260 --> 00:03:15,390
+They're going to protect your data
+
+88
+00:03:15,390 --> 00:03:18,090
+when it's stored inside
+those cloud services.
+
+89
+00:03:18,090 --> 00:03:20,960
+For example, my company uses Google Drive
+
+90
+00:03:20,960 --> 00:03:22,860
+and we have data loss prevention,
+
+91
+00:03:22,860 --> 00:03:25,860
+as part of a cloud
+service, offered by Google.
+
+92
+00:03:25,860 --> 00:03:28,400
+In summary, these data
+loss prevention solutions
+
+93
+00:03:28,400 --> 00:03:29,860
+are made to be accurate in a way
+
+94
+00:03:29,860 --> 00:03:32,380
+that they stop data from
+leaving your network.
+
+95
+00:03:32,380 --> 00:03:34,510
+They're going to go through,
+and look at data at rest,
+
+96
+00:03:34,510 --> 00:03:36,720
+data in use, and data in transit,
+
+97
+00:03:36,720 --> 00:03:37,780
+to ensure that it's following
+
+98
+00:03:37,780 --> 00:03:40,740
+the policies you've set up
+as a security administrator,
+
+99
+00:03:40,740 --> 00:03:43,193
+so you could protect that
+asset of your company.
+
+100
+00:03:44,140 --> 00:03:46,101
+(electronic clicking)
+

@@ -1,0 +1,580 @@
+﻿1
+00:00:00,720 --> 00:00:02,680
+- What is an IDS?
+
+2
+00:00:02,680 --> 00:00:06,440
+Well, an IDS stands for the
+Intrusion Detection System.
+
+3
+00:00:06,440 --> 00:00:08,700
+This is a device or a piece of software
+
+4
+00:00:08,700 --> 00:00:10,730
+that's installed on a system or a network,
+
+5
+00:00:10,730 --> 00:00:13,730
+and it will analyze all of the
+data that passes through it.
+
+6
+00:00:13,730 --> 00:00:15,180
+It does this so that it can try
+
+7
+00:00:15,180 --> 00:00:17,990
+to identify any incidents or attacks.
+
+8
+00:00:17,990 --> 00:00:21,060
+Intrusion Detection Systems
+come in two different varieties,
+
+9
+00:00:21,060 --> 00:00:23,180
+the host-based Intrusion Detection System
+
+10
+00:00:23,180 --> 00:00:25,820
+and the network-based
+Intrusion Detection System.
+
+11
+00:00:25,820 --> 00:00:27,220
+The first one we're going to talk about
+
+12
+00:00:27,220 --> 00:00:29,610
+is a host-based Intrusion
+Detection System,
+
+13
+00:00:29,610 --> 00:00:32,620
+also called an H-I-D-S.
+
+14
+00:00:32,620 --> 00:00:35,230
+This usually takes the
+form as a piece of software
+
+15
+00:00:35,230 --> 00:00:36,490
+that's installed on your computer
+
+16
+00:00:36,490 --> 00:00:38,860
+or on a server and it will protect it.
+
+17
+00:00:38,860 --> 00:00:41,230
+Now, the host-based
+Intrusion Detection System
+
+18
+00:00:41,230 --> 00:00:43,160
+will sit there and log everything
+
+19
+00:00:43,160 --> 00:00:44,940
+that it thinks is suspicious.
+
+20
+00:00:44,940 --> 00:00:48,180
+We'll talk about what might be
+suspicious in just a moment.
+
+21
+00:00:48,180 --> 00:00:49,730
+The second type is what's known
+
+22
+00:00:49,730 --> 00:00:52,400
+as a network-based
+Intrusion Detection System,
+
+23
+00:00:52,400 --> 00:00:55,220
+or a NIDS, N-I-D-S.
+
+24
+00:00:55,220 --> 00:00:56,390
+This is a piece of hardware
+
+25
+00:00:56,390 --> 00:00:57,810
+that's installed on your network.
+
+26
+00:00:57,810 --> 00:01:00,000
+And all the traffic goes
+through that switch,
+
+27
+00:01:00,000 --> 00:01:01,970
+and then it will get a
+copy of that sent down
+
+28
+00:01:01,970 --> 00:01:04,450
+to the Network Intrusion Detection System.
+
+29
+00:01:04,450 --> 00:01:07,630
+If it's suspicious, it'll
+log it and it'll alert on it.
+
+30
+00:01:07,630 --> 00:01:11,120
+Now, how do we know what
+these systems will alert on?
+
+31
+00:01:11,120 --> 00:01:14,020
+Well, they're going to use one
+of three different methods.
+
+32
+00:01:14,020 --> 00:01:15,820
+They're either going
+to use signature-based,
+
+33
+00:01:15,820 --> 00:01:19,140
+policy-based, or anomaly-based detection.
+
+34
+00:01:19,140 --> 00:01:21,060
+Signature-based detection
+is where the system
+
+35
+00:01:21,060 --> 00:01:23,270
+is looking for a specific string of bytes
+
+36
+00:01:23,270 --> 00:01:24,800
+that'll trigger the alert.
+
+37
+00:01:24,800 --> 00:01:27,530
+This works like any other
+signature-based product.
+
+38
+00:01:27,530 --> 00:01:29,800
+This computer is going
+to continually search
+
+39
+00:01:29,800 --> 00:01:32,430
+over and over for a known specific key.
+
+40
+00:01:32,430 --> 00:01:36,010
+And any time it sees that
+combination of letters or bytes,
+
+41
+00:01:36,010 --> 00:01:37,450
+it knows that it's malicious.
+
+42
+00:01:37,450 --> 00:01:40,320
+It'll flag it and it will alert on it.
+
+43
+00:01:40,320 --> 00:01:43,440
+The next type is what's known
+as policy-based detection.
+
+44
+00:01:43,440 --> 00:01:44,460
+This is going to rely on a
+
+45
+00:01:44,460 --> 00:01:47,580
+specific declaration
+of the security policy.
+
+46
+00:01:47,580 --> 00:01:50,130
+For example, if your company has a policy
+
+47
+00:01:50,130 --> 00:01:52,210
+that no one is allowed to use Telnet,
+
+48
+00:01:52,210 --> 00:01:54,210
+any time this system sees somebody trying
+
+49
+00:01:54,210 --> 00:01:57,350
+to connect on port 23, which
+is the port for Telnet,
+
+50
+00:01:57,350 --> 00:02:00,530
+it's going to flag it,
+log it, and alert on it.
+
+51
+00:02:00,530 --> 00:02:04,010
+The third type is statistical
+anomaly-based detection.
+
+52
+00:02:04,010 --> 00:02:05,780
+Often, this is referred to as just
+
+53
+00:02:05,780 --> 00:02:09,890
+anomaly-based detection or
+statistical-based detection.
+
+54
+00:02:09,890 --> 00:02:12,680
+This is going to analyze all
+of the current traffic patterns
+
+55
+00:02:12,680 --> 00:02:14,690
+against an established baseline,
+
+56
+00:02:14,690 --> 00:02:16,040
+and anytime it sees something that goes
+
+57
+00:02:16,040 --> 00:02:19,290
+outside the statistical norm,
+it's going to alert on it.
+
+58
+00:02:19,290 --> 00:02:21,550
+So if I've been watching
+your network for a while
+
+59
+00:02:21,550 --> 00:02:23,250
+and I know what normal looks like,
+
+60
+00:02:23,250 --> 00:02:25,360
+and everybody always works
+from nine in the morning
+
+61
+00:02:25,360 --> 00:02:26,980
+until five in the afternoon,
+
+62
+00:02:26,980 --> 00:02:28,390
+and now I start seeing somebody
+
+63
+00:02:28,390 --> 00:02:30,170
+downloading large amounts of data
+
+64
+00:02:30,170 --> 00:02:31,920
+around two o'clock in the morning,
+
+65
+00:02:31,920 --> 00:02:33,910
+that's outside our normal baseline
+
+66
+00:02:33,910 --> 00:02:36,280
+and we would flag that and alert on that.
+
+67
+00:02:36,280 --> 00:02:37,780
+Now, speaking of alerts,
+
+68
+00:02:37,780 --> 00:02:40,220
+let's talk about what these alerts mean.
+
+69
+00:02:40,220 --> 00:02:42,520
+There are four different types of alerts.
+
+70
+00:02:42,520 --> 00:02:45,040
+They're either true
+positive, true negative,
+
+71
+00:02:45,040 --> 00:02:47,530
+false positive, or false negative.
+
+72
+00:02:47,530 --> 00:02:50,600
+Now, a true positive means
+something bad happened
+
+73
+00:02:50,600 --> 00:02:52,840
+and the system flagged
+it and alerted on it.
+
+74
+00:02:52,840 --> 00:02:55,920
+That's good because it means
+our system is tuned properly.
+
+75
+00:02:55,920 --> 00:02:58,820
+A true negative means something
+good or normal happened
+
+76
+00:02:58,820 --> 00:03:00,520
+and the system didn't flag it.
+
+77
+00:03:00,520 --> 00:03:01,380
+Again, that's good,
+
+78
+00:03:01,380 --> 00:03:03,610
+because our system's
+working like it should.
+
+79
+00:03:03,610 --> 00:03:06,360
+But when we get into something
+like false positives,
+
+80
+00:03:06,360 --> 00:03:08,120
+this is where some legitimate activity
+
+81
+00:03:08,120 --> 00:03:10,120
+is being as identified as an attack.
+
+82
+00:03:10,120 --> 00:03:12,040
+For example, if you log on the computer
+
+83
+00:03:12,040 --> 00:03:15,040
+and you start up Microsoft
+Word, that's authorized.
+
+84
+00:03:15,040 --> 00:03:16,740
+But if the system thought
+that was malicious
+
+85
+00:03:16,740 --> 00:03:18,480
+and flagged it and alerted on it,
+
+86
+00:03:18,480 --> 00:03:20,980
+that's considered a false positive.
+
+87
+00:03:20,980 --> 00:03:23,640
+Now, next we have what's
+called a false negative.
+
+88
+00:03:23,640 --> 00:03:25,330
+This is when something bad happens
+
+89
+00:03:25,330 --> 00:03:27,840
+but it's identified as
+legitimate activity.
+
+90
+00:03:27,840 --> 00:03:31,100
+In other words, it isn't flagged
+and it wasn't alerted on.
+
+91
+00:03:31,100 --> 00:03:32,640
+Let's say you downloaded a virus,
+
+92
+00:03:32,640 --> 00:03:35,360
+and you ran the virus and
+something bad happened,
+
+93
+00:03:35,360 --> 00:03:38,400
+but your Intrusion Detection
+System didn't see it,
+
+94
+00:03:38,400 --> 00:03:40,650
+didn't flag on it, and didn't alert on it.
+
+95
+00:03:40,650 --> 00:03:42,830
+This is a false negative.
+
+96
+00:03:42,830 --> 00:03:44,360
+So now that we have a better understanding
+
+97
+00:03:44,360 --> 00:03:46,360
+of true positive, true negative,
+
+98
+00:03:46,360 --> 00:03:48,360
+false positive, and false negative,
+
+99
+00:03:48,360 --> 00:03:52,030
+let's talk about what an
+IDS can and can't do for us.
+
+100
+00:03:52,030 --> 00:03:54,690
+It's really important to realize that IDSs
+
+101
+00:03:54,690 --> 00:03:57,860
+are only going to alert and
+log on suspicious activity,
+
+102
+00:03:57,860 --> 00:03:59,540
+they won't be able to stop it.
+
+103
+00:03:59,540 --> 00:04:01,470
+If you want the activity to be stopped,
+
+104
+00:04:01,470 --> 00:04:03,680
+then you need to invest in an IPS,
+
+105
+00:04:03,680 --> 00:04:06,040
+or an Intrusion Prevention System.
+
+106
+00:04:06,040 --> 00:04:08,130
+They work very similarly to an IDS
+
+107
+00:04:08,130 --> 00:04:09,240
+except they have the ability
+
+108
+00:04:09,240 --> 00:04:12,240
+to stop malicious activity
+from being executed.
+
+109
+00:04:12,240 --> 00:04:14,470
+Now, IDSs and IPSs can create
+
+110
+00:04:14,470 --> 00:04:16,560
+a lot of valuable information for us,
+
+111
+00:04:16,560 --> 00:04:18,040
+and it all gets logged.
+
+112
+00:04:18,040 --> 00:04:19,930
+If you're using a host IDS though,
+
+113
+00:04:19,930 --> 00:04:22,410
+it's going to be logged to
+your individual computer.
+
+114
+00:04:22,410 --> 00:04:24,920
+You want to ensure that
+you set up a syslog server
+
+115
+00:04:24,920 --> 00:04:28,010
+and have those log files
+routinely taken from the host
+
+116
+00:04:28,010 --> 00:04:30,240
+and send it to a centralized server.
+
+117
+00:04:30,240 --> 00:04:32,150
+Now, why would I want to do that?
+
+118
+00:04:32,150 --> 00:04:34,880
+Well, if someone's going
+to compromise your machine,
+
+119
+00:04:34,880 --> 00:04:37,600
+we want to be able go back
+and recreate through the logs
+
+120
+00:04:37,600 --> 00:04:39,390
+what happened to cause the attack
+
+121
+00:04:39,390 --> 00:04:41,420
+so we can stop it next time.
+
+122
+00:04:41,420 --> 00:04:43,500
+IF all the logs were kept on your machine
+
+123
+00:04:43,500 --> 00:04:45,380
+and the attacker got
+access to your machine,
+
+124
+00:04:45,380 --> 00:04:47,660
+they could have damaged
+or altered the logs.
+
+125
+00:04:47,660 --> 00:04:50,480
+But if we've been pushing
+them off to a syslog server,
+
+126
+00:04:50,480 --> 00:04:52,230
+it means those logs are protected
+
+127
+00:04:52,230 --> 00:04:54,560
+from being modified by the attacker.
+
+128
+00:04:54,560 --> 00:04:56,100
+This is why we want to ensure we have
+
+129
+00:04:56,100 --> 00:04:58,130
+a good, pristine copy of our logs
+
+130
+00:04:58,130 --> 00:05:00,540
+so we can always go back
+and protect our network
+
+131
+00:05:00,540 --> 00:05:02,740
+based on what we've
+seen that was malicious.
+

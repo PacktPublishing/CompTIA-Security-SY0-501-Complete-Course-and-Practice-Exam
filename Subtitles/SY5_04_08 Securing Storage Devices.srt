@@ -1,0 +1,380 @@
+﻿1
+00:00:00,730 --> 00:00:03,670
+- There are a lot of ways to
+store data in your network
+
+2
+00:00:03,670 --> 00:00:05,270
+and on your computers.
+
+3
+00:00:05,270 --> 00:00:07,440
+In addition to your internal hard drive,
+
+4
+00:00:07,440 --> 00:00:08,960
+most computers have the ability
+
+5
+00:00:08,960 --> 00:00:11,440
+to use removable media as well.
+
+6
+00:00:11,440 --> 00:00:14,600
+Removable media comes in
+many different formats.
+
+7
+00:00:14,600 --> 00:00:17,480
+In the old days, we had
+our simple floppy disks.
+
+8
+00:00:17,480 --> 00:00:20,550
+Then we moved up to CDs and then DVDs
+
+9
+00:00:20,550 --> 00:00:22,790
+and those held a lot more information.
+
+10
+00:00:22,790 --> 00:00:26,380
+Next, we had external hard
+drives that plug in through USB.
+
+11
+00:00:26,380 --> 00:00:28,750
+And finally, we had USB thumb sticks
+
+12
+00:00:28,750 --> 00:00:32,300
+which are very small but
+hold a ton of information.
+
+13
+00:00:32,300 --> 00:00:33,580
+When you're placing your information
+
+14
+00:00:33,580 --> 00:00:35,700
+onto one of these removable media formats
+
+15
+00:00:35,700 --> 00:00:37,170
+or external devices,
+
+16
+00:00:37,170 --> 00:00:40,480
+you have to make sure that it
+stays safe from prying eyes.
+
+17
+00:00:40,480 --> 00:00:42,810
+We want to ensure confidentiality.
+
+18
+00:00:42,810 --> 00:00:45,860
+To do this, we always
+want to encrypt our files.
+
+19
+00:00:45,860 --> 00:00:48,070
+You can do this in one of two ways.
+
+20
+00:00:48,070 --> 00:00:50,870
+On Windows 10, you can use BitLocker To Go
+
+21
+00:00:50,870 --> 00:00:52,420
+which will allow you to encrypt files
+
+22
+00:00:52,420 --> 00:00:54,320
+using a software encryption.
+
+23
+00:00:54,320 --> 00:00:56,700
+Also, you could buy a USB thumb stick
+
+24
+00:00:56,700 --> 00:00:58,960
+that already has hardware
+encryption built-in,
+
+25
+00:00:58,960 --> 00:01:01,970
+something like an IronKey USB shown here.
+
+26
+00:01:01,970 --> 00:01:04,520
+Some organizations are a
+little more paranoid though
+
+27
+00:01:04,520 --> 00:01:05,450
+and they want to ensure
+
+28
+00:01:05,450 --> 00:01:07,650
+that nothing gets out
+of their organization.
+
+29
+00:01:07,650 --> 00:01:08,610
+And they also want to make sure
+
+30
+00:01:08,610 --> 00:01:10,950
+that nothing gets into their organization.
+
+31
+00:01:10,950 --> 00:01:14,650
+To do that, they've implemented
+removable media controls.
+
+32
+00:01:14,650 --> 00:01:16,880
+These controls are technical limitations
+
+33
+00:01:16,880 --> 00:01:18,110
+that are placed on a system
+
+34
+00:01:18,110 --> 00:01:20,740
+in regards to the way
+the USB storage devices
+
+35
+00:01:20,740 --> 00:01:23,210
+and other media can be accessed.
+
+36
+00:01:23,210 --> 00:01:26,200
+For example, this can be
+done using technical controls
+
+37
+00:01:26,200 --> 00:01:27,950
+inside your group policies
+
+38
+00:01:27,950 --> 00:01:30,640
+by denying read access from USB drives
+
+39
+00:01:30,640 --> 00:01:34,110
+or denying write access to a CD or DVD.
+
+40
+00:01:34,110 --> 00:01:36,140
+In addition to these technical controls,
+
+41
+00:01:36,140 --> 00:01:38,820
+you also need to consider
+which administrative controls
+
+42
+00:01:38,820 --> 00:01:41,020
+such as policies you want to create
+
+43
+00:01:41,020 --> 00:01:43,620
+and guide those technical
+controls that are going to be used
+
+44
+00:01:43,620 --> 00:01:45,670
+inside your organization.
+
+45
+00:01:45,670 --> 00:01:48,770
+In addition to external
+devices and removable media,
+
+46
+00:01:48,770 --> 00:01:51,160
+we also can store our data on our networks
+
+47
+00:01:51,160 --> 00:01:53,720
+and we might do something called a NAS.
+
+48
+00:01:53,720 --> 00:01:57,270
+If we use a NAS, that's a
+Network Attached Storage device.
+
+49
+00:01:57,270 --> 00:01:59,260
+These storage devices connect directly
+
+50
+00:01:59,260 --> 00:02:01,240
+into your organization's network.
+
+51
+00:02:01,240 --> 00:02:03,440
+They often look like a
+big rack of hard drives
+
+52
+00:02:03,440 --> 00:02:05,870
+with a network cable coming
+out of the back of them.
+
+53
+00:02:05,870 --> 00:02:07,020
+Most of the time,
+
+54
+00:02:07,020 --> 00:02:10,520
+NAS systems are going to implement
+some form of a RAID array
+
+55
+00:02:10,520 --> 00:02:12,720
+that gives you high availability.
+
+56
+00:02:12,720 --> 00:02:15,750
+Because these devices need
+to be accessed at all times
+
+57
+00:02:15,750 --> 00:02:17,210
+because they're acting as file servers
+
+58
+00:02:17,210 --> 00:02:18,370
+for your organization,
+
+59
+00:02:18,370 --> 00:02:20,770
+this high availability is important.
+
+60
+00:02:20,770 --> 00:02:23,100
+Oftentimes, we'll take different NAS'
+
+61
+00:02:23,100 --> 00:02:24,520
+and we'll connect them together
+
+62
+00:02:24,520 --> 00:02:28,340
+into what's known as a
+Storage Area Network or a SAN.
+
+63
+00:02:28,340 --> 00:02:29,960
+A SAN is a network designed
+
+64
+00:02:29,960 --> 00:02:32,570
+specifically to perform
+block storage functions
+
+65
+00:02:32,570 --> 00:02:36,550
+and it may consist of many NAS
+devices connected together.
+
+66
+00:02:36,550 --> 00:02:38,780
+Now if you're using a single NAS device
+
+67
+00:02:38,780 --> 00:02:41,130
+in your organization or at your home,
+
+68
+00:02:41,130 --> 00:02:42,890
+there are three tips I want to give you
+
+69
+00:02:42,890 --> 00:02:45,150
+to make sure that you secure it properly.
+
+70
+00:02:45,150 --> 00:02:47,940
+First, always use data encryption.
+
+71
+00:02:47,940 --> 00:02:50,360
+If your NAS supports full
+disk data encryption,
+
+72
+00:02:50,360 --> 00:02:52,530
+you should turn it on and implement it.
+
+73
+00:02:52,530 --> 00:02:55,760
+Second, you should always
+use proper authentication.
+
+74
+00:02:55,760 --> 00:02:58,000
+These things are acting as file servers.
+
+75
+00:02:58,000 --> 00:03:00,040
+You want to make sure that
+it asks for credentials
+
+76
+00:03:00,040 --> 00:03:01,720
+such as a username and password
+
+77
+00:03:01,720 --> 00:03:04,340
+and that is individualized to each user
+
+78
+00:03:04,340 --> 00:03:07,730
+so no one is sharing access
+across the organization.
+
+79
+00:03:07,730 --> 00:03:10,140
+The third thing is to make
+sure you're logging access
+
+80
+00:03:10,140 --> 00:03:11,740
+to your NAS device.
+
+81
+00:03:11,740 --> 00:03:13,700
+This way if something goes wrong,
+
+82
+00:03:13,700 --> 00:03:15,080
+you can go back and figure out
+
+83
+00:03:15,080 --> 00:03:17,500
+who was the last person
+who accessed the NAS?
+
+84
+00:03:17,500 --> 00:03:20,480
+Who downloaded those hundred
+terabytes worth of files?
+
+85
+00:03:20,480 --> 00:03:22,620
+And what may have gone wrong?
+
+86
+00:03:22,620 --> 00:03:25,030
+These are important things
+to know and without logs,
+
+87
+00:03:25,030 --> 00:03:26,780
+you won't be able to figure it out.
+

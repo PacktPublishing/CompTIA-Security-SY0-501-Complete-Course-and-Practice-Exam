@@ -1,0 +1,1007 @@
+﻿1
+00:00:00,100 --> 00:00:00,933
+- Whenever you're dealing
+
+2
+00:00:00,933 --> 00:00:02,890
+with vendors outside your organization,
+
+3
+00:00:02,890 --> 00:00:04,390
+you're going to need
+to have some agreements
+
+4
+00:00:04,390 --> 00:00:05,930
+and contracts in place.
+
+5
+00:00:05,930 --> 00:00:08,090
+That's what we're going to
+talk about in this lesson.
+
+6
+00:00:08,090 --> 00:00:13,090
+We're going to discuss NDAs,
+MOUs, SLAs, ISAs, and BPAs.
+
+7
+00:00:13,810 --> 00:00:15,310
+The first is an NDA.
+
+8
+00:00:15,310 --> 00:00:17,390
+An NDA is a non-disclosure agreement,
+
+9
+00:00:17,390 --> 00:00:19,260
+and it's an agreement between two parties
+
+10
+00:00:19,260 --> 00:00:21,680
+that define what data is
+considered confidential
+
+11
+00:00:21,680 --> 00:00:24,560
+and can't be shared outside
+of that relationship.
+
+12
+00:00:24,560 --> 00:00:26,530
+NDAs are often used by organizations
+
+13
+00:00:26,530 --> 00:00:28,430
+to protect their intellectual property,
+
+14
+00:00:28,430 --> 00:00:30,390
+and they're either between
+different organizations
+
+15
+00:00:30,390 --> 00:00:32,850
+or between an organization
+and their employees.
+
+16
+00:00:32,850 --> 00:00:35,120
+Now why would an organization
+require their employee
+
+17
+00:00:35,120 --> 00:00:36,400
+to sign an NDA?
+
+18
+00:00:36,400 --> 00:00:38,710
+Well, it's because
+those NDAs can be a form
+
+19
+00:00:38,710 --> 00:00:41,930
+of a non-competitive clause
+inside the employee contract.
+
+20
+00:00:41,930 --> 00:00:43,810
+And this is because companies might fear
+
+21
+00:00:43,810 --> 00:00:45,400
+that their employee might
+take the information
+
+22
+00:00:45,400 --> 00:00:46,720
+they learned from that organization
+
+23
+00:00:46,720 --> 00:00:48,760
+and then go off and
+start their own business.
+
+24
+00:00:48,760 --> 00:00:50,680
+Now when two companies are working jointly
+
+25
+00:00:50,680 --> 00:00:53,610
+on developing a product,
+they can also use an NDA.
+
+26
+00:00:53,610 --> 00:00:55,180
+This allows the companies to share
+
+27
+00:00:55,180 --> 00:00:57,660
+the type of data they need in
+the development of the product
+
+28
+00:00:57,660 --> 00:00:59,310
+without fear of the other company
+
+29
+00:00:59,310 --> 00:01:01,180
+stealing their trade secrets.
+
+30
+00:01:01,180 --> 00:01:03,440
+Now NDAs don't prevent
+data from being shared
+
+31
+00:01:03,440 --> 00:01:04,690
+through a technical control,
+
+32
+00:01:04,690 --> 00:01:07,150
+instead this is an administrative control.
+
+33
+00:01:07,150 --> 00:01:08,710
+This is because the NDA states
+
+34
+00:01:08,710 --> 00:01:10,580
+the penalties for breaking the NDA,
+
+35
+00:01:10,580 --> 00:01:12,090
+which may include fines,
+
+36
+00:01:12,090 --> 00:01:14,250
+forfeiture of intellectual
+property rights,
+
+37
+00:01:14,250 --> 00:01:17,300
+or even jail time in some
+extreme circumstances.
+
+38
+00:01:17,300 --> 00:01:19,420
+NDAs are considered legally binding
+
+39
+00:01:19,420 --> 00:01:21,400
+and they are a legally-binding agreement.
+
+40
+00:01:21,400 --> 00:01:23,470
+They can be upheld through contract law
+
+41
+00:01:23,470 --> 00:01:25,350
+inside of a court of law.
+
+42
+00:01:25,350 --> 00:01:26,969
+Next we have MOUs.
+
+43
+00:01:26,969 --> 00:01:29,680
+MOUs are a memorandum of understanding.
+
+44
+00:01:29,680 --> 00:01:31,440
+And this is a non-binding agreement
+
+45
+00:01:31,440 --> 00:01:33,280
+between two or more organizations
+
+46
+00:01:33,280 --> 00:01:35,900
+to detail what common line of action
+
+47
+00:01:35,900 --> 00:01:37,400
+they're intending to take.
+
+48
+00:01:37,400 --> 00:01:39,410
+Now essentially, this is a formal version
+
+49
+00:01:39,410 --> 00:01:40,680
+of a gentlemen's agreement
+
+50
+00:01:40,680 --> 00:01:41,990
+because it's actually written down
+
+51
+00:01:41,990 --> 00:01:43,550
+and signed by all parties.
+
+52
+00:01:43,550 --> 00:01:45,700
+But it's pretty much
+like a handshake, right?
+
+53
+00:01:45,700 --> 00:01:47,760
+If you and I agreed to
+go into business together
+
+54
+00:01:47,760 --> 00:01:50,010
+and I understand you're
+going to do x, y, and z,
+
+55
+00:01:50,010 --> 00:01:52,300
+and you understand that I'm
+going to do a, b, and c,
+
+56
+00:01:52,300 --> 00:01:54,100
+that's what an MOU does.
+
+57
+00:01:54,100 --> 00:01:56,870
+An MOU is often referred
+to as a letter of intent,
+
+58
+00:01:56,870 --> 00:01:59,100
+and it's most often used
+within an organization
+
+59
+00:01:59,100 --> 00:02:01,440
+by two of its smaller internal divisions.
+
+60
+00:02:01,440 --> 00:02:03,330
+For example, in one of my past jobs,
+
+61
+00:02:03,330 --> 00:02:04,870
+I was in a large organization
+
+62
+00:02:04,870 --> 00:02:07,180
+and I was the director
+of the IT department
+
+63
+00:02:07,180 --> 00:02:08,860
+and we managed the service desk.
+
+64
+00:02:08,860 --> 00:02:10,520
+Now my service desk provided service
+
+65
+00:02:10,520 --> 00:02:13,750
+to several-thousand employees
+across multiple countries.
+
+66
+00:02:13,750 --> 00:02:16,550
+We had an MOU in place with
+one critical business unit
+
+67
+00:02:16,550 --> 00:02:17,910
+that would say that we would have
+
+68
+00:02:17,910 --> 00:02:19,561
+at least one field service technician
+
+69
+00:02:19,561 --> 00:02:21,570
+embedded at their offices,
+
+70
+00:02:21,570 --> 00:02:22,970
+so that if something went down,
+
+71
+00:02:22,970 --> 00:02:24,510
+that person didn't have to get in the car
+
+72
+00:02:24,510 --> 00:02:26,890
+and drive to their office,
+they were already there.
+
+73
+00:02:26,890 --> 00:02:28,830
+This helped minimize the
+time to repair the issues
+
+74
+00:02:28,830 --> 00:02:30,450
+that popped up at any time.
+
+75
+00:02:30,450 --> 00:02:32,650
+Now this wasn't a binding
+agreement on our part
+
+76
+00:02:32,650 --> 00:02:34,560
+and at any time, I could
+have said, you know what,
+
+77
+00:02:34,560 --> 00:02:36,620
+I need Tommy to come
+back to the main office
+
+78
+00:02:36,620 --> 00:02:38,450
+and he can't sit in your office anymore,
+
+79
+00:02:38,450 --> 00:02:39,810
+but this agreement, this MOU,
+
+80
+00:02:39,810 --> 00:02:42,440
+gave us some formality to
+the agreement that was made
+
+81
+00:02:42,440 --> 00:02:44,790
+between their director of the operations
+
+82
+00:02:44,790 --> 00:02:46,990
+and myself as the IT director.
+
+83
+00:02:46,990 --> 00:02:49,180
+Now, while MOUs can be used internally
+
+84
+00:02:49,180 --> 00:02:51,590
+between two business
+units, as in my example,
+
+85
+00:02:51,590 --> 00:02:53,060
+they can also be used externally
+
+86
+00:02:53,060 --> 00:02:54,400
+between your organization
+
+87
+00:02:54,400 --> 00:02:56,470
+and one or more other organizations.
+
+88
+00:02:56,470 --> 00:02:57,620
+There are some consortiums
+
+89
+00:02:57,620 --> 00:02:59,770
+where they have a multiparty MOU
+
+90
+00:02:59,770 --> 00:03:01,070
+where you might have five or six
+
+91
+00:03:01,070 --> 00:03:03,510
+or seven people come
+together for a common goal.
+
+92
+00:03:03,510 --> 00:03:05,530
+But remember, it is not legally binding
+
+93
+00:03:05,530 --> 00:03:07,073
+when you're dealing with MOUs.
+
+94
+00:03:07,073 --> 00:03:09,610
+Another business document
+to consider using
+
+95
+00:03:09,610 --> 00:03:13,260
+is what's known as a
+service-level agreement or SLA.
+
+96
+00:03:13,260 --> 00:03:15,300
+Now this agreement is
+concerned with the ability
+
+97
+00:03:15,300 --> 00:03:18,420
+to support and respond to
+problems within a given timeframe
+
+98
+00:03:18,420 --> 00:03:19,810
+while providing the agreed upon
+
+99
+00:03:19,810 --> 00:03:21,530
+level of service to the user.
+
+100
+00:03:21,530 --> 00:03:23,910
+If you work in the IT
+service management realm,
+
+101
+00:03:23,910 --> 00:03:26,044
+you're probably very familiar with SLAs.
+
+102
+00:03:26,044 --> 00:03:28,570
+SLAs are used to provide
+a written agreement
+
+103
+00:03:28,570 --> 00:03:30,260
+for not only the security priorities
+
+104
+00:03:30,260 --> 00:03:32,720
+but more importantly, those
+operational priorities.
+
+105
+00:03:32,720 --> 00:03:35,200
+It also outlines the
+responsibilities, guarantees,
+
+106
+00:03:35,200 --> 00:03:38,370
+and warranties for a given
+service and its components.
+
+107
+00:03:38,370 --> 00:03:40,910
+For example, in one of my
+previous organizations,
+
+108
+00:03:40,910 --> 00:03:43,110
+we didn't want to have to
+keep a bunch of extra switches
+
+109
+00:03:43,110 --> 00:03:45,270
+and routers in our supply closet
+
+110
+00:03:45,270 --> 00:03:46,570
+because we don't want to have that expense
+
+111
+00:03:46,570 --> 00:03:48,070
+for them just sitting on the shelf.
+
+112
+00:03:48,070 --> 00:03:50,450
+So instead we had a
+service-level agreement in place
+
+113
+00:03:50,450 --> 00:03:53,400
+with our supplier that said if
+we lose a router or a switch
+
+114
+00:03:53,400 --> 00:03:55,930
+and it goes down, they would
+bring us a brand new one
+
+115
+00:03:55,930 --> 00:03:57,780
+within four hours of the outage.
+
+116
+00:03:57,780 --> 00:03:59,110
+These service-level agreements
+
+117
+00:03:59,110 --> 00:04:01,410
+can help to bring some
+level of predictability
+
+118
+00:04:01,410 --> 00:04:03,360
+to an otherwise hard-to-predict area.
+
+119
+00:04:03,360 --> 00:04:05,010
+That is, of course, if
+your service provider
+
+120
+00:04:05,010 --> 00:04:07,040
+lives up to their end of the agreement.
+
+121
+00:04:07,040 --> 00:04:09,570
+Now, another place you're
+often going to see SLAs
+
+122
+00:04:09,570 --> 00:04:12,560
+is in regard to your internet
+connections or your ISP.
+
+123
+00:04:12,560 --> 00:04:14,650
+For example, my internet service provider
+
+124
+00:04:14,650 --> 00:04:16,240
+has a service-level agreement with us
+
+125
+00:04:16,240 --> 00:04:20,390
+that states they're going to
+maintain an uptime of 99.999%,
+
+126
+00:04:20,390 --> 00:04:21,360
+and that equates to having
+
+127
+00:04:21,360 --> 00:04:23,780
+no more than five minutes
+of downtime per year.
+
+128
+00:04:23,780 --> 00:04:26,020
+Now, because it's a
+service-level agreement,
+
+129
+00:04:26,020 --> 00:04:30,110
+if they don't meet that
+99.999% uptime, what happens?
+
+130
+00:04:30,110 --> 00:04:31,670
+Well, that depends on your agreement
+
+131
+00:04:31,670 --> 00:04:33,430
+and your underlying contracts.
+
+132
+00:04:33,430 --> 00:04:36,100
+Some contracts have penalties
+for not meeting your SLAs,
+
+133
+00:04:36,100 --> 00:04:37,370
+and some don't.
+
+134
+00:04:37,370 --> 00:04:40,130
+Next let's talk about information sharing.
+
+135
+00:04:40,130 --> 00:04:42,720
+Often, multiple organizations
+want to work together
+
+136
+00:04:42,720 --> 00:04:44,520
+and that requires them
+to share information
+
+137
+00:04:44,520 --> 00:04:46,010
+between their networks.
+
+138
+00:04:46,010 --> 00:04:48,520
+An agreement that focuses
+on connecting two systems
+
+139
+00:04:48,520 --> 00:04:50,100
+from two different organizations
+
+140
+00:04:50,100 --> 00:04:53,810
+is called an interconnection
+service agreement or ISA.
+
+141
+00:04:53,810 --> 00:04:55,590
+An ISA is an agreement that allows
+
+142
+00:04:55,590 --> 00:04:58,200
+the owners and operators
+of the two IT systems
+
+143
+00:04:58,200 --> 00:05:00,090
+to document what technical requirements
+
+144
+00:05:00,090 --> 00:05:02,000
+each organization has to meet.
+
+145
+00:05:02,000 --> 00:05:03,620
+If your organization
+is planning to connect
+
+146
+00:05:03,620 --> 00:05:05,550
+its network to another organization,
+
+147
+00:05:05,550 --> 00:05:06,700
+it's a good idea to ensure
+
+148
+00:05:06,700 --> 00:05:09,100
+you have an interconnection
+security agreement in place
+
+149
+00:05:09,100 --> 00:05:11,041
+detailing exactly what level of security
+
+150
+00:05:11,041 --> 00:05:13,230
+each organization needs to meet.
+
+151
+00:05:13,230 --> 00:05:14,450
+So what's a good example
+
+152
+00:05:14,450 --> 00:05:16,350
+of an interconnection service agreement?
+
+153
+00:05:16,350 --> 00:05:17,931
+Well, one good place to use this
+
+154
+00:05:17,931 --> 00:05:20,410
+would be if you have your
+heating and air provider
+
+155
+00:05:20,410 --> 00:05:22,340
+who wants to be able to
+connect their systems
+
+156
+00:05:22,340 --> 00:05:25,110
+to remotely diagnose their
+heating and air system
+
+157
+00:05:25,110 --> 00:05:26,820
+remotely over your network.
+
+158
+00:05:26,820 --> 00:05:28,040
+Now if they want to do that,
+
+159
+00:05:28,040 --> 00:05:28,873
+they don't want to have to go
+
+160
+00:05:28,873 --> 00:05:30,720
+and install their own network line,
+
+161
+00:05:30,720 --> 00:05:32,840
+bring their whole ISP
+to be able to connect
+
+162
+00:05:32,840 --> 00:05:33,970
+to the air conditioning system.
+
+163
+00:05:33,970 --> 00:05:36,110
+So they may say, hey, can we plug in
+
+164
+00:05:36,110 --> 00:05:38,240
+this air conditioning
+system into your network
+
+165
+00:05:38,240 --> 00:05:40,640
+and ride your network
+back out to the internet
+
+166
+00:05:40,640 --> 00:05:42,310
+and use it as transport?
+
+167
+00:05:42,310 --> 00:05:44,600
+Well, they can do this if
+you decide to allow them
+
+168
+00:05:44,600 --> 00:05:47,010
+and you guys have an ISA in place.
+
+169
+00:05:47,010 --> 00:05:48,360
+You could put an ISA in place
+
+170
+00:05:48,360 --> 00:05:50,960
+that says their data is
+going to be encrypted,
+
+171
+00:05:50,960 --> 00:05:53,490
+tunneled over a VPN, and use your network
+
+172
+00:05:53,490 --> 00:05:57,240
+for transport only, and they
+have to meet x, y, and z level
+
+173
+00:05:57,240 --> 00:05:59,850
+of security before you're
+going to allow them to plug in.
+
+174
+00:05:59,850 --> 00:06:01,370
+Now if you're going to
+do something like this,
+
+175
+00:06:01,370 --> 00:06:02,350
+you need to think through
+
+176
+00:06:02,350 --> 00:06:04,050
+all of the security effects to it
+
+177
+00:06:04,050 --> 00:06:05,730
+because any time you allow somebody else
+
+178
+00:06:05,730 --> 00:06:06,890
+to plug into your network,
+
+179
+00:06:06,890 --> 00:06:08,480
+whatever vulnerabilities they have
+
+180
+00:06:08,480 --> 00:06:10,416
+are going to be inherited by your network.
+
+181
+00:06:10,416 --> 00:06:14,450
+Next we have a business
+partnership agreement or a BPA.
+
+182
+00:06:14,450 --> 00:06:16,190
+Now business partnership agreement
+
+183
+00:06:16,190 --> 00:06:18,390
+is conducted between tow business partners
+
+184
+00:06:18,390 --> 00:06:21,310
+that establishes the conditions
+of their relationship.
+
+185
+00:06:21,310 --> 00:06:23,610
+These include things like
+each person's responsibility
+
+186
+00:06:23,610 --> 00:06:27,020
+as well as the revenue, system,
+and data sharing details.
+
+187
+00:06:27,020 --> 00:06:28,580
+One example of this is my company.
+
+188
+00:06:28,580 --> 00:06:30,760
+We entered into a business
+partnership agreement
+
+189
+00:06:30,760 --> 00:06:33,260
+with another company to produce
+an online training course
+
+190
+00:06:33,260 --> 00:06:37,310
+on the CompTIA Advanced Security
+Practitioner or CASP+ Exam.
+
+191
+00:06:37,310 --> 00:06:39,120
+Now in our agreement, it clearly stated
+
+192
+00:06:39,120 --> 00:06:41,660
+that I was responsible for
+writing all of the scripts
+
+193
+00:06:41,660 --> 00:06:42,710
+and all of the videos,
+
+194
+00:06:42,710 --> 00:06:44,760
+flying out to their studios to film it,
+
+195
+00:06:44,760 --> 00:06:46,800
+but my partner was responsible
+
+196
+00:06:46,800 --> 00:06:48,540
+for providing me travel expenses.
+
+197
+00:06:48,540 --> 00:06:50,730
+They had to provide a production
+crew to film the course
+
+198
+00:06:50,730 --> 00:06:52,980
+and then they had to be
+responsible for all of the editing
+
+199
+00:06:52,980 --> 00:06:55,200
+and post-production and marketing work.
+
+200
+00:06:55,200 --> 00:06:56,090
+This agreement stated
+
+201
+00:06:56,090 --> 00:06:57,830
+that I would get x percent of the sales
+
+202
+00:06:57,830 --> 00:06:59,980
+and they would be able to
+keep y percent of the sales,
+
+203
+00:06:59,980 --> 00:07:01,450
+and it also outlined whether or not
+
+204
+00:07:01,450 --> 00:07:03,700
+I could create a competing
+video-based course
+
+205
+00:07:03,700 --> 00:07:05,640
+covering that same certification.
+
+206
+00:07:05,640 --> 00:07:08,470
+So to answer a question I
+get a lot from my students,
+
+207
+00:07:08,470 --> 00:07:11,520
+no, you can't find my
+CASP+ course on anywhere
+
+208
+00:07:11,520 --> 00:07:12,940
+except for LinkedIn Learning
+
+209
+00:07:12,940 --> 00:07:15,210
+because of this BPA we
+have in place with them,
+
+210
+00:07:15,210 --> 00:07:18,150
+said we would make the course
+exclusive to their platform.
+
+211
+00:07:18,150 --> 00:07:21,190
+So for that reason, you're not
+going to find my CASP+ course
+
+212
+00:07:21,190 --> 00:07:24,330
+on my own site, diontraining,
+or any other site out there.
+
+213
+00:07:24,330 --> 00:07:26,620
+Now in addition to all the
+contractual obligations
+
+214
+00:07:26,620 --> 00:07:28,680
+that are outlined in the
+business partnership agreement,
+
+215
+00:07:28,680 --> 00:07:30,750
+you can also include
+language in that agreement
+
+216
+00:07:30,750 --> 00:07:33,440
+that talks about the security
+that each organization
+
+217
+00:07:33,440 --> 00:07:35,110
+has to maintain for their networks
+
+218
+00:07:35,110 --> 00:07:37,770
+and the shared data and
+resources of the partnership.
+
+219
+00:07:37,770 --> 00:07:40,070
+For example, if your
+organization doesn't allow
+
+220
+00:07:40,070 --> 00:07:41,690
+the use of removable media,
+
+221
+00:07:41,690 --> 00:07:43,690
+you could specify in the
+partnership agreement
+
+222
+00:07:43,690 --> 00:07:45,980
+how your files are going
+to be delivered to you
+
+223
+00:07:45,980 --> 00:07:48,070
+and that might be through
+a cloud storage provider
+
+224
+00:07:48,070 --> 00:07:49,660
+or some other technical means.
+
+225
+00:07:49,660 --> 00:07:52,519
+All of that can be covered
+inside of your BPA.
+
+226
+00:07:52,519 --> 00:07:55,267
+(electronic music)
+

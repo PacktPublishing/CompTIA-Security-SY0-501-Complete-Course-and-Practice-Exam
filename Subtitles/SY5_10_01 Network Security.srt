@@ -1,0 +1,97 @@
+﻿1
+00:00:00,760 --> 00:00:02,480
+- In this section, we're
+going to talk about
+
+2
+00:00:02,480 --> 00:00:04,750
+some of the different devices
+that make up our networks
+
+3
+00:00:04,750 --> 00:00:06,020
+and some of the different attacks
+
+4
+00:00:06,020 --> 00:00:07,320
+that are used against them.
+
+5
+00:00:07,320 --> 00:00:09,651
+But before we do that,
+we're going to cover quickly
+
+6
+00:00:09,651 --> 00:00:13,350
+the basics of the networks by
+going through the OSI model.
+
+7
+00:00:13,350 --> 00:00:15,120
+Now in this section of the course,
+
+8
+00:00:15,120 --> 00:00:17,040
+we're going to do this as a quick review
+
+9
+00:00:17,040 --> 00:00:18,210
+because you should have already learned
+
+10
+00:00:18,210 --> 00:00:20,221
+the OSI model and the basics of networking
+
+11
+00:00:20,221 --> 00:00:23,750
+back when you studied Network
+Plus, which is recommended
+
+12
+00:00:23,750 --> 00:00:25,820
+before you take the Security Plus exam.
+
+13
+00:00:25,820 --> 00:00:26,840
+Now if you haven't gone through
+
+14
+00:00:26,840 --> 00:00:28,220
+the Network Plus course already,
+
+15
+00:00:28,220 --> 00:00:31,610
+I highly recommend you go
+back and review that content
+
+16
+00:00:31,610 --> 00:00:33,460
+before taking the Security Plus.
+
+17
+00:00:33,460 --> 00:00:35,320
+Whether you take the Network
+Plus certification exam
+
+18
+00:00:35,320 --> 00:00:38,690
+or not, the information
+contained in that curriculum
+
+19
+00:00:38,690 --> 00:00:40,510
+is really important to understand
+
+20
+00:00:40,510 --> 00:00:42,250
+so you can better understand the security
+
+21
+00:00:42,250 --> 00:00:45,086
+that we're talking about
+throughout this course.
+
+22
+00:00:45,086 --> 00:00:47,381
+(digital buzzing)
+

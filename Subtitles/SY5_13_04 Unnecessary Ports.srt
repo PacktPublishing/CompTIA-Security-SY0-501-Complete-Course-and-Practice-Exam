@@ -1,0 +1,415 @@
+﻿1
+00:00:00,680 --> 00:00:02,750
+- Unnecessary ports.
+
+2
+00:00:02,750 --> 00:00:05,070
+As we've already discussed,
+there are a lot of ports
+
+3
+00:00:05,070 --> 00:00:07,880
+available for use by your
+computers and your networks.
+
+4
+00:00:07,880 --> 00:00:11,850
+We started out with 65,536 ports available
+
+5
+00:00:11,850 --> 00:00:14,000
+back in our ports and protocol lesson.
+
+6
+00:00:14,000 --> 00:00:16,170
+Then, we narrowed it down to 35 ports
+
+7
+00:00:16,170 --> 00:00:18,810
+that you just had to
+memorize in the last lesson.
+
+8
+00:00:18,810 --> 00:00:20,630
+But does that mean that all 35 of those
+
+9
+00:00:20,630 --> 00:00:22,980
+are necessary for your
+computer to function?
+
+10
+00:00:22,980 --> 00:00:24,870
+Well, the answer is no.
+
+11
+00:00:24,870 --> 00:00:25,840
+When it comes down to it,
+
+12
+00:00:25,840 --> 00:00:27,650
+you aren't using all of those services,
+
+13
+00:00:27,650 --> 00:00:29,340
+at least not all of the time.
+
+14
+00:00:29,340 --> 00:00:31,000
+Also, if you're running a server,
+
+15
+00:00:31,000 --> 00:00:33,640
+you wouldn't want to have all
+35 of those ports open either.
+
+16
+00:00:33,640 --> 00:00:34,473
+Why?
+
+17
+00:00:34,473 --> 00:00:36,770
+Because many of them are unnecessary.
+
+18
+00:00:36,770 --> 00:00:40,220
+Now, that begs the question,
+what makes a port unnecessary?
+
+19
+00:00:40,220 --> 00:00:42,420
+Well, an unnecessary port is simply one
+
+20
+00:00:42,420 --> 00:00:44,690
+that's associated with
+a service or a function
+
+21
+00:00:44,690 --> 00:00:47,290
+that you don't need or is
+considered non-essential.
+
+22
+00:00:47,290 --> 00:00:49,410
+For example, if you have
+a server whose entire
+
+23
+00:00:49,410 --> 00:00:51,850
+function is to act as a mail relay server,
+
+24
+00:00:51,850 --> 00:00:54,000
+all it's designed to do is send mail out,
+
+25
+00:00:54,000 --> 00:00:56,550
+then the only thing it needs
+is a couple of ports open.
+
+26
+00:00:56,550 --> 00:01:00,120
+It needs port 25 for SMTP and port 465
+
+27
+00:01:00,120 --> 00:01:04,210
+or 587 for SMTP over SSL and TLS.
+
+28
+00:01:04,210 --> 00:01:05,620
+Now, every other port on that server
+
+29
+00:01:05,620 --> 00:01:08,590
+can be shut or disabled or
+closed and you wouldn't care,
+
+30
+00:01:08,590 --> 00:01:11,010
+because only those three
+ports are the ones you need.
+
+31
+00:01:11,010 --> 00:01:12,990
+Remember, every open port represents
+
+32
+00:01:12,990 --> 00:01:15,760
+an unnecessary vulnerability
+being left exposed
+
+33
+00:01:15,760 --> 00:01:17,460
+if you didn't need to have that port open.
+
+34
+00:01:17,460 --> 00:01:20,040
+So you want to close
+anything you're not using.
+
+35
+00:01:20,040 --> 00:01:21,770
+Because of this, security professionals
+
+36
+00:01:21,770 --> 00:01:24,060
+and analysts routinely scan their servers,
+
+37
+00:01:24,060 --> 00:01:26,100
+their routers, and their
+firewalls to ensure
+
+38
+00:01:26,100 --> 00:01:27,690
+that they understand exactly what ports
+
+39
+00:01:27,690 --> 00:01:29,950
+are open in their networks and which ones
+
+40
+00:01:29,950 --> 00:01:31,860
+they can disable or close.
+
+41
+00:01:31,860 --> 00:01:34,310
+For example, this is a
+result from one of my scans
+
+42
+00:01:34,310 --> 00:01:35,730
+and you can see there's three hosts
+
+43
+00:01:35,730 --> 00:01:39,660
+that have ports 139 and
+445 open in the network.
+
+44
+00:01:39,660 --> 00:01:41,450
+Now, thinking back to our last lesson
+
+45
+00:01:41,450 --> 00:01:42,990
+where you memorized all the ports,
+
+46
+00:01:42,990 --> 00:01:44,700
+can you guess which services these
+
+47
+00:01:44,700 --> 00:01:46,210
+machines might be running?
+
+48
+00:01:46,210 --> 00:01:48,740
+Well, port 139 is used for net bios
+
+49
+00:01:48,740 --> 00:01:51,410
+and port 445 is used for SMB.
+
+50
+00:01:51,410 --> 00:01:53,700
+This means these three
+machines are most likely
+
+51
+00:01:53,700 --> 00:01:55,270
+running the Windows operating system
+
+52
+00:01:55,270 --> 00:01:58,420
+and they have file sharing
+enabled over the local network.
+
+53
+00:01:58,420 --> 00:02:00,140
+Now, if these machines
+don't need to have file
+
+54
+00:02:00,140 --> 00:02:01,870
+sharing enabled over the local network,
+
+55
+00:02:01,870 --> 00:02:03,570
+we can disable these ports and remove
+
+56
+00:02:03,570 --> 00:02:05,570
+the possible vulnerabilities
+that are inherent
+
+57
+00:02:05,570 --> 00:02:07,530
+within the Windows file-sharing system.
+
+58
+00:02:07,530 --> 00:02:09,000
+To close an unnecessary port,
+
+59
+00:02:09,000 --> 00:02:11,010
+there are three methods you can use.
+
+60
+00:02:11,010 --> 00:02:13,610
+First, you can stop the
+service that uses that port
+
+61
+00:02:13,610 --> 00:02:16,390
+from the operating system's
+graphical user interface.
+
+62
+00:02:16,390 --> 00:02:18,350
+To do that in Windows, simply open up
+
+63
+00:02:18,350 --> 00:02:19,940
+the computer management console,
+
+64
+00:02:19,940 --> 00:02:21,790
+select Services and Applications,
+
+65
+00:02:21,790 --> 00:02:23,300
+and then select Services.
+
+66
+00:02:23,300 --> 00:02:24,620
+From here, you double-click on
+
+67
+00:02:24,620 --> 00:02:26,630
+the particular service
+that you want to turn off,
+
+68
+00:02:26,630 --> 00:02:29,610
+and it's going to open up
+a dialog box as shown here.
+
+69
+00:02:29,610 --> 00:02:31,240
+Now, in this example, I've stopped
+
+70
+00:02:31,240 --> 00:02:33,740
+the Windows update service
+in Windows 10 from running,
+
+71
+00:02:33,740 --> 00:02:36,280
+which will also prevent
+any associated open ports
+
+72
+00:02:36,280 --> 00:02:39,180
+from remaining open because
+of this service running.
+
+73
+00:02:39,180 --> 00:02:40,510
+The second method is to do this
+
+74
+00:02:40,510 --> 00:02:42,050
+from the command line interface.
+
+75
+00:02:42,050 --> 00:02:43,020
+As I showed you back in our
+
+76
+00:02:43,020 --> 00:02:44,700
+operating system hardening lessons,
+
+77
+00:02:44,700 --> 00:02:46,120
+you can turn off a service by using
+
+78
+00:02:46,120 --> 00:02:48,750
+the net stop command and
+the name of the service.
+
+79
+00:02:48,750 --> 00:02:50,270
+On a Linux server, you can do this
+
+80
+00:02:50,270 --> 00:02:52,670
+by entering sudo stop and
+the name of the service
+
+81
+00:02:52,670 --> 00:02:54,230
+at the command line.
+
+82
+00:02:54,230 --> 00:02:55,450
+Now, the third way to do this
+
+83
+00:02:55,450 --> 00:02:57,470
+is to block the ports at your firewall,
+
+84
+00:02:57,470 --> 00:03:00,140
+whether this is a software
+or hardware-based firewall,
+
+85
+00:03:00,140 --> 00:03:01,780
+or on the server itself.
+
+86
+00:03:01,780 --> 00:03:04,550
+Now, usually, a firewall's
+going to block ports by default,
+
+87
+00:03:04,550 --> 00:03:06,130
+and it requires you to open the port
+
+88
+00:03:06,130 --> 00:03:08,950
+when you want to install a
+particular service or function.
+
+89
+00:03:08,950 --> 00:03:10,760
+Now, for example, let's say you installed
+
+90
+00:03:10,760 --> 00:03:12,410
+the Apache web server at one point,
+
+91
+00:03:12,410 --> 00:03:14,840
+and this opened up port
+80 on your firewall.
+
+92
+00:03:14,840 --> 00:03:16,670
+Now if you're no longer
+running that web server,
+
+93
+00:03:16,670 --> 00:03:18,140
+you need to go back on that firewall
+
+94
+00:03:18,140 --> 00:03:19,830
+and close or disable that port
+
+95
+00:03:19,830 --> 00:03:21,680
+by blocking it in the firewall rules.
+

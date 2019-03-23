@@ -1,0 +1,356 @@
+﻿1
+00:00:00,170 --> 00:00:02,696
+- File systems and hard drives.
+
+2
+00:00:02,696 --> 00:00:05,399
+Another aspect of hardening
+your operating system is
+
+3
+00:00:05,399 --> 00:00:08,633
+determining exactly what file
+system it should utilize.
+
+4
+00:00:08,633 --> 00:00:10,693
+The level of security of your system
+
+5
+00:00:10,693 --> 00:00:12,710
+is effected by its file system type.
+
+6
+00:00:12,710 --> 00:00:14,673
+There are many different file systems
+
+7
+00:00:14,673 --> 00:00:16,172
+available to choose from.
+
+8
+00:00:16,172 --> 00:00:18,938
+We have things like NTFS, FAT32,
+
+9
+00:00:18,938 --> 00:00:22,286
+ext4, the Hierarchical File System Plus,
+
+10
+00:00:22,286 --> 00:00:24,308
+and the Apple File System.
+
+11
+00:00:24,308 --> 00:00:26,497
+Windows systems can utilize either
+
+12
+00:00:26,497 --> 00:00:28,747
+NTFS or FAT32 file systems.
+
+13
+00:00:29,757 --> 00:00:31,122
+It's highly recommended, though,
+
+14
+00:00:31,122 --> 00:00:33,614
+that you use the NTFS file system.
+
+15
+00:00:33,614 --> 00:00:37,026
+NTFS stands for the New
+Technology File System,
+
+16
+00:00:37,026 --> 00:00:39,469
+and it's the default
+file system format for
+
+17
+00:00:39,469 --> 00:00:42,483
+Windows because it's
+more secure than FAT32.
+
+18
+00:00:42,483 --> 00:00:46,324
+It supports, logging, encryption,
+larger partition sizes,
+
+19
+00:00:46,324 --> 00:00:49,769
+and larger file sizes than FAT32 does.
+
+20
+00:00:49,769 --> 00:00:52,006
+If your Windows system is running FAT32,
+
+21
+00:00:52,006 --> 00:00:55,385
+you can convert it to NTFS
+without losing any data, though.
+
+22
+00:00:55,385 --> 00:00:58,350
+The easiest method to do this
+is to open a command prompt,
+
+23
+00:00:58,350 --> 00:01:00,505
+and type convert, the drive letter,
+
+24
+00:01:00,505 --> 00:01:04,506
+and then /FS:NTFS and hit enter.
+
+25
+00:01:04,506 --> 00:01:06,942
+This technique is
+something you should have
+
+26
+00:01:06,942 --> 00:01:08,733
+learned during your A+ studies.
+
+27
+00:01:08,733 --> 00:01:11,024
+If you're using a Linux system, you should
+
+28
+00:01:11,024 --> 00:01:13,447
+format the hard drive as ext4.
+
+29
+00:01:13,447 --> 00:01:15,739
+If you're using a MacOSX
+system, you should use
+
+30
+00:01:15,739 --> 00:01:17,996
+Apple's File System, since it is the
+
+31
+00:01:17,996 --> 00:01:21,247
+newest, and most secure
+one supported by Apple.
+
+32
+00:01:21,247 --> 00:01:23,064
+In addition to choosing the right type of
+
+33
+00:01:23,064 --> 00:01:24,847
+file system, as we just discussed,
+
+34
+00:01:24,847 --> 00:01:27,460
+it's also important to
+use whole disc encryption.
+
+35
+00:01:27,460 --> 00:01:30,072
+This will help increase the
+security of your system.
+
+36
+00:01:30,072 --> 00:01:32,134
+It's also important
+for you to realize that
+
+37
+00:01:32,134 --> 00:01:34,357
+hard drives will eventually fail.
+
+38
+00:01:34,357 --> 00:01:36,339
+But there are five
+things you can do to help
+
+39
+00:01:36,339 --> 00:01:39,283
+postpone that failure, and
+ease your recovery from it.
+
+40
+00:01:39,283 --> 00:01:41,701
+First, you should remove
+any temporary files
+
+41
+00:01:41,701 --> 00:01:45,363
+from your system by using
+a disc cleanup utility.
+
+42
+00:01:45,363 --> 00:01:48,690
+Second, you should conduct
+periodic file system checks.
+
+43
+00:01:48,690 --> 00:01:50,484
+If you're running Windows,
+you can do this by
+
+44
+00:01:50,484 --> 00:01:53,271
+running Check Disc, and
+the System File Checker.
+
+45
+00:01:53,271 --> 00:01:55,865
+If you're using Linux, you
+should do a file system check
+
+46
+00:01:55,865 --> 00:01:58,448
+by typing fsck in the terminal.
+
+47
+00:01:59,369 --> 00:02:02,251
+If you're using OSX, you
+can run first aid from
+
+48
+00:02:02,251 --> 00:02:04,621
+within the disc utility application.
+
+49
+00:02:04,621 --> 00:02:06,203
+The third thing you should do is perform a
+
+50
+00:02:06,203 --> 00:02:08,855
+disc drive defragmentation periodically.
+
+51
+00:02:08,855 --> 00:02:11,928
+On a Windows system, you can
+use the defrag command from the
+
+52
+00:02:11,928 --> 00:02:13,864
+command line, or run the disc defragmenter
+
+53
+00:02:13,864 --> 00:02:16,602
+from within the graphical user interface.
+
+54
+00:02:16,602 --> 00:02:18,185
+The fourth thing you should do is ensure
+
+55
+00:02:18,185 --> 00:02:20,207
+you have a good backup of you're data.
+
+56
+00:02:20,207 --> 00:02:23,019
+After all, every hard
+drive will fail one day,
+
+57
+00:02:23,019 --> 00:02:25,705
+so it's important to
+have a good backup copy.
+
+58
+00:02:25,705 --> 00:02:28,224
+This can be performed using
+different types of software or
+
+59
+00:02:28,224 --> 00:02:31,118
+cloud solutions, depending
+on your business needs.
+
+60
+00:02:31,118 --> 00:02:33,587
+The fifth and final thing you
+should do is ensure that you
+
+61
+00:02:33,587 --> 00:02:35,529
+understand how to use
+different restoration
+
+62
+00:02:35,529 --> 00:02:38,067
+techniques and actually practice them.
+
+63
+00:02:38,067 --> 00:02:40,358
+This includes restoring
+from a system restore point
+
+64
+00:02:40,358 --> 00:02:43,113
+within Windows, restoring a
+system from a tape backup, or
+
+65
+00:02:43,113 --> 00:02:45,175
+backing up a hard drive, and even
+
+66
+00:02:45,175 --> 00:02:48,165
+restoring an individual
+file from your backups.
+
+67
+00:02:48,165 --> 00:02:50,581
+After all, the only way
+to truly verify that your
+
+68
+00:02:50,581 --> 00:02:54,177
+backup copy is good, is to
+attempt a restore from it.
+
+69
+00:02:54,177 --> 00:02:56,516
+In one organization I consulted with,
+
+70
+00:02:56,516 --> 00:02:58,521
+they had years worth of backup tapes.
+
+71
+00:02:58,521 --> 00:03:00,456
+They spent countless hours and a lot of
+
+72
+00:03:00,456 --> 00:03:02,587
+money on this take back of system.
+
+73
+00:03:02,587 --> 00:03:04,981
+But, when they actually need
+to restore from one of those
+
+74
+00:03:04,981 --> 00:03:07,279
+tape back ups, they weren't able to do it,
+
+75
+00:03:07,279 --> 00:03:10,033
+because the tape that
+they needed was corrupted.
+
+76
+00:03:10,033 --> 00:03:12,931
+If they had practiced restoring
+that data to a test server,
+
+77
+00:03:12,931 --> 00:03:15,062
+they would have known
+earlier that that data wasn't
+
+78
+00:03:15,062 --> 00:03:18,598
+really there, and they didn't
+have a good backup copy.
+
+79
+00:03:18,598 --> 00:03:20,909
+(techno music)
+

@@ -1,0 +1,164 @@
+﻿1
+00:00:00,170 --> 00:00:03,800
+- Spoofing, spoofing is a
+category of network attacks
+
+2
+00:00:03,800 --> 00:00:05,640
+that occur when an attacker masquerades
+
+3
+00:00:05,640 --> 00:00:08,510
+as another person by
+falsifying their identity.
+
+4
+00:00:08,510 --> 00:00:09,990
+Just like a person uses a mask
+
+5
+00:00:09,990 --> 00:00:12,290
+to cover up their face to
+hide their true identity,
+
+6
+00:00:12,290 --> 00:00:14,740
+spoofing is the electronic equivalent.
+
+7
+00:00:14,740 --> 00:00:17,190
+We have briefly discussed
+spoofing a few times already,
+
+8
+00:00:17,190 --> 00:00:19,870
+such as in the case of the
+DNS amplification attack
+
+9
+00:00:19,870 --> 00:00:21,950
+when attempting a
+distributed denial of service
+
+10
+00:00:21,950 --> 00:00:24,560
+by spoofing the IP address
+of the victim's server
+
+11
+00:00:24,560 --> 00:00:25,980
+when making that request.
+
+12
+00:00:25,980 --> 00:00:27,270
+Or we've talked about it before
+
+13
+00:00:27,270 --> 00:00:28,400
+when we talked about fishing,
+
+14
+00:00:28,400 --> 00:00:29,550
+where an attacker is trying to get you
+
+15
+00:00:29,550 --> 00:00:30,970
+to click on a link in an email
+
+16
+00:00:30,970 --> 00:00:32,960
+by falsifying their identity to trick you
+
+17
+00:00:32,960 --> 00:00:35,500
+into clicking that link
+thinking that it's trusted.
+
+18
+00:00:35,500 --> 00:00:37,680
+Anything that identifies a user or system
+
+19
+00:00:37,680 --> 00:00:39,100
+can be spoofed, though.
+
+20
+00:00:39,100 --> 00:00:41,180
+For example, each network interface card
+
+21
+00:00:41,180 --> 00:00:43,700
+has a unique MAC address
+that's assigned to it,
+
+22
+00:00:43,700 --> 00:00:45,640
+but MAC spoofing allows the attacker
+
+23
+00:00:45,640 --> 00:00:47,460
+to change their MAC address to pretend
+
+24
+00:00:47,460 --> 00:00:49,430
+that they're using a different device.
+
+25
+00:00:49,430 --> 00:00:52,430
+IP addresses are also commonly
+used to identify a system,
+
+26
+00:00:52,430 --> 00:00:54,610
+but with IP spoofing, the attacker can use
+
+27
+00:00:54,610 --> 00:00:57,480
+somebody else's IP address
+as part of their attacks.
+
+28
+00:00:57,480 --> 00:00:59,170
+So, how do we prevent spoofing
+
+29
+00:00:59,170 --> 00:01:01,670
+from being effectively
+used against our systems?
+
+30
+00:01:01,670 --> 00:01:04,380
+Well, the best way is to
+proper authentication,
+
+31
+00:01:04,380 --> 00:01:06,300
+preferably multi-factor.
+
+32
+00:01:06,300 --> 00:01:08,150
+Now when you use proper authentication,
+
+33
+00:01:08,150 --> 00:01:09,690
+you're going to be able
+to identify a system
+
+34
+00:01:09,690 --> 00:01:12,630
+or user more accurately
+and prevent the spoofing.
+
+35
+00:01:12,630 --> 00:01:13,780
+If you can do this,
+you're going to be able
+
+36
+00:01:13,780 --> 00:01:16,688
+to detect and stop spoofing quite easily.
+
+37
+00:01:16,688 --> 00:01:19,023
+(electronic tones)
+

@@ -1,0 +1,761 @@
+﻿1
+00:00:00,980 --> 00:00:02,650
+- Fire suppression.
+
+2
+00:00:02,650 --> 00:00:05,357
+Now fire suppression is
+the process of controlling
+
+3
+00:00:05,357 --> 00:00:07,890
+and/or extinguishing fires to protect
+
+4
+00:00:07,890 --> 00:00:10,780
+your organization's
+employees, data, equipment,
+
+5
+00:00:10,780 --> 00:00:11,970
+and buildings.
+
+6
+00:00:11,970 --> 00:00:13,953
+You have to choose the right
+type of fire suppression
+
+7
+00:00:13,953 --> 00:00:15,920
+and this is probably going
+to be one of the most
+
+8
+00:00:15,920 --> 00:00:18,550
+important facility decisions
+that your organization
+
+9
+00:00:18,550 --> 00:00:21,090
+is going to make to ensure
+that it's long-term safety
+
+10
+00:00:21,090 --> 00:00:24,780
+of its employees and its
+networks remains unchallenged.
+
+11
+00:00:24,780 --> 00:00:26,930
+Now there are three
+types of fire suppression
+
+12
+00:00:26,930 --> 00:00:29,810
+that we have to discuss
+for the Security Plus exam.
+
+13
+00:00:29,810 --> 00:00:31,570
+There's handheld fire extinguishers,
+
+14
+00:00:31,570 --> 00:00:34,740
+sprinkler systems, and special
+hazard protection systems
+
+15
+00:00:34,740 --> 00:00:37,230
+that we use especially
+in our server rooms.
+
+16
+00:00:37,230 --> 00:00:39,292
+Now let's discuss handheld
+extinguishers first
+
+17
+00:00:39,292 --> 00:00:41,650
+because they're not created equally.
+
+18
+00:00:41,650 --> 00:00:43,710
+Each one is a little bit different.
+
+19
+00:00:43,710 --> 00:00:45,998
+In fact, before you choose
+the proper extinguisher
+
+20
+00:00:45,998 --> 00:00:48,330
+you need to identify what class of fire
+
+21
+00:00:48,330 --> 00:00:49,880
+you're trying to put out.
+
+22
+00:00:49,880 --> 00:00:52,650
+Fires are broken down into
+five different categories.
+
+23
+00:00:52,650 --> 00:00:56,880
+Class A, B, C, D, and K.
+
+24
+00:00:56,880 --> 00:00:59,890
+Class A fires consist of
+solid combustible materials,
+
+25
+00:00:59,890 --> 00:01:01,740
+things like wood and paper.
+
+26
+00:01:01,740 --> 00:01:03,780
+To put out a Class A fire, you should use
+
+27
+00:01:03,780 --> 00:01:05,540
+a water-based extinguisher.
+
+28
+00:01:05,540 --> 00:01:08,330
+This extinguisher should have
+green triangle label on it
+
+29
+00:01:08,330 --> 00:01:09,960
+so you can quickly identify it as
+
+30
+00:01:09,960 --> 00:01:11,560
+a water-based extinguisher.
+
+31
+00:01:11,560 --> 00:01:13,985
+I like to think of the green
+triangle as a green tree
+
+32
+00:01:13,985 --> 00:01:17,110
+since these Class A fires
+are made up of tree products.
+
+33
+00:01:17,110 --> 00:01:19,654
+Things like wood and paper in most cases.
+
+34
+00:01:19,654 --> 00:01:22,490
+Now you shouldn't use a
+water-based extinguisher
+
+35
+00:01:22,490 --> 00:01:24,450
+in a server room because this could cause
+
+36
+00:01:24,450 --> 00:01:26,387
+a lot of damage to the
+different components there
+
+37
+00:01:26,387 --> 00:01:29,320
+as well as put you in
+danger of an electric shock
+
+38
+00:01:29,320 --> 00:01:30,790
+when that water hits something that's
+
+39
+00:01:30,790 --> 00:01:32,310
+electrically charged.
+
+40
+00:01:32,310 --> 00:01:35,590
+The second type of fire is
+known as a Class B fire.
+
+41
+00:01:35,590 --> 00:01:39,130
+Class B fires consist of
+flammable gases or liquids.
+
+42
+00:01:39,130 --> 00:01:41,200
+To put out a Class B fire, you should use
+
+43
+00:01:41,200 --> 00:01:44,770
+a dry chemical agent or a
+CO2-based fire extinguisher.
+
+44
+00:01:44,770 --> 00:01:46,730
+These are usually
+labeled with a red square
+
+45
+00:01:46,730 --> 00:01:50,010
+to signify that they can
+be used on Class B fires.
+
+46
+00:01:50,010 --> 00:01:52,938
+Class C fires, on the other
+hand, are electrical fires.
+
+47
+00:01:52,938 --> 00:01:54,950
+If you encounter an electrical fire,
+
+48
+00:01:54,950 --> 00:01:56,280
+the first thing you should try to do
+
+49
+00:01:56,280 --> 00:01:57,970
+is shut off the power to the room
+
+50
+00:01:57,970 --> 00:01:59,330
+because if you remove the power,
+
+51
+00:01:59,330 --> 00:02:01,220
+this could put out the fire for you.
+
+52
+00:02:01,220 --> 00:02:03,800
+If it doesn't, then you
+need to extinguish that fire
+
+53
+00:02:03,800 --> 00:02:05,290
+with a fire extinguisher.
+
+54
+00:02:05,290 --> 00:02:06,940
+If you're going to use
+a portable extinguisher
+
+55
+00:02:06,940 --> 00:02:09,270
+you should look for a
+CO2-based extinguisher
+
+56
+00:02:09,270 --> 00:02:12,900
+or one with a blue circle
+on it for Class C fires.
+
+57
+00:02:12,900 --> 00:02:15,530
+Next we have Class D fires
+and these are made up
+
+58
+00:02:15,530 --> 00:02:19,290
+of combustible metals like
+magnesium, titanium, and lithium.
+
+59
+00:02:19,290 --> 00:02:20,360
+Now, you might be wondering,
+
+60
+00:02:20,360 --> 00:02:22,280
+where am I going to find
+these combustible metals
+
+61
+00:02:22,280 --> 00:02:23,600
+inside my office?
+
+62
+00:02:23,600 --> 00:02:26,210
+Well, most laptops have lithium batteries
+
+63
+00:02:26,210 --> 00:02:28,420
+so if you have a laptop
+fire, you have to treat it
+
+64
+00:02:28,420 --> 00:02:30,120
+as a Class D fire.
+
+65
+00:02:30,120 --> 00:02:32,340
+To extinguish it, you should
+look for an extinguisher
+
+66
+00:02:32,340 --> 00:02:35,000
+with a yellow decagon on
+it and this extinguisher
+
+67
+00:02:35,000 --> 00:02:36,720
+is going to be fully yellow in color
+
+68
+00:02:36,720 --> 00:02:39,680
+so you can quickly and easily identify it.
+
+69
+00:02:39,680 --> 00:02:42,230
+Class K fires are composed of cooking oil.
+
+70
+00:02:42,230 --> 00:02:43,830
+So if your organization has a kitchen
+
+71
+00:02:43,830 --> 00:02:45,080
+inside of its facilities,
+
+72
+00:02:45,080 --> 00:02:46,425
+you should have a fire extinguisher system
+
+73
+00:02:46,425 --> 00:02:49,320
+that's built-in to handle
+grease and oil fires
+
+74
+00:02:49,320 --> 00:02:51,100
+that could occur during cooking.
+
+75
+00:02:51,100 --> 00:02:54,040
+This type of fire is
+symbolized by a black hexagon
+
+76
+00:02:54,040 --> 00:02:56,200
+and the systems that are
+going to extinguish them
+
+77
+00:02:56,200 --> 00:02:59,030
+have that black hexagon on them as well.
+
+78
+00:02:59,030 --> 00:03:01,680
+Now as you walk around your
+office or your facilities,
+
+79
+00:03:01,680 --> 00:03:03,730
+you're likely going to
+see one of three types
+
+80
+00:03:03,730 --> 00:03:05,320
+of portable extinguishers.
+
+81
+00:03:05,320 --> 00:03:07,580
+The first is an ABC extinguisher,
+
+82
+00:03:07,580 --> 00:03:10,290
+which uses dry chemicals to put out fires.
+
+83
+00:03:10,290 --> 00:03:12,180
+If possible, you should avoid using this
+
+84
+00:03:12,180 --> 00:03:13,850
+on computer equipment though because
+
+85
+00:03:13,850 --> 00:03:16,360
+the dry chemical is
+corrosive and destructive
+
+86
+00:03:16,360 --> 00:03:18,700
+to computer and electrical components.
+
+87
+00:03:18,700 --> 00:03:20,440
+The second and probably most common type
+
+88
+00:03:20,440 --> 00:03:23,170
+you're going to see is
+called a BC extinguisher,
+
+89
+00:03:23,170 --> 00:03:25,790
+which is used on B and C fires.
+
+90
+00:03:25,790 --> 00:03:28,770
+This most often uses
+CO2 to put out a fire.
+
+91
+00:03:28,770 --> 00:03:31,270
+This is useful for both
+gas fires, Class B,
+
+92
+00:03:31,270 --> 00:03:33,960
+and electrical fires,
+Class C, and it's also safe
+
+93
+00:03:33,960 --> 00:03:35,089
+to use on computers.
+
+94
+00:03:35,089 --> 00:03:37,860
+Be careful when using a
+CO2 extinguisher though
+
+95
+00:03:37,860 --> 00:03:39,520
+because it will smother the fire by
+
+96
+00:03:39,520 --> 00:03:41,880
+displacing oxygen from it, which is great.
+
+97
+00:03:41,880 --> 00:03:43,108
+But if there's people close by
+
+98
+00:03:43,108 --> 00:03:45,572
+it's going to take out that
+oxygen that they need to breathe
+
+99
+00:03:45,572 --> 00:03:47,420
+and people could have trouble breathing
+
+100
+00:03:47,420 --> 00:03:49,330
+if there's no oxygen in the room.
+
+101
+00:03:49,330 --> 00:03:51,500
+The third type is a yellow extinguisher
+
+102
+00:03:51,500 --> 00:03:54,680
+and these bottles are used
+for Class D or metal fires.
+
+103
+00:03:54,680 --> 00:03:56,610
+These are less common
+but you should be aware
+
+104
+00:03:56,610 --> 00:03:58,200
+of where they are in case you need one
+
+105
+00:03:58,200 --> 00:04:00,170
+inside your organization.
+
+106
+00:04:00,170 --> 00:04:02,550
+Now in addition to the
+handheld extinguishers
+
+107
+00:04:02,550 --> 00:04:04,840
+your facility might use a sprinkler system
+
+108
+00:04:04,840 --> 00:04:06,684
+to put out fires inside the office.
+
+109
+00:04:06,684 --> 00:04:10,320
+Sprinkler systems can either
+be wet pipe or dry pipe.
+
+110
+00:04:10,320 --> 00:04:12,470
+A wet pipe sprinkler
+system means that there's
+
+111
+00:04:12,470 --> 00:04:14,940
+water already filling all
+of the sprinkler pipes
+
+112
+00:04:14,940 --> 00:04:17,690
+and it's just waiting for
+that little red glass bulb
+
+113
+00:04:17,690 --> 00:04:20,130
+to be broken or melt from a fire.
+
+114
+00:04:20,130 --> 00:04:21,870
+If that bulb melts or it's broken,
+
+115
+00:04:21,870 --> 00:04:24,160
+it's going to release the
+water from the sprinkler system
+
+116
+00:04:24,160 --> 00:04:26,860
+into the office spaces to smother any fire
+
+117
+00:04:26,860 --> 00:04:28,720
+and release that heat.
+
+118
+00:04:28,720 --> 00:04:31,650
+Now in some facilities the
+spaces can get really cold
+
+119
+00:04:31,650 --> 00:04:34,150
+and below freezing, especially
+if you live in the north.
+
+120
+00:04:34,150 --> 00:04:36,670
+If you're in a warehouse
+environment or some other
+
+121
+00:04:36,670 --> 00:04:38,210
+non-air-conditioned space,
+
+122
+00:04:38,210 --> 00:04:40,120
+you don't want water
+sitting in these pipes
+
+123
+00:04:40,120 --> 00:04:42,220
+because they could freeze and crack.
+
+124
+00:04:42,220 --> 00:04:43,880
+If your facility has this issue
+
+125
+00:04:43,880 --> 00:04:47,020
+then you want to use a dry
+pipe sprinkler system instead.
+
+126
+00:04:47,020 --> 00:04:48,910
+In this type of system,
+the pipes are filled
+
+127
+00:04:48,910 --> 00:04:52,120
+with pressurized air and only
+pushes water into those pipes
+
+128
+00:04:52,120 --> 00:04:54,120
+when it's needed to combat a fire.
+
+129
+00:04:54,120 --> 00:04:56,279
+This happens once that
+little red bulb is broken,
+
+130
+00:04:56,279 --> 00:04:58,100
+once again.
+
+131
+00:04:58,100 --> 00:05:00,240
+The third type of sprinkler
+system is known as
+
+132
+00:05:00,240 --> 00:05:02,140
+a pre-action sprinkler system and
+
+133
+00:05:02,140 --> 00:05:03,930
+it's similar to a dry pipe system,
+
+134
+00:05:03,930 --> 00:05:07,560
+except it also can be set off
+if heat or smoke is detected
+
+135
+00:05:07,560 --> 00:05:09,780
+and it won't wait until
+there's a full fire
+
+136
+00:05:09,780 --> 00:05:12,570
+that causes that red
+bulb to break or melt.
+
+137
+00:05:12,570 --> 00:05:15,030
+Now a pre-action sprinkler
+system won't activate
+
+138
+00:05:15,030 --> 00:05:17,480
+if the pipe or the bulb
+is broken by itself
+
+139
+00:05:17,480 --> 00:05:20,000
+because it still has
+to detect heat or smoke
+
+140
+00:05:20,000 --> 00:05:22,586
+before it releases its
+contents into the room.
+
+141
+00:05:22,586 --> 00:05:24,990
+Now in most server rooms we don't want
+
+142
+00:05:24,990 --> 00:05:26,250
+to use a sprinkler system.
+
+143
+00:05:26,250 --> 00:05:28,110
+It's not a very good choice for us
+
+144
+00:05:28,110 --> 00:05:30,580
+and the reason is if somebody
+sets off the sprinkler system
+
+145
+00:05:30,580 --> 00:05:33,670
+by accident, it would release
+water into the server room
+
+146
+00:05:33,670 --> 00:05:35,250
+and it would destroy all of the servers
+
+147
+00:05:35,250 --> 00:05:37,010
+and other electrical components we have
+
+148
+00:05:37,010 --> 00:05:39,060
+by surrounding them with water.
+
+149
+00:05:39,060 --> 00:05:40,950
+Now for this reason, we're going to use
+
+150
+00:05:40,950 --> 00:05:42,780
+a special hazard protection system
+
+151
+00:05:42,780 --> 00:05:44,670
+instead of a sprinkler system.
+
+152
+00:05:44,670 --> 00:05:46,260
+This type of system is known as
+
+153
+00:05:46,260 --> 00:05:47,960
+a clean agent system and it will
+
+154
+00:05:47,960 --> 00:05:50,330
+push gas into the room instead
+
+155
+00:05:50,330 --> 00:05:52,400
+and that will allow it
+to smother the fire.
+
+156
+00:05:52,400 --> 00:05:54,130
+This may be something like HALON,
+
+157
+00:05:54,130 --> 00:05:55,470
+which we don't use commonly anymore
+
+158
+00:05:55,470 --> 00:05:56,550
+here in the United States because
+
+159
+00:05:56,550 --> 00:05:58,000
+its bad for the environment.
+
+160
+00:05:58,000 --> 00:06:02,030
+Or something like FM-200
+or even a CO2-based system.
+
+161
+00:06:02,030 --> 00:06:03,610
+If you're ever working in a server room
+
+162
+00:06:03,610 --> 00:06:05,580
+and you hear an alarm going off loudly,
+
+163
+00:06:05,580 --> 00:06:07,420
+you should immediately
+drop what you're doing
+
+164
+00:06:07,420 --> 00:06:09,438
+and leave the room because this loud alarm
+
+165
+00:06:09,438 --> 00:06:12,370
+is a warning that the gas
+is about to be released
+
+166
+00:06:12,370 --> 00:06:15,070
+into the server room and
+if you remain in that room
+
+167
+00:06:15,070 --> 00:06:16,430
+it's going to suffocate the fire
+
+168
+00:06:16,430 --> 00:06:17,980
+and it's going to suffocate you.
+
+169
+00:06:17,980 --> 00:06:21,781
+So you need to get out immediately
+when you hear that noise.
+
+170
+00:06:21,781 --> 00:06:23,842
+(electric guitar)
+

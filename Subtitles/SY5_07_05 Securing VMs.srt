@@ -1,0 +1,437 @@
+﻿1
+00:00:00,640 --> 00:00:03,320
+- So, now that I scared
+you with all of the threats
+
+2
+00:00:03,320 --> 00:00:05,130
+that exists against virtual machines
+
+3
+00:00:05,130 --> 00:00:07,670
+let's talk about how we
+can best secure them.
+
+4
+00:00:07,670 --> 00:00:09,240
+Most of the things that we need to do
+
+5
+00:00:09,240 --> 00:00:11,580
+to secure a virtual
+machine are very similar
+
+6
+00:00:11,580 --> 00:00:13,850
+to things we need to
+do to secure a regular
+
+7
+00:00:13,850 --> 00:00:15,510
+physical server too.
+
+8
+00:00:15,510 --> 00:00:17,830
+This includes things like
+updating your operating system
+
+9
+00:00:17,830 --> 00:00:19,230
+in your applications.
+
+10
+00:00:19,230 --> 00:00:21,770
+Also, you need to ensure
+that each virtual machine
+
+11
+00:00:21,770 --> 00:00:24,140
+has a good anti-virus solution installed.
+
+12
+00:00:24,140 --> 00:00:27,120
+With its own software
+firewall, good strong passwords
+
+13
+00:00:27,120 --> 00:00:29,830
+and good policies and all of
+the other security features
+
+14
+00:00:29,830 --> 00:00:32,810
+that we're going to discuss
+throughout this course.
+
+15
+00:00:32,810 --> 00:00:35,240
+For this lesson, let's focus specifically
+
+16
+00:00:35,240 --> 00:00:37,770
+on how to secure virtual machines though.
+
+17
+00:00:37,770 --> 00:00:41,190
+First, remember that the
+hypervisor whether it's a type one,
+
+18
+00:00:41,190 --> 00:00:44,500
+type two or application
+containerization based model,
+
+19
+00:00:44,500 --> 00:00:46,330
+needs to be updated and secured
+
+20
+00:00:46,330 --> 00:00:49,880
+whenever the manufacturer
+releases a new security patch.
+
+21
+00:00:49,880 --> 00:00:52,530
+For example, if an export have
+been discovered then you can
+
+22
+00:00:52,530 --> 00:00:55,370
+now conduct a VM escape against VM ware,
+
+23
+00:00:55,370 --> 00:00:57,830
+you can be certain that accompanying
+like VM ware is going to
+
+24
+00:00:57,830 --> 00:01:01,890
+quickly release a patch to fix
+this critical vulnerability.
+
+25
+00:01:01,890 --> 00:01:04,640
+Next you want to ensure that you
+limit the type of connections
+
+26
+00:01:04,640 --> 00:01:06,600
+that is existing between
+the virtual machine
+
+27
+00:01:06,600 --> 00:01:08,380
+and the physical machine.
+
+28
+00:01:08,380 --> 00:01:11,060
+This can be represented by
+a virtualized network card,
+
+29
+00:01:11,060 --> 00:01:12,600
+or even as network shares.
+
+30
+00:01:12,600 --> 00:01:15,240
+As I'm going to demonstrate
+in the next lesson.
+
+31
+00:01:15,240 --> 00:01:18,310
+Remember if a virtual machine
+gets infected with malware
+
+32
+00:01:18,310 --> 00:01:21,050
+it should remain isolated from
+all the other virtual machine
+
+33
+00:01:21,050 --> 00:01:23,040
+hosted by the same hypervisor.
+
+34
+00:01:23,040 --> 00:01:25,130
+But only if you implement
+your configurations
+
+35
+00:01:25,130 --> 00:01:26,920
+for isolation correctly.
+
+36
+00:01:26,920 --> 00:01:29,570
+Just like a physical server
+anytime there is a connection
+
+37
+00:01:29,570 --> 00:01:32,020
+between a virtual machine
+and a shared resource,
+
+38
+00:01:32,020 --> 00:01:33,970
+something like a network file server.
+
+39
+00:01:33,970 --> 00:01:36,550
+This is an opportunity for
+data to be passed between
+
+40
+00:01:36,550 --> 00:01:37,820
+the different virtual machines,
+
+41
+00:01:37,820 --> 00:01:39,630
+and this would break down the isolation
+
+42
+00:01:39,630 --> 00:01:41,550
+that you may be achieving.
+
+43
+00:01:41,550 --> 00:01:43,620
+Just like we discussed back
+in handling our operating
+
+44
+00:01:43,620 --> 00:01:46,790
+systems we want to minimize
+and remove any features that
+
+45
+00:01:46,790 --> 00:01:49,260
+are not needed to support our operations.
+
+46
+00:01:49,260 --> 00:01:50,830
+When dealing with the virtual machine,
+
+47
+00:01:50,830 --> 00:01:53,810
+remember that hardware is
+emilated and it can be removed
+
+48
+00:01:53,810 --> 00:01:57,040
+just like a piece of softare
+would be under normal machine.
+
+49
+00:01:57,040 --> 00:01:59,134
+If don't your virtual machine
+to have an emilated flappy
+
+50
+00:01:59,134 --> 00:02:01,560
+disk or CD drive for example,
+
+51
+00:02:01,560 --> 00:02:03,810
+you can simply remove those features.
+
+52
+00:02:03,810 --> 00:02:06,350
+This in turn will
+minimize your text surface
+
+53
+00:02:06,350 --> 00:02:09,060
+and remove potential vulnerabilities.
+
+54
+00:02:09,060 --> 00:02:11,560
+All of your virtual machines
+are hosted on physical
+
+55
+00:02:11,560 --> 00:02:13,000
+computers or servers.
+
+56
+00:02:13,000 --> 00:02:15,110
+And so if you had many
+virtual machine residing
+
+57
+00:02:15,110 --> 00:02:17,190
+on a same physical server,
+
+58
+00:02:17,190 --> 00:02:18,890
+and an attack is able to compromise
+
+59
+00:02:18,890 --> 00:02:20,600
+one of those virtual machines,
+
+60
+00:02:20,600 --> 00:02:23,170
+they maybe able to force
+it to use a large amount of
+
+61
+00:02:23,170 --> 00:02:25,120
+physical server resources.
+
+62
+00:02:25,120 --> 00:02:28,230
+If they do this can affect the
+other virtual machines hosted
+
+63
+00:02:28,230 --> 00:02:29,720
+on that same server.
+
+64
+00:02:29,720 --> 00:02:33,510
+In fact this could result and
+denial servers for one or more
+
+65
+00:02:33,510 --> 00:02:35,910
+of the virtual machines being hosted.
+
+66
+00:02:35,910 --> 00:02:38,470
+To minimize this threat you
+should consider spreading out
+
+67
+00:02:38,470 --> 00:02:41,330
+your virtual machines among
+several physical servers.
+
+68
+00:02:41,330 --> 00:02:44,320
+In steady of relying on one
+single physical server to host
+
+69
+00:02:44,320 --> 00:02:46,480
+every single virtual machine.
+
+70
+00:02:46,480 --> 00:02:47,860
+As assessment administrator,
+
+71
+00:02:47,860 --> 00:02:50,100
+its also important to keep
+tracking your virtual machines
+
+72
+00:02:50,100 --> 00:02:52,050
+and where they are being deployed.
+
+73
+00:02:52,050 --> 00:02:55,150
+Each virtual machine represents
+a fully operating system
+
+74
+00:02:55,150 --> 00:02:57,510
+and therefore you have to
+ensure you're doing proper
+
+75
+00:02:57,510 --> 00:02:58,510
+patch management,
+
+76
+00:02:58,510 --> 00:03:01,760
+to make sure all of these
+virtual machines stay up to date.
+
+77
+00:03:01,760 --> 00:03:04,790
+Additionally it becomes common
+for Virtualization Sprawl
+
+78
+00:03:04,790 --> 00:03:07,090
+to occur within an organization.
+
+79
+00:03:07,090 --> 00:03:09,820
+Virtualization Sprawl refers
+to when virtual machines are
+
+80
+00:03:09,820 --> 00:03:13,690
+created, used and deployed
+without proper oversight
+
+81
+00:03:13,690 --> 00:03:16,860
+governance or management by
+the system administrators.
+
+82
+00:03:16,860 --> 00:03:18,500
+Because virtual machines only exists
+
+83
+00:03:18,500 --> 00:03:20,090
+as a file on some server,
+
+84
+00:03:20,090 --> 00:03:22,080
+it's really easy to loose track of them.
+
+85
+00:03:22,080 --> 00:03:23,890
+And you'll not remember
+where you've actually
+
+86
+00:03:23,890 --> 00:03:24,840
+deployed them all.
+
+87
+00:03:24,840 --> 00:03:25,695
+And when it comes time to
+update them or retire them
+
+88
+00:03:25,695 --> 00:03:29,660
+you sometimes just lose track.
+
+89
+00:03:29,660 --> 00:03:32,730
+Finally it's important to enable
+encryption of the file that
+
+90
+00:03:32,730 --> 00:03:34,590
+host the virtual machines as well.
+
+91
+00:03:34,590 --> 00:03:37,370
+In the next lesson I'm going
+to demonstrate how easy it is
+
+92
+00:03:37,370 --> 00:03:40,170
+to encrypt your virtual
+machine files to keep them safe
+
+93
+00:03:40,170 --> 00:03:42,160
+from prying eyes on the server.
+
+94
+00:03:42,160 --> 00:03:43,720
+This will make sure that
+when you're deploying them
+
+95
+00:03:43,720 --> 00:03:45,130
+and using them in your network,
+
+96
+00:03:45,130 --> 00:03:47,383
+everything remain safe and confidential.
+

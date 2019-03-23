@@ -1,0 +1,484 @@
+﻿1
+00:00:00,720 --> 00:00:03,270
+- Hijacking, next we have hijacking
+
+2
+00:00:03,270 --> 00:00:05,840
+which is the exploitation
+of a computer session
+
+3
+00:00:05,840 --> 00:00:08,570
+in an attempt to gain
+unauthorized access to data,
+
+4
+00:00:08,570 --> 00:00:12,050
+services, or other resources
+on a computer or server.
+
+5
+00:00:12,050 --> 00:00:14,100
+There are eight types of session hijacking
+
+6
+00:00:14,100 --> 00:00:15,440
+that can be performed.
+
+7
+00:00:15,440 --> 00:00:19,500
+Session theft, TCP/IP
+hijacking, blind hijacking,
+
+8
+00:00:19,500 --> 00:00:21,470
+clickjacking, Man-in-the-Middle,
+
+9
+00:00:21,470 --> 00:00:23,800
+Man-in-the-Browser, the
+watering hole attack
+
+10
+00:00:23,800 --> 00:00:25,720
+and cross-site-scripting attacks.
+
+11
+00:00:25,720 --> 00:00:28,790
+The first type of hijacking
+is known as session theft.
+
+12
+00:00:28,790 --> 00:00:30,850
+With session theft the
+attacker is going to guess
+
+13
+00:00:30,850 --> 00:00:32,550
+the session ID for a web session
+
+14
+00:00:32,550 --> 00:00:33,980
+and that enables them to takeover
+
+15
+00:00:33,980 --> 00:00:36,480
+the already authorized
+and established session
+
+16
+00:00:36,480 --> 00:00:37,840
+of that client.
+
+17
+00:00:37,840 --> 00:00:40,750
+Each session is uniquely
+identified with a random string
+
+18
+00:00:40,750 --> 00:00:43,360
+but if the attacker can
+determine or guess that string
+
+19
+00:00:43,360 --> 00:00:44,950
+they can take over the
+authenticated session
+
+20
+00:00:44,950 --> 00:00:45,830
+with the server.
+
+21
+00:00:45,830 --> 00:00:47,960
+And this example, you
+can see this is occurring
+
+22
+00:00:47,960 --> 00:00:49,970
+at the session layer of the OSI model
+
+23
+00:00:49,970 --> 00:00:53,340
+but it can also occur at the
+network or transport layer too.
+
+24
+00:00:53,340 --> 00:00:56,700
+Now when it does it's
+called TCP/IP hijacking.
+
+25
+00:00:56,700 --> 00:00:59,640
+Because it occurs when an
+attacker takes over a TCP session
+
+26
+00:00:59,640 --> 00:01:02,090
+between two computers
+without the need of a cookie
+
+27
+00:01:02,090 --> 00:01:03,780
+or other host access.
+
+28
+00:01:03,780 --> 00:01:05,990
+Because TCP sessions only authenticate
+
+29
+00:01:05,990 --> 00:01:07,860
+during the initial three-way handshake
+
+30
+00:01:07,860 --> 00:01:09,350
+the attacker can jump into the session
+
+31
+00:01:09,350 --> 00:01:11,420
+at any time they want if they can guess
+
+32
+00:01:11,420 --> 00:01:13,700
+the next number in the packet sequence.
+
+33
+00:01:13,700 --> 00:01:16,460
+This can also be used to create
+a denial of service attack
+
+34
+00:01:16,460 --> 00:01:19,400
+against the initial host that
+way they can take it over
+
+35
+00:01:19,400 --> 00:01:22,290
+and not let that person
+jump back into the session.
+
+36
+00:01:22,290 --> 00:01:25,420
+Now, the next type of hijacking
+is called blind hijacking
+
+37
+00:01:25,420 --> 00:01:26,680
+because it occurs when the attacker
+
+38
+00:01:26,680 --> 00:01:29,480
+blindly injects data into
+a communication stream
+
+39
+00:01:29,480 --> 00:01:31,050
+and won't be able to see the results
+
+40
+00:01:31,050 --> 00:01:32,630
+whether they're successful or not.
+
+41
+00:01:32,630 --> 00:01:34,490
+Clickjacking is our next type.
+
+42
+00:01:34,490 --> 00:01:36,950
+This attack uses multiple
+transparent layers
+
+43
+00:01:36,950 --> 00:01:40,050
+to trick a user into clicking
+on a button or link on a page
+
+44
+00:01:40,050 --> 00:01:42,340
+when they were intending
+to click on something else.
+
+45
+00:01:42,340 --> 00:01:44,690
+Basically the hyperlink
+to the malicious content
+
+46
+00:01:44,690 --> 00:01:47,250
+is hidden under some
+legitimate clickable content.
+
+47
+00:01:47,250 --> 00:01:48,930
+So you think you're clicking on an image
+
+48
+00:01:48,930 --> 00:01:50,180
+and you're actually clicking on some link
+
+49
+00:01:50,180 --> 00:01:51,740
+that takes you elsewhere.
+
+50
+00:01:51,740 --> 00:01:53,210
+Now a Man-in-the-Middle attack
+
+51
+00:01:53,210 --> 00:01:55,760
+is probably the attack
+you've heard most before.
+
+52
+00:01:55,760 --> 00:01:58,880
+This is also one that is commonly
+used in session hijacking.
+
+53
+00:01:58,880 --> 00:02:00,610
+A Man-in-the-Middle attack causes data
+
+54
+00:02:00,610 --> 00:02:02,520
+to flow through the attacker's computer
+
+55
+00:02:02,520 --> 00:02:03,900
+where it can then be intercepted
+
+56
+00:02:03,900 --> 00:02:06,240
+or manipulated as it passes through.
+
+57
+00:02:06,240 --> 00:02:08,870
+This is considered an
+active type of interception.
+
+58
+00:02:08,870 --> 00:02:10,870
+So let's pretend that you've
+got some kind of malware
+
+59
+00:02:10,870 --> 00:02:12,930
+on your computer and
+now all of your traffic
+
+60
+00:02:12,930 --> 00:02:15,100
+is going to route through
+this attacker's machine.
+
+61
+00:02:15,100 --> 00:02:16,840
+Well, if you wanted to transfer $50
+
+62
+00:02:16,840 --> 00:02:18,550
+from your bank account to your friend's
+
+63
+00:02:18,550 --> 00:02:19,960
+but the attacker changes the amount
+
+64
+00:02:19,960 --> 00:02:21,320
+and the destination of the account
+
+65
+00:02:21,320 --> 00:02:23,960
+you may now be sending
+$5000 to the attacker
+
+66
+00:02:23,960 --> 00:02:25,890
+instead of the $50 to your friend.
+
+67
+00:02:25,890 --> 00:02:27,730
+This is the idea of a Man-in-the-Middle.
+
+68
+00:02:27,730 --> 00:02:28,740
+Since the attacker is sitting
+
+69
+00:02:28,740 --> 00:02:30,330
+right in the middle of that connection
+
+70
+00:02:30,330 --> 00:02:32,070
+they can see and manipulate any data
+
+71
+00:02:32,070 --> 00:02:34,130
+as it's being sent back and forth.
+
+72
+00:02:34,130 --> 00:02:36,230
+Now a Man-in-the-Browser is very similar
+
+73
+00:02:36,230 --> 00:02:37,320
+to the Man-in-the-Middle
+
+74
+00:02:37,320 --> 00:02:40,320
+except it's limited to your
+browser's web communication
+
+75
+00:02:40,320 --> 00:02:43,050
+instead of looking at
+the entire communication.
+
+76
+00:02:43,050 --> 00:02:44,500
+This can occur because you have a Trojan
+
+77
+00:02:44,500 --> 00:02:46,360
+that's infected your
+vulnerable web browser
+
+78
+00:02:46,360 --> 00:02:48,840
+and it modifies web pages or transactions
+
+79
+00:02:48,840 --> 00:02:50,870
+that are being done within that browser.
+
+80
+00:02:50,870 --> 00:02:52,190
+To prevent this you should insure
+
+81
+00:02:52,190 --> 00:02:54,490
+you have a good anti-malware
+solution installed
+
+82
+00:02:54,490 --> 00:02:55,880
+and you have the latest security updates
+
+83
+00:02:55,880 --> 00:02:56,820
+for your web browser
+
+84
+00:02:56,820 --> 00:02:58,220
+because this will pretty much eliminate
+
+85
+00:02:58,220 --> 00:03:00,200
+the Man-in-the-Browser attack.
+
+86
+00:03:00,200 --> 00:03:01,830
+Next you have a watering hole.
+
+87
+00:03:01,830 --> 00:03:03,470
+And a watering hole is
+something that we described
+
+88
+00:03:03,470 --> 00:03:05,650
+all the way back in the
+beginning of this course.
+
+89
+00:03:05,650 --> 00:03:07,580
+It occurs when malware
+is laced on a website
+
+90
+00:03:07,580 --> 00:03:09,690
+that the attacker knows
+his potential victims
+
+91
+00:03:09,690 --> 00:03:10,920
+are going to access.
+
+92
+00:03:10,920 --> 00:03:12,410
+Now this can also be modified
+
+93
+00:03:12,410 --> 00:03:14,260
+to allow for session hijacking too
+
+94
+00:03:14,260 --> 00:03:16,350
+because the attacker can
+takeover that website
+
+95
+00:03:16,350 --> 00:03:17,370
+and grab the information
+
+96
+00:03:17,370 --> 00:03:19,640
+between your client and the server itself.
+
+97
+00:03:19,640 --> 00:03:21,460
+Finally we have cross-site-scripting
+
+98
+00:03:21,460 --> 00:03:23,200
+which we've also discussed before.
+
+99
+00:03:23,200 --> 00:03:24,620
+Now I'm mentioning it here briefly
+
+100
+00:03:24,620 --> 00:03:26,980
+because cross-site-scripting
+is another way
+
+101
+00:03:26,980 --> 00:03:28,550
+that you can use this vulnerability
+
+102
+00:03:28,550 --> 00:03:31,360
+to conduct session
+hijacking against a victim.
+
+103
+00:03:31,360 --> 00:03:33,860
+It does this by targeting
+that client's computer
+
+104
+00:03:33,860 --> 00:03:35,730
+and tricking it into
+thinking the code came
+
+105
+00:03:35,730 --> 00:03:37,090
+from a trusted web server.
+
+106
+00:03:37,090 --> 00:03:38,970
+And if you can trick it successfully
+
+107
+00:03:38,970 --> 00:03:40,930
+then the client is going
+to execute that code
+
+108
+00:03:40,930 --> 00:03:43,120
+and this can give that
+attacker a hijack place
+
+109
+00:03:43,120 --> 00:03:44,853
+inside that communication stream.
+

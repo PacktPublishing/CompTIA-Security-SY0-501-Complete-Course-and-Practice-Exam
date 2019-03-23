@@ -1,0 +1,157 @@
+﻿1
+00:00:00,470 --> 00:00:03,250
+- We all use wireless devices these days.
+
+2
+00:00:03,250 --> 00:00:06,640
+Whether it's your laptop, your
+tablet, or your smartphone,
+
+3
+00:00:06,640 --> 00:00:09,980
+all of these have the ability
+to communicate wirelessly.
+
+4
+00:00:09,980 --> 00:00:12,370
+How can we best secure these devices?
+
+5
+00:00:12,370 --> 00:00:14,660
+Well, there's two main things
+we have to think about when
+
+6
+00:00:14,660 --> 00:00:17,010
+we talk about wireless with these devices:
+
+7
+00:00:17,010 --> 00:00:19,340
+wifi and Bluetooth.
+
+8
+00:00:19,340 --> 00:00:22,260
+First, wifi, is there
+internet connectivity?
+
+9
+00:00:22,260 --> 00:00:25,760
+If we're using wifi, we want
+to make sure the wifi is set
+
+10
+00:00:25,760 --> 00:00:28,090
+to be protected at the highest levels.
+
+11
+00:00:28,090 --> 00:00:31,350
+Currently, that's WPA2, or Wifi Protected
+
+12
+00:00:31,350 --> 00:00:33,070
+Access Version Two.
+
+13
+00:00:33,070 --> 00:00:35,420
+This relies on the advanced
+encryption standard
+
+14
+00:00:35,420 --> 00:00:38,173
+for its encryption
+algorithm, also known as AES.
+
+15
+00:00:39,260 --> 00:00:42,320
+In addition to securing our
+wifi, we also have to consider
+
+16
+00:00:42,320 --> 00:00:45,020
+the peripherals that
+connect to these devices.
+
+17
+00:00:45,020 --> 00:00:47,420
+For example, if you have a
+smartphone and it connects
+
+18
+00:00:47,420 --> 00:00:51,210
+to a Bluetooth to your car,
+how is that link being secured?
+
+19
+00:00:51,210 --> 00:00:54,830
+Well, by default, Bluetooth
+requires you to pair the device
+
+20
+00:00:54,830 --> 00:00:57,160
+and when you pair the
+device, the two devices will
+
+21
+00:00:57,160 --> 00:01:00,180
+communicate via that shared
+link in giving each other
+
+22
+00:01:00,180 --> 00:01:01,630
+a shared link key.
+
+23
+00:01:01,630 --> 00:01:04,300
+They use that key to encrypt their data.
+
+24
+00:01:04,300 --> 00:01:07,470
+Unfortunately, some of these
+devices use weaker encryption
+
+25
+00:01:07,470 --> 00:01:09,670
+than others, so if you're
+really worried about
+
+26
+00:01:09,670 --> 00:01:12,490
+your confidentiality, you
+should always try to avoid
+
+27
+00:01:12,490 --> 00:01:14,470
+wireless devices when possible.
+
+28
+00:01:14,470 --> 00:01:17,280
+If you have to use a wireless
+device like headphones
+
+29
+00:01:17,280 --> 00:01:19,650
+or connecting to your car, you should look
+
+30
+00:01:19,650 --> 00:01:22,830
+at the manufacturer specifications
+to determine what type
+
+31
+00:01:22,830 --> 00:01:26,110
+of encryption is being used
+and if they're not using AES
+
+32
+00:01:26,110 --> 00:01:28,900
+with a strong key, you might
+want to pass on using that
+
+33
+00:01:28,900 --> 00:01:31,170
+device and buy a replacement.
+
+34
+00:01:31,170 --> 00:01:33,260
+(light music)
+

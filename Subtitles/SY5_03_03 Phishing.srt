@@ -1,0 +1,642 @@
+﻿1
+00:00:01,030 --> 00:00:03,610
+- In this lesson I'm going
+to show you how easy it is
+
+2
+00:00:03,610 --> 00:00:05,670
+to conduct your own phishing campaign
+
+3
+00:00:05,670 --> 00:00:07,880
+so you can test your
+users and see if they know
+
+4
+00:00:07,880 --> 00:00:11,170
+the correct practices and
+how to avoid a phishing scam.
+
+5
+00:00:11,170 --> 00:00:13,340
+Now in this campaign
+what we're going to do
+
+6
+00:00:13,340 --> 00:00:14,830
+is create our own email,
+
+7
+00:00:14,830 --> 00:00:17,160
+we're going to send it out to our users
+
+8
+00:00:17,160 --> 00:00:17,993
+inside our organization,
+
+9
+00:00:17,993 --> 00:00:19,660
+see if they click on any of those links,
+
+10
+00:00:19,660 --> 00:00:22,890
+and if they do we're going to
+provide them remedial training.
+
+11
+00:00:22,890 --> 00:00:25,490
+To do all of this it's
+not complicated at all.
+
+12
+00:00:25,490 --> 00:00:27,610
+In fact, you can use a free program
+
+13
+00:00:27,610 --> 00:00:30,250
+that's provided by Trend
+Micro to do this for you.
+
+14
+00:00:30,250 --> 00:00:32,690
+This program is called Phish Insights.
+
+15
+00:00:32,690 --> 00:00:35,430
+To access Phish Insight
+you simply need to go to
+
+16
+00:00:35,430 --> 00:00:38,370
+phishinsite.trendmicro.com.
+
+17
+00:00:38,370 --> 00:00:39,700
+If you've never used it before
+
+18
+00:00:39,700 --> 00:00:41,820
+you'll have to sign up
+and create an account.
+
+19
+00:00:41,820 --> 00:00:44,680
+Again, this is a wonderful free tool.
+
+20
+00:00:44,680 --> 00:00:46,730
+Next you will log into your account.
+
+21
+00:00:46,730 --> 00:00:49,350
+So if we want to create
+a campaign for ourself
+
+22
+00:00:49,350 --> 00:00:51,861
+we're just going to click
+on Create a Campaign.
+
+23
+00:00:51,861 --> 00:00:54,200
+Now I'm going to make a
+very small campaign here
+
+24
+00:00:54,200 --> 00:00:55,510
+of just one target.
+
+25
+00:00:55,510 --> 00:00:56,970
+So I'm just going to key in the recipient
+
+26
+00:00:56,970 --> 00:00:59,320
+of who I want to send this message to.
+
+27
+00:00:59,320 --> 00:01:02,280
+And the person I'm going
+to send it to is Jason.
+
+28
+00:01:02,280 --> 00:01:04,250
+So I'm just going to
+call my list name Jason.
+
+29
+00:01:04,250 --> 00:01:06,423
+And I'm going to put Jason,
+Dion, Jason@diantraining.com,
+
+30
+00:01:09,380 --> 00:01:12,223
+and his title which is instructor.
+
+31
+00:01:13,380 --> 00:01:14,280
+And that should be fine.
+
+32
+00:01:14,280 --> 00:01:15,660
+And then we'll hit continue.
+
+33
+00:01:15,660 --> 00:01:17,520
+And you'll see that I now
+have First Name Jason,
+
+34
+00:01:17,520 --> 00:01:19,570
+Last Name Dion, Department is Instructor,
+
+35
+00:01:19,570 --> 00:01:20,830
+and his Email Address.
+
+36
+00:01:20,830 --> 00:01:22,240
+Go ahead and hit Done.
+
+37
+00:01:22,240 --> 00:01:25,730
+Next, I'll go down to step 2
+which is selecting a template.
+
+38
+00:01:25,730 --> 00:01:27,350
+What I'm going to do is
+I'm going to select one
+
+39
+00:01:27,350 --> 00:01:29,460
+that looks like a LinkedIn
+connection request
+
+40
+00:01:29,460 --> 00:01:31,200
+'cause we get those all day long.
+
+41
+00:01:31,200 --> 00:01:34,510
+And most of those don't think
+twice about clicking on them.
+
+42
+00:01:34,510 --> 00:01:36,240
+So if I just click on that here's the
+
+43
+00:01:36,240 --> 00:01:37,370
+email they're going to get.
+
+44
+00:01:37,370 --> 00:01:40,780
+It's going to say Jason, please
+add me to your LinkedIn network
+
+45
+00:01:40,780 --> 00:01:43,170
+and all these places
+would add in Jason Dion.
+
+46
+00:01:43,170 --> 00:01:46,280
+Hi Jason Dion, I'd like to
+join your LinkedIn network.
+
+47
+00:01:46,280 --> 00:01:48,120
+And there's the Accept
+or the View profile,
+
+48
+00:01:48,120 --> 00:01:50,470
+the update, subscribe, all
+that kind of good stuff.
+
+49
+00:01:50,470 --> 00:01:53,320
+And this looks like a
+very realistic email,
+
+50
+00:01:53,320 --> 00:01:54,600
+and it's already done for us.
+
+51
+00:01:54,600 --> 00:01:56,570
+If we wanted to we could customize it
+
+52
+00:01:56,570 --> 00:01:58,240
+to make it look less like LinkedIn
+
+53
+00:01:58,240 --> 00:01:59,750
+or more like something else.
+
+54
+00:01:59,750 --> 00:02:01,697
+But for now we're going
+to use this default.
+
+55
+00:02:01,697 --> 00:02:04,690
+Next, we're going to
+go through and specify
+
+56
+00:02:04,690 --> 00:02:06,670
+what the email address
+is going to come from.
+
+57
+00:02:06,670 --> 00:02:10,510
+In my case it's going to come
+from invitations@linkein.com.
+
+58
+00:02:10,510 --> 00:02:13,160
+Notice the email is not
+actually spelled out linkedin.
+
+59
+00:02:13,160 --> 00:02:14,440
+They're missing a d.
+
+60
+00:02:14,440 --> 00:02:16,680
+This is something that
+our user should see,
+
+61
+00:02:16,680 --> 00:02:19,660
+and hopefully flag it as a phishing scam
+
+62
+00:02:19,660 --> 00:02:21,050
+as opposed to a real one.
+
+63
+00:02:21,050 --> 00:02:23,660
+And notice that invitations
+is also spelled wrong.
+
+64
+00:02:23,660 --> 00:02:26,870
+But if you wanted to make
+this look very, very realistic
+
+65
+00:02:26,870 --> 00:02:29,370
+you could actually put the exact correct
+
+66
+00:02:29,370 --> 00:02:33,780
+invitations@linkedin,com
+and spell it all correctly.
+
+67
+00:02:33,780 --> 00:02:36,610
+Next you can set up a
+schedule and run your campaign
+
+68
+00:02:36,610 --> 00:02:39,390
+over several weeks or
+over one week or two weeks
+
+69
+00:02:39,390 --> 00:02:40,420
+or even a month.
+
+70
+00:02:40,420 --> 00:02:42,580
+And this is good if you
+have a larger organization
+
+71
+00:02:42,580 --> 00:02:44,060
+where you're doing this
+
+72
+00:02:44,060 --> 00:02:45,290
+with hundreds or thousands of employees.
+
+73
+00:02:45,290 --> 00:02:47,320
+You want to see if they learn over time.
+
+74
+00:02:47,320 --> 00:02:49,660
+And so by doing that you
+can set up a schedule.
+
+75
+00:02:49,660 --> 00:02:52,570
+You can also, then, decide what happens
+
+76
+00:02:52,570 --> 00:02:54,370
+if they click on one of the links.
+
+77
+00:02:54,370 --> 00:02:56,620
+So I can have when the campaign ends
+
+78
+00:02:56,620 --> 00:02:57,990
+they will get training and be told,
+
+79
+00:02:57,990 --> 00:02:59,580
+yes, you clicked on a link
+and you shouldn't have
+
+80
+00:02:59,580 --> 00:03:00,790
+or no you didn't.
+
+81
+00:03:00,790 --> 00:03:02,010
+Or you can do it immediately
+
+82
+00:03:02,010 --> 00:03:03,750
+when they click on a
+link and they're phished.
+
+83
+00:03:03,750 --> 00:03:05,850
+They might get something
+that looks like this.
+
+84
+00:03:05,850 --> 00:03:07,310
+This is a webpage that would come up
+
+85
+00:03:07,310 --> 00:03:09,360
+and say, hey, you've been phished.
+
+86
+00:03:09,360 --> 00:03:10,840
+You need some remedial training.
+
+87
+00:03:10,840 --> 00:03:12,870
+Click here and you'll get the training.
+
+88
+00:03:12,870 --> 00:03:14,120
+Something of that nature.
+
+89
+00:03:15,170 --> 00:03:16,540
+So that's the way you can do that.
+
+90
+00:03:16,540 --> 00:03:19,950
+And if we go back up
+here to our invitation,
+
+91
+00:03:19,950 --> 00:03:22,420
+setting our schedule, or you
+can do it without notice.
+
+92
+00:03:22,420 --> 00:03:24,460
+So I'm going to leave
+it with when phished.
+
+93
+00:03:24,460 --> 00:03:26,430
+And then you can send
+yourself a text message
+
+94
+00:03:26,430 --> 00:03:28,323
+or confirm to start the campaign.
+
+95
+00:03:31,340 --> 00:03:33,930
+So now you'll see that
+that campaign is upcoming,
+
+96
+00:03:33,930 --> 00:03:37,000
+and it will start in
+about an hour from now.
+
+97
+00:03:37,000 --> 00:03:39,840
+Once that happens we'll be
+able to see who gets fooled,
+
+98
+00:03:39,840 --> 00:03:42,660
+analyze those results, and
+give those people training.
+
+99
+00:03:42,660 --> 00:03:45,480
+So let's look at an
+example phishing email.
+
+100
+00:03:45,480 --> 00:03:48,900
+I just sent one out that showed
+it was coming from LinkedIn.
+
+101
+00:03:48,900 --> 00:03:51,310
+Now this is what the user is going to see.
+
+102
+00:03:51,310 --> 00:03:54,570
+From all looks it looks
+like a legitimate email.
+
+103
+00:03:54,570 --> 00:03:55,960
+If I look at the subject line,
+
+104
+00:03:55,960 --> 00:03:59,130
+it says Jason, please add
+me to your LinkedIn network.
+
+105
+00:03:59,130 --> 00:04:02,060
+If I look at who it came from,
+it came form invitations.
+
+106
+00:04:02,060 --> 00:04:04,510
+And if I look at the message
+it's got the LinkedIn logo,
+
+107
+00:04:04,510 --> 00:04:07,240
+it's got things that look
+just like a LinkedIn message.
+
+108
+00:04:07,240 --> 00:04:08,520
+But it's not.
+
+109
+00:04:08,520 --> 00:04:09,880
+If I click on any of these links
+
+110
+00:04:09,880 --> 00:04:11,630
+it's not going to take me to LinkedIn.
+
+111
+00:04:11,630 --> 00:04:14,000
+Instead, it's going to take
+me to a phishing website.
+
+112
+00:04:14,000 --> 00:04:15,950
+And as you see as I hover over it
+
+113
+00:04:15,950 --> 00:04:17,280
+notice what the link is.
+
+114
+00:04:17,280 --> 00:04:18,660
+It's not LinkedIn.com.
+
+115
+00:04:18,660 --> 00:04:20,800
+It's websitefun.club.
+
+116
+00:04:20,800 --> 00:04:22,230
+Then I go over here to the profile one.
+
+117
+00:04:22,230 --> 00:04:24,920
+Same thing, it brings me to
+another area of that website.
+
+118
+00:04:24,920 --> 00:04:26,900
+Changing the frequency, same thing.
+
+119
+00:04:26,900 --> 00:04:29,670
+This is a classic phishing scam,
+
+120
+00:04:29,670 --> 00:04:30,910
+where it looks like one thing,
+
+121
+00:04:30,910 --> 00:04:33,110
+but when you click on
+it it goes to another.
+
+122
+00:04:33,110 --> 00:04:35,150
+Notice this email is well crafted.
+
+123
+00:04:35,150 --> 00:04:37,680
+It's crafted to look
+exactly like LinkedIn.
+
+124
+00:04:37,680 --> 00:04:40,100
+And it will trick a lot of your users.
+
+125
+00:04:40,100 --> 00:04:42,580
+So one of the things we want to
+do with our phishing campaigns
+
+126
+00:04:42,580 --> 00:04:45,910
+is to train our users that
+clicking links is bad.
+
+127
+00:04:45,910 --> 00:04:49,810
+Instead, if I got this as
+a user what should I do?
+
+128
+00:04:49,810 --> 00:04:51,460
+I should open up a new web browser.
+
+129
+00:04:51,460 --> 00:04:54,400
+And I should go to
+LinkedIn.com, the site I know.
+
+130
+00:04:54,400 --> 00:04:57,740
+And from there I can accept
+or reject that friend request.
+
+131
+00:04:57,740 --> 00:04:59,720
+But just getting an email,
+you don't want to click
+
+132
+00:04:59,720 --> 00:05:01,850
+on those links because that is an easy way
+
+133
+00:05:01,850 --> 00:05:03,710
+to get yourself into trouble because
+
+134
+00:05:03,710 --> 00:05:05,230
+it can download malware
+
+135
+00:05:05,230 --> 00:05:07,500
+or it might just collect
+information from you.
+
+136
+00:05:07,500 --> 00:05:09,420
+Like you click on it says
+we need your user name
+
+137
+00:05:09,420 --> 00:05:11,130
+and password to log into LinkedIn.
+
+138
+00:05:11,130 --> 00:05:12,370
+And they have a website sitting there
+
+139
+00:05:12,370 --> 00:05:14,140
+that looks just like LinkedIn.
+
+140
+00:05:14,140 --> 00:05:15,470
+And when you give them that information
+
+141
+00:05:15,470 --> 00:05:17,200
+they now have your credentials,
+
+142
+00:05:17,200 --> 00:05:20,122
+and they can take advantage
+of that for other attacks.
+
+143
+00:05:20,122 --> 00:05:22,197
+(light music)
+

@@ -1,0 +1,742 @@
+﻿1
+00:00:01,040 --> 00:00:02,670
+- As we move through the seven phases
+
+2
+00:00:02,670 --> 00:00:04,220
+of the software development lifecycle,
+
+3
+00:00:04,220 --> 00:00:05,850
+it's important for not to forget
+
+4
+00:00:05,850 --> 00:00:08,060
+the fundamentals of good security.
+
+5
+00:00:08,060 --> 00:00:09,610
+Our developers should always remember
+
+6
+00:00:09,610 --> 00:00:11,980
+the three tenets of the CIA triad:
+
+7
+00:00:11,980 --> 00:00:15,150
+confidentiality, integrity,
+and availability.
+
+8
+00:00:15,150 --> 00:00:17,160
+Remember, confidentiality ensures that
+
+9
+00:00:17,160 --> 00:00:19,610
+only authorized users can access the data
+
+10
+00:00:19,610 --> 00:00:21,600
+being processed by an application.
+
+11
+00:00:21,600 --> 00:00:23,940
+The most common of
+ensuring confidentiality
+
+12
+00:00:23,940 --> 00:00:25,380
+is to include the use of encryption
+
+13
+00:00:25,380 --> 00:00:28,420
+to maintain the secrecy
+of the data being stored.
+
+14
+00:00:28,420 --> 00:00:30,530
+Integrity is focused on ensuring the data
+
+15
+00:00:30,530 --> 00:00:33,410
+is not modified or altered
+without permission.
+
+16
+00:00:33,410 --> 00:00:35,570
+The two main ways that
+we do this as developers
+
+17
+00:00:35,570 --> 00:00:37,280
+is by utilizing hash algorithms
+
+18
+00:00:37,280 --> 00:00:39,430
+as a method of integrity
+check for the data
+
+19
+00:00:39,430 --> 00:00:41,970
+or by using journaling
+and logging functions
+
+20
+00:00:41,970 --> 00:00:43,640
+to create audit trail showing the
+
+21
+00:00:43,640 --> 00:00:46,470
+integrity of the data
+has not been comprised.
+
+22
+00:00:46,470 --> 00:00:48,940
+When developers are attempting
+to ensure availability,
+
+23
+00:00:48,940 --> 00:00:51,180
+they're focused on ensuring
+that the data is available
+
+24
+00:00:51,180 --> 00:00:53,730
+to authorized users when it's needed.
+
+25
+00:00:53,730 --> 00:00:55,580
+The most common way of
+doing this is by creating
+
+26
+00:00:55,580 --> 00:00:58,170
+redundancy in the overall system design,
+
+27
+00:00:58,170 --> 00:01:00,420
+by ensuring their software
+code is error-free,
+
+28
+00:01:00,420 --> 00:01:02,520
+or by ensuring that their
+software can conduct
+
+29
+00:01:02,520 --> 00:01:05,710
+error handling appropriately
+to prevent crashes.
+
+30
+00:01:05,710 --> 00:01:07,460
+During the testing phase, it's important
+
+31
+00:01:07,460 --> 00:01:09,900
+to conduct an in-depth
+code review to ensure
+
+32
+00:01:09,900 --> 00:01:11,390
+that there are no vulnerabilities
+
+33
+00:01:11,390 --> 00:01:13,810
+that might affect the
+confidentiality, integrity,
+
+34
+00:01:13,810 --> 00:01:17,570
+or availability of the software
+or the integrated system.
+
+35
+00:01:17,570 --> 00:01:19,330
+These code reviews are generally performed
+
+36
+00:01:19,330 --> 00:01:22,510
+by programmers, not by
+security analysts though.
+
+37
+00:01:22,510 --> 00:01:24,260
+On the other hand, security analysts
+
+38
+00:01:24,260 --> 00:01:26,560
+do help during the software
+development lifecycle
+
+39
+00:01:26,560 --> 00:01:28,540
+by conducting threat modeling.
+
+40
+00:01:28,540 --> 00:01:30,840
+Threat modeling helps to
+prioritize vulnerability
+
+41
+00:01:30,840 --> 00:01:34,620
+identification and patching
+throughout the SDLC.
+
+42
+00:01:34,620 --> 00:01:36,560
+By helping to prioritize the threats,
+
+43
+00:01:36,560 --> 00:01:37,910
+the security analysts can help with
+
+44
+00:01:37,910 --> 00:01:40,550
+the identification of
+applications or systems
+
+45
+00:01:40,550 --> 00:01:42,870
+that should receive
+additional protections,
+
+46
+00:01:42,870 --> 00:01:45,070
+which threats are more
+likely to affect them,
+
+47
+00:01:45,070 --> 00:01:48,230
+and which ones have known
+vulnerabilities that exist.
+
+48
+00:01:48,230 --> 00:01:50,580
+Based on this, additional
+effort and funding
+
+49
+00:01:50,580 --> 00:01:52,870
+can be applied in the most efficient way
+
+50
+00:01:52,870 --> 00:01:55,460
+to fix the issues before an attack happens
+
+51
+00:01:55,460 --> 00:01:57,530
+or an attacker can exploit them.
+
+52
+00:01:57,530 --> 00:01:59,810
+After all, there are a
+lot of threats out there
+
+53
+00:01:59,810 --> 00:02:01,920
+and a lot of ways to attack a system
+
+54
+00:02:01,920 --> 00:02:04,850
+if you want to breach an
+area of the CIA triad.
+
+55
+00:02:04,850 --> 00:02:07,290
+To best protect applications,
+we should ensure
+
+56
+00:02:07,290 --> 00:02:09,250
+that good security is programmed in
+
+57
+00:02:09,250 --> 00:02:11,760
+from the beginning back
+during the requirements,
+
+58
+00:02:11,760 --> 00:02:14,400
+analysis, and implementation phases.
+
+59
+00:02:14,400 --> 00:02:16,940
+Numerous studies have proven
+that it's much cheaper
+
+60
+00:02:16,940 --> 00:02:18,860
+to utilize secure coding practices
+
+61
+00:02:18,860 --> 00:02:20,640
+and to conduct more thorough testing
+
+62
+00:02:20,640 --> 00:02:22,920
+before releasing a product than to try
+
+63
+00:02:22,920 --> 00:02:25,870
+to fix insecure code after
+releasing the product,
+
+64
+00:02:25,870 --> 00:02:28,720
+as well as trying to clean up
+from the mess of an attack.
+
+65
+00:02:28,720 --> 00:02:30,210
+What secure coding practices
+
+66
+00:02:30,210 --> 00:02:32,840
+should our programmers
+use during development?
+
+67
+00:02:32,840 --> 00:02:35,450
+First, we should ensure that
+we design our applications
+
+68
+00:02:35,450 --> 00:02:37,550
+with the concept of least privilege.
+
+69
+00:02:37,550 --> 00:02:40,160
+Least privilege means
+that user or processes
+
+70
+00:02:40,160 --> 00:02:42,450
+should be run using the
+least amount of access
+
+71
+00:02:42,450 --> 00:02:45,370
+necessary to perform the given function.
+
+72
+00:02:45,370 --> 00:02:46,670
+Does your application require
+
+73
+00:02:46,670 --> 00:02:48,360
+administrative permissions to run?
+
+74
+00:02:48,360 --> 00:02:50,090
+If so, why?
+
+75
+00:02:50,090 --> 00:02:51,640
+Developers should always try to use
+
+76
+00:02:51,640 --> 00:02:52,780
+the lowest permission level
+
+77
+00:02:52,780 --> 00:02:54,270
+when they're performing a function.
+
+78
+00:02:54,270 --> 00:02:56,820
+So whenever it's possible,
+the program should be run
+
+79
+00:02:56,820 --> 00:02:58,990
+as a user level person instead of an
+
+80
+00:02:58,990 --> 00:03:01,390
+administrator or root level one.
+
+81
+00:03:01,390 --> 00:03:04,300
+The next practice is to
+implement defense in depth.
+
+82
+00:03:04,300 --> 00:03:07,200
+Defense in depth occurs when
+you layer security controls
+
+83
+00:03:07,200 --> 00:03:10,190
+to create a more effective and
+secure application or system
+
+84
+00:03:10,190 --> 00:03:13,410
+than would be possible if you
+relied on a single control.
+
+85
+00:03:13,410 --> 00:03:16,320
+Also, you should never trust user input.
+
+86
+00:03:16,320 --> 00:03:18,230
+Any input that's received from a user
+
+87
+00:03:18,230 --> 00:03:20,380
+should always undergo input validation
+
+88
+00:03:20,380 --> 00:03:23,160
+prior to allowing an
+application to use it.
+
+89
+00:03:23,160 --> 00:03:25,080
+Proper input validation can stop
+
+90
+00:03:25,080 --> 00:03:26,800
+a lot of different types of attack
+
+91
+00:03:26,800 --> 00:03:30,690
+including SQL injections,
+buffer overflows, and more.
+
+92
+00:03:30,690 --> 00:03:33,250
+Next, we want to minimize
+our attack surface
+
+93
+00:03:33,250 --> 00:03:35,170
+in our applications and our systems.
+
+94
+00:03:35,170 --> 00:03:36,820
+This means that we should always reduce
+
+95
+00:03:36,820 --> 00:03:38,920
+the amount of code used by program,
+
+96
+00:03:38,920 --> 00:03:41,040
+we should eliminate
+unneeded functionality,
+
+97
+00:03:41,040 --> 00:03:43,140
+and we should also require authentication
+
+98
+00:03:43,140 --> 00:03:45,810
+prior to running any additional plugins.
+
+99
+00:03:45,810 --> 00:03:48,680
+Developers should also
+create secure defaults.
+
+100
+00:03:48,680 --> 00:03:50,250
+Most of the time, our users are going
+
+101
+00:03:50,250 --> 00:03:52,950
+to accept the default
+installation configurations.
+
+102
+00:03:52,950 --> 00:03:55,440
+This can lead to
+insecurities in our systems.
+
+103
+00:03:55,440 --> 00:03:57,440
+Therefore, developers should always ensure
+
+104
+00:03:57,440 --> 00:04:00,260
+the default installation
+includes secure configurations
+
+105
+00:04:00,260 --> 00:04:03,670
+by default and then requires
+an administrator or a user
+
+106
+00:04:03,670 --> 00:04:05,410
+to lessen those secure defaults
+
+107
+00:04:05,410 --> 00:04:07,430
+if they want to remove the security.
+
+108
+00:04:07,430 --> 00:04:09,840
+Unfortunately though,
+software is often designed
+
+109
+00:04:09,840 --> 00:04:12,150
+the exact opposite to this where they have
+
+110
+00:04:12,150 --> 00:04:14,740
+insecure defaults and then
+it requires an administrator
+
+111
+00:04:14,740 --> 00:04:18,010
+or a user to change them
+to add additional security.
+
+112
+00:04:18,010 --> 00:04:20,460
+Next, whenever you're
+deploying your applications,
+
+113
+00:04:20,460 --> 00:04:22,610
+you should always use
+code signing to ensure
+
+114
+00:04:22,610 --> 00:04:24,550
+that the program has not been changed
+
+115
+00:04:24,550 --> 00:04:27,170
+either inadvertently or maliciously prior
+
+116
+00:04:27,170 --> 00:04:29,500
+to it's delivery to your end users.
+
+117
+00:04:29,500 --> 00:04:32,210
+By using digital signatures
+as part of your code singing,
+
+118
+00:04:32,210 --> 00:04:33,780
+you're enabling the end user to see
+
+119
+00:04:33,780 --> 00:04:35,120
+that the program was authentic
+
+120
+00:04:35,120 --> 00:04:38,280
+and it maintains the integrity
+throughout its lifecycle.
+
+121
+00:04:38,280 --> 00:04:40,640
+Another key principle that
+developers should follow
+
+122
+00:04:40,640 --> 00:04:42,530
+is to ensure their code is developed
+
+123
+00:04:42,530 --> 00:04:44,490
+so that it will fail securely.
+
+124
+00:04:44,490 --> 00:04:48,320
+After all, every application
+is going to fail at some point.
+
+125
+00:04:48,320 --> 00:04:50,480
+By ensuring that your application is coded
+
+126
+00:04:50,480 --> 00:04:53,570
+to properly conduct error-free
+handling exceptions,
+
+127
+00:04:53,570 --> 00:04:55,990
+they can fail securely instead of crashing
+
+128
+00:04:55,990 --> 00:04:58,120
+or being exploited by an attacker.
+
+129
+00:04:58,120 --> 00:05:01,350
+Again, input validation
+here will go a long way
+
+130
+00:05:01,350 --> 00:05:03,830
+in helping your programs fail securely
+
+131
+00:05:03,830 --> 00:05:05,810
+instead of just crashing.
+
+132
+00:05:05,810 --> 00:05:08,590
+Next, we have fix security issues.
+
+133
+00:05:08,590 --> 00:05:10,280
+If the vulnerability is identified,
+
+134
+00:05:10,280 --> 00:05:12,750
+it should quickly be corrected and patched
+
+135
+00:05:12,750 --> 00:05:13,930
+to remove that vulnerability
+
+136
+00:05:13,930 --> 00:05:16,070
+from your application or system.
+
+137
+00:05:16,070 --> 00:05:18,390
+After all, we don't want
+known vulnerabilities
+
+138
+00:05:18,390 --> 00:05:20,480
+to remain in our applications or systems
+
+139
+00:05:20,480 --> 00:05:23,080
+because when they do, this
+means that vulnerability
+
+140
+00:05:23,080 --> 00:05:25,200
+can be found by an attacker as well.
+
+141
+00:05:25,200 --> 00:05:26,380
+Since we know about it,
+
+142
+00:05:26,380 --> 00:05:28,010
+they're going to be able to find it too.
+
+143
+00:05:28,010 --> 00:05:30,060
+Finally, developers should only rely
+
+144
+00:05:30,060 --> 00:05:33,110
+on trusted SDKs and third party libraries.
+
+145
+00:05:33,110 --> 00:05:34,620
+What's an SDK?
+
+146
+00:05:34,620 --> 00:05:37,150
+An SDK is a software development kit
+
+147
+00:05:37,150 --> 00:05:39,330
+and it allows a programmer to reuse code
+
+148
+00:05:39,330 --> 00:05:41,010
+from other programmers in order
+
+149
+00:05:41,010 --> 00:05:42,990
+to save them time and effort.
+
+150
+00:05:42,990 --> 00:05:46,050
+For example, if you're developing
+a new Windows application
+
+151
+00:05:46,050 --> 00:05:48,660
+there's no reason for you
+to code your own function
+
+152
+00:05:48,660 --> 00:05:50,450
+to open a file on the hard drive.
+
+153
+00:05:50,450 --> 00:05:53,460
+This function exists in almost
+every program out there.
+
+154
+00:05:53,460 --> 00:05:55,720
+So, there's a software development toolkit
+
+155
+00:05:55,720 --> 00:05:58,030
+that provides this function
+along with many other
+
+156
+00:05:58,030 --> 00:06:00,290
+file input and output functions.
+
+157
+00:06:00,290 --> 00:06:02,570
+The same holds true for
+third party libraries.
+
+158
+00:06:02,570 --> 00:06:04,290
+We are reusing somebody else's code
+
+159
+00:06:04,290 --> 00:06:06,280
+inside your own applications.
+
+160
+00:06:06,280 --> 00:06:08,560
+Whenever you're utilizing
+somebody else's code,
+
+161
+00:06:08,560 --> 00:06:10,910
+you should ensure it comes
+from a trusted source
+
+162
+00:06:10,910 --> 00:06:13,840
+to ensure that no malicious
+code is being added to it.
+
+163
+00:06:13,840 --> 00:06:15,510
+From my file opening example,
+
+164
+00:06:15,510 --> 00:06:18,130
+I would want to use the
+official Windows SDK
+
+165
+00:06:18,130 --> 00:06:20,760
+or a third party library
+and not some random one
+
+166
+00:06:20,760 --> 00:06:23,386
+that I found on SourceForge or GitHub.
+
+167
+00:06:23,386 --> 00:06:25,412
+(upbeat music)
+

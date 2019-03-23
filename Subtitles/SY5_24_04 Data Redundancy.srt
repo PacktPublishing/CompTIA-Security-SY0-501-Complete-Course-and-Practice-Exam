@@ -1,0 +1,547 @@
+﻿1
+00:00:00,520 --> 00:00:02,980
+- In this lesson, we're going
+to discuss the use of RAIDS
+
+2
+00:00:02,980 --> 00:00:04,900
+to ensure your data redundancy.
+
+3
+00:00:04,900 --> 00:00:06,060
+You first learned about RAIDS
+
+4
+00:00:06,060 --> 00:00:08,250
+all the way back in your A plus studies.
+
+5
+00:00:08,250 --> 00:00:10,440
+If you remember a RAID
+is a redundant array
+
+6
+00:00:10,440 --> 00:00:11,920
+of independent disks
+
+7
+00:00:11,920 --> 00:00:13,170
+which is essentially going to allow you
+
+8
+00:00:13,170 --> 00:00:15,340
+to combine multiple physical hard disks
+
+9
+00:00:15,340 --> 00:00:17,580
+into a single logical hard disk drive
+
+10
+00:00:17,580 --> 00:00:19,650
+inside of the operating system.
+
+11
+00:00:19,650 --> 00:00:21,530
+Now, for the security plus exam
+
+12
+00:00:21,530 --> 00:00:23,580
+you need to know about
+a couple of RAID types
+
+13
+00:00:23,580 --> 00:00:28,323
+including; RAID 0, RAID 1,
+RAID 5, RAID 6 and RAID 10.
+
+14
+00:00:29,240 --> 00:00:32,410
+A RAID 0 provides data
+striping across multiple disks
+
+15
+00:00:32,410 --> 00:00:34,490
+and is used to increase your performance.
+
+16
+00:00:34,490 --> 00:00:36,390
+The key word here is striping.
+
+17
+00:00:36,390 --> 00:00:38,620
+For example, you might use a RAID 0
+
+18
+00:00:38,620 --> 00:00:40,610
+when you need performance,
+but you don't care about
+
+19
+00:00:40,610 --> 00:00:42,960
+fault tolerance, so a
+good example of this is
+
+20
+00:00:42,960 --> 00:00:45,510
+I do a lot of video editing
+and so I really care about
+
+21
+00:00:45,510 --> 00:00:48,150
+performance there as I'm
+editing these raw videos
+
+22
+00:00:48,150 --> 00:00:50,270
+and so by having these two
+drives working together,
+
+23
+00:00:50,270 --> 00:00:51,920
+I can do things much quicker
+
+24
+00:00:51,920 --> 00:00:53,630
+than I could with a single drive.
+
+25
+00:00:53,630 --> 00:00:56,620
+Now to do a RAID 0, you
+do need at least two disks
+
+26
+00:00:56,620 --> 00:00:58,600
+to work in tandem with each other.
+
+27
+00:00:58,600 --> 00:01:00,510
+The next one we have is a RAID 1
+
+28
+00:01:00,510 --> 00:01:02,060
+and this is going to provide redundancy
+
+29
+00:01:02,060 --> 00:01:05,230
+by mirroring the data
+identically to two hard drives.
+
+30
+00:01:05,230 --> 00:01:06,590
+So if one drive fails,
+
+31
+00:01:06,590 --> 00:01:08,080
+the other can continue to operate
+
+32
+00:01:08,080 --> 00:01:11,050
+because it has a full copy of
+everything that was on there.
+
+33
+00:01:11,050 --> 00:01:13,040
+This provides the least amount of downtime
+
+34
+00:01:13,040 --> 00:01:15,150
+because there is always
+that complete copy of data
+
+35
+00:01:15,150 --> 00:01:17,310
+ready at a moment's notice to take over.
+
+36
+00:01:17,310 --> 00:01:19,310
+This provides wonderful fault tolerance,
+
+37
+00:01:19,310 --> 00:01:21,800
+but it can it can only be used
+with two physical hard disks
+
+38
+00:01:21,800 --> 00:01:24,910
+and that provide you with
+one single logical hard disk
+
+39
+00:01:24,910 --> 00:01:26,690
+inside the operating system.
+
+40
+00:01:26,690 --> 00:01:28,490
+A good example of this
+is once I'm finished
+
+41
+00:01:28,490 --> 00:01:29,750
+editing all my videos
+
+42
+00:01:29,750 --> 00:01:31,040
+and I have the final the final product,
+
+43
+00:01:31,040 --> 00:01:32,510
+I want to make sure I don't lose it,
+
+44
+00:01:32,510 --> 00:01:35,060
+so I can actually move
+that over to a RAID 1
+
+45
+00:01:35,060 --> 00:01:37,130
+where I get two identical
+copies of that file
+
+46
+00:01:37,130 --> 00:01:39,220
+one on each of those drives.
+
+47
+00:01:39,220 --> 00:01:41,950
+Now, the next one we're going
+to talk about is a RAID 5.
+
+48
+00:01:41,950 --> 00:01:45,150
+A RAID 5 is known as a
+striping disk with parity.
+
+49
+00:01:45,150 --> 00:01:48,494
+It requires at least three
+physical disk drives to work,
+
+50
+00:01:48,494 --> 00:01:49,327
+and it provides fault tolerance
+
+51
+00:01:49,327 --> 00:01:51,550
+by striping the data across multiple disks
+
+52
+00:01:51,550 --> 00:01:54,420
+and writing parity data
+to the multiple disks too.
+
+53
+00:01:54,420 --> 00:01:57,530
+If one disk fails, the other
+two can reconstruct the data
+
+54
+00:01:57,530 --> 00:02:00,400
+based on the parity and
+they continue to operate.
+
+55
+00:02:00,400 --> 00:02:02,040
+This means that if one
+of those drives fails,
+
+56
+00:02:02,040 --> 00:02:03,150
+I can pull it out,
+
+57
+00:02:03,150 --> 00:02:04,260
+put in a new drive
+
+58
+00:02:04,260 --> 00:02:06,570
+and it will rebuild itself inside the RAID
+
+59
+00:02:06,570 --> 00:02:09,130
+as it keeps moving and operating
+for the rest of the system.
+
+60
+00:02:09,130 --> 00:02:10,650
+Next, we have a RAID 6
+
+61
+00:02:10,650 --> 00:02:13,810
+and a RAID 6 is a
+modified form of a RAID 5.
+
+62
+00:02:13,810 --> 00:02:15,860
+In fact, it's one better than a RAID 5
+
+63
+00:02:15,860 --> 00:02:17,810
+that's why we call it a RAID 6.
+
+64
+00:02:17,810 --> 00:02:20,870
+Now, it's going to use data
+striping across multiple disks
+
+65
+00:02:20,870 --> 00:02:22,350
+just like a RAID 5 did,
+
+66
+00:02:22,350 --> 00:02:24,810
+but instead of having one
+stripe for parity data,
+
+67
+00:02:24,810 --> 00:02:27,770
+it's actually going to have
+two stripes for parity data.
+
+68
+00:02:27,770 --> 00:02:30,030
+This requires another
+disk in the array to work
+
+69
+00:02:30,030 --> 00:02:32,280
+so you need at least four physical disks,
+
+70
+00:02:32,280 --> 00:02:34,930
+but that does provide you
+additional fault tolerance
+
+71
+00:02:34,930 --> 00:02:37,220
+because you can lose up
+to two of these four disks
+
+72
+00:02:37,220 --> 00:02:39,850
+and the RAID will still
+continue to function.
+
+73
+00:02:39,850 --> 00:02:42,920
+The last RAID we have
+is known as a RAID 1 0
+
+74
+00:02:42,920 --> 00:02:45,110
+which is written as RAID 10.
+
+75
+00:02:45,110 --> 00:02:48,260
+This combines the advantages
+of a RAID 1 and a RAID 0
+
+76
+00:02:48,260 --> 00:02:51,400
+because one plus zero equals 10.
+
+77
+00:02:51,400 --> 00:02:54,480
+This requires four physical
+disks just like a RAID 6
+
+78
+00:02:54,480 --> 00:02:56,340
+and it's going to provide
+you with a redundant mirror
+
+79
+00:02:56,340 --> 00:02:59,140
+of striped drives and
+its fully fault tolerant.
+
+80
+00:02:59,140 --> 00:03:01,260
+This gives us all the speed of a RAID 0
+
+81
+00:03:01,260 --> 00:03:03,920
+by splitting up the load
+across two sets of RAIDs,
+
+82
+00:03:03,920 --> 00:03:06,670
+but it also gives us the
+full redundancy of a RAID 1
+
+83
+00:03:06,670 --> 00:03:09,030
+by having those two RAID 1 in there.
+
+84
+00:03:09,030 --> 00:03:12,000
+Now, this all works as
+one combined logical drive
+
+85
+00:03:12,000 --> 00:03:13,980
+even though it uses those four drives
+
+86
+00:03:13,980 --> 00:03:16,100
+split up into two pairs of two.
+
+87
+00:03:16,100 --> 00:03:19,270
+So, when we think of RAIDs,
+they can be categorized as;
+
+88
+00:03:19,270 --> 00:03:22,600
+failure resistant, fault-tolerant
+and disaster-tolerant.
+
+89
+00:03:22,600 --> 00:03:24,830
+These are our three categories for RAIDs.
+
+90
+00:03:24,830 --> 00:03:26,700
+Now, if you have a failure-resistant RAID,
+
+91
+00:03:26,700 --> 00:03:29,530
+that's going to be something
+like a RAID 1 or a RAID 5 because
+
+92
+00:03:29,530 --> 00:03:31,880
+it's going to protect against
+the loss of the array's data
+
+93
+00:03:31,880 --> 00:03:34,210
+if a single disk fails inside of it.
+
+94
+00:03:34,210 --> 00:03:36,260
+Now, we talk about
+fault-tolerant disk systems,
+
+95
+00:03:36,260 --> 00:03:38,750
+this will be something like
+a RAID 1 or a RAID 5 again,
+
+96
+00:03:38,750 --> 00:03:42,360
+or even RAID 6, because even
+if a single component fails
+
+97
+00:03:42,360 --> 00:03:45,200
+one of those drives or even
+one of the cards inside of it,
+
+98
+00:03:45,200 --> 00:03:48,220
+then that RAID can continue
+to function properly.
+
+99
+00:03:48,220 --> 00:03:50,960
+Now, our final category is
+known as disaster-tolerant,
+
+100
+00:03:50,960 --> 00:03:53,240
+and so if we call a
+RAID disaster-tolerant,
+
+101
+00:03:53,240 --> 00:03:55,540
+this means that the RAIDs
+has two independent zones
+
+102
+00:03:55,540 --> 00:03:58,200
+with full access to the data at all times.
+
+103
+00:03:58,200 --> 00:04:01,640
+A RAID 10 is a good example
+of a disaster-tolerant RAID,
+
+104
+00:04:01,640 --> 00:04:03,800
+but so is a RAID 01.
+
+105
+00:04:03,800 --> 00:04:05,750
+A RAID 01? What's that?
+
+106
+00:04:05,750 --> 00:04:07,890
+Well, if I create this RAID 01,
+
+107
+00:04:07,890 --> 00:04:09,290
+I'm going to have a striped array
+
+108
+00:04:09,290 --> 00:04:12,640
+made up of two mirrored
+RAID 1, and by doing this,
+
+109
+00:04:12,640 --> 00:04:14,410
+I could lose either half of the array
+
+110
+00:04:14,410 --> 00:04:17,210
+and one of those RAID 1 are
+going to still function,
+
+111
+00:04:17,210 --> 00:04:19,520
+and that means the system is
+still going to keep functioning
+
+112
+00:04:19,520 --> 00:04:21,250
+and is going to make it disaster-tolerant
+
+113
+00:04:21,250 --> 00:04:23,010
+because I have a full copy of that data
+
+114
+00:04:23,010 --> 00:04:25,170
+ready to go at all times.
+
+115
+00:04:25,170 --> 00:04:27,110
+Now RAIDs are a great thing to use
+
+116
+00:04:27,110 --> 00:04:29,080
+when you're trying to
+ensure you good redundancy
+
+117
+00:04:29,080 --> 00:04:32,570
+of your data, online and
+available at all times.
+
+118
+00:04:32,570 --> 00:04:34,460
+This helps increase our
+availability portion
+
+119
+00:04:34,460 --> 00:04:37,450
+of the CIA triad, and it
+helps us when we're designing
+
+120
+00:04:37,450 --> 00:04:39,808
+a high availability system.
+
+121
+00:04:39,808 --> 00:04:42,115
+(soft music)
+

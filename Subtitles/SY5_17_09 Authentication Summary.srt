@@ -1,0 +1,205 @@
+﻿1
+00:00:00,590 --> 00:00:01,870
+- Now, I know that we've covered
+
+2
+00:00:01,870 --> 00:00:03,330
+a lot of different technologies
+
+3
+00:00:03,330 --> 00:00:04,470
+in this section of the course
+
+4
+00:00:04,470 --> 00:00:06,190
+as we discussed authentication.
+
+5
+00:00:06,190 --> 00:00:09,140
+So I wanted to do a quick
+summarization for you.
+
+6
+00:00:09,140 --> 00:00:11,020
+This is a down and dirty summary
+
+7
+00:00:11,020 --> 00:00:12,560
+with only one to two sentences
+
+8
+00:00:12,560 --> 00:00:14,640
+per topic of the information we covered
+
+9
+00:00:14,640 --> 00:00:16,620
+and this is the stuff
+that's most pertinent
+
+10
+00:00:16,620 --> 00:00:19,200
+and most likely to be seen on exam day.
+
+11
+00:00:19,200 --> 00:00:23,070
+First, 802.1x is an IEEE
+standard that defines
+
+12
+00:00:23,070 --> 00:00:26,295
+Port-Based Network Access Control or PNAC.
+
+13
+00:00:26,295 --> 00:00:29,820
+802.1x is a data link layer
+authentication technology
+
+14
+00:00:29,820 --> 00:00:33,110
+that's used to connect devices
+to a wired or wireless LAN.
+
+15
+00:00:33,110 --> 00:00:36,400
+Also, it defines the EAP protocol.
+
+16
+00:00:36,400 --> 00:00:40,280
+Second, LDAP is the light weight
+directory access protocol.
+
+17
+00:00:40,280 --> 00:00:42,800
+It's an application layer
+protocol for accessing
+
+18
+00:00:42,800 --> 00:00:45,380
+and modifying directory services data.
+
+19
+00:00:45,380 --> 00:00:47,963
+Microsoft's Active Directory uses LDAP.
+
+20
+00:00:48,850 --> 00:00:51,640
+Third, Kerberos is an
+authentication protocol
+
+21
+00:00:51,640 --> 00:00:53,830
+that's used in Windows to identify clients
+
+22
+00:00:53,830 --> 00:00:56,320
+to a server using mutual authentication.
+
+23
+00:00:56,320 --> 00:01:00,280
+In Windows, this in implemented
+through a series of tickets.
+
+24
+00:01:00,280 --> 00:01:03,400
+Fourth, Remote Access Services or RAS
+
+25
+00:01:03,400 --> 00:01:05,080
+is a service that enables dial-up
+
+26
+00:01:05,080 --> 00:01:08,063
+and VPN connections to
+occur from remote clients.
+
+27
+00:01:09,320 --> 00:01:12,350
+Next, the Challenge
+Handshake Protocol or CHAP
+
+28
+00:01:12,350 --> 00:01:13,890
+is an authentication scheme
+
+29
+00:01:13,890 --> 00:01:16,670
+that's used for standard
+dial-up connections.
+
+30
+00:01:16,670 --> 00:01:19,870
+Next, RADIUS is a centralized
+administration system
+
+31
+00:01:19,870 --> 00:01:23,130
+for dial-up, VPN and
+wireless authentication.
+
+32
+00:01:23,130 --> 00:01:25,047
+It's going to use 1812 and 1813
+
+33
+00:01:25,995 --> 00:01:27,095
+or ports 1645 and 1646
+
+34
+00:01:29,220 --> 00:01:32,250
+using UDP for it's transport mechanism.
+
+35
+00:01:32,250 --> 00:01:35,623
+RADIUS is used with 802.1x and EAP.
+
+36
+00:01:36,480 --> 00:01:38,500
+Finally, TACACS+.
+
+37
+00:01:38,500 --> 00:01:42,330
+TACACS+ is a Cisco proprietary
+remote authentication system
+
+38
+00:01:42,330 --> 00:01:44,010
+that provides separate authentication
+
+39
+00:01:44,010 --> 00:01:46,710
+and authorization functions using port 49
+
+40
+00:01:46,710 --> 00:01:48,586
+over a TCP connection.
+
+41
+00:01:48,586 --> 00:01:50,530
+TACACS+ is similar to RADIUS,
+
+42
+00:01:50,530 --> 00:01:53,380
+but it is not considered cross platform.
+
+43
+00:01:53,380 --> 00:01:55,800
+Once again, this was a very short lesson.
+
+44
+00:01:55,800 --> 00:01:57,270
+I just wanted to cover the highlights
+
+45
+00:01:57,270 --> 00:01:59,046
+from this entire section of the course
+
+46
+00:01:59,046 --> 00:02:01,580
+to make sure that you didn't
+miss any of the key points
+
+47
+00:02:01,580 --> 00:02:03,833
+and key takeaways that
+you need for the exam.
+

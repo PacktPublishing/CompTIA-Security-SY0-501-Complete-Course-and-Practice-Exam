@@ -1,0 +1,455 @@
+﻿1
+00:00:00,610 --> 00:00:01,820
+- During an incident response,
+
+2
+00:00:01,820 --> 00:00:04,360
+we often need to collect
+evidence of that cyber attack
+
+3
+00:00:04,360 --> 00:00:05,940
+for further analysis.
+
+4
+00:00:05,940 --> 00:00:08,130
+For example, if your main
+server's been infected
+
+5
+00:00:08,130 --> 00:00:10,350
+with some kind of malware
+as part of an attack,
+
+6
+00:00:10,350 --> 00:00:11,760
+you'd want to get that cleared up
+
+7
+00:00:11,760 --> 00:00:14,470
+and get that server back
+online as quickly as possible
+
+8
+00:00:14,470 --> 00:00:16,820
+to minimize the disruption
+to your operations.
+
+9
+00:00:16,820 --> 00:00:18,880
+But, if you do that, you may erase
+
+10
+00:00:18,880 --> 00:00:20,240
+the evidence of the attack,
+
+11
+00:00:20,240 --> 00:00:22,980
+and that would make it impossible
+to figure out who did it.
+
+12
+00:00:22,980 --> 00:00:24,390
+Now to overcome this challenge,
+
+13
+00:00:24,390 --> 00:00:26,810
+we often use digital forensic
+collection techniques
+
+14
+00:00:26,810 --> 00:00:29,590
+to make forensic images of
+the data on those servers
+
+15
+00:00:29,590 --> 00:00:31,970
+and we use that as evidence
+for later analysis.
+
+16
+00:00:31,970 --> 00:00:34,210
+By doing that, it allows
+your incident response team
+
+17
+00:00:34,210 --> 00:00:36,060
+to help get your server back online
+
+18
+00:00:36,060 --> 00:00:38,400
+as quickly as possible
+and resume operations,
+
+19
+00:00:38,400 --> 00:00:40,740
+but also maintain that evidence.
+
+20
+00:00:40,740 --> 00:00:43,170
+Now, your incident response
+team may need that evidence
+
+21
+00:00:43,170 --> 00:00:45,030
+because they may be working
+with law enforcement.
+
+22
+00:00:45,030 --> 00:00:46,480
+And if you're doing that, you're probably
+
+23
+00:00:46,480 --> 00:00:48,100
+trying to seek criminal prosecution
+
+24
+00:00:48,100 --> 00:00:50,410
+for the attacker who
+broke into your systems.
+
+25
+00:00:50,410 --> 00:00:51,920
+Now as part of your data collection
+
+26
+00:00:51,920 --> 00:00:53,350
+and evidence collection efforts,
+
+27
+00:00:53,350 --> 00:00:55,060
+you're going to do a
+lot of different things.
+
+28
+00:00:55,060 --> 00:00:56,830
+For example, you're
+going to capture and hash
+
+29
+00:00:56,830 --> 00:00:58,010
+the system images.
+
+30
+00:00:58,010 --> 00:01:00,470
+This means you're going to
+use a tool like FTK Imager
+
+31
+00:01:00,470 --> 00:01:03,200
+to make an exact copy of
+that server's hard drive
+
+32
+00:01:03,200 --> 00:01:05,290
+and then hash it to make
+sure it doesn't change
+
+33
+00:01:05,290 --> 00:01:06,890
+while you're analyzing it.
+
+34
+00:01:06,890 --> 00:01:09,100
+Then, you're going to analyze
+the data you collected
+
+35
+00:01:09,100 --> 00:01:10,430
+using software tools.
+
+36
+00:01:10,430 --> 00:01:11,530
+You're going to use forensic tools,
+
+37
+00:01:11,530 --> 00:01:14,705
+things like FTK, the
+Forensic Toolkit, or EnCase.
+
+38
+00:01:14,705 --> 00:01:17,120
+Then, you're going to have
+to capture screenshots
+
+39
+00:01:17,120 --> 00:01:17,953
+of the machine.
+
+40
+00:01:17,953 --> 00:01:19,380
+What was the machine looking like
+
+41
+00:01:19,380 --> 00:01:20,880
+when you arrived on the scene?
+
+42
+00:01:20,880 --> 00:01:22,310
+You want to capture pictures of that
+
+43
+00:01:22,310 --> 00:01:24,010
+so you know exactly what it looked like.
+
+44
+00:01:24,010 --> 00:01:25,140
+You might go back and look at
+
+45
+00:01:25,140 --> 00:01:26,940
+your network traffic logs and captures
+
+46
+00:01:26,940 --> 00:01:28,010
+and go and review all that
+
+47
+00:01:28,010 --> 00:01:29,860
+and see how they moved
+throughout the network
+
+48
+00:01:29,860 --> 00:01:31,790
+as you're trying to trace back the attack.
+
+49
+00:01:31,790 --> 00:01:33,960
+If you think somebody was
+physically on your property,
+
+50
+00:01:33,960 --> 00:01:35,110
+you may want to capture video
+
+51
+00:01:35,110 --> 00:01:37,130
+from the closed circuit TV system.
+
+52
+00:01:37,130 --> 00:01:39,000
+As you're collecting all
+this data and evidence,
+
+53
+00:01:39,000 --> 00:01:41,200
+you want to consider
+the order of volatility,
+
+54
+00:01:41,200 --> 00:01:43,130
+which means which order does things
+
+55
+00:01:43,130 --> 00:01:45,120
+get modified by quickest?
+
+56
+00:01:45,120 --> 00:01:46,560
+The quickest thing that gets modified
+
+57
+00:01:46,560 --> 00:01:48,700
+is the cache inside the processor.
+
+58
+00:01:48,700 --> 00:01:51,030
+Then the memory, then the swap files,
+
+59
+00:01:51,030 --> 00:01:52,280
+then the hard drives, right?
+
+60
+00:01:52,280 --> 00:01:55,020
+And you think about which one
+is going to get changed first.
+
+61
+00:01:55,020 --> 00:01:56,620
+When you do that you
+have to collect things
+
+62
+00:01:56,620 --> 00:01:58,260
+based on that order as well.
+
+63
+00:01:58,260 --> 00:01:59,700
+And anything on the victim machine
+
+64
+00:01:59,700 --> 00:02:02,570
+can be modified if there's a
+bad guy on that machine, right?
+
+65
+00:02:02,570 --> 00:02:05,170
+And so we want to collect the
+evidence as quickly as possible.
+
+66
+00:02:05,170 --> 00:02:06,390
+Then, we want to take statements
+
+67
+00:02:06,390 --> 00:02:07,840
+from witnesses and administrators.
+
+68
+00:02:07,840 --> 00:02:08,740
+What did they see?
+
+69
+00:02:08,740 --> 00:02:10,580
+What made them think
+there was an incident?
+
+70
+00:02:10,580 --> 00:02:11,610
+Maybe there was somebody who said,
+
+71
+00:02:11,610 --> 00:02:12,960
+hey, my computer all of a sudden,
+
+72
+00:02:12,960 --> 00:02:14,910
+the mouse started jumping
+all over the screen.
+
+73
+00:02:14,910 --> 00:02:16,830
+That's something you need to
+collect the information from
+
+74
+00:02:16,830 --> 00:02:18,367
+and figure out why it did that.
+
+75
+00:02:18,367 --> 00:02:21,020
+Then, we want to review our
+licensing and documentation,
+
+76
+00:02:21,020 --> 00:02:23,040
+and figure out do we
+have the proper license
+
+77
+00:02:23,040 --> 00:02:24,290
+for all of our systems?
+
+78
+00:02:24,290 --> 00:02:25,680
+And do we understand how they work,
+
+79
+00:02:25,680 --> 00:02:27,520
+and are they working the
+way they were designed
+
+80
+00:02:27,520 --> 00:02:29,020
+based on the documentation?
+
+81
+00:02:29,020 --> 00:02:31,260
+And then of course we're
+going to track our man hours
+
+82
+00:02:31,260 --> 00:02:32,482
+and our expenses, because at the end
+
+83
+00:02:32,482 --> 00:02:33,970
+of this incident response,
+
+84
+00:02:33,970 --> 00:02:36,680
+someone's going to say
+how much did it cost us.
+
+85
+00:02:36,680 --> 00:02:39,010
+And if you look at most
+data breeches in the U.S.,
+
+86
+00:02:39,010 --> 00:02:41,350
+large companies are suffering millions
+
+87
+00:02:41,350 --> 00:02:43,200
+and millions of dollars of losses
+
+88
+00:02:43,200 --> 00:02:45,200
+in the cost of these data breeches,
+
+89
+00:02:45,200 --> 00:02:46,840
+both in the response efforts to it
+
+90
+00:02:46,840 --> 00:02:49,410
+as well as the value of
+the data that's lost.
+
+91
+00:02:49,410 --> 00:02:51,290
+Now, in the next lesson,
+I'm going to show you
+
+92
+00:02:51,290 --> 00:02:53,350
+how a forensic disc
+image is actually created
+
+93
+00:02:53,350 --> 00:02:54,880
+during an incident response.
+
+94
+00:02:54,880 --> 00:02:57,330
+For the security plus exam,
+no one is going to ask you
+
+95
+00:02:57,330 --> 00:02:58,830
+to conduct this operation.
+
+96
+00:02:58,830 --> 00:03:01,360
+But, it's going to give you
+a taste of digital forensics
+
+97
+00:03:01,360 --> 00:03:02,530
+and see if the idea of being a
+
+98
+00:03:02,530 --> 00:03:04,880
+digital forensics examiner interests you.
+
+99
+00:03:04,880 --> 00:03:06,870
+If it does, you may want
+to download and play
+
+100
+00:03:06,870 --> 00:03:09,130
+with some forensic tools
+like Forensic Toolkit,
+
+101
+00:03:09,130 --> 00:03:12,017
+I'm going to use in the
+next lesson, or EnCase.
+
+102
+00:03:12,017 --> 00:03:14,319
+(upbeat music)
+

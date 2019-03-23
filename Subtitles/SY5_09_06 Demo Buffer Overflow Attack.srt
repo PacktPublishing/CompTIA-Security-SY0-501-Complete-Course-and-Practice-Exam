@@ -1,0 +1,699 @@
+﻿1
+00:00:00,310 --> 00:00:02,300
+- [Instructor] In this
+demonstration I'm going to show you
+
+2
+00:00:02,300 --> 00:00:05,330
+how a Buffer Overflow Attack is conducted.
+
+3
+00:00:05,330 --> 00:00:06,840
+Now, I'm going to do this by using
+
+4
+00:00:06,840 --> 00:00:09,190
+a simple program that's written here.
+
+5
+00:00:09,190 --> 00:00:12,240
+This program is called Narnia 0.C.
+
+6
+00:00:12,240 --> 00:00:14,000
+This tells me that the program was written
+
+7
+00:00:14,000 --> 00:00:16,100
+in the C programming language.
+
+8
+00:00:16,100 --> 00:00:18,210
+You can see it displayed
+here on the screen.
+
+9
+00:00:18,210 --> 00:00:20,470
+Now you don't have to be
+an expert in the C language
+
+10
+00:00:20,470 --> 00:00:22,500
+to understand what this
+program is doing, though.
+
+11
+00:00:22,500 --> 00:00:24,450
+I'm going to walk you
+through it step by step.
+
+12
+00:00:24,450 --> 00:00:26,380
+And then I'm going to
+show you how we throw this
+
+13
+00:00:26,380 --> 00:00:29,880
+Buffer Overflow Attack
+too exploit this program.
+
+14
+00:00:29,880 --> 00:00:31,530
+Now the first thing that we
+can see is that there are
+
+15
+00:00:31,530 --> 00:00:34,210
+two statements that start
+with the word include.
+
+16
+00:00:34,210 --> 00:00:36,040
+This is just saying that
+were going to include
+
+17
+00:00:36,040 --> 00:00:37,890
+these third-party libraries.
+
+18
+00:00:37,890 --> 00:00:40,130
+The standard input output library,
+
+19
+00:00:40,130 --> 00:00:42,203
+and the standard library itself.
+
+20
+00:00:43,100 --> 00:00:45,000
+After those two include statements
+
+21
+00:00:45,000 --> 00:00:47,610
+we get the main part of this program.
+
+22
+00:00:47,610 --> 00:00:49,380
+This is called Main.
+
+23
+00:00:49,380 --> 00:00:51,980
+If you see the first thing,
+we have a long variable.
+
+24
+00:00:51,980 --> 00:00:53,989
+And that value is 0x
+
+25
+00:00:53,989 --> 00:00:57,300
+four one, four one, four one, four one.
+
+26
+00:00:57,300 --> 00:00:59,660
+Followed by that, we
+have a character array
+
+27
+00:00:59,660 --> 00:01:03,570
+being set up called Buffer,
+that is 20 items long.
+
+28
+00:01:03,570 --> 00:01:06,020
+This means that the buffer can only hold
+
+29
+00:01:06,020 --> 00:01:09,520
+20 pieces of information, or
+20 characters, in this case.
+
+30
+00:01:09,520 --> 00:01:11,570
+Next we have the print F statement.
+
+31
+00:01:11,570 --> 00:01:12,810
+Which basically says
+
+32
+00:01:12,810 --> 00:01:15,440
+put everything in between
+the quotes onto the screen
+
+33
+00:01:15,440 --> 00:01:17,350
+when you run this program.
+
+34
+00:01:17,350 --> 00:01:20,790
+Then, if it goes and asks you
+here is your chance to try it.
+
+35
+00:01:20,790 --> 00:01:22,690
+And then it asks by scanning
+
+36
+00:01:22,690 --> 00:01:24,540
+what the input is from the keyboard.
+
+37
+00:01:24,540 --> 00:01:27,740
+And that input is going to
+be stored into the buffer.
+
+38
+00:01:27,740 --> 00:01:29,890
+Once you've inputted what
+you want to the buffer,
+
+39
+00:01:29,890 --> 00:01:31,650
+it's going to print out the two variables.
+
+40
+00:01:31,650 --> 00:01:35,080
+What's stored in buffer,
+and what's stored in value.
+
+41
+00:01:35,080 --> 00:01:37,590
+After displaying both
+variables to the screen
+
+42
+00:01:37,590 --> 00:01:40,130
+it's going to see what the value was.
+
+43
+00:01:40,130 --> 00:01:43,500
+If the value equals 0x DEADBEEF,
+
+44
+00:01:43,500 --> 00:01:45,290
+meaning we've overflowed the buffer
+
+45
+00:01:45,290 --> 00:01:47,630
+with the characters that make up DEADBEEF
+
+46
+00:01:47,630 --> 00:01:50,270
+then the system will
+give you a shell prompt.
+
+47
+00:01:50,270 --> 00:01:52,890
+Which means you're going to
+have access to that system
+
+48
+00:01:52,890 --> 00:01:55,550
+to conduct any kind of programs you want.
+
+49
+00:01:55,550 --> 00:01:57,945
+If not, it's going to say way off
+
+50
+00:01:57,945 --> 00:01:59,690
+and it's going to exit the program.
+
+51
+00:01:59,690 --> 00:02:01,570
+And you'll have to try again.
+
+52
+00:02:01,570 --> 00:02:03,780
+So now that we've walked
+through that program a bit
+
+53
+00:02:03,780 --> 00:02:06,120
+let's go ahead and run
+it and see how it works.
+
+54
+00:02:06,120 --> 00:02:09,240
+First we'll type in ./narnia0
+
+55
+00:02:09,240 --> 00:02:13,168
+which simply tells a computer
+to run the program Narnia0.
+
+56
+00:02:13,168 --> 00:02:15,040
+When I hit enter you'll
+see that it brings up
+
+57
+00:02:15,040 --> 00:02:16,760
+the correct value is from
+
+58
+00:02:16,760 --> 00:02:19,763
+41, 41, 41, 41 to DEADBEEF.
+
+59
+00:02:20,780 --> 00:02:24,110
+Here is your chance, and it's
+asking you to input something.
+
+60
+00:02:24,110 --> 00:02:26,420
+So now I need to input my guess.
+
+61
+00:02:26,420 --> 00:02:29,190
+What I'm going to do, is
+I'm going to put in 20 A's
+
+62
+00:02:29,190 --> 00:02:30,900
+and four B's.
+
+63
+00:02:30,900 --> 00:02:33,640
+The buffer, if you remember,
+was only 20 characters long.
+
+64
+00:02:33,640 --> 00:02:34,970
+So what I'm really trying to do here
+
+65
+00:02:34,970 --> 00:02:37,120
+is fill up that 20 character buffer
+
+66
+00:02:37,120 --> 00:02:38,360
+using all of the A's,
+
+67
+00:02:38,360 --> 00:02:41,050
+and those four B's are going to overflow
+
+68
+00:02:41,050 --> 00:02:43,820
+into the value of the variable val.
+
+69
+00:02:43,820 --> 00:02:46,570
+So instead of having four one,
+four one, four one, four one
+
+70
+00:02:46,570 --> 00:02:49,770
+I'm going to have the
+hex value of those 4 B's.
+
+71
+00:02:49,770 --> 00:02:52,860
+And when I do that you'll see
+that the buffer is now flowing
+
+72
+00:02:52,860 --> 00:02:54,890
+with all of those A's, and those four B's
+
+73
+00:02:54,890 --> 00:02:56,780
+and the value has changed
+
+74
+00:02:56,780 --> 00:02:59,290
+from four one, four
+one, four one, four one,
+
+75
+00:02:59,290 --> 00:03:01,660
+to four two, four two, four two, four two.
+
+76
+00:03:01,660 --> 00:03:06,290
+And four two, is the hex
+representation of the letter B.
+
+77
+00:03:06,290 --> 00:03:08,060
+So now at this point
+I'm going to go through
+
+78
+00:03:08,060 --> 00:03:10,510
+and try to write a short python script
+
+79
+00:03:10,510 --> 00:03:12,870
+that will put 20 A's followed by some
+
+80
+00:03:12,870 --> 00:03:14,850
+hexadecimal characters that I want.
+
+81
+00:03:14,850 --> 00:03:17,450
+In this case I want the hexadecimal value
+
+82
+00:03:17,450 --> 00:03:19,536
+to show up as DEADBEEF.
+
+83
+00:03:19,536 --> 00:03:22,150
+D-E-A-D-B-E-E-F.
+
+84
+00:03:22,150 --> 00:03:24,940
+Now, those are characters that
+make up a word in this case
+
+85
+00:03:24,940 --> 00:03:27,150
+but actually they're
+just hexadecimal digits.
+
+86
+00:03:27,150 --> 00:03:30,523
+Where the D stands for
+13, the E stands for 14,
+
+87
+00:03:30,523 --> 00:03:33,750
+the A stands for 10, et cetera.
+
+88
+00:03:33,750 --> 00:03:35,010
+So what we're going to do is
+
+89
+00:03:35,010 --> 00:03:37,070
+we're going to have to do
+this a little bit backwards,
+
+90
+00:03:37,070 --> 00:03:39,970
+and the reason is because
+this machine is going to use
+
+91
+00:03:39,970 --> 00:03:42,570
+last in, first out architecture
+
+92
+00:03:42,570 --> 00:03:44,060
+when I'm trying to attack it.
+
+93
+00:03:44,060 --> 00:03:48,667
+So in this case I'm going to use /ef, /be,
+
+94
+00:03:48,667 --> 00:03:51,620
+/ad, /de
+
+95
+00:03:51,620 --> 00:03:53,130
+which when combined back together
+
+96
+00:03:53,130 --> 00:03:55,460
+will give me DEADBEEF like I want.
+
+97
+00:03:55,460 --> 00:04:00,460
+And I'm going to pipe that output
+into the Narnia 0.C program.
+
+98
+00:04:00,700 --> 00:04:03,290
+So when I hit enter, it's
+going to run that program
+
+99
+00:04:03,290 --> 00:04:06,350
+and feed that information from
+the python script into it.
+
+100
+00:04:06,350 --> 00:04:08,870
+In this case, the buffer
+is now overwritten
+
+101
+00:04:08,870 --> 00:04:10,650
+with those 20 A's,
+
+102
+00:04:10,650 --> 00:04:13,900
+and the four hexadecimal
+characters that I've added.
+
+103
+00:04:13,900 --> 00:04:16,210
+And you can see that the variable val
+
+104
+00:04:16,210 --> 00:04:17,660
+has now been overwritten
+
+105
+00:04:17,660 --> 00:04:20,580
+with the value of 0x DEADBEEF.
+
+106
+00:04:20,580 --> 00:04:22,950
+This was the solution we
+wanted in the problem.
+
+107
+00:04:22,950 --> 00:04:26,140
+But, all it did was return
+us back to the Narnia prompt.
+
+108
+00:04:26,140 --> 00:04:29,460
+That's because what the
+program did was run itself
+
+109
+00:04:29,460 --> 00:04:30,770
+and execute a shell.
+
+110
+00:04:30,770 --> 00:04:33,320
+But I was already in
+the shell environment.
+
+111
+00:04:33,320 --> 00:04:35,980
+If I was doing a Buffer
+Overflow Attack like this,
+
+112
+00:04:35,980 --> 00:04:38,510
+I can have it run any program I want.
+
+113
+00:04:38,510 --> 00:04:40,970
+And so to do that and
+display that for you,
+
+114
+00:04:40,970 --> 00:04:42,798
+I'm going to go through,
+and actually change
+
+115
+00:04:42,798 --> 00:04:45,270
+my python script just a bit here.
+
+116
+00:04:45,270 --> 00:04:47,650
+So I'm going to run my
+python script again,
+
+117
+00:04:47,650 --> 00:04:49,300
+but I'm going to add a little bit to it.
+
+118
+00:04:49,300 --> 00:04:51,250
+So I'm going to bring it
+up like I had last time
+
+119
+00:04:51,250 --> 00:04:53,380
+and I'm going to add a
+semicolon, which means
+
+120
+00:04:53,380 --> 00:04:55,160
+once you've finished do that command
+
+121
+00:04:55,160 --> 00:04:56,700
+do this next command.
+
+122
+00:04:56,700 --> 00:04:58,940
+And so what I'm going to do here is echo,
+
+123
+00:04:58,940 --> 00:05:01,010
+and then the program cat,
+
+124
+00:05:01,010 --> 00:05:03,290
+and I want you to show me the file
+
+125
+00:05:03,290 --> 00:05:06,730
+Narnia one, inside the
+Naria paths directory.
+
+126
+00:05:06,730 --> 00:05:08,880
+Ideally this would be
+something like a password file.
+
+127
+00:05:08,880 --> 00:05:11,620
+Like an etc shadow file,
+or something like that.
+
+128
+00:05:11,620 --> 00:05:13,730
+And then I'm going to
+go ahead and run that.
+
+129
+00:05:13,730 --> 00:05:15,660
+Now let's see what happens.
+
+130
+00:05:15,660 --> 00:05:18,460
+In this case we see
+that the DEADBEEF value
+
+131
+00:05:18,460 --> 00:05:20,310
+is written to the value.
+
+132
+00:05:20,310 --> 00:05:23,400
+But then when it goes to
+execute that shell command
+
+133
+00:05:23,400 --> 00:05:25,700
+it was passed the command that I gave it.
+
+134
+00:05:25,700 --> 00:05:28,497
+The cat/etc/narnia_pass/narnia1.
+
+135
+00:05:29,800 --> 00:05:33,280
+And so what I get the
+value shown in that file.
+
+136
+00:05:33,280 --> 00:05:38,280
+In this case that e-f-e-i-d-i-e-d-a-e.
+
+137
+00:05:38,670 --> 00:05:41,010
+Now this is just a very simplistic example
+
+138
+00:05:41,010 --> 00:05:42,720
+of a Buffer Overflow Attack.
+
+139
+00:05:42,720 --> 00:05:44,350
+If you didn't understand all of the things
+
+140
+00:05:44,350 --> 00:05:46,427
+that I went through in
+this video, that's okay.
+
+141
+00:05:46,427 --> 00:05:49,800
+This is way beyond the
+scope of Security Plus.
+
+142
+00:05:49,800 --> 00:05:52,330
+But I wanted to show you
+what a Buffer Overflow Attack
+
+143
+00:05:52,330 --> 00:05:55,560
+really looks like when a hacker
+is doing this type of thing.
+
+144
+00:05:55,560 --> 00:05:57,800
+This is a sample for our lab environment,
+
+145
+00:05:57,800 --> 00:06:00,420
+but I just wanted to give
+you an idea of what happens.
+
+146
+00:06:00,420 --> 00:06:02,230
+And the big take away here is that
+
+147
+00:06:02,230 --> 00:06:04,060
+we overflowed the memory buffer,
+
+148
+00:06:04,060 --> 00:06:06,200
+so that whatever was put in after
+
+149
+00:06:06,200 --> 00:06:08,750
+went and overwrote the
+next value in memory.
+
+150
+00:06:08,750 --> 00:06:11,240
+In our case, then val variable.
+
+151
+00:06:11,240 --> 00:06:15,310
+By doing that we are then
+able to run other programs,
+
+152
+00:06:15,310 --> 00:06:18,050
+by getting into a command
+shell or other things.
+
+153
+00:06:18,050 --> 00:06:19,410
+Whatever command that's going to be run
+
+154
+00:06:19,410 --> 00:06:21,460
+is going to depend on
+the exploit you're using.
+
+155
+00:06:21,460 --> 00:06:23,370
+But that initial buffer overflow is what
+
+156
+00:06:23,370 --> 00:06:25,647
+allows you to put that into memory.
+
+157
+00:06:25,647 --> 00:06:28,563
+(frenzied electronic music)
+

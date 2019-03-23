@@ -1,0 +1,248 @@
+﻿1
+00:00:01,200 --> 00:00:03,170
+- User Account Control.
+
+2
+00:00:03,170 --> 00:00:05,330
+I mentioned User Account
+Control briefly before,
+
+3
+00:00:05,330 --> 00:00:06,470
+but we're going to cover
+it a little bit more
+
+4
+00:00:06,470 --> 00:00:07,900
+in depth in this lesson.
+
+5
+00:00:07,900 --> 00:00:09,560
+First, let me ask you, how do you
+
+6
+00:00:09,560 --> 00:00:11,060
+log into your computer each day?
+
+7
+00:00:11,060 --> 00:00:12,600
+Are you logged in as an administrator,
+
+8
+00:00:12,600 --> 00:00:14,690
+or are you logged in as a normal user?
+
+9
+00:00:14,690 --> 00:00:16,680
+For me, I log in as a normal user,
+
+10
+00:00:16,680 --> 00:00:18,500
+and I only go to my administrator account
+
+11
+00:00:18,500 --> 00:00:19,970
+when I need to do something that an
+
+12
+00:00:19,970 --> 00:00:21,080
+administrator would have to do.
+
+13
+00:00:21,080 --> 00:00:23,160
+Like, install a program, remove a program,
+
+14
+00:00:23,160 --> 00:00:24,890
+or something else like that.
+
+15
+00:00:24,890 --> 00:00:27,140
+Now, user account control, or UAC,
+
+16
+00:00:27,140 --> 00:00:29,460
+is a security component inside of Windows,
+
+17
+00:00:29,460 --> 00:00:31,900
+that keeps every user
+in standard user mode,
+
+18
+00:00:31,900 --> 00:00:34,130
+instead of acting like administrator user.
+
+19
+00:00:34,130 --> 00:00:35,390
+Now, the only exception to this,
+
+20
+00:00:35,390 --> 00:00:37,640
+is if you're logged in as
+the administrator account.
+
+21
+00:00:37,640 --> 00:00:40,350
+That default administrator
+that's created by Windows.
+
+22
+00:00:40,350 --> 00:00:42,270
+For that reason, I recommend disabling the
+
+23
+00:00:42,270 --> 00:00:43,990
+administrator account and logging in
+
+24
+00:00:43,990 --> 00:00:46,120
+as a standard user each time.
+
+25
+00:00:46,120 --> 00:00:47,670
+Now, there are two main benefits
+
+26
+00:00:47,670 --> 00:00:50,410
+to using UAC, or User Account Control.
+
+27
+00:00:50,410 --> 00:00:52,640
+The first one, is it
+eliminates unnecessary
+
+28
+00:00:52,640 --> 00:00:54,880
+admin level requests
+for Windows resources.
+
+29
+00:00:54,880 --> 00:00:56,340
+If you're browsing the internet,
+
+30
+00:00:56,340 --> 00:00:58,450
+you probably don't need
+admin level rights to do it.
+
+31
+00:00:58,450 --> 00:01:00,920
+And so, UAC keeps you as a user level,
+
+32
+00:01:00,920 --> 00:01:04,120
+until something that requires
+admin level comes to play.
+
+33
+00:01:04,120 --> 00:01:07,140
+Number two, it's going to
+reduce the risk of malware,
+
+34
+00:01:07,140 --> 00:01:08,590
+because it's going to
+force you to be using
+
+35
+00:01:08,590 --> 00:01:09,920
+that user level credentials.
+
+36
+00:01:09,920 --> 00:01:12,460
+If you were browsing around
+using admin level privileges,
+
+37
+00:01:12,460 --> 00:01:14,730
+this can cause system
+issues, because the malware
+
+38
+00:01:14,730 --> 00:01:16,370
+will be running as an admin,
+
+39
+00:01:16,370 --> 00:01:17,960
+and you don't want that to happen.
+
+40
+00:01:17,960 --> 00:01:19,550
+So what does UAC look like?
+
+41
+00:01:19,550 --> 00:01:20,890
+Well, if you try to run a program,
+
+42
+00:01:20,890 --> 00:01:23,260
+or do something that requires
+admin level permissions,
+
+43
+00:01:23,260 --> 00:01:26,320
+this box will show up, and
+you simply have to click yes,
+
+44
+00:01:26,320 --> 00:01:28,170
+and it will let you go
+and run that as an admin,
+
+45
+00:01:28,170 --> 00:01:29,710
+if you're an administrative user.
+
+46
+00:01:29,710 --> 00:01:32,910
+But normally, everything else
+is going to be run as a user.
+
+47
+00:01:32,910 --> 00:01:34,740
+Now, some people don't like UAC,
+
+48
+00:01:34,740 --> 00:01:36,010
+and they want to turn it off.
+
+49
+00:01:36,010 --> 00:01:36,960
+Can you turn it off?
+
+50
+00:01:36,960 --> 00:01:37,810
+Well, yes.
+
+51
+00:01:37,810 --> 00:01:41,110
+You can turn off UAC by disabling
+it from the control panel.
+
+52
+00:01:41,110 --> 00:01:43,540
+That said, I don't recommend doing that.
+
+53
+00:01:43,540 --> 00:01:45,400
+UAC is there for your benefit.
+
+54
+00:01:45,400 --> 00:01:47,510
+It's there to increase the
+security of your system,
+
+55
+00:01:47,510 --> 00:01:49,130
+and it should be used to make sure
+
+56
+00:01:49,130 --> 00:01:51,710
+you're operating as a user, at all times,
+
+57
+00:01:51,710 --> 00:01:53,910
+except for when you
+need to run as an admin.
+

@@ -1,0 +1,558 @@
+﻿1
+00:00:00,700 --> 00:00:02,320
+- DNS attacks.
+
+2
+00:00:02,320 --> 00:00:04,330
+There are four different DNS attacks
+
+3
+00:00:04,330 --> 00:00:07,070
+that you have to know for
+the security plus exam.
+
+4
+00:00:07,070 --> 00:00:09,840
+There're DNS poisoning,
+unauthorized zone transfers,
+
+5
+00:00:09,840 --> 00:00:12,810
+altered hosts files,
+and domain name kiting.
+
+6
+00:00:12,810 --> 00:00:15,420
+Now, DNS poisoning occurs
+when the name resolution
+
+7
+00:00:15,420 --> 00:00:18,920
+information is modified
+in the DNS server's cache.
+
+8
+00:00:18,920 --> 00:00:20,600
+This modification of the data is done
+
+9
+00:00:20,600 --> 00:00:22,930
+to redirect client computers to fraudulent
+
+10
+00:00:22,930 --> 00:00:25,040
+or incorrect websites usually as part of
+
+11
+00:00:25,040 --> 00:00:26,490
+follow-on attacks.
+
+12
+00:00:26,490 --> 00:00:28,320
+The DNS system was designed without a lot
+
+13
+00:00:28,320 --> 00:00:30,350
+of security embedded into it originally.
+
+14
+00:00:30,350 --> 00:00:32,790
+This open architecture
+assumed a level of trust
+
+15
+00:00:32,790 --> 00:00:34,270
+with all the other servers
+
+16
+00:00:34,270 --> 00:00:36,340
+which I already told you
+is a pretty bad idea,
+
+17
+00:00:36,340 --> 00:00:38,150
+but that has been taken advantage of
+
+18
+00:00:38,150 --> 00:00:40,000
+by malicious attackers because
+
+19
+00:00:40,000 --> 00:00:41,760
+trusting is a bad idea.
+
+20
+00:00:41,760 --> 00:00:43,900
+Now, DNS poisoning usually occurs
+
+21
+00:00:43,900 --> 00:00:46,150
+on a company's internal DNS servers
+
+22
+00:00:46,150 --> 00:00:49,370
+instead of on public-facing DNS
+servers around the internet.
+
+23
+00:00:49,370 --> 00:00:51,510
+With this type of attack,
+the internal client
+
+24
+00:00:51,510 --> 00:00:53,310
+on the network has to make a request
+
+25
+00:00:53,310 --> 00:00:55,610
+to go to a website like diontraining.com
+
+26
+00:00:55,610 --> 00:00:57,130
+and whenever they make that request
+
+27
+00:00:57,130 --> 00:00:58,440
+the client first checks with their
+
+28
+00:00:58,440 --> 00:01:00,770
+local network's primary DNS server
+
+29
+00:01:00,770 --> 00:01:03,320
+to see if it knows the
+IP address for that URL.
+
+30
+00:01:03,320 --> 00:01:04,900
+If someone has gone there recently
+
+31
+00:01:04,900 --> 00:01:06,450
+that IP address is
+already going to be stored
+
+32
+00:01:06,450 --> 00:01:09,550
+in the local cache but
+if the cache was poisoned
+
+33
+00:01:09,550 --> 00:01:11,240
+that user's now going to be redirected
+
+34
+00:01:11,240 --> 00:01:14,170
+to a malicious website
+instead of the desired one.
+
+35
+00:01:14,170 --> 00:01:16,760
+To counter act DNS poisoning, secure DNS
+
+36
+00:01:16,760 --> 00:01:19,566
+also know as DNSSEC, has been created.
+
+37
+00:01:19,566 --> 00:01:22,210
+DNSSEC uses encrypted digital signatures
+
+38
+00:01:22,210 --> 00:01:24,940
+when passing DNS
+information between servers
+
+39
+00:01:24,940 --> 00:01:26,790
+to help protect it from poisoning.
+
+40
+00:01:26,790 --> 00:01:29,310
+You can also prevent your DNS
+servers from being poisoned
+
+41
+00:01:29,310 --> 00:01:31,140
+by insuring that you're
+running the latest patches
+
+42
+00:01:31,140 --> 00:01:34,130
+and the latest updates to
+make sure it's protected.
+
+43
+00:01:34,130 --> 00:01:36,000
+Our next type of DNS attack is called
+
+44
+00:01:36,000 --> 00:01:38,210
+an unauthorized zone transfer.
+
+45
+00:01:38,210 --> 00:01:39,870
+DNS servers are normally configured
+
+46
+00:01:39,870 --> 00:01:42,400
+to provide DNS data to a zone transfer
+
+47
+00:01:42,400 --> 00:01:45,010
+which replicates information
+to other servers.
+
+48
+00:01:45,010 --> 00:01:46,720
+With an unauthorized transfer though
+
+49
+00:01:46,720 --> 00:01:48,020
+an attacker requests a copy of
+
+50
+00:01:48,020 --> 00:01:49,430
+that zone transfer information
+
+51
+00:01:49,430 --> 00:01:51,400
+and if they receive it
+they now have a list
+
+52
+00:01:51,400 --> 00:01:53,630
+of all of your server
+names and IP addresses
+
+53
+00:01:53,630 --> 00:01:56,190
+and this helps them
+plan for future attacks.
+
+54
+00:01:56,190 --> 00:01:58,050
+Because of this, zone transfers should
+
+55
+00:01:58,050 --> 00:01:59,980
+always be restricted between two
+
+56
+00:01:59,980 --> 00:02:01,810
+known and trusted servers only
+
+57
+00:02:01,810 --> 00:02:04,570
+and not let other people
+ask for zone transfers.
+
+58
+00:02:04,570 --> 00:02:06,730
+The third type of DNS attack is focused
+
+59
+00:02:06,730 --> 00:02:08,260
+on the client itself.
+
+60
+00:02:08,260 --> 00:02:09,700
+Every computer and workstation
+
+61
+00:02:09,700 --> 00:02:12,140
+has a file on it called the host file.
+
+62
+00:02:12,140 --> 00:02:14,170
+The host file is a plain text file
+
+63
+00:02:14,170 --> 00:02:17,100
+and it contains IP addresses and names.
+
+64
+00:02:17,100 --> 00:02:18,670
+This is a reference that
+the operating system
+
+65
+00:02:18,670 --> 00:02:21,630
+is going to check every time
+a DNS lookup is requested
+
+66
+00:02:21,630 --> 00:02:23,650
+prior to going to a DNS server.
+
+67
+00:02:23,650 --> 00:02:26,270
+So if the host file has a
+domain name being requested,
+
+68
+00:02:26,270 --> 00:02:28,150
+it's simply going to provide
+the host file version
+
+69
+00:02:28,150 --> 00:02:30,330
+of that DNS information
+instead of going out
+
+70
+00:02:30,330 --> 00:02:32,300
+to a DNS server requesting it.
+
+71
+00:02:32,300 --> 00:02:34,550
+So for example, one day my son was not
+
+72
+00:02:34,550 --> 00:02:36,870
+doing his school work and
+it was really upsetting me.
+
+73
+00:02:36,870 --> 00:02:38,000
+Instead I kept going up there
+
+74
+00:02:38,000 --> 00:02:39,880
+and seeing he was watching YouTube.
+
+75
+00:02:39,880 --> 00:02:42,740
+So, I logged into his
+computer and I added the URL
+
+76
+00:02:42,740 --> 00:02:45,450
+for YouTube into his host
+list and I pointed that
+
+77
+00:02:45,450 --> 00:02:47,830
+to the IP address for
+his school's website.
+
+78
+00:02:47,830 --> 00:02:50,610
+Now, anytime my son typed in youtube.com
+
+79
+00:02:50,610 --> 00:02:52,550
+instead of getting the
+DNS lookup for YouTube
+
+80
+00:02:52,550 --> 00:02:54,150
+and getting redirected to their server
+
+81
+00:02:54,150 --> 00:02:55,970
+he instead got the one from the host file
+
+82
+00:02:55,970 --> 00:02:57,400
+that I maliciously put in there
+
+83
+00:02:57,400 --> 00:02:59,980
+and it served up the
+home page for his school.
+
+84
+00:02:59,980 --> 00:03:01,780
+Now, every time he tried to watch a video
+
+85
+00:03:01,780 --> 00:03:04,260
+he was told hey you got
+to go to school, right?
+
+86
+00:03:04,260 --> 00:03:05,350
+I think this is pretty funny
+
+87
+00:03:05,350 --> 00:03:06,820
+and you may think it's funny too
+
+88
+00:03:06,820 --> 00:03:08,930
+but he was not very
+happy about this change
+
+89
+00:03:08,930 --> 00:03:10,440
+and he couldn't for the life of him
+
+90
+00:03:10,440 --> 00:03:13,460
+figure out why YouTube
+wouldn't come up on his laptop.
+
+91
+00:03:13,460 --> 00:03:16,240
+Now, I may have been a
+malicious attacker here, right?
+
+92
+00:03:16,240 --> 00:03:17,920
+But I own the system so it's okay.
+
+93
+00:03:17,920 --> 00:03:19,130
+But if I was really doing this on
+
+94
+00:03:19,130 --> 00:03:21,200
+somebody else's computer
+I could have changed
+
+95
+00:03:21,200 --> 00:03:22,970
+that host file to redirect it to a server
+
+96
+00:03:22,970 --> 00:03:25,880
+that I controlled, create a
+website to look like YouTube
+
+97
+00:03:25,880 --> 00:03:27,860
+and then tricked them into logging in
+
+98
+00:03:27,860 --> 00:03:30,460
+and providing their
+username and password to me.
+
+99
+00:03:30,460 --> 00:03:32,570
+To prevent your host file
+from being manipulated
+
+100
+00:03:32,570 --> 00:03:34,710
+it should always be set to read only.
+
+101
+00:03:34,710 --> 00:03:37,130
+On your Windows machine,
+your host file's located
+
+102
+00:03:37,130 --> 00:03:42,130
+in the systemroot\system32\drivers\etc
+directory.
+
+103
+00:03:42,970 --> 00:03:45,090
+This brings up the concept of pharming,
+
+104
+00:03:45,090 --> 00:03:47,280
+which is essentially what
+I was doing to my son.
+
+105
+00:03:47,280 --> 00:03:49,220
+Pharming occurs when an attacker redirects
+
+106
+00:03:49,220 --> 00:03:51,520
+one website's traffic to another website
+
+107
+00:03:51,520 --> 00:03:53,250
+that is bogus or malicious.
+
+108
+00:03:53,250 --> 00:03:55,140
+This is done by poisoning the DNS
+
+109
+00:03:55,140 --> 00:03:57,580
+or by modifying the host file on a system.
+
+110
+00:03:57,580 --> 00:03:59,520
+Anyway you do it, if
+you're trying to redirect
+
+111
+00:03:59,520 --> 00:04:00,940
+somebody to another website
+
+112
+00:04:00,940 --> 00:04:02,810
+that's usually considered pharming.
+
+113
+00:04:02,810 --> 00:04:06,030
+Now our final attack is
+called domain name kiting.
+
+114
+00:04:06,030 --> 00:04:08,440
+This attack exploits the
+way that the registration
+
+115
+00:04:08,440 --> 00:04:10,350
+process works for a domain name.
+
+116
+00:04:10,350 --> 00:04:12,680
+Normally, you're given
+a five-day grace period
+
+117
+00:04:12,680 --> 00:04:14,020
+when you're adding a domain name,
+
+118
+00:04:14,020 --> 00:04:16,090
+but if you delete it
+before that five days is up
+
+119
+00:04:16,090 --> 00:04:18,760
+and you re-add it again,
+the five days restarts.
+
+120
+00:04:18,760 --> 00:04:21,200
+So this lets an attacker
+gobble up domain names
+
+121
+00:04:21,200 --> 00:04:22,730
+without ever having to pay for them.
+
+122
+00:04:22,730 --> 00:04:24,940
+And they can just keep
+them in this limbo state.
+
+123
+00:04:24,940 --> 00:04:27,410
+This is more of an abuse of
+the system than a real attack
+
+124
+00:04:27,410 --> 00:04:29,080
+but it does prevent a legitimate buyer
+
+125
+00:04:29,080 --> 00:04:30,580
+from obtaining that domain name
+
+126
+00:04:30,580 --> 00:04:33,413
+and so we do consider it an
+attack in the security plus.
+

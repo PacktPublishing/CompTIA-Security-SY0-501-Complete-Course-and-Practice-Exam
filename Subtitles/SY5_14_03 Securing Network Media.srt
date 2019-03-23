@@ -1,0 +1,1062 @@
+﻿1
+00:00:00,680 --> 00:00:02,840
+- Securing network media.
+
+2
+00:00:02,840 --> 00:00:05,840
+Network media is the cabling
+that makes up our network.
+
+3
+00:00:05,840 --> 00:00:08,900
+This can be copper,
+fiber optic, or coaxial.
+
+4
+00:00:08,900 --> 00:00:10,690
+And they're going to be
+used as a connectivity
+
+5
+00:00:10,690 --> 00:00:13,460
+method inside of our wired networks.
+
+6
+00:00:13,460 --> 00:00:16,210
+Now, in addition to all the
+cables there's other parts
+
+7
+00:00:16,210 --> 00:00:18,130
+of the cabling plant
+we have to think about.
+
+8
+00:00:18,130 --> 00:00:19,710
+All those intermediate devices
+
+9
+00:00:19,710 --> 00:00:21,920
+like patch panels, punch-down blocks,
+
+10
+00:00:21,920 --> 00:00:24,870
+and network jacks all
+make up this cabling plant
+
+11
+00:00:24,870 --> 00:00:26,720
+that runs throughout our organization.
+
+12
+00:00:26,720 --> 00:00:29,330
+And each part of that can
+be a vulnerability for us.
+
+13
+00:00:29,330 --> 00:00:32,100
+The first vulnerability
+I want to discuss is EMI.
+
+14
+00:00:32,100 --> 00:00:34,870
+This stands for
+electromagnetic interference.
+
+15
+00:00:34,870 --> 00:00:36,920
+Electromagnetic interference
+is a disturbance
+
+16
+00:00:36,920 --> 00:00:38,540
+that can affect electrical circuits,
+
+17
+00:00:38,540 --> 00:00:40,740
+devices, and cables due to radiation
+
+18
+00:00:40,740 --> 00:00:43,210
+or electromagnetic conduction that occurs.
+
+19
+00:00:43,210 --> 00:00:45,440
+Now, EMI is something
+that happens normally
+
+20
+00:00:45,440 --> 00:00:48,020
+inside our businesses
+and inside our homes.
+
+21
+00:00:48,020 --> 00:00:50,980
+EMI is caused by all sorts
+of things, like televisions,
+
+22
+00:00:50,980 --> 00:00:53,920
+microwaves, cordless
+phones, baby monitors,
+
+23
+00:00:53,920 --> 00:00:57,100
+motors like inside your
+vacuum, and other devices.
+
+24
+00:00:57,100 --> 00:00:58,810
+Anything that is really a powered device,
+
+25
+00:00:58,810 --> 00:01:02,570
+even handheld drills can cause
+electromagnetic interference.
+
+26
+00:01:02,570 --> 00:01:05,290
+Now, to minimize EMI you
+need to install shielding
+
+27
+00:01:05,290 --> 00:01:07,030
+around the source, for instance,
+
+28
+00:01:07,030 --> 00:01:09,500
+your air conditioner
+lets off a lot of EMI.
+
+29
+00:01:09,500 --> 00:01:11,200
+You could put shielding around that.
+
+30
+00:01:11,200 --> 00:01:13,400
+Or you can shield the cable itself
+
+31
+00:01:13,400 --> 00:01:15,720
+by choosing shielded twisted-pair.
+
+32
+00:01:15,720 --> 00:01:18,350
+Now, STP cables, or shielded twisted-pair,
+
+33
+00:01:18,350 --> 00:01:21,410
+have foil around either each
+twisted-pair in the cable
+
+34
+00:01:21,410 --> 00:01:23,820
+or around the entire
+bundle of twisted-pairs
+
+35
+00:01:23,820 --> 00:01:26,030
+to prevent emanations out of the cable
+
+36
+00:01:26,030 --> 00:01:28,550
+or interference entering into the cable.
+
+37
+00:01:28,550 --> 00:01:30,470
+STP gives you double benefit, it keeps
+
+38
+00:01:30,470 --> 00:01:32,830
+things out, and it keeps things in.
+
+39
+00:01:32,830 --> 00:01:34,290
+This is good for security and helps
+
+40
+00:01:34,290 --> 00:01:35,650
+minimize this vulnerability.
+
+41
+00:01:35,650 --> 00:01:37,260
+Now, the next vulnerability we have
+
+42
+00:01:37,260 --> 00:01:41,170
+is called radio frequency
+interference, or RFI.
+
+43
+00:01:41,170 --> 00:01:44,540
+RFI is just another type
+of interference like EMI.
+
+44
+00:01:44,540 --> 00:01:46,630
+Like EMI it's a
+disturbance that can affect
+
+45
+00:01:46,630 --> 00:01:49,200
+your electrical circuits,
+your devices, and your cables.
+
+46
+00:01:49,200 --> 00:01:51,050
+But instead of being caused by electrical
+
+47
+00:01:51,050 --> 00:01:53,160
+waves it's caused by radio waves.
+
+48
+00:01:53,160 --> 00:01:55,510
+Most often from AM and FM transmission
+
+49
+00:01:55,510 --> 00:01:57,990
+towers or cellular phone towers.
+
+50
+00:01:57,990 --> 00:02:00,370
+Now, cell towers and radio
+towers near your office
+
+51
+00:02:00,370 --> 00:02:03,770
+can be a big source of RFI
+in your wireless networks.
+
+52
+00:02:03,770 --> 00:02:05,870
+And when you have a
+significant amount of RFI
+
+53
+00:02:05,870 --> 00:02:08,020
+this can cause to network
+connectivity problems
+
+54
+00:02:08,020 --> 00:02:09,400
+for your wired networks, as well
+
+55
+00:02:09,400 --> 00:02:11,770
+as disturbing your wireless networks too.
+
+56
+00:02:11,770 --> 00:02:14,130
+Now, this is something that
+you're going to have to address.
+
+57
+00:02:14,130 --> 00:02:15,600
+And a lot of it is going to be addressed
+
+58
+00:02:15,600 --> 00:02:18,970
+by shielding the building
+or getting stronger devices
+
+59
+00:02:18,970 --> 00:02:20,960
+that can overcome the radio frequency
+
+60
+00:02:20,960 --> 00:02:22,860
+interference that's occurring.
+
+61
+00:02:22,860 --> 00:02:25,890
+Another vulnerability we have
+is what's known as crosstalk.
+
+62
+00:02:25,890 --> 00:02:27,930
+Crosstalk occurs when
+a signal is transmitted
+
+63
+00:02:27,930 --> 00:02:29,590
+on one copper wire, and it creates
+
+64
+00:02:29,590 --> 00:02:32,140
+an undesired effect on
+another copper wire.
+
+65
+00:02:32,140 --> 00:02:34,550
+So, when we think about
+having two copper wires,
+
+66
+00:02:34,550 --> 00:02:36,340
+like inside of a twisted-pair cable,
+
+67
+00:02:36,340 --> 00:02:38,040
+if the shielding inside that protects
+
+68
+00:02:38,040 --> 00:02:40,300
+those wires comes off,
+then we can actually
+
+69
+00:02:40,300 --> 00:02:42,670
+have crossover from one wire to another.
+
+70
+00:02:42,670 --> 00:02:44,410
+And that causes interference because
+
+71
+00:02:44,410 --> 00:02:46,780
+of the data emanations and EMI.
+
+72
+00:02:46,780 --> 00:02:50,150
+Crosstalk is essentially that,
+but in very close proximity.
+
+73
+00:02:50,150 --> 00:02:52,000
+Now, this becomes very common with older
+
+74
+00:02:52,000 --> 00:02:54,640
+cable network types,
+things like Cat3 networks,
+
+75
+00:02:54,640 --> 00:02:56,710
+or even some early Cat5 networks.
+
+76
+00:02:56,710 --> 00:02:59,490
+Most of our Cat5E and Cat6A networks
+
+77
+00:02:59,490 --> 00:03:02,850
+aren't really subject to
+crosstalk nearly as much.
+
+78
+00:03:02,850 --> 00:03:04,900
+Another place is see
+crosstalk happen a lot
+
+79
+00:03:04,900 --> 00:03:06,350
+is if you have punch-down blocks,
+
+80
+00:03:06,350 --> 00:03:08,080
+and you decide to use an older terminal,
+
+81
+00:03:08,080 --> 00:03:10,600
+like the old 66 blocks that
+were used for phone lines,
+
+82
+00:03:10,600 --> 00:03:12,490
+and tried to use that for networks.
+
+83
+00:03:12,490 --> 00:03:14,500
+Networks should always use a 110 block,
+
+84
+00:03:14,500 --> 00:03:17,270
+like you learned back in
+Network+ and A+ because it gives
+
+85
+00:03:17,270 --> 00:03:20,660
+more spacing and prevents
+crosstalk from occurring.
+
+86
+00:03:20,660 --> 00:03:23,360
+The next thing you want to
+talk about here is STP cables
+
+87
+00:03:23,360 --> 00:03:26,300
+because STP cables are really
+helpful to our networks.
+
+88
+00:03:26,300 --> 00:03:29,570
+They can prevent some of that
+RFI, they can prevent EMI.
+
+89
+00:03:29,570 --> 00:03:31,560
+And they can help with crosstalk.
+
+90
+00:03:31,560 --> 00:03:34,190
+If you use those individual
+shielded twisted-pair cables
+
+91
+00:03:34,190 --> 00:03:35,320
+it's really going to help eliminate
+
+92
+00:03:35,320 --> 00:03:37,170
+crosstalk altogether for you.
+
+93
+00:03:37,170 --> 00:03:40,560
+Unfortunately, though, most
+organizations don't use STP.
+
+94
+00:03:40,560 --> 00:03:43,150
+They still use unshielded
+twisted-pair cabling.
+
+95
+00:03:43,150 --> 00:03:46,450
+The reason is it's a lot
+cheaper and easier to work with.
+
+96
+00:03:46,450 --> 00:03:47,920
+Because of this you're going to see a lot
+
+97
+00:03:47,920 --> 00:03:50,410
+of organizations favor UTP cabling
+
+98
+00:03:50,410 --> 00:03:52,400
+as opposed to STP cabling.
+
+99
+00:03:52,400 --> 00:03:57,080
+Because, again, the cost is
+about 50% higher to use STP.
+
+100
+00:03:57,080 --> 00:04:00,060
+Now data emanations is another
+issue we have to think about.
+
+101
+00:04:00,060 --> 00:04:01,860
+When we talked about EMI we
+were talking about things
+
+102
+00:04:01,860 --> 00:04:04,550
+trying to get into our
+network and causing issues.
+
+103
+00:04:04,550 --> 00:04:06,220
+Well, data emanation is the opposite.
+
+104
+00:04:06,220 --> 00:04:08,160
+It comes from inside your cable,
+
+105
+00:04:08,160 --> 00:04:10,900
+and it starts generating
+a field around that cable
+
+106
+00:04:10,900 --> 00:04:12,270
+that when you're transmitting information
+
+107
+00:04:12,270 --> 00:04:13,920
+over the network could be picked up
+
+108
+00:04:13,920 --> 00:04:16,260
+by somebody who's trying to capture that.
+
+109
+00:04:16,260 --> 00:04:18,850
+This is things on your
+network trying to escape.
+
+110
+00:04:18,850 --> 00:04:21,120
+So, if somebody is nearby
+they can actually capture
+
+111
+00:04:21,120 --> 00:04:23,570
+those data emanations,
+and they could reconstruct
+
+112
+00:04:23,570 --> 00:04:26,010
+that data that was
+traveling over your network.
+
+113
+00:04:26,010 --> 00:04:28,150
+This is kind of paranoid
+level stuff here, right?
+
+114
+00:04:28,150 --> 00:04:29,630
+And you probably aren't
+going to deal with this much
+
+115
+00:04:29,630 --> 00:04:31,860
+in your organization,
+unless you're a contractor
+
+116
+00:04:31,860 --> 00:04:33,850
+for something like the
+military or the government
+
+117
+00:04:33,850 --> 00:04:36,030
+who holds really valuable information,
+
+118
+00:04:36,030 --> 00:04:38,400
+and they have these top secret
+military defensive plans,
+
+119
+00:04:38,400 --> 00:04:39,430
+that's when you have to start thinking
+
+120
+00:04:39,430 --> 00:04:41,530
+about data emanations as a real threat.
+
+121
+00:04:41,530 --> 00:04:42,650
+So if you're like most people,
+
+122
+00:04:42,650 --> 00:04:43,900
+and you're working for a corporation,
+
+123
+00:04:43,900 --> 00:04:45,360
+though, you're probably not nearly
+
+124
+00:04:45,360 --> 00:04:47,270
+as worried about data emanations.
+
+125
+00:04:47,270 --> 00:04:48,900
+But something else the attackers can do
+
+126
+00:04:48,900 --> 00:04:51,030
+is tap into your communications doing
+
+127
+00:04:51,030 --> 00:04:53,460
+it locally using physical connections.
+
+128
+00:04:53,460 --> 00:04:54,870
+Now, what do I mean by this?
+
+129
+00:04:54,870 --> 00:04:57,170
+Well, if they can get
+physical access to your space,
+
+130
+00:04:57,170 --> 00:04:58,450
+and get into your network closet,
+
+131
+00:04:58,450 --> 00:05:00,050
+and touch your punch-down panel,
+
+132
+00:05:00,050 --> 00:05:01,680
+they could actually tap into it there
+
+133
+00:05:01,680 --> 00:05:04,040
+and get a copy of the network traffic.
+
+134
+00:05:04,040 --> 00:05:06,780
+For example, this was very
+common with phone networks.
+
+135
+00:05:06,780 --> 00:05:08,930
+If as an attacker I could
+get into your office building
+
+136
+00:05:08,930 --> 00:05:10,780
+and find your patch panel I could use
+
+137
+00:05:10,780 --> 00:05:13,740
+a telephone technician's butt
+set like the one shown here,
+
+138
+00:05:13,740 --> 00:05:15,400
+and attach it to the patch panel,
+
+139
+00:05:15,400 --> 00:05:18,330
+and listen to all of the phone
+calls that were being made.
+
+140
+00:05:18,330 --> 00:05:20,440
+Now, if you're trying to
+tap into the network itself
+
+141
+00:05:20,440 --> 00:05:22,230
+the easiest thing to do here is to find
+
+142
+00:05:22,230 --> 00:05:25,030
+an RJ45 port somewhere in the building.
+
+143
+00:05:25,030 --> 00:05:26,740
+Once you get into the
+building, and you've gotten
+
+144
+00:05:26,740 --> 00:05:29,340
+into one of those jacks,
+you can plug your laptop in.
+
+145
+00:05:29,340 --> 00:05:30,830
+And if they're not using MAC filtering
+
+146
+00:05:30,830 --> 00:05:32,210
+you're already connected.
+
+147
+00:05:32,210 --> 00:05:33,650
+If they are using MAC
+filtering you're going to have
+
+148
+00:05:33,650 --> 00:05:36,270
+to bypass that, but that's
+not too hard to do either.
+
+149
+00:05:36,270 --> 00:05:38,150
+Now, to prevent this
+you want to use things
+
+150
+00:05:38,150 --> 00:05:40,690
+like Network Access Control,
+and some other things
+
+151
+00:05:40,690 --> 00:05:42,500
+like network segmentation and VLANs.
+
+152
+00:05:42,500 --> 00:05:44,280
+So if an attacker does
+get onto your network
+
+153
+00:05:44,280 --> 00:05:45,800
+they're stuck into one corner of it,
+
+154
+00:05:45,800 --> 00:05:48,030
+and they can't spread out
+across the whole thing.
+
+155
+00:05:48,030 --> 00:05:49,850
+Now, if you can't find an open jack,
+
+156
+00:05:49,850 --> 00:05:51,140
+but you still want to collect things
+
+157
+00:05:51,140 --> 00:05:53,310
+completely passively, you can do this
+
+158
+00:05:53,310 --> 00:05:55,880
+by splitting the wires of
+a twisted-pair connection.
+
+159
+00:05:55,880 --> 00:05:58,740
+You can open up the cable in
+an area that nobody is seeing.
+
+160
+00:05:58,740 --> 00:06:01,970
+You can cut the wire and
+solder on additional wires
+
+161
+00:06:01,970 --> 00:06:04,620
+to each of the twisted-pair's
+internal cables.
+
+162
+00:06:04,620 --> 00:06:07,380
+This will give you a copy of
+the data and you can plug it
+
+163
+00:06:07,380 --> 00:06:09,900
+back in and give the
+network a copy of the data.
+
+164
+00:06:09,900 --> 00:06:11,970
+This lets you capture
+the data as it transmits
+
+165
+00:06:11,970 --> 00:06:13,530
+back and forth over the network
+
+166
+00:06:13,530 --> 00:06:16,220
+completely passively, and
+no one's going to see it.
+
+167
+00:06:16,220 --> 00:06:18,750
+But, again, you've got to get
+physical access to the network
+
+168
+00:06:18,750 --> 00:06:20,740
+and get close enough
+to be able to do this.
+
+169
+00:06:20,740 --> 00:06:23,020
+Now, I mentioned data emanations earlier,
+
+170
+00:06:23,020 --> 00:06:25,450
+but we really didn't talk
+about how you can capture them.
+
+171
+00:06:25,450 --> 00:06:28,250
+To capture them you'll
+use a spectrum analyzer.
+
+172
+00:06:28,250 --> 00:06:30,310
+This is going to capture
+all of the radio frequencies
+
+173
+00:06:30,310 --> 00:06:32,470
+that are openly available in the area.
+
+174
+00:06:32,470 --> 00:06:35,280
+You can then dial it in for
+that particular network itself
+
+175
+00:06:35,280 --> 00:06:37,670
+and dump that amount of radio frequency
+
+176
+00:06:37,670 --> 00:06:39,260
+into a program that will convert it
+
+177
+00:06:39,260 --> 00:06:41,610
+back to the ones and
+zeroes of the network.
+
+178
+00:06:41,610 --> 00:06:43,920
+Load that into a packet
+analyzer like Wireshark,
+
+179
+00:06:43,920 --> 00:06:46,190
+and you now have data from the network.
+
+180
+00:06:46,190 --> 00:06:48,240
+To prevent data emanations from happening
+
+181
+00:06:48,240 --> 00:06:50,620
+you should switch your
+networks to fiber optic cables
+
+182
+00:06:50,620 --> 00:06:52,830
+because they don't have
+any emanation at all.
+
+183
+00:06:52,830 --> 00:06:55,170
+Because fiber optic cables work with light
+
+184
+00:06:55,170 --> 00:06:57,580
+instead of electricity
+there's no radiation
+
+185
+00:06:57,580 --> 00:06:59,760
+outside of the cable,
+and they're not affected
+
+186
+00:06:59,760 --> 00:07:02,660
+by EMI or radio frequency either.
+
+187
+00:07:02,660 --> 00:07:05,440
+Now, are fiber optic
+cables completely safe?
+
+188
+00:07:05,440 --> 00:07:08,390
+Well, no, of course not because
+attackers are smart people.
+
+189
+00:07:08,390 --> 00:07:09,580
+And they always come up with creative
+
+190
+00:07:09,580 --> 00:07:11,410
+ways of bypassing security.
+
+191
+00:07:11,410 --> 00:07:12,900
+In fact, they've created what's called
+
+192
+00:07:12,900 --> 00:07:15,440
+a fiber optic splitter, where
+they can attach the device
+
+193
+00:07:15,440 --> 00:07:18,300
+to a fiber port on one
+side, and get two copies
+
+194
+00:07:18,300 --> 00:07:20,530
+of every piece of
+communication, one that will go
+
+195
+00:07:20,530 --> 00:07:23,280
+into their machine, and one
+that will go into your network.
+
+196
+00:07:23,280 --> 00:07:24,870
+That way you don't even
+know they're there.
+
+197
+00:07:24,870 --> 00:07:27,720
+And it's a completely passive
+way to tap the network.
+
+198
+00:07:27,720 --> 00:07:29,420
+So, how do we prevent all of these
+
+199
+00:07:29,420 --> 00:07:31,020
+type of issues from happening?
+
+200
+00:07:31,020 --> 00:07:32,540
+Well, you may have noticed that most
+
+201
+00:07:32,540 --> 00:07:34,540
+of these attacks are
+occurring by the person
+
+202
+00:07:34,540 --> 00:07:37,090
+physically touching the network to tap it.
+
+203
+00:07:37,090 --> 00:07:38,540
+To prevent this you can install
+
+204
+00:07:38,540 --> 00:07:41,670
+a protected distribution system, or a PDS.
+
+205
+00:07:41,670 --> 00:07:44,830
+A PDS is a secured system of
+cable management to ensure
+
+206
+00:07:44,830 --> 00:07:47,600
+that the wired network remains
+free from eavesdropping,
+
+207
+00:07:47,600 --> 00:07:50,770
+tapping, data emanations,
+and other threats.
+
+208
+00:07:50,770 --> 00:07:52,300
+They are kind of expensive, though,
+
+209
+00:07:52,300 --> 00:07:54,640
+because they add locks
+to every network closet.
+
+210
+00:07:54,640 --> 00:07:56,690
+They enclose every cable
+distribution point.
+
+211
+00:07:56,690 --> 00:07:59,120
+And they run cables
+through a protected conduit
+
+212
+00:07:59,120 --> 00:08:00,730
+that runs throughout the ceiling.
+
+213
+00:08:00,730 --> 00:08:03,250
+Because of this expense I've
+only really seen this used
+
+214
+00:08:03,250 --> 00:08:05,440
+in very large organizations
+that are really worried
+
+215
+00:08:05,440 --> 00:08:08,500
+about security, government
+buildings, or the military.
+
+216
+00:08:08,500 --> 00:08:11,410
+Most small businesses and
+most medium-sized businesses
+
+217
+00:08:11,410 --> 00:08:14,460
+aren't going to use a
+protected distribution system.
+
+218
+00:08:14,460 --> 00:08:16,840
+Now, I know we covered
+a lot in this lesson.
+
+219
+00:08:16,840 --> 00:08:18,880
+And the exam isn't going to focus on much
+
+220
+00:08:18,880 --> 00:08:21,640
+of the information we covered,
+so don't worry too much.
+
+221
+00:08:21,640 --> 00:08:23,010
+Now, I just wanted to expose you
+
+222
+00:08:23,010 --> 00:08:24,980
+to all these concepts to
+ensure that you've heard it
+
+223
+00:08:24,980 --> 00:08:27,060
+at least once during your studies.
+
+224
+00:08:27,060 --> 00:08:28,870
+The biggest questions you're
+going to see on the exam
+
+225
+00:08:28,870 --> 00:08:32,300
+from this lesson are going
+to be about EMI, RFI,
+
+226
+00:08:32,300 --> 00:08:34,740
+and the concept of wire tapping a network.
+
+227
+00:08:34,740 --> 00:08:37,180
+That said, in the real
+world you do need to think
+
+228
+00:08:37,180 --> 00:08:39,490
+about these things from an
+attacker's point of view,
+
+229
+00:08:39,490 --> 00:08:41,350
+so you can determine what is a real threat
+
+230
+00:08:41,350 --> 00:08:42,650
+that you should put money against,
+
+231
+00:08:42,650 --> 00:08:45,140
+and what you can decide
+is an unlikely risk.
+
+232
+00:08:45,140 --> 00:08:46,880
+And you're going to just
+accept it the way it is,
+
+233
+00:08:46,880 --> 00:08:49,024
+and not spend money to mitigate it.
+
+234
+00:08:49,024 --> 00:08:51,055
+(instrumental music)
+

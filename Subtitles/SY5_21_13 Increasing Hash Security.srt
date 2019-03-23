@@ -1,0 +1,188 @@
+﻿1
+00:00:00,930 --> 00:00:03,170
+- How can we increase the
+strength of our hashes,
+
+2
+00:00:03,170 --> 00:00:06,240
+especially when using them as
+part of our password security?
+
+3
+00:00:06,240 --> 00:00:08,540
+First, we can use key stretching.
+
+4
+00:00:08,540 --> 00:00:09,760
+Key stretching is a technique
+
+5
+00:00:09,760 --> 00:00:11,870
+that's used to mitigate a weaker key
+
+6
+00:00:11,870 --> 00:00:13,490
+by increasing its effectiveness
+
+7
+00:00:13,490 --> 00:00:16,330
+and thereby increasing the
+time needed to crack it.
+
+8
+00:00:16,330 --> 00:00:17,790
+When you stretch a weaker key,
+
+9
+00:00:17,790 --> 00:00:19,560
+the weaker key is run through an algorithm
+
+10
+00:00:19,560 --> 00:00:21,740
+to create a longer, more secure key
+
+11
+00:00:21,740 --> 00:00:22,870
+than is normally used.
+
+12
+00:00:22,870 --> 00:00:25,900
+And it has to be at least 128 bits long.
+
+13
+00:00:25,900 --> 00:00:27,950
+Many systems are going
+to utilize key stretching
+
+14
+00:00:27,950 --> 00:00:29,750
+to increase the security they provide.
+
+15
+00:00:29,750 --> 00:00:32,010
+Systems like Wi-Fi Protected Access,
+
+16
+00:00:32,010 --> 00:00:35,460
+Wi-Fi Protected Access version
+2, Pretty Good Privacy,
+
+17
+00:00:35,460 --> 00:00:38,940
+BeCrypt, and others
+all use key stretching.
+
+18
+00:00:38,940 --> 00:00:41,730
+Another technique we can
+use is known as salting.
+
+19
+00:00:41,730 --> 00:00:43,880
+Salting is a technique
+of adding random data
+
+20
+00:00:43,880 --> 00:00:46,040
+into a one-way cryptographic hash
+
+21
+00:00:46,040 --> 00:00:48,480
+to help protect against
+password cracking techniques
+
+22
+00:00:48,480 --> 00:00:50,720
+like dictionary attacks,
+brute force attacks,
+
+23
+00:00:50,720 --> 00:00:52,040
+and rainbow tables.
+
+24
+00:00:52,040 --> 00:00:53,730
+Using a nonce is another method
+
+25
+00:00:53,730 --> 00:00:55,640
+to help secure a weaker password,
+
+26
+00:00:55,640 --> 00:00:57,890
+where a number used
+once, known as a nonce,
+
+27
+00:00:57,890 --> 00:01:00,180
+is added to the
+password-based authentication
+
+28
+00:01:00,180 --> 00:01:01,330
+to help prevent an attacker
+
+29
+00:01:01,330 --> 00:01:02,640
+from reusing your password
+
+30
+00:01:02,640 --> 00:01:04,730
+if they're able to steal it somehow.
+
+31
+00:01:04,730 --> 00:01:05,563
+Another good tip
+
+32
+00:01:05,563 --> 00:01:07,480
+to help prevent password
+cracking attacks is
+
+33
+00:01:07,480 --> 00:01:09,130
+to limit the number of login attempts
+
+34
+00:01:09,130 --> 00:01:11,330
+that are allowed prior
+to locking out the user.
+
+35
+00:01:11,330 --> 00:01:13,860
+Normally, you want this to
+be set at three attempts,
+
+36
+00:01:13,860 --> 00:01:16,210
+so if they enter the password
+incorrectly three times,
+
+37
+00:01:16,210 --> 00:01:17,760
+the account is going to be locked.
+
+38
+00:01:17,760 --> 00:01:20,080
+Yes, this can be a pain for the user.
+
+39
+00:01:20,080 --> 00:01:21,920
+But it does increase the security
+
+40
+00:01:21,920 --> 00:01:23,900
+and drastically slows down an attacker
+
+41
+00:01:23,900 --> 00:01:25,430
+who's trying to guess the user's password
+
+42
+00:01:25,430 --> 00:01:27,514
+and break into the system.
+
+43
+00:01:27,514 --> 00:01:29,498
+(techno music)
+

@@ -1,0 +1,505 @@
+﻿1
+00:00:00,320 --> 00:00:02,500
+- Symptoms of Infection.
+
+2
+00:00:02,500 --> 00:00:03,840
+How do you know your computer
+
+3
+00:00:03,840 --> 00:00:05,800
+has been infected with malware?
+
+4
+00:00:05,800 --> 00:00:07,800
+Well, the most common thing is to notice
+
+5
+00:00:07,800 --> 00:00:10,180
+that it starts beginning to act strange.
+
+6
+00:00:10,180 --> 00:00:12,700
+That could be a myriad of
+different things, though.
+
+7
+00:00:12,700 --> 00:00:14,830
+For example, your computer
+might start running
+
+8
+00:00:14,830 --> 00:00:16,190
+slower than normal.
+
+9
+00:00:16,190 --> 00:00:17,680
+Why might this occur?
+
+10
+00:00:17,680 --> 00:00:19,700
+Well, if you have a worm for example,
+
+11
+00:00:19,700 --> 00:00:22,770
+it's using up processor
+resources and network resources
+
+12
+00:00:22,770 --> 00:00:24,460
+to spread itself throughout the system
+
+13
+00:00:24,460 --> 00:00:25,880
+and throughout the network.
+
+14
+00:00:25,880 --> 00:00:27,510
+If you happen to be getting spam,
+
+15
+00:00:27,510 --> 00:00:30,430
+that again is something that's
+going to tax your system.
+
+16
+00:00:30,430 --> 00:00:32,960
+Lots of different malware will
+start making your computer
+
+17
+00:00:32,960 --> 00:00:34,440
+act slower than normal.
+
+18
+00:00:34,440 --> 00:00:37,520
+And this is one of the indications
+that you have a problem.
+
+19
+00:00:37,520 --> 00:00:39,140
+Another symptom of infection
+
+20
+00:00:39,140 --> 00:00:40,930
+is that your computer starts locking up
+
+21
+00:00:40,930 --> 00:00:43,120
+or stops responding to you frequently.
+
+22
+00:00:43,120 --> 00:00:44,970
+Maybe you're seeing more
+'blue screens of death'
+
+23
+00:00:44,970 --> 00:00:46,610
+than you've ever seen before.
+
+24
+00:00:46,610 --> 00:00:48,390
+Well, this again is something
+
+25
+00:00:48,390 --> 00:00:50,360
+that is a common symptom of malware.
+
+26
+00:00:50,360 --> 00:00:53,130
+If a virus goes in and
+overwrites a critical system file
+
+27
+00:00:53,130 --> 00:00:57,220
+by mistake, that can cause the
+computer to crash or lock up.
+
+28
+00:00:57,220 --> 00:00:59,110
+This brings us to our third thing.
+
+29
+00:00:59,110 --> 00:01:01,490
+If your computer restarts
+or crashes a lot,
+
+30
+00:01:01,490 --> 00:01:04,120
+this again is another
+symptom that you may have
+
+31
+00:01:04,120 --> 00:01:05,960
+a malware infection.
+
+32
+00:01:05,960 --> 00:01:08,830
+Next, if your hard drive,
+files or applications
+
+33
+00:01:08,830 --> 00:01:11,320
+aren't accessible anymore,
+this could be a symptom
+
+34
+00:01:11,320 --> 00:01:12,780
+of a malware infection.
+
+35
+00:01:12,780 --> 00:01:15,720
+Because if a virus or piece
+of malware takes over a file,
+
+36
+00:01:15,720 --> 00:01:17,270
+it's going to change its permissions.
+
+37
+00:01:17,270 --> 00:01:19,940
+And by doing that, it can
+remove your permissions
+
+38
+00:01:19,940 --> 00:01:22,900
+that allow you to run it
+or delete it or change it.
+
+39
+00:01:22,900 --> 00:01:24,850
+This is one of the ways
+that the malware will keep
+
+40
+00:01:24,850 --> 00:01:26,910
+persistence in your system.
+
+41
+00:01:26,910 --> 00:01:28,180
+Another symptom of malware
+
+42
+00:01:28,180 --> 00:01:30,710
+is if your computer starts
+to make strange noises,
+
+43
+00:01:30,710 --> 00:01:32,940
+or you start to see
+unusual error messages,
+
+44
+00:01:32,940 --> 00:01:35,370
+or your computer, the display
+starts looking strange,
+
+45
+00:01:35,370 --> 00:01:36,570
+or when you print something,
+
+46
+00:01:36,570 --> 00:01:38,650
+it looks like gibberish or gobbledygook,
+
+47
+00:01:38,650 --> 00:01:41,320
+and it uses symbols
+instead of normal letters.
+
+48
+00:01:41,320 --> 00:01:43,020
+All of these things can happen
+
+49
+00:01:43,020 --> 00:01:45,290
+when you get a virus or you get malware,
+
+50
+00:01:45,290 --> 00:01:47,290
+depending on the way the virus or malware
+
+51
+00:01:47,290 --> 00:01:49,200
+starts infecting your system.
+
+52
+00:01:49,200 --> 00:01:51,340
+Another sign that you
+might have an infection
+
+53
+00:01:51,340 --> 00:01:53,960
+is if you start to see new
+icons appear on your desktop
+
+54
+00:01:53,960 --> 00:01:57,850
+or conversely, icons from your
+desktop start to disappear.
+
+55
+00:01:57,850 --> 00:02:00,450
+Again, as any additional
+programs are added,
+
+56
+00:02:00,450 --> 00:02:03,270
+new icons might show up, and
+if you start deleting programs,
+
+57
+00:02:03,270 --> 00:02:05,460
+that can remove those as well.
+
+58
+00:02:05,460 --> 00:02:07,470
+Another way that malware
+tries to hide itself
+
+59
+00:02:07,470 --> 00:02:10,720
+when it's in your system is by
+using double file extensions.
+
+60
+00:02:10,720 --> 00:02:12,740
+This is because in Windows, by default,
+
+61
+00:02:12,740 --> 00:02:14,470
+if there's a know file extension,
+
+62
+00:02:14,470 --> 00:02:18,500
+such as .exe for executable,
+or .txt for text files,
+
+63
+00:02:18,500 --> 00:02:21,330
+that part won't be shown
+on the icon's name.
+
+64
+00:02:21,330 --> 00:02:22,680
+So if you have something that says
+
+65
+00:02:22,680 --> 00:02:24,970
+textfile.txt on your desktop,
+
+66
+00:02:24,970 --> 00:02:27,510
+it could have a hidden
+.exe at the end of it.
+
+67
+00:02:27,510 --> 00:02:29,030
+And when you double-click that file
+
+68
+00:02:29,030 --> 00:02:30,600
+that looks like a text file,
+
+69
+00:02:30,600 --> 00:02:33,350
+it's actually going to
+run this executable file.
+
+70
+00:02:33,350 --> 00:02:35,470
+And that can actually embed malware
+
+71
+00:02:35,470 --> 00:02:37,970
+into your system even further.
+
+72
+00:02:37,970 --> 00:02:40,610
+Another symptom that you may
+have had something bad happen
+
+73
+00:02:40,610 --> 00:02:42,670
+is if you try to run
+your antivirus software
+
+74
+00:02:42,670 --> 00:02:44,120
+but it just won't run.
+
+75
+00:02:44,120 --> 00:02:45,690
+A lot of malware is programmed
+
+76
+00:02:45,690 --> 00:02:47,510
+to attack your antivirus software,
+
+77
+00:02:47,510 --> 00:02:49,400
+and that way it can
+prevent it from running
+
+78
+00:02:49,400 --> 00:02:51,830
+and maintain persistence longer.
+
+79
+00:02:51,830 --> 00:02:53,600
+The reason for this is that malware
+
+80
+00:02:53,600 --> 00:02:55,590
+doesn't want to be taken
+out of your system.
+
+81
+00:02:55,590 --> 00:02:57,330
+And if you're able to run your antivirus
+
+82
+00:02:57,330 --> 00:02:59,300
+you might be able to clean up the malware.
+
+83
+00:02:59,300 --> 00:03:01,190
+But if they can attack your antivirus
+
+84
+00:03:01,190 --> 00:03:02,980
+and keep it from running,
+that means that they can
+
+85
+00:03:02,980 --> 00:03:05,890
+stay on your computer for
+longer and dig in deeper.
+
+86
+00:03:05,890 --> 00:03:08,180
+Yet another symptom is
+when your files or folders
+
+87
+00:03:08,180 --> 00:03:11,130
+are corrupted, or you may
+see new files and folders
+
+88
+00:03:11,130 --> 00:03:12,310
+that have been created.
+
+89
+00:03:12,310 --> 00:03:15,580
+Again, as a piece of malware
+goes and infects your files
+
+90
+00:03:15,580 --> 00:03:17,830
+this corruption can make them be deleted,
+
+91
+00:03:17,830 --> 00:03:21,080
+or it'll create new
+files for it to hide in.
+
+92
+00:03:21,080 --> 00:03:23,300
+Again, the malware might do this as a way
+
+93
+00:03:23,300 --> 00:03:26,800
+to maintain persistence and
+dig in deeper into your system.
+
+94
+00:03:26,800 --> 00:03:28,990
+And this can add new
+files that get infected
+
+95
+00:03:28,990 --> 00:03:31,630
+and those files might be
+put across the network.
+
+96
+00:03:31,630 --> 00:03:33,570
+The final symptom is if you try to go
+
+97
+00:03:33,570 --> 00:03:36,080
+and use your system restore
+function within Windows
+
+98
+00:03:36,080 --> 00:03:37,570
+and you can't do it.
+
+99
+00:03:37,570 --> 00:03:39,670
+Because again, similarly
+to what I talked about
+
+100
+00:03:39,670 --> 00:03:42,170
+with antivirus being
+turned off by malware,
+
+101
+00:03:42,170 --> 00:03:45,100
+malware is going to try to
+turn off your system restore,
+
+102
+00:03:45,100 --> 00:03:47,100
+because they don't want
+you to be able to go back
+
+103
+00:03:47,100 --> 00:03:49,710
+and restore from a known good backup.
+
+104
+00:03:49,710 --> 00:03:51,270
+In this way, malware again
+
+105
+00:03:51,270 --> 00:03:53,960
+is trying to maintain that persistence.
+
+106
+00:03:53,960 --> 00:03:56,700
+All of these things are
+really summarized quite simply
+
+107
+00:03:56,700 --> 00:03:58,530
+with one simple statement.
+
+108
+00:03:58,530 --> 00:04:00,920
+If your computer is
+acting funny or strange
+
+109
+00:04:00,920 --> 00:04:02,600
+you may be infected with malware
+
+110
+00:04:02,600 --> 00:04:04,770
+and so it's best to boot up into safe mode
+
+111
+00:04:04,770 --> 00:04:06,710
+or boot from an external drive
+
+112
+00:04:06,710 --> 00:04:10,667
+and then scan your computer
+with a good antivirus software.
+
+113
+00:04:10,667 --> 00:04:13,045
+(soft techno music)
+

@@ -1,0 +1,510 @@
+﻿1
+00:00:00,720 --> 00:00:02,970
+- In security one of the
+most important things
+
+2
+00:00:02,970 --> 00:00:04,330
+is to ensure that you understand,
+
+3
+00:00:04,330 --> 00:00:07,140
+what openings you have
+created in your systems.
+
+4
+00:00:07,140 --> 00:00:08,900
+When it comes to computers and networks,
+
+5
+00:00:08,900 --> 00:00:11,910
+most of these openings are
+going to be created by ports.
+
+6
+00:00:11,910 --> 00:00:14,780
+Now a port is simply a
+logical communication endpoint
+
+7
+00:00:14,780 --> 00:00:17,110
+that exists on your
+computer or your server.
+
+8
+00:00:17,110 --> 00:00:19,170
+For example, if you're
+running a web server,
+
+9
+00:00:19,170 --> 00:00:20,580
+you're going to have port 80 open
+
+10
+00:00:20,580 --> 00:00:22,090
+and listening for inbound requests
+
+11
+00:00:22,090 --> 00:00:23,890
+from your potential visitors.
+
+12
+00:00:23,890 --> 00:00:25,590
+Now ports are classified as either
+
+13
+00:00:25,590 --> 00:00:27,690
+inbound or outbound ports.
+
+14
+00:00:27,690 --> 00:00:30,120
+An inbound port is used
+when your computer or server
+
+15
+00:00:30,120 --> 00:00:31,940
+is listening for a connection.
+
+16
+00:00:31,940 --> 00:00:33,440
+Just as in my earlier example,
+
+17
+00:00:33,440 --> 00:00:36,850
+the web server had port 80
+open, that's an inbound port.
+
+18
+00:00:36,850 --> 00:00:38,490
+It's just waiting for
+somebody to come along
+
+19
+00:00:38,490 --> 00:00:39,860
+and connect to it.
+
+20
+00:00:39,860 --> 00:00:42,590
+An outbound port on the other
+hand, is opened by a computer
+
+21
+00:00:42,590 --> 00:00:44,590
+whenever it wants to connect to a server.
+
+22
+00:00:44,590 --> 00:00:46,450
+If my computer is attempting
+to make a connection
+
+23
+00:00:46,450 --> 00:00:48,360
+to your web server over port 80,
+
+24
+00:00:48,360 --> 00:00:49,860
+well, then my computer is going to open up
+
+25
+00:00:49,860 --> 00:00:53,670
+a random high number
+port such as port 52363
+
+26
+00:00:53,670 --> 00:00:56,450
+and it's going to make an outbound
+request to that web server.
+
+27
+00:00:56,450 --> 00:00:58,660
+Now, what does all this
+look like in the real world?
+
+28
+00:00:58,660 --> 00:01:00,710
+Well, let's look at an
+example of how an inbound
+
+29
+00:01:00,710 --> 00:01:03,000
+and outbound port are used when my laptop
+
+30
+00:01:03,000 --> 00:01:06,010
+attempts to connect to a
+remote server over SSH.
+
+31
+00:01:06,010 --> 00:01:08,100
+First, we have a server
+at the top of the screen
+
+32
+00:01:08,100 --> 00:01:10,310
+and it has a public IP
+address assigned to it,
+
+33
+00:01:10,310 --> 00:01:12,420
+and it's listening on port 22,
+
+34
+00:01:12,420 --> 00:01:16,240
+so port 22 is the inbound
+port awaiting new connections.
+
+35
+00:01:16,240 --> 00:01:18,830
+And in this case, port 22 is open.
+
+36
+00:01:18,830 --> 00:01:19,870
+At the bottom of the screen,
+
+37
+00:01:19,870 --> 00:01:22,260
+I have my laptop that wants
+to make the connection.
+
+38
+00:01:22,260 --> 00:01:24,740
+Now, my laptop has a
+private IP address assigned
+
+39
+00:01:24,740 --> 00:01:26,960
+because my network is
+using NAT at the router
+
+40
+00:01:26,960 --> 00:01:29,010
+and that gives me some
+additional protections.
+
+41
+00:01:29,010 --> 00:01:30,260
+So, notice at this point
+
+42
+00:01:30,260 --> 00:01:33,070
+my laptop doesn't have
+any ports opened yet.
+
+43
+00:01:33,070 --> 00:01:34,470
+So now my laptop wants to go
+
+44
+00:01:34,470 --> 00:01:36,330
+and establish the SSH connection.
+
+45
+00:01:36,330 --> 00:01:38,790
+It's going to open up an
+outbound port on itself,
+
+46
+00:01:38,790 --> 00:01:42,420
+which is going to be some random
+high number port like 51233
+
+47
+00:01:42,420 --> 00:01:45,280
+and it's going to send a
+request to the SSH server
+
+48
+00:01:45,280 --> 00:01:48,630
+over port 22 which is
+the server's inbound port
+
+49
+00:01:48,630 --> 00:01:50,420
+and destined for it's IP address
+
+50
+00:01:50,420 --> 00:01:55,170
+in this case, 46.124.63.13.
+
+51
+00:01:55,170 --> 00:01:57,420
+Now once a server receives this request,
+
+52
+00:01:57,420 --> 00:01:58,710
+it has to respond to it.
+
+53
+00:01:58,710 --> 00:02:00,490
+So, it's going to send a
+packet of information back
+
+54
+00:02:00,490 --> 00:02:03,630
+to my laptop's IP in the
+outbound port that was open.
+
+55
+00:02:03,630 --> 00:02:07,270
+In this case that's port
+51233 and in reality
+
+56
+00:02:07,270 --> 00:02:09,960
+it would be the public facing
+IP address of my router
+
+57
+00:02:09,960 --> 00:02:12,400
+but for our example, I'm going
+to use the private IP address
+
+58
+00:02:12,400 --> 00:02:16,200
+of 192.168.1.45.
+
+59
+00:02:16,200 --> 00:02:18,410
+Now, that my laptop has made
+the request to the server
+
+60
+00:02:18,410 --> 00:02:20,120
+and the server answered that request,
+
+61
+00:02:20,120 --> 00:02:21,790
+we now have a session established
+
+62
+00:02:21,790 --> 00:02:25,060
+and both devices can communicate
+back and forth as needed.
+
+63
+00:02:25,060 --> 00:02:26,430
+Once that session is over,
+
+64
+00:02:26,430 --> 00:02:27,860
+the connection is going to be closed,
+
+65
+00:02:27,860 --> 00:02:29,730
+my laptop is going to
+close it's outbound port
+
+66
+00:02:29,730 --> 00:02:31,000
+because it's no longer needed
+
+67
+00:02:31,000 --> 00:02:33,630
+and the server will keep
+that inbound port open
+
+68
+00:02:33,630 --> 00:02:35,840
+so they can receive
+requests from the next user
+
+69
+00:02:35,840 --> 00:02:37,100
+who wants to use it.
+
+70
+00:02:37,100 --> 00:02:39,640
+So now that we showed how
+ports work in the real world,
+
+71
+00:02:39,640 --> 00:02:42,190
+let's talk a little bit more
+about the ports themselves.
+
+72
+00:02:42,190 --> 00:02:44,780
+In addition to being called
+inbound and outbound ports,
+
+73
+00:02:44,780 --> 00:02:46,770
+the ports are going to
+be assigned a number.
+
+74
+00:02:46,770 --> 00:02:51,600
+Now, the number can be
+anywhere between 0 and 65,535
+
+75
+00:02:51,600 --> 00:02:53,520
+but this big range is
+actually divided into
+
+76
+00:02:53,520 --> 00:02:55,080
+three smaller groups.
+
+77
+00:02:55,080 --> 00:02:57,550
+The first group is called
+the Well-Known ports.
+
+78
+00:02:57,550 --> 00:03:00,053
+This is for any ports that
+are between 0 and 1023.
+
+79
+00:03:01,140 --> 00:03:02,640
+These are called Well-Known ports
+
+80
+00:03:02,640 --> 00:03:04,440
+because they are designated by IANA
+
+81
+00:03:04,440 --> 00:03:06,400
+the Internet Assigned Numbers Authority
+
+82
+00:03:06,400 --> 00:03:08,070
+and they are going to
+assign it to commonly used
+
+83
+00:03:08,070 --> 00:03:09,570
+protocols and ports.
+
+84
+00:03:09,570 --> 00:03:12,420
+Now, for example secure web
+browsing is one we all know.
+
+85
+00:03:12,420 --> 00:03:15,870
+It's https and it uses port 443,
+
+86
+00:03:15,870 --> 00:03:19,110
+Telnet is another well-known
+one, it's port 23.
+
+87
+00:03:19,110 --> 00:03:21,110
+Both of these are
+considered well-known ports
+
+88
+00:03:21,110 --> 00:03:23,080
+as well as hundreds of others.
+
+89
+00:03:23,080 --> 00:03:25,330
+Now, the second group we
+have is going to cover ports
+
+90
+00:03:25,330 --> 00:03:29,670
+from 1024 up to 49,151.
+
+91
+00:03:29,670 --> 00:03:31,840
+This range is called the registered ports
+
+92
+00:03:31,840 --> 00:03:33,560
+because they have to be used by vendors
+
+93
+00:03:33,560 --> 00:03:35,240
+for their own proprietary protocols
+
+94
+00:03:35,240 --> 00:03:37,220
+and each vendor is going to register them
+
+95
+00:03:37,220 --> 00:03:39,490
+with IANA prior to using them.
+
+96
+00:03:39,490 --> 00:03:42,040
+For example Microsoft has an SQL server
+
+97
+00:03:42,040 --> 00:03:46,490
+and it uses port 1433 which
+is another registered port.
+
+98
+00:03:46,490 --> 00:03:49,310
+Another good example of this
+is remote desktop protocol
+
+99
+00:03:49,310 --> 00:03:51,500
+which is a proprietary Microsoft protocol
+
+100
+00:03:51,500 --> 00:03:54,990
+called RDP. It operates on port 3389.
+
+101
+00:03:54,990 --> 00:03:56,280
+The third and final group
+
+102
+00:03:56,280 --> 00:03:58,550
+is called the dynamic and private ports.
+
+103
+00:03:58,550 --> 00:04:03,527
+This uses the ports between
+49,151 all the way up to 65,535.
+
+104
+00:04:05,550 --> 00:04:07,660
+These ports can be used by any application
+
+105
+00:04:07,660 --> 00:04:11,200
+at any time without having to
+be registered with IANA first.
+
+106
+00:04:11,200 --> 00:04:13,260
+Now, this range is usually
+used by your client
+
+107
+00:04:13,260 --> 00:04:14,930
+whenever it picks a
+random high number port
+
+108
+00:04:14,930 --> 00:04:16,010
+for its application.
+
+109
+00:04:16,010 --> 00:04:18,290
+Anytime it wants to have a
+temporary outbound connection
+
+110
+00:04:18,290 --> 00:04:20,340
+this is the range that it's going to use.
+
+111
+00:04:20,340 --> 00:04:22,410
+This is also commonly used in gaming
+
+112
+00:04:22,410 --> 00:04:24,233
+as well as instant message and chat.
+
+113
+00:04:25,164 --> 00:04:27,076
+(soft music)
+

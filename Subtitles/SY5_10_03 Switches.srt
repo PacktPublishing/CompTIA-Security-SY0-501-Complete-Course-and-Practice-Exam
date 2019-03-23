@@ -1,0 +1,422 @@
+﻿1
+00:00:00,510 --> 00:00:02,040
+- Switches.
+
+2
+00:00:02,040 --> 00:00:04,520
+Now hubs were originally
+used to connect devices
+
+3
+00:00:04,520 --> 00:00:05,540
+on a network.
+
+4
+00:00:05,540 --> 00:00:07,580
+All of the devices will
+be connected to a hub,
+
+5
+00:00:07,580 --> 00:00:10,170
+and anytime something went
+into one port of the hub,
+
+6
+00:00:10,170 --> 00:00:12,650
+it would then repeat that
+out all of the other ports.
+
+7
+00:00:12,650 --> 00:00:14,660
+This was known as a broadcast message.
+
+8
+00:00:14,660 --> 00:00:16,760
+Now this is because hubs were dumb.
+
+9
+00:00:16,760 --> 00:00:18,800
+They had no intelligence.
+
+10
+00:00:18,800 --> 00:00:20,290
+As networks got larger,
+
+11
+00:00:20,290 --> 00:00:23,540
+hubs caused a lot of collisions
+and slowed down the network.
+
+12
+00:00:23,540 --> 00:00:24,650
+To solve this problem,
+
+13
+00:00:24,650 --> 00:00:26,340
+something came along called a bridge,
+
+14
+00:00:26,340 --> 00:00:29,250
+and this was used to separate
+physical LANs or WANs
+
+15
+00:00:29,250 --> 00:00:30,930
+into two logical networks,
+
+16
+00:00:30,930 --> 00:00:33,400
+or connect two logical networks together.
+
+17
+00:00:33,400 --> 00:00:36,750
+Now switches are the
+evolution of hubs and bridges.
+
+18
+00:00:36,750 --> 00:00:39,640
+Essentially every single port on a switch
+
+19
+00:00:39,640 --> 00:00:43,030
+acts as if it was a
+bridged hub on each one.
+
+20
+00:00:43,030 --> 00:00:44,960
+This means that it
+improves the data transfer
+
+21
+00:00:44,960 --> 00:00:46,980
+and security through the intelligent use
+
+22
+00:00:46,980 --> 00:00:48,200
+of MAC addresses.
+
+23
+00:00:48,200 --> 00:00:50,550
+Being able to figure out where a device is
+
+24
+00:00:50,550 --> 00:00:52,160
+and only sending the information out
+
+25
+00:00:52,160 --> 00:00:55,670
+that particular port of the
+switch and ignoring the rest.
+
+26
+00:00:55,670 --> 00:00:58,610
+This reduces traffic
+and increases security.
+
+27
+00:00:58,610 --> 00:01:00,550
+Now switches are subject to three main
+
+28
+00:01:00,550 --> 00:01:01,810
+types of attack though.
+
+29
+00:01:01,810 --> 00:01:04,260
+They are subject to MAC
+flooding, MAC spoofing,
+
+30
+00:01:04,260 --> 00:01:05,870
+and physical tampering.
+
+31
+00:01:05,870 --> 00:01:07,600
+This is because they're trying to overcome
+
+32
+00:01:07,600 --> 00:01:10,460
+that logic and intelligence
+that the switch has.
+
+33
+00:01:10,460 --> 00:01:12,500
+MAC flooding is an attempt to overwhelm
+
+34
+00:01:12,500 --> 00:01:14,820
+the limited switch memory that's set aside
+
+35
+00:01:14,820 --> 00:01:16,960
+to store the MAC addresses for each port,
+
+36
+00:01:16,960 --> 00:01:19,340
+and this is known as the
+content addressable memory,
+
+37
+00:01:19,340 --> 00:01:20,830
+or CAM table.
+
+38
+00:01:20,830 --> 00:01:23,630
+Now if a switch is
+flooded, it can fail-open
+
+39
+00:01:23,630 --> 00:01:25,240
+and begin to start acting like a hub
+
+40
+00:01:25,240 --> 00:01:28,150
+and broadcasting data
+out every single port.
+
+41
+00:01:28,150 --> 00:01:30,230
+This is a problem that can start causing
+
+42
+00:01:30,230 --> 00:01:33,540
+confidentiality to be breached
+inside your local network.
+
+43
+00:01:33,540 --> 00:01:35,240
+Now MAC spoofing, on the other hand,
+
+44
+00:01:35,240 --> 00:01:38,070
+occurs when an attacker
+masks their own MAC address
+
+45
+00:01:38,070 --> 00:01:40,070
+to pretend that they are
+having the MAC address
+
+46
+00:01:40,070 --> 00:01:42,100
+of some other machine on the network.
+
+47
+00:01:42,100 --> 00:01:45,710
+For example, wireless access
+points may use MAC filtering
+
+48
+00:01:45,710 --> 00:01:47,450
+to prevent devices that are unknown
+
+49
+00:01:47,450 --> 00:01:49,230
+from joining the wireless network.
+
+50
+00:01:49,230 --> 00:01:50,860
+They do this my looking
+at their MAC address
+
+51
+00:01:50,860 --> 00:01:51,960
+that's being reported,
+
+52
+00:01:52,842 --> 00:01:54,705
+and if it's not inside
+their access control list,
+
+53
+00:01:54,705 --> 00:01:55,580
+they'll block it from connecting.
+
+54
+00:01:55,580 --> 00:01:59,150
+Now if I switch my MAC address
+to a known or allowed device,
+
+55
+00:01:59,150 --> 00:02:01,980
+I can gain access to that
+network though by spoofing.
+
+56
+00:02:01,980 --> 00:02:04,040
+I pretend that I am an authorized device
+
+57
+00:02:04,040 --> 00:02:05,590
+using a known good MAC address,
+
+58
+00:02:05,590 --> 00:02:07,423
+and I pass right through that ACL.
+
+59
+00:02:08,380 --> 00:02:11,780
+MAC spoofing is also sometimes
+combined with ARP spoofing.
+
+60
+00:02:11,780 --> 00:02:13,880
+ARP is an address resolution protocol,
+
+61
+00:02:13,880 --> 00:02:15,750
+and it relies on the MAC addresses
+
+62
+00:02:15,750 --> 00:02:19,110
+as a way of combining what
+MAC address goes to which IP,
+
+63
+00:02:19,110 --> 00:02:21,340
+and which IP goes to which MAC address.
+
+64
+00:02:21,340 --> 00:02:24,369
+So they often combine a MAC
+address spoof with an ARP spoof
+
+65
+00:02:24,369 --> 00:02:27,770
+as an attempt to be able
+to have the attacker appear
+
+66
+00:02:27,770 --> 00:02:29,420
+that they are the
+destination that somebody
+
+67
+00:02:29,420 --> 00:02:30,790
+is trying to send information to,
+
+68
+00:02:30,790 --> 00:02:33,700
+and use that as a way to
+steal that information.
+
+69
+00:02:33,700 --> 00:02:34,810
+Now to prevent this,
+
+70
+00:02:34,810 --> 00:02:36,170
+you have to configure your switch
+
+71
+00:02:36,170 --> 00:02:39,250
+to accept limited numbers
+of static MAC addresses,
+
+72
+00:02:39,250 --> 00:02:41,350
+limit the duration of
+time that an ARP entry
+
+73
+00:02:41,350 --> 00:02:42,540
+is allowed on a host,
+
+74
+00:02:42,540 --> 00:02:44,340
+and conduct ARP inspections.
+
+75
+00:02:44,340 --> 00:02:46,710
+To keep track of what ARP is being used
+
+76
+00:02:46,710 --> 00:02:49,430
+with which MAC address and which IPs.
+
+77
+00:02:49,430 --> 00:02:51,220
+The third type of way
+to overwhelm a switch
+
+78
+00:02:51,220 --> 00:02:52,890
+is to use physical tampering.
+
+79
+00:02:52,890 --> 00:02:54,840
+Physical tampering occurs when an attacker
+
+80
+00:02:54,840 --> 00:02:57,140
+attempts to gain physical
+access to the switch,
+
+81
+00:02:57,140 --> 00:02:58,930
+because if you can touch a device,
+
+82
+00:02:58,930 --> 00:03:01,700
+you can pretty much configure
+it to do whatever you want.
+
+83
+00:03:01,700 --> 00:03:04,210
+Each switch has a dedicated
+management port on it,
+
+84
+00:03:04,210 --> 00:03:06,750
+and if an attacker can gain
+access to the switch physically
+
+85
+00:03:06,750 --> 00:03:08,010
+by walking up to it,
+
+86
+00:03:08,010 --> 00:03:10,390
+they can connect their
+laptop to the management port
+
+87
+00:03:10,390 --> 00:03:13,990
+and reconfigure that switch and
+cause all sorts of problems.
+
+88
+00:03:13,990 --> 00:03:16,410
+Additionally, an attacker
+could unplug cables,
+
+89
+00:03:16,410 --> 00:03:18,600
+or unplug the power itself from the switch
+
+90
+00:03:18,600 --> 00:03:21,110
+and this could cause a
+denial of service attack.
+
+91
+00:03:21,110 --> 00:03:22,990
+Now to prevent physical tampering,
+
+92
+00:03:22,990 --> 00:03:24,570
+the switch should be locked up
+
+93
+00:03:24,570 --> 00:03:26,880
+in a network rack, or a network closet,
+
+94
+00:03:26,880 --> 00:03:29,970
+or behind closed doors so
+that, that room is secure
+
+95
+00:03:29,970 --> 00:03:32,123
+using good physical security practices.
+

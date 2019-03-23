@@ -1,0 +1,450 @@
+﻿1
+00:00:00,320 --> 00:00:01,710
+- So in the auditing lesson,
+
+2
+00:00:01,710 --> 00:00:04,520
+I mentioned logs and how
+they're very tied together.
+
+3
+00:00:04,520 --> 00:00:07,500
+In this lesson, we're going
+to focus on logs specifically.
+
+4
+00:00:07,500 --> 00:00:09,620
+Now, logs are simply
+data files that contain
+
+5
+00:00:09,620 --> 00:00:11,949
+the accounting and audit trails
+
+6
+00:00:11,949 --> 00:00:12,782
+for actions performed by a user
+
+7
+00:00:12,782 --> 00:00:14,740
+on the computer or on the network.
+
+8
+00:00:14,740 --> 00:00:16,430
+That's why logs are really helpful
+
+9
+00:00:16,430 --> 00:00:17,870
+when we're doing auditing because it tells
+
+10
+00:00:17,870 --> 00:00:21,120
+us exactly what has been done
+and what has not been done.
+
+11
+00:00:21,120 --> 00:00:22,210
+Now, on the screen here,
+
+12
+00:00:22,210 --> 00:00:24,110
+you can see a listing of log files
+
+13
+00:00:24,110 --> 00:00:25,850
+that exist on a Lynx System
+
+14
+00:00:25,850 --> 00:00:29,090
+and they're stored in
+the /var/log directory.
+
+15
+00:00:29,090 --> 00:00:30,220
+Now, you can see there are logs
+
+16
+00:00:30,220 --> 00:00:32,690
+for the kernels actions,
+the SYSLOG server,
+
+17
+00:00:32,690 --> 00:00:35,130
+samba file shares and much more.
+
+18
+00:00:35,130 --> 00:00:36,560
+You don't need to know all of these
+
+19
+00:00:36,560 --> 00:00:38,820
+specific log files for the exam.
+
+20
+00:00:38,820 --> 00:00:41,210
+This is just an example,
+to give you an experience
+
+21
+00:00:41,210 --> 00:00:43,980
+and see that there are
+logs on a Lynx System.
+
+22
+00:00:43,980 --> 00:00:45,940
+If you're looking for the
+logs on a Lynx System,
+
+23
+00:00:45,940 --> 00:00:48,920
+check the /var/log directory.
+
+24
+00:00:48,920 --> 00:00:51,420
+Now when we talk about
+this on a Windows System,
+
+25
+00:00:51,420 --> 00:00:52,633
+there are three types of logs
+
+26
+00:00:52,633 --> 00:00:54,340
+that you have to be familiar with.
+
+27
+00:00:54,340 --> 00:00:57,310
+There are Security, System
+and Application logs
+
+28
+00:00:57,310 --> 00:00:59,440
+and all three of those should be audited
+
+29
+00:00:59,440 --> 00:01:01,320
+when you're looking at a Windows System.
+
+30
+00:01:01,320 --> 00:01:03,630
+Now, Security Logs are logs for events
+
+31
+00:01:03,630 --> 00:01:05,400
+such as successful and unsuccessful
+
+32
+00:01:05,400 --> 00:01:07,340
+user logons to the system.
+
+33
+00:01:07,340 --> 00:01:09,887
+You might get a question
+on the exam that asks you
+
+34
+00:01:09,887 --> 00:01:11,767
+"If you are trying to find when a user
+
+35
+00:01:11,767 --> 00:01:13,207
+"was successfully logged onto a system,
+
+36
+00:01:13,207 --> 00:01:14,590
+"which log would you look at?"
+
+37
+00:01:14,590 --> 00:01:17,640
+And they'll ask you Security,
+Application or System log
+
+38
+00:01:17,640 --> 00:01:19,680
+and you have to know
+that it's a Security log.
+
+39
+00:01:19,680 --> 00:01:21,930
+Now if we look at a
+System Log for instance,
+
+40
+00:01:21,930 --> 00:01:23,260
+these are logs that have events
+
+41
+00:01:23,260 --> 00:01:25,710
+such as a system shutdown
+or driver failure.
+
+42
+00:01:25,710 --> 00:01:27,670
+So if you're trying to
+investigate why that computer
+
+43
+00:01:27,670 --> 00:01:30,020
+or server was shut down at midnight,
+
+44
+00:01:30,020 --> 00:01:32,770
+you can go into the System
+Log and hopefully find out.
+
+45
+00:01:32,770 --> 00:01:34,430
+Now if you're having a
+problem with an application,
+
+46
+00:01:34,430 --> 00:01:36,460
+you're going to look at
+the Application Logs.
+
+47
+00:01:36,460 --> 00:01:38,410
+Application Logs are
+going to log the events
+
+48
+00:01:38,410 --> 00:01:41,570
+for the operating system
+and third-party applications
+
+49
+00:01:41,570 --> 00:01:43,030
+and so those are the three types of logs
+
+50
+00:01:43,030 --> 00:01:45,490
+you need to be aware of inside of Windows.
+
+51
+00:01:45,490 --> 00:01:48,140
+Now in Windows, if you want
+to view these log files
+
+52
+00:01:48,140 --> 00:01:50,130
+you're going to use the Event Viewer.
+
+53
+00:01:50,130 --> 00:01:53,860
+Some logs like the System,
+Security and the Application logs
+
+54
+00:01:53,860 --> 00:01:56,560
+are going to exists on both
+work stations and servers.
+
+55
+00:01:56,560 --> 00:01:57,720
+If you're on a service though,
+
+56
+00:01:57,720 --> 00:02:00,020
+there's a lot of other logs
+that are going to exist too
+
+57
+00:02:00,020 --> 00:02:00,853
+Things like,
+
+58
+00:02:00,853 --> 00:02:03,140
+the Distributed File System
+Replication Services,
+
+59
+00:02:03,140 --> 00:02:05,430
+DNS servers, DHCP Servers,
+
+60
+00:02:05,430 --> 00:02:08,520
+Directory service logs
+and many many others.
+
+61
+00:02:08,520 --> 00:02:11,680
+All of these can be accessed
+from the Event Viewer,
+
+62
+00:02:11,680 --> 00:02:13,730
+but the Event Viewer isn't the most
+
+63
+00:02:13,730 --> 00:02:15,090
+efficient way to view them.
+
+64
+00:02:15,090 --> 00:02:17,830
+In fact, I much prefer a SYSLOG Server.
+
+65
+00:02:17,830 --> 00:02:19,110
+This will allow you to consolidate
+
+66
+00:02:19,110 --> 00:02:21,980
+all of the logs into a single repository
+
+67
+00:02:21,980 --> 00:02:23,980
+and then you can use a SYSLOG Client
+
+68
+00:02:23,980 --> 00:02:26,360
+to read through them
+and help cor alate them.
+
+69
+00:02:26,360 --> 00:02:27,870
+So if I need to cor alate an issue
+
+70
+00:02:27,870 --> 00:02:30,170
+with the DHCP and the DNS Server,
+
+71
+00:02:30,170 --> 00:02:31,020
+being able to do that through
+
+72
+00:02:31,020 --> 00:02:33,283
+the SYSLOG Server is much more efficient.
+
+73
+00:02:34,150 --> 00:02:35,790
+SYSLOG is simply a standardized format
+
+74
+00:02:35,790 --> 00:02:37,310
+for computer message logging,
+
+75
+00:02:37,310 --> 00:02:39,220
+that allows the separation of the software
+
+76
+00:02:39,220 --> 00:02:41,830
+that generates the message,
+the system that stores them
+
+77
+00:02:41,830 --> 00:02:44,360
+and the software that
+reports and analyzes them.
+
+78
+00:02:44,360 --> 00:02:45,920
+What does that really all mean?
+
+79
+00:02:45,920 --> 00:02:47,540
+Well, when it comes to SYSLOG Servers,
+
+80
+00:02:47,540 --> 00:02:49,410
+I can actually have different servers,
+
+81
+00:02:49,410 --> 00:02:51,970
+around the world, all
+sending their log files
+
+82
+00:02:51,970 --> 00:02:54,380
+back to a single logging server.
+
+83
+00:02:54,380 --> 00:02:57,120
+So the DNS Server, the DHCP Server,
+
+84
+00:02:57,120 --> 00:03:00,000
+the authentication server
+and your client work station
+
+85
+00:03:00,000 --> 00:03:01,240
+can all send their logs back
+
+86
+00:03:01,240 --> 00:03:03,300
+to a centralized monitoring system,
+
+87
+00:03:03,300 --> 00:03:04,820
+known as a SYSLOG Server.
+
+88
+00:03:04,820 --> 00:03:07,640
+It'll collect all those logs
+from across the enterprise,
+
+89
+00:03:07,640 --> 00:03:09,600
+cor alate them in the central repository
+
+90
+00:03:09,600 --> 00:03:11,160
+and make it so that I can actually
+
+91
+00:03:11,160 --> 00:03:13,220
+look up all of those things
+
+92
+00:03:13,220 --> 00:03:15,210
+based off of a SYSLOG client.
+
+93
+00:03:15,210 --> 00:03:17,460
+By taking apart the message format,
+
+94
+00:03:17,460 --> 00:03:19,040
+the person who's sending the message
+
+95
+00:03:19,040 --> 00:03:21,540
+and the client that reads those messages,
+
+96
+00:03:21,540 --> 00:03:23,750
+it allows us to have a lot more capability
+
+97
+00:03:23,750 --> 00:03:25,740
+than looking at the single event viewer
+
+98
+00:03:25,740 --> 00:03:27,400
+on a single Windows server
+
+99
+00:03:27,400 --> 00:03:29,200
+and having to log into
+each server to do that.
+
+100
+00:03:29,200 --> 00:03:32,370
+SYSLOG does this by
+sending all of that data
+
+101
+00:03:32,370 --> 00:03:35,900
+back over UDP using port 5-1-4.
+
+102
+00:03:35,900 --> 00:03:36,910
+And you might remember that
+
+103
+00:03:36,910 --> 00:03:39,493
+from our protocol lesson
+earlier in the course.
+

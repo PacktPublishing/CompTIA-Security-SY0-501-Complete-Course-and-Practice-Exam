@@ -1,0 +1,417 @@
+﻿1
+00:00:00,000 --> 00:00:01,579
+- To aid in the development
+of our policies,
+
+2
+00:00:01,579 --> 00:00:04,120
+standards, guidelines and procedures,
+
+3
+00:00:04,120 --> 00:00:05,520
+some organizations look to
+
+4
+00:00:05,520 --> 00:00:07,499
+enterprise security
+architecture frameworks,
+
+5
+00:00:07,499 --> 00:00:10,750
+as I mentioned back in the
+first lesson of this section.
+
+6
+00:00:10,750 --> 00:00:12,580
+Now, for the purposes of this lesson,
+
+7
+00:00:12,580 --> 00:00:15,200
+we're going to look at four
+of them fairly quickly.
+
+8
+00:00:15,200 --> 00:00:17,340
+First, we have the
+Sherwood Applied Business
+
+9
+00:00:17,340 --> 00:00:19,767
+Security Architecture,
+also known as SABSA.
+
+10
+00:00:19,767 --> 00:00:21,909
+SABSA is a risk-driven architecture,
+
+11
+00:00:21,909 --> 00:00:24,300
+and it seeks to consider
+the security problem
+
+12
+00:00:24,300 --> 00:00:26,819
+by thinking about the what, where, when,
+
+13
+00:00:26,819 --> 00:00:29,530
+why, who and how of a problem.
+
+14
+00:00:29,530 --> 00:00:31,520
+And they think about this as it intersects
+
+15
+00:00:31,520 --> 00:00:33,000
+with six different layers.
+
+16
+00:00:33,000 --> 00:00:35,320
+The operational, component, physical,
+
+17
+00:00:35,320 --> 00:00:38,800
+logical, conceptual and contextual layers.
+
+18
+00:00:38,800 --> 00:00:40,960
+Next, we'll consider COBIT.
+
+19
+00:00:40,960 --> 00:00:42,840
+COBIT stands for the Control Objectives
+
+20
+00:00:42,840 --> 00:00:45,010
+for Information and Related Technology.
+
+21
+00:00:45,010 --> 00:00:47,270
+And it's a security controlled
+development framework
+
+22
+00:00:47,270 --> 00:00:49,166
+that divides IT into four domains.
+
+23
+00:00:49,166 --> 00:00:51,768
+Plan and Organize, Acquire and Implement,
+
+24
+00:00:51,768 --> 00:00:55,300
+Deliver and Support, and
+Monitor and Evaluate.
+
+25
+00:00:55,300 --> 00:00:57,000
+Each of these domains is then broken down
+
+26
+00:00:57,000 --> 00:00:59,540
+into one of 34 other processes.
+
+27
+00:00:59,540 --> 00:01:00,570
+And this is very similar
+
+28
+00:01:00,570 --> 00:01:02,150
+to other service management frameworks.
+
+29
+00:01:02,150 --> 00:01:04,920
+Like ITIL or ISO 27000.
+
+30
+00:01:04,920 --> 00:01:06,630
+Next, let's take a quick look
+
+31
+00:01:06,630 --> 00:01:09,968
+at the NIST Special Publication 800-53.
+
+32
+00:01:09,968 --> 00:01:11,606
+This is a security control framework
+
+33
+00:01:11,606 --> 00:01:13,988
+developed by the U.S.
+Department of Commerce.
+
+34
+00:01:13,988 --> 00:01:16,920
+Each control is placed into
+one of three categories.
+
+35
+00:01:16,920 --> 00:01:19,840
+It is technical,
+operational or management.
+
+36
+00:01:19,840 --> 00:01:20,720
+We talked about this
+
+37
+00:01:20,720 --> 00:01:22,610
+back in our security controls lesson.
+
+38
+00:01:22,610 --> 00:01:23,860
+Each of these classes contains
+
+39
+00:01:23,860 --> 00:01:25,580
+numerous security controls as well.
+
+40
+00:01:25,580 --> 00:01:27,520
+And if you're working
+for a Government Agency,
+
+41
+00:01:27,520 --> 00:01:29,150
+you're likely going to
+be using the framework
+
+42
+00:01:29,150 --> 00:01:32,669
+that is the NIST Special
+Publication 800-53.
+
+43
+00:01:32,669 --> 00:01:34,770
+Now there's also an
+international framework
+
+44
+00:01:34,770 --> 00:01:36,300
+for information securities standards.
+
+45
+00:01:36,300 --> 00:01:38,629
+And this is known as
+the ISO 27,000 series.
+
+46
+00:01:38,629 --> 00:01:41,560
+And it also has the same kind of concept.
+
+47
+00:01:41,560 --> 00:01:43,968
+Finally, let's talk a moment about ITIL.
+
+48
+00:01:43,968 --> 00:01:46,300
+ITIL is a framework that used to be known
+
+49
+00:01:46,300 --> 00:01:48,220
+as the IT Infrastructure Library,
+
+50
+00:01:48,220 --> 00:01:50,360
+because it was very focused
+on service operations
+
+51
+00:01:50,360 --> 00:01:51,820
+and security of your networks.
+
+52
+00:01:51,820 --> 00:01:53,750
+But it has grown into
+something larger now,
+
+53
+00:01:53,750 --> 00:01:55,160
+with the new ITIL four.
+
+54
+00:01:55,160 --> 00:01:57,328
+ITIL is still the de facto standard
+
+55
+00:01:57,328 --> 00:01:59,100
+for IT service management.
+
+56
+00:01:59,100 --> 00:02:00,290
+But now it's being expanded
+
+57
+00:02:00,290 --> 00:02:01,360
+to include all sorts of
+
+58
+00:02:01,360 --> 00:02:03,020
+other service based connections
+
+59
+00:02:03,020 --> 00:02:04,520
+that we have with our organizations,
+
+60
+00:02:04,520 --> 00:02:06,940
+to provide value to our end users.
+
+61
+00:02:06,940 --> 00:02:09,560
+These days you may not even
+be running your own servers.
+
+62
+00:02:09,560 --> 00:02:12,085
+And yet you're still an
+IT service organization.
+
+63
+00:02:12,085 --> 00:02:15,370
+For example, we are a digital
+services training company,
+
+64
+00:02:15,370 --> 00:02:17,820
+but we don't even run
+our own website anymore.
+
+65
+00:02:17,820 --> 00:02:19,210
+Instead our partners do,
+
+66
+00:02:19,210 --> 00:02:21,180
+and we oversee those functions.
+
+67
+00:02:21,180 --> 00:02:23,067
+ITIL is very comprehensive
+for organizations
+
+68
+00:02:23,067 --> 00:02:24,925
+who may have their own servers,
+
+69
+00:02:24,925 --> 00:02:28,180
+contracted services and
+servers, and much more,
+
+70
+00:02:28,180 --> 00:02:29,210
+as their all integrated
+
+71
+00:02:29,210 --> 00:02:30,780
+into the single value chain
+
+72
+00:02:30,780 --> 00:02:32,960
+to support your users, and your customers.
+
+73
+00:02:32,960 --> 00:02:34,430
+Now for the security plus exam,
+
+74
+00:02:34,430 --> 00:02:36,040
+you don't need to know ITIL in depth.
+
+75
+00:02:36,040 --> 00:02:37,670
+But, I would recommend checking out
+
+76
+00:02:37,670 --> 00:02:38,880
+and ITIL four course,
+
+77
+00:02:38,880 --> 00:02:41,230
+because most employers
+rely heavily on ITIL
+
+78
+00:02:41,230 --> 00:02:42,210
+for their operations.
+
+79
+00:02:42,210 --> 00:02:44,730
+And being able to discuss
+ITIL, it's processes,
+
+80
+00:02:44,730 --> 00:02:46,466
+and it's concepts is a great thing to have
+
+81
+00:02:46,466 --> 00:02:49,170
+in your back pocket
+during a job interview.
+
+82
+00:02:49,170 --> 00:02:51,907
+After all, ITIL is the
+language of IT operations,
+
+83
+00:02:51,907 --> 00:02:53,336
+and as security professionals,
+
+84
+00:02:53,336 --> 00:02:55,787
+we need to fit in to
+that system effectively.
+
+85
+00:02:55,787 --> 00:02:58,040
+Now, in the security plus exam,
+
+86
+00:02:58,040 --> 00:02:59,070
+you're not going to be asked
+
+87
+00:02:59,070 --> 00:03:00,810
+a lot of questions about frameworks.
+
+88
+00:03:00,810 --> 00:03:02,650
+But you should know that
+there are frameworks
+
+89
+00:03:02,650 --> 00:03:04,776
+that exist, such as SABSA, COBIT,
+
+90
+00:03:04,776 --> 00:03:06,850
+the NIST Special Publications,
+
+91
+00:03:06,850 --> 00:03:09,140
+ISO 27000 and ITIL.
+
+92
+00:03:09,140 --> 00:03:11,435
+On the exam, the most I
+would expect you to see
+
+93
+00:03:11,435 --> 00:03:13,030
+on the exam about frameworks,
+
+94
+00:03:13,030 --> 00:03:14,630
+is the fact that we use frameworks
+
+95
+00:03:14,630 --> 00:03:16,685
+as a basis for our
+policies, our procedures
+
+96
+00:03:16,685 --> 00:03:17,593
+and our standards.
+

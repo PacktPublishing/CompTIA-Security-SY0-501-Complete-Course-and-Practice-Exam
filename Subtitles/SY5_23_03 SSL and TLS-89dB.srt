@@ -1,0 +1,706 @@
+﻿1
+00:00:00,000 --> 00:00:04,460
+- SSL and TLS provide the
+backbone of web security.
+
+2
+00:00:04,460 --> 00:00:06,930
+We've already talked a
+lot about SSL and TSL
+
+3
+00:00:06,930 --> 00:00:08,803
+every time we've talked about HTTPS.
+
+4
+00:00:09,670 --> 00:00:11,480
+But we're going to cover
+a couple more details
+
+5
+00:00:11,480 --> 00:00:12,910
+inside of this lesson.
+
+6
+00:00:12,910 --> 00:00:15,820
+First, SSL and TLS, what are they?
+
+7
+00:00:15,820 --> 00:00:18,710
+Well, SSL stands for
+the secure socket layer.
+
+8
+00:00:18,710 --> 00:00:21,480
+And TLS stands for
+transport layer security.
+
+9
+00:00:21,480 --> 00:00:23,070
+These are cryptographic protocols
+
+10
+00:00:23,070 --> 00:00:25,300
+that provide secure
+internet communications
+
+11
+00:00:25,300 --> 00:00:28,780
+for web browsing, instant
+messaging, email, VoIP,
+
+12
+00:00:28,780 --> 00:00:30,560
+and many other services.
+
+13
+00:00:30,560 --> 00:00:32,650
+I know we talk a lot
+about it in web browsing,
+
+14
+00:00:32,650 --> 00:00:35,550
+but it can be used for all
+of these other things too.
+
+15
+00:00:35,550 --> 00:00:37,500
+Now when we talk about SSL and TLS
+
+16
+00:00:37,500 --> 00:00:40,480
+let's start with SSL because
+it's the older protocol.
+
+17
+00:00:40,480 --> 00:00:42,260
+SSL was what was created first.
+
+18
+00:00:42,260 --> 00:00:44,250
+It was a way to start securing the web
+
+19
+00:00:44,250 --> 00:00:46,350
+as we wanted to start doing E-commerce.
+
+20
+00:00:46,350 --> 00:00:48,200
+The last time SSL was updated though
+
+21
+00:00:48,200 --> 00:00:51,730
+was 1996 with SSL version three.
+
+22
+00:00:51,730 --> 00:00:52,730
+It's really old.
+
+23
+00:00:52,730 --> 00:00:54,390
+You shouldn't use SSL.
+
+24
+00:00:54,390 --> 00:00:56,730
+Instead, it's been replaced by TLS,
+
+25
+00:00:56,730 --> 00:00:58,430
+transport layer security.
+
+26
+00:00:58,430 --> 00:01:01,910
+Now, everyone watching this
+should be using TLS version 1.2
+
+27
+00:01:02,790 --> 00:01:04,730
+which is the latest and greatest right now
+
+28
+00:01:04,730 --> 00:01:05,890
+as of this filming.
+
+29
+00:01:05,890 --> 00:01:07,390
+But, right around the corner
+
+30
+00:01:07,390 --> 00:01:09,700
+version 1.3 is going to be released.
+
+31
+00:01:09,700 --> 00:01:10,760
+The first drafts of it
+
+32
+00:01:10,760 --> 00:01:12,810
+are supposed to be coming out in 2019.
+
+33
+00:01:12,810 --> 00:01:16,500
+And then it's going to go into
+widespread use in 2019 or 2020
+
+34
+00:01:16,500 --> 00:01:19,610
+as we keep moving forward
+and increasing that security.
+
+35
+00:01:19,610 --> 00:01:21,900
+Now often you're going to
+hear people call it SSL
+
+36
+00:01:21,900 --> 00:01:23,740
+even if it's TLS that you're using.
+
+37
+00:01:23,740 --> 00:01:26,010
+This is just something that
+people call it incorrectly
+
+38
+00:01:26,010 --> 00:01:27,630
+because it's a creature of habit.
+
+39
+00:01:27,630 --> 00:01:29,470
+They've been using SSL since the 90s
+
+40
+00:01:29,470 --> 00:01:31,030
+and if you're an old guy like me,
+
+41
+00:01:31,030 --> 00:01:32,270
+you've been using it this whole time
+
+42
+00:01:32,270 --> 00:01:34,140
+and you call it secure socket layer
+
+43
+00:01:34,140 --> 00:01:36,360
+as opposed to transport layer security.
+
+44
+00:01:36,360 --> 00:01:38,660
+Whether you hear somebody say SSL or TLS,
+
+45
+00:01:38,660 --> 00:01:41,610
+most of the time they're
+really referring to TLS.
+
+46
+00:01:41,610 --> 00:01:44,820
+Now, we've already covered
+how TLS and SSL work
+
+47
+00:01:44,820 --> 00:01:47,140
+when we talked about the PKI lesson.
+
+48
+00:01:47,140 --> 00:01:48,210
+We talked about, if you remember,
+
+49
+00:01:48,210 --> 00:01:49,710
+that the web browser goes out
+
+50
+00:01:49,710 --> 00:01:51,210
+and gets the server's public key.
+
+51
+00:01:51,210 --> 00:01:52,600
+It then takes that and it encrypts
+
+52
+00:01:52,600 --> 00:01:53,960
+a random string of numbers,
+
+53
+00:01:53,960 --> 00:01:55,570
+sends that over to the web server.
+
+54
+00:01:55,570 --> 00:01:57,450
+And once the web server
+gets it they decrypt it
+
+55
+00:01:57,450 --> 00:01:58,770
+using their private key.
+
+56
+00:01:58,770 --> 00:02:00,770
+They then create a symmetric
+tunnel between the two.
+
+57
+00:02:00,770 --> 00:02:04,170
+And that symmetric tunnel,
+that is SSL or TLS.
+
+58
+00:02:04,170 --> 00:02:06,070
+Most of the time it's TLS.
+
+59
+00:02:06,070 --> 00:02:08,670
+Now, again, that's because
+TLS is what's current and new
+
+60
+00:02:08,670 --> 00:02:10,120
+and that's what you should be using.
+
+61
+00:02:10,120 --> 00:02:12,750
+So we've already talked
+about how this works.
+
+62
+00:02:12,750 --> 00:02:15,040
+But, I want to talk
+about how it can be used
+
+63
+00:02:15,040 --> 00:02:16,400
+with different protocols.
+
+64
+00:02:16,400 --> 00:02:19,770
+The first one is HTTPS which
+we were just discussing.
+
+65
+00:02:19,770 --> 00:02:22,870
+Now, TLS operates below
+these other protocols.
+
+66
+00:02:22,870 --> 00:02:25,240
+For example, if you want
+to run a secure website,
+
+67
+00:02:25,240 --> 00:02:28,250
+you would tunnel the normal HTTP protocol
+
+68
+00:02:28,250 --> 00:02:30,170
+through a TLS tunnel.
+
+69
+00:02:30,170 --> 00:02:33,460
+Normally you'd use HTTP over port 80.
+
+70
+00:02:33,460 --> 00:02:36,550
+But when you tunnel it through SSL or TLS
+
+71
+00:02:36,550 --> 00:02:39,310
+you're going to end up
+putting it on port 443
+
+72
+00:02:39,310 --> 00:02:42,193
+which is secure HTTP or HTTPS.
+
+73
+00:02:43,520 --> 00:02:45,550
+Next, let's talk about emails.
+
+74
+00:02:45,550 --> 00:02:47,500
+Let's say I wanted to
+send an email to you.
+
+75
+00:02:47,500 --> 00:02:51,750
+Normally I'm going to use
+SMTP and send it over port 25.
+
+76
+00:02:51,750 --> 00:02:53,860
+But if I want to do that securely,
+
+77
+00:02:53,860 --> 00:02:56,360
+I want to establish a TLS tunnel first.
+
+78
+00:02:56,360 --> 00:03:00,020
+I'll establish that TLS
+tunnel over port 465 instead
+
+79
+00:03:00,020 --> 00:03:03,670
+and send my SMTP traffic
+through that tunnel.
+
+80
+00:03:03,670 --> 00:03:05,700
+Again, it's the same
+thing we did with web,
+
+81
+00:03:05,700 --> 00:03:06,960
+but now we're doing it with email.
+
+82
+00:03:06,960 --> 00:03:08,740
+And you can do that for instant messaging.
+
+83
+00:03:08,740 --> 00:03:10,180
+You can do it for a file transfer.
+
+84
+00:03:10,180 --> 00:03:12,200
+You can do it for all sorts of stuff.
+
+85
+00:03:12,200 --> 00:03:14,370
+Now, one of the things we
+have to be concerned with
+
+86
+00:03:14,370 --> 00:03:17,050
+with TLS is how people can attack it.
+
+87
+00:03:17,050 --> 00:03:18,680
+And one of the most common
+ways people attack it
+
+88
+00:03:18,680 --> 00:03:20,730
+is by doing a downgrade attack.
+
+89
+00:03:20,730 --> 00:03:22,720
+A downgrade attack is when a protocol
+
+90
+00:03:22,720 --> 00:03:24,990
+is tricked into using
+a lower-quality version
+
+91
+00:03:24,990 --> 00:03:27,040
+instead of using the
+higher-quality version
+
+92
+00:03:27,040 --> 00:03:28,250
+that is was supposed to.
+
+93
+00:03:28,250 --> 00:03:29,540
+So, if your server was set up
+
+94
+00:03:29,540 --> 00:03:32,750
+to be able to use version 1.2 of TLS,
+
+95
+00:03:32,750 --> 00:03:35,190
+but somebody has their browser report
+
+96
+00:03:35,190 --> 00:03:37,460
+that they only support 1.0,
+
+97
+00:03:37,460 --> 00:03:40,400
+your server may downgrade itself to 1.0
+
+98
+00:03:40,400 --> 00:03:43,280
+which is a weaker protocol
+and can be exploited.
+
+99
+00:03:43,280 --> 00:03:44,780
+Now, why does it work that way?
+
+100
+00:03:44,780 --> 00:03:45,900
+Well, we know if somebody connects
+
+101
+00:03:45,900 --> 00:03:47,080
+to your website originally,
+
+102
+00:03:47,080 --> 00:03:49,840
+the first thing that your web
+server, and that client does
+
+103
+00:03:49,840 --> 00:03:51,660
+is negotiate how they're going to talk.
+
+104
+00:03:51,660 --> 00:03:55,260
+And if I say to you, hey,
+I only talk at version 1.0,
+
+105
+00:03:55,260 --> 00:03:56,580
+and you want to be able to support me,
+
+106
+00:03:56,580 --> 00:03:58,670
+you're going to downgrade to 1.0.
+
+107
+00:03:58,670 --> 00:04:01,200
+To stop this, you can
+configure your web server
+
+108
+00:04:01,200 --> 00:04:03,220
+to not support downgraded versions
+
+109
+00:04:03,220 --> 00:04:05,860
+and say we're only going
+to support version 1.1
+
+110
+00:04:05,860 --> 00:04:07,910
+or 1.2 for example.
+
+111
+00:04:07,910 --> 00:04:10,410
+This is a configuration you
+can make inside your server.
+
+112
+00:04:10,410 --> 00:04:12,450
+And check your server documentation
+
+113
+00:04:12,450 --> 00:04:13,470
+whether it's Windows or Linux
+
+114
+00:04:13,470 --> 00:04:16,270
+on how to do this specifically
+as you get into the field.
+
+115
+00:04:16,270 --> 00:04:17,670
+For the Security Plus exam
+
+116
+00:04:17,670 --> 00:04:19,740
+you need to understand
+the concept of downgrade,
+
+117
+00:04:19,740 --> 00:04:21,390
+not how to actually secure it
+
+118
+00:04:21,390 --> 00:04:24,070
+by doing the hands-on
+keyboard type of stuff.
+
+119
+00:04:24,070 --> 00:04:26,050
+The last thing I want to mention about TLS
+
+120
+00:04:26,050 --> 00:04:28,820
+is while it is great and
+provides us lots of security,
+
+121
+00:04:28,820 --> 00:04:32,150
+as network defenders it's
+actually a challenge for us.
+
+122
+00:04:32,150 --> 00:04:33,440
+Let me use this example.
+
+123
+00:04:33,440 --> 00:04:35,100
+You're sitting at your computer at work.
+
+124
+00:04:35,100 --> 00:04:37,200
+And you decide to get on Dropbox.
+
+125
+00:04:37,200 --> 00:04:38,230
+Well, if you're on Dropbox
+
+126
+00:04:38,230 --> 00:04:40,290
+and you're using the secure
+version of that website,
+
+127
+00:04:40,290 --> 00:04:43,260
+you have a nice TLS
+connection from your device
+
+128
+00:04:43,260 --> 00:04:45,380
+all the way to Dropbox's servers.
+
+129
+00:04:45,380 --> 00:04:46,280
+Well guess what?
+
+130
+00:04:46,280 --> 00:04:48,120
+Whenever you're putting files into there,
+
+131
+00:04:48,120 --> 00:04:50,320
+as a defender I can't
+see what you're doing
+
+132
+00:04:50,320 --> 00:04:52,620
+because there's this tunnel
+that I'm not a part of.
+
+133
+00:04:52,620 --> 00:04:54,610
+And so it's going to be
+secure from your computer,
+
+134
+00:04:54,610 --> 00:04:57,100
+your laptop all the way to the server.
+
+135
+00:04:57,100 --> 00:04:58,550
+Well, if I need to see what's coming in
+
+136
+00:04:58,550 --> 00:05:00,750
+and out of the network, I
+have to have a way to do that.
+
+137
+00:05:00,750 --> 00:05:03,250
+And the way I do that is what's
+called break and inspect.
+
+138
+00:05:03,250 --> 00:05:05,280
+We talked about this back in web proxies.
+
+139
+00:05:05,280 --> 00:05:07,020
+If I can act as the man in the middle
+
+140
+00:05:07,020 --> 00:05:10,250
+by putting a proxy there,
+you can connect to the proxy,
+
+141
+00:05:10,250 --> 00:05:12,210
+the proxy connects to Dropbox.
+
+142
+00:05:12,210 --> 00:05:14,120
+Now you're going to
+authenticate with the proxy
+
+143
+00:05:14,120 --> 00:05:15,380
+with a TLS tunnel.
+
+144
+00:05:15,380 --> 00:05:17,430
+Then I'm going to
+unencrypt what you gave me,
+
+145
+00:05:17,430 --> 00:05:19,000
+I'm going to look at it, inspect it,
+
+146
+00:05:19,000 --> 00:05:20,770
+and then I'm going to encrypt
+it again and send it off
+
+147
+00:05:20,770 --> 00:05:22,940
+through a secure tunnel
+all the way to Dropbox.
+
+148
+00:05:22,940 --> 00:05:25,250
+And when the files come back
+I can do the same thing.
+
+149
+00:05:25,250 --> 00:05:27,070
+This is how I can determine
+what's coming in and out
+
+150
+00:05:27,070 --> 00:05:28,280
+of my network and looking at it
+
+151
+00:05:28,280 --> 00:05:29,780
+and making sure there's no malware
+
+152
+00:05:29,780 --> 00:05:31,890
+or any bad things coming in or out.
+
+153
+00:05:31,890 --> 00:05:34,510
+Now, by doing this I'm
+going to end up eating up
+
+154
+00:05:34,510 --> 00:05:36,280
+a lot of processor resources.
+
+155
+00:05:36,280 --> 00:05:38,980
+Because I have to decrypt and
+encrypt every single thing
+
+156
+00:05:38,980 --> 00:05:41,660
+that's going through that
+break and inspect proxy.
+
+157
+00:05:41,660 --> 00:05:42,980
+And so when you set this up
+
+158
+00:05:42,980 --> 00:05:44,590
+you have to make sure you set it up right.
+
+159
+00:05:44,590 --> 00:05:46,380
+And if you have a really
+large organization,
+
+160
+00:05:46,380 --> 00:05:48,530
+it gets really hard to
+do this effectively.
+

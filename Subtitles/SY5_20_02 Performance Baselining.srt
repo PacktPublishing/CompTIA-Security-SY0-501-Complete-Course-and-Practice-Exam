@@ -1,0 +1,597 @@
+﻿1
+00:00:01,070 --> 00:00:02,800
+- We've already mentioned
+the word baselining
+
+2
+00:00:02,800 --> 00:00:04,430
+several times throughout the course,
+
+3
+00:00:04,430 --> 00:00:07,280
+but now we're going to take
+some time to formally define it
+
+4
+00:00:07,280 --> 00:00:09,020
+and explore that concept a bit more
+
+5
+00:00:09,020 --> 00:00:11,650
+because it's really important
+in the world of monitoring.
+
+6
+00:00:11,650 --> 00:00:13,980
+First, what is a baselining process?
+
+7
+00:00:13,980 --> 00:00:16,020
+Well, it's a process of measuring changes
+
+8
+00:00:16,020 --> 00:00:19,280
+in networking, hardware,
+software, or applications.
+
+9
+00:00:19,280 --> 00:00:22,100
+If we know what the
+baseline is, what is normal,
+
+10
+00:00:22,100 --> 00:00:24,186
+we can then see what is abnormal.
+
+11
+00:00:24,186 --> 00:00:26,230
+Now, baselining our
+network is really important
+
+12
+00:00:26,230 --> 00:00:28,550
+because it's going to
+define what normal is.
+
+13
+00:00:28,550 --> 00:00:29,890
+By defining what normal is,
+
+14
+00:00:29,890 --> 00:00:31,540
+it allows us to monitor for changes
+
+15
+00:00:31,540 --> 00:00:32,980
+and report on those changes
+
+16
+00:00:32,980 --> 00:00:35,970
+whenever we find something
+that's anomalous or abnormal.
+
+17
+00:00:35,970 --> 00:00:38,800
+This brings us to the concept
+of baseline reporting.
+
+18
+00:00:38,800 --> 00:00:40,450
+Baseline reporting is the process
+
+19
+00:00:40,450 --> 00:00:42,930
+of documenting and
+reporting on the changes
+
+20
+00:00:42,930 --> 00:00:44,740
+that you find in a baseline.
+
+21
+00:00:44,740 --> 00:00:47,420
+So if I said that this computer
+was a Windows 10 machine
+
+22
+00:00:47,420 --> 00:00:48,940
+with these five apps on it,
+
+23
+00:00:48,940 --> 00:00:50,980
+and now you find that there are six apps,
+
+24
+00:00:50,980 --> 00:00:52,540
+that is something we'd have to report
+
+25
+00:00:52,540 --> 00:00:54,910
+because it's outside the normal baseline.
+
+26
+00:00:54,910 --> 00:00:57,700
+We also have a baseline for
+the system that we create
+
+27
+00:00:57,700 --> 00:00:59,750
+as part of our security posture.
+
+28
+00:00:59,750 --> 00:01:02,420
+Now a security posture is
+basically the risk level
+
+29
+00:01:02,420 --> 00:01:04,390
+to which a system or
+other technology element
+
+30
+00:01:04,390 --> 00:01:06,380
+is going to be exposed.
+
+31
+00:01:06,380 --> 00:01:08,560
+This type of baselining is usually tied up
+
+32
+00:01:08,560 --> 00:01:10,680
+in the concept of
+configuration management,
+
+33
+00:01:10,680 --> 00:01:12,260
+and the patch levels that we use,
+
+34
+00:01:12,260 --> 00:01:13,470
+and the programs we install,
+
+35
+00:01:13,470 --> 00:01:15,520
+and the way we configure our devices
+
+36
+00:01:15,520 --> 00:01:18,550
+all are down in an effort
+to meet a certain risk level
+
+37
+00:01:18,550 --> 00:01:20,990
+we want to meet or a
+certain security posture.
+
+38
+00:01:20,990 --> 00:01:23,870
+If it's a server and we want to
+have it as a low-risk server,
+
+39
+00:01:23,870 --> 00:01:25,830
+we're going to have to make
+sure everything is fully updated
+
+40
+00:01:25,830 --> 00:01:28,610
+and we control specifically
+every application,
+
+41
+00:01:28,610 --> 00:01:32,090
+every port, and every configuration
+item inside that server.
+
+42
+00:01:32,090 --> 00:01:33,850
+Now if I'm dealing with your mobile phone,
+
+43
+00:01:33,850 --> 00:01:36,170
+I may be willing to accept
+a higher risk level,
+
+44
+00:01:36,170 --> 00:01:37,003
+and I don't care if you're
+
+45
+00:01:37,003 --> 00:01:38,890
+going to install Angry Birds on it or not.
+
+46
+00:01:38,890 --> 00:01:41,170
+That might be something that
+I'm going to allow to happen,
+
+47
+00:01:41,170 --> 00:01:43,540
+and even though that might
+put me in a higher risk level,
+
+48
+00:01:43,540 --> 00:01:45,820
+that's okay because it
+matches the security posture
+
+49
+00:01:45,820 --> 00:01:47,739
+for that particular device.
+
+50
+00:01:47,739 --> 00:01:50,950
+Now this lesson was called
+Performance Baselining,
+
+51
+00:01:50,950 --> 00:01:51,910
+why is that?
+
+52
+00:01:51,910 --> 00:01:53,670
+Well, it's because performance baselining
+
+53
+00:01:53,670 --> 00:01:55,680
+is one of the most common
+types of monitoring
+
+54
+00:01:55,680 --> 00:01:57,600
+that you're going to find
+in your organization.
+
+55
+00:01:57,600 --> 00:01:59,080
+With performance baselining,
+
+56
+00:01:59,080 --> 00:02:02,250
+we're really focused on
+operations and functionality.
+
+57
+00:02:02,250 --> 00:02:04,140
+So, it's not as much of a security issue
+
+58
+00:02:04,140 --> 00:02:05,340
+in most organizations.
+
+59
+00:02:05,340 --> 00:02:07,770
+We're looking at how much are
+the processors being used?
+
+60
+00:02:07,770 --> 00:02:09,610
+How much is the network
+bandwidth being used?
+
+61
+00:02:09,610 --> 00:02:11,340
+How much disk space is being used?
+
+62
+00:02:11,340 --> 00:02:14,200
+All of that stuff is
+performance baselining.
+
+63
+00:02:14,200 --> 00:02:17,030
+But, in security, it's also important
+
+64
+00:02:17,030 --> 00:02:18,160
+to look at this stuff.
+
+65
+00:02:18,160 --> 00:02:19,120
+Why is that?
+
+66
+00:02:19,120 --> 00:02:20,730
+Well, if you start seeing a processor
+
+67
+00:02:20,730 --> 00:02:23,860
+that's being overtaxed and
+it's using a lot of resources,
+
+68
+00:02:23,860 --> 00:02:27,270
+it may be not that here's an
+additional load coming in,
+
+69
+00:02:27,270 --> 00:02:29,690
+but it may be that you have
+malware on that machine.
+
+70
+00:02:29,690 --> 00:02:31,220
+That's something that's
+going to be an indicator
+
+71
+00:02:31,220 --> 00:02:32,510
+that you would then investigate.
+
+72
+00:02:32,510 --> 00:02:34,360
+So again, having that normal baseline
+
+73
+00:02:34,360 --> 00:02:36,280
+and then seeing what is abnormal,
+
+74
+00:02:36,280 --> 00:02:37,710
+what are those spikes?
+
+75
+00:02:37,710 --> 00:02:39,000
+That is where we're going to investigate
+
+76
+00:02:39,000 --> 00:02:41,020
+and go, why are we seeing those spikes?
+
+77
+00:02:41,020 --> 00:02:42,420
+So as you can see here on the screen,
+
+78
+00:02:42,420 --> 00:02:45,170
+this technician has his
+finger on one of those spikes,
+
+79
+00:02:45,170 --> 00:02:46,280
+and we would look at that time of day
+
+80
+00:02:46,280 --> 00:02:48,880
+and go, why is there a
+spike in network traffic?
+
+81
+00:02:48,880 --> 00:02:50,440
+Is somebody trying to steal our files?
+
+82
+00:02:50,440 --> 00:02:52,460
+If that spike happened
+at three in the morning,
+
+83
+00:02:52,460 --> 00:02:53,840
+I would want to know why.
+
+84
+00:02:53,840 --> 00:02:56,450
+If it happened at noon,
+I can probably guess why.
+
+85
+00:02:56,450 --> 00:02:58,380
+People are sitting at their
+desk and playing on Facebook
+
+86
+00:02:58,380 --> 00:02:59,630
+because it's lunch time.
+
+87
+00:02:59,630 --> 00:03:02,440
+So again, looking into those
+things that are anomalous
+
+88
+00:03:02,440 --> 00:03:03,820
+and outside the normal band
+
+89
+00:03:03,820 --> 00:03:05,870
+will allow you to figure
+out what is normal,
+
+90
+00:03:05,870 --> 00:03:08,190
+what is not, and what is a security risk
+
+91
+00:03:08,190 --> 00:03:09,490
+and what is not.
+
+92
+00:03:09,490 --> 00:03:11,350
+Now to do performance monitoring,
+
+93
+00:03:11,350 --> 00:03:13,520
+you can do this lots of different ways.
+
+94
+00:03:13,520 --> 00:03:15,100
+One of the ways that most people use
+
+95
+00:03:15,100 --> 00:03:17,150
+is a tool called Performance Monitor.
+
+96
+00:03:17,150 --> 00:03:18,780
+It's a tool in Windows that you can use
+
+97
+00:03:18,780 --> 00:03:20,010
+to monitor the performance
+
+98
+00:03:20,010 --> 00:03:22,450
+of an individual server or workstation.
+
+99
+00:03:22,450 --> 00:03:23,330
+You can check things like
+
+100
+00:03:23,330 --> 00:03:24,980
+the processing power being utilized,
+
+101
+00:03:24,980 --> 00:03:26,490
+the amount of memory being utilized,
+
+102
+00:03:26,490 --> 00:03:27,470
+the amount of disk space,
+
+103
+00:03:27,470 --> 00:03:30,120
+the network utilization,
+and other things like that.
+
+104
+00:03:30,120 --> 00:03:32,470
+You can also set it up
+to create reports for you
+
+105
+00:03:32,470 --> 00:03:35,320
+and then get those off and
+compare those in the future.
+
+106
+00:03:35,320 --> 00:03:39,230
+Now, to get this tool, you're
+going to use Perfmon.exe,
+
+107
+00:03:39,230 --> 00:03:42,030
+which is the Windows program
+for the performance monitor.
+
+108
+00:03:42,030 --> 00:03:43,010
+If you go to a command prompt
+
+109
+00:03:43,010 --> 00:03:44,770
+and type in Perfmon and hit enter,
+
+110
+00:03:44,770 --> 00:03:46,520
+it will bring up the performance monitor
+
+111
+00:03:46,520 --> 00:03:49,630
+and you can see how your
+system is currently performing.
+
+112
+00:03:49,630 --> 00:03:51,710
+Now the performance
+monitor and other tools
+
+113
+00:03:51,710 --> 00:03:53,420
+will allow you to also create reports,
+
+114
+00:03:53,420 --> 00:03:54,770
+as I mentioned before.
+
+115
+00:03:54,770 --> 00:03:57,990
+This is useful to go back and
+analyze the details afterwards
+
+116
+00:03:57,990 --> 00:03:59,350
+to see what was going wrong,
+
+117
+00:03:59,350 --> 00:04:01,940
+but it's not going to
+be useful in real time.
+
+118
+00:04:01,940 --> 00:04:04,180
+Instead, you need to set up proper alerts
+
+119
+00:04:04,180 --> 00:04:06,930
+and notifications so you
+get an instant notification
+
+120
+00:04:06,930 --> 00:04:09,440
+to an administrator when
+some predefined thresholds
+
+121
+00:04:09,440 --> 00:04:10,950
+are breached by the system.
+
+122
+00:04:10,950 --> 00:04:12,900
+For example, you might say that anytime
+
+123
+00:04:12,900 --> 00:04:15,580
+the server starts going
+over 80% utilization,
+
+124
+00:04:15,580 --> 00:04:17,330
+the administrator should be notified.
+
+125
+00:04:17,330 --> 00:04:20,630
+Or, anytime the network
+utilization goes over 95%.
+
+126
+00:04:20,630 --> 00:04:22,880
+Whatever those thresholds
+are in your organization,
+
+127
+00:04:22,880 --> 00:04:24,290
+you're going to have to define that.
+
+128
+00:04:24,290 --> 00:04:25,470
+But once you have those set,
+
+129
+00:04:25,470 --> 00:04:27,550
+you can then figure out what it is,
+
+130
+00:04:27,550 --> 00:04:28,800
+and you're going to be notified
+
+131
+00:04:28,800 --> 00:04:29,930
+so you can look into those things
+
+132
+00:04:29,930 --> 00:04:31,390
+that become anomalous events
+
+133
+00:04:31,390 --> 00:04:33,060
+to figure out if it's an issue
+
+134
+00:04:33,060 --> 00:04:35,597
+or if it's normal operations.
+
+135
+00:04:35,597 --> 00:04:37,807
+(electronic tones)
+

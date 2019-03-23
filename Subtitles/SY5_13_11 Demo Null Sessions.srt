@@ -1,0 +1,283 @@
+﻿1
+00:00:00,610 --> 00:00:02,620
+- In this demonstration,
+I'm going to show you
+
+2
+00:00:02,620 --> 00:00:04,510
+how a null session is created.
+
+3
+00:00:04,510 --> 00:00:05,470
+But you may be wondering,
+
+4
+00:00:05,470 --> 00:00:07,480
+what exactly is a null session?
+
+5
+00:00:07,480 --> 00:00:09,420
+Well, a null session
+is a connection to the
+
+6
+00:00:09,420 --> 00:00:11,870
+Windows interprocess communications share
+
+7
+00:00:11,870 --> 00:00:14,200
+known as the IPC dollar sign.
+
+8
+00:00:14,200 --> 00:00:16,670
+This is an administrative
+share that you don't see
+
+9
+00:00:16,670 --> 00:00:18,990
+as a normal user, but it allows computers
+
+10
+00:00:18,990 --> 00:00:21,430
+across the network to send
+information that they know
+
+11
+00:00:21,430 --> 00:00:25,080
+about files, folders,
+users, groups, computers
+
+12
+00:00:25,080 --> 00:00:27,000
+and servers to each other.
+
+13
+00:00:27,000 --> 00:00:28,950
+Now, as an attacker, if
+you're able to create
+
+14
+00:00:28,950 --> 00:00:31,460
+a null connection to a
+computer, you can use that
+
+15
+00:00:31,460 --> 00:00:33,100
+as part of your information gathering
+
+16
+00:00:33,100 --> 00:00:35,820
+and enumeration and be able
+to use all of that data
+
+17
+00:00:35,820 --> 00:00:37,760
+as part of your follow on attack.
+
+18
+00:00:37,760 --> 00:00:40,120
+So if a null connection
+can give you access to all
+
+19
+00:00:40,120 --> 00:00:42,540
+of this information,
+how easy is it to really
+
+20
+00:00:42,540 --> 00:00:44,240
+get a null connection set up?
+
+21
+00:00:44,240 --> 00:00:46,310
+Well you can do it with one line of code
+
+22
+00:00:46,310 --> 00:00:47,680
+inside the command line.
+
+23
+00:00:47,680 --> 00:00:48,840
+As I'm going to show you here,
+
+24
+00:00:48,840 --> 00:00:50,220
+using my Windows 10 machine,
+
+25
+00:00:50,220 --> 00:00:51,843
+over a local area network.
+
+26
+00:00:52,830 --> 00:00:55,310
+So here I am at the command prompt.
+
+27
+00:00:55,310 --> 00:00:57,500
+To do a null connection,
+all you have to use
+
+28
+00:00:57,500 --> 00:00:59,220
+is the net use command.
+
+29
+00:00:59,220 --> 00:01:02,680
+Net space use and then the ip address
+
+30
+00:01:02,680 --> 00:01:04,210
+that you want to connect to.
+
+31
+00:01:04,210 --> 00:01:07,071
+In my case, that's 10.0.2.15
+
+32
+00:01:07,071 --> 00:01:09,348
+and then slash ipc$
+
+33
+00:01:09,348 --> 00:01:12,120
+to connect to that administrative share
+
+34
+00:01:12,120 --> 00:01:14,170
+the inner process communication.
+
+35
+00:01:14,170 --> 00:01:17,420
+Now, from there you're going
+to use a space, two quotes,
+
+36
+00:01:17,420 --> 00:01:19,900
+which is going to say
+that you have no password,
+
+37
+00:01:19,900 --> 00:01:23,760
+the slash u for the user
+and then two more quotes,
+
+38
+00:01:23,760 --> 00:01:25,540
+which says you have no user.
+
+39
+00:01:25,540 --> 00:01:27,760
+It's a blank user and a blank password.
+
+40
+00:01:27,760 --> 00:01:30,620
+If you hit enter, now that
+you have this connection,
+
+41
+00:01:30,620 --> 00:01:33,130
+you can start gathering
+information such as the users
+
+42
+00:01:33,130 --> 00:01:36,760
+and the groups, the files, the
+shares, the local resources,
+
+43
+00:01:36,760 --> 00:01:39,870
+all of that using other tools
+that a penetration tester
+
+44
+00:01:39,870 --> 00:01:41,910
+or hacker might use.
+
+45
+00:01:41,910 --> 00:01:43,760
+So now that you've seen
+how easy it is to create
+
+46
+00:01:43,760 --> 00:01:45,550
+a null connection, you may be wondering,
+
+47
+00:01:45,550 --> 00:01:48,540
+what can I do to stop this
+from being used against me?
+
+48
+00:01:48,540 --> 00:01:51,470
+Well, for one, on your
+local machine if you block
+
+49
+00:01:51,470 --> 00:01:55,490
+port 445 and 139, this
+is going to block smb,
+
+50
+00:01:55,490 --> 00:01:58,900
+your file sharing, as
+well as port 139 net bios
+
+51
+00:01:58,900 --> 00:02:00,970
+and both of these ports
+are used heavily to
+
+52
+00:02:00,970 --> 00:02:03,450
+get information from your
+machine and do things
+
+53
+00:02:03,450 --> 00:02:05,060
+like enumeration such as when you're
+
+54
+00:02:05,060 --> 00:02:06,320
+using the null session.
+
+55
+00:02:06,320 --> 00:02:08,530
+So this will be your first
+step in blocking someone
+
+56
+00:02:08,530 --> 00:02:09,600
+from getting there.
+
+57
+00:02:09,600 --> 00:02:11,620
+The second thing you can
+do, is you can install
+
+58
+00:02:11,620 --> 00:02:13,630
+an IPS at your boundary.
+
+59
+00:02:13,630 --> 00:02:15,500
+This will prevent anyone
+from outside your network
+
+60
+00:02:15,500 --> 00:02:18,540
+trying to make a null connection
+in to any of your machines.
+
+61
+00:02:18,540 --> 00:02:20,960
+Both of these are good steps
+in limiting the ability
+
+62
+00:02:20,960 --> 00:02:22,810
+of an attacker to be able
+to gather information
+
+63
+00:02:22,810 --> 00:02:24,473
+about you and your network.
+

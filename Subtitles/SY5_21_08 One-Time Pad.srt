@@ -1,0 +1,532 @@
+﻿1
+00:00:00,411 --> 00:00:02,870
+- Every encryption cipher
+is attempting to do
+
+2
+00:00:02,870 --> 00:00:04,480
+one basic function.
+
+3
+00:00:04,480 --> 00:00:06,970
+We're trying to assure you
+that confidentiality exists
+
+4
+00:00:06,970 --> 00:00:08,580
+in the data they've encrypted.
+
+5
+00:00:08,580 --> 00:00:12,080
+But, no encryption cipher
+is truly unbreakable.
+
+6
+00:00:12,080 --> 00:00:14,870
+Given enough time and
+computer processing power
+
+7
+00:00:14,870 --> 00:00:16,520
+any encryption can be defeated,
+
+8
+00:00:16,520 --> 00:00:20,810
+including AES, DES and
+many others, eventually.
+
+9
+00:00:20,810 --> 00:00:23,560
+Well, that is all of them except one.
+
+10
+00:00:23,560 --> 00:00:26,190
+This is called a One-Time Pad.
+
+11
+00:00:26,190 --> 00:00:28,470
+Now, a One-Time Pad is a stream cipher
+
+12
+00:00:28,470 --> 00:00:30,460
+that encrypts plaintext information
+
+13
+00:00:30,460 --> 00:00:33,080
+with a secret random key
+that is the same length
+
+14
+00:00:33,080 --> 00:00:34,750
+as the plaintext input.
+
+15
+00:00:34,750 --> 00:00:37,350
+This secret random key
+is knows as a keystream
+
+16
+00:00:37,350 --> 00:00:40,020
+and it's comprised of a
+series of random bits.
+
+17
+00:00:40,020 --> 00:00:42,250
+If the keystream is truly random,
+
+18
+00:00:42,250 --> 00:00:44,550
+the only way an attacker
+could decrypt the information
+
+19
+00:00:44,550 --> 00:00:47,020
+back to the plaintext
+is if they had access
+
+20
+00:00:47,020 --> 00:00:49,290
+to that randomly created keystream.
+
+21
+00:00:49,290 --> 00:00:51,110
+To describe how this works a little bit,
+
+22
+00:00:51,110 --> 00:00:53,010
+let's do a lo-tech version of this.
+
+23
+00:00:53,010 --> 00:00:54,630
+Let's say that you and
+I both wanted to come up
+
+24
+00:00:54,630 --> 00:00:55,980
+with a secret code so that we can
+
+25
+00:00:55,980 --> 00:00:57,320
+transmit information to each other
+
+26
+00:00:57,320 --> 00:00:59,600
+and nobody else in the world
+would be able to know it.
+
+27
+00:00:59,600 --> 00:01:02,140
+The way we can do this is
+by using a One-Time Pad.
+
+28
+00:01:02,140 --> 00:01:05,880
+We'll each buy a thousand-page
+notebook and on every page,
+
+29
+00:01:05,880 --> 00:01:08,240
+we're going to put a
+number on there, at random.
+
+30
+00:01:08,240 --> 00:01:10,570
+And your book and my
+book are going to match.
+
+31
+00:01:10,570 --> 00:01:12,270
+So, for everyone of those thousand pages,
+
+32
+00:01:12,270 --> 00:01:13,670
+there's a random number on it.
+
+33
+00:01:13,670 --> 00:01:16,230
+So, now every time we want to
+send a message to each other,
+
+34
+00:01:16,230 --> 00:01:18,410
+we're going to perform
+a rotation cipher on it.
+
+35
+00:01:18,410 --> 00:01:21,290
+And so, if I wanted to send
+you the word "Hi", H-I,
+
+36
+00:01:21,290 --> 00:01:22,810
+then I'm going to rotate the h
+
+37
+00:01:22,810 --> 00:01:25,330
+by the number on the
+first page, which is 3.
+
+38
+00:01:25,330 --> 00:01:28,850
+So instead of h, it would be h, i, j, k.
+
+39
+00:01:28,850 --> 00:01:30,160
+So I'd put a k down.
+
+40
+00:01:30,160 --> 00:01:31,730
+And then I would rotate the i,
+
+41
+00:01:31,730 --> 00:01:33,630
+the second letter in my word,
+
+42
+00:01:33,630 --> 00:01:35,560
+based on the second page of our notebook,
+
+43
+00:01:35,560 --> 00:01:36,970
+in this case, zero.
+
+44
+00:01:36,970 --> 00:01:39,100
+So now I'm going to have K-I,
+
+45
+00:01:39,100 --> 00:01:40,530
+and send you that message.
+
+46
+00:01:40,530 --> 00:01:42,120
+Because you have the same notebook,
+
+47
+00:01:42,120 --> 00:01:44,392
+you can then subtract
+three from the k to get h,
+
+48
+00:01:44,392 --> 00:01:46,770
+and zero from the i to get i,
+
+49
+00:01:46,770 --> 00:01:48,320
+and you know the message is "Hi".
+
+50
+00:01:48,320 --> 00:01:49,650
+But anybody else in the world,
+
+51
+00:01:49,650 --> 00:01:51,320
+wouldn't be able to know what it was.
+
+52
+00:01:51,320 --> 00:01:52,869
+Now once we use those
+pages, we rip them out,
+
+53
+00:01:52,869 --> 00:01:55,810
+we burn them, and we never use them again.
+
+54
+00:01:55,810 --> 00:01:58,340
+Because this is truly a random key string,
+
+55
+00:01:58,340 --> 00:02:00,430
+and no one would be able
+to decrypt our messages
+
+56
+00:02:00,430 --> 00:02:02,770
+if they don't have that
+random number string
+
+57
+00:02:02,770 --> 00:02:04,070
+written down like we do.
+
+58
+00:02:04,070 --> 00:02:06,660
+The reason is, there was no
+real mathematical formula
+
+59
+00:02:06,660 --> 00:02:08,210
+or pattern to determine here.
+
+60
+00:02:08,210 --> 00:02:11,050
+If I use the same number
+for the entire message,
+
+61
+00:02:11,050 --> 00:02:13,020
+we can use cryptoanalysis and figure out
+
+62
+00:02:13,020 --> 00:02:14,470
+that all of the letters will move
+
+63
+00:02:14,470 --> 00:02:16,560
+by five, or 10, or 13,
+
+64
+00:02:16,560 --> 00:02:18,860
+but by changing every single number,
+
+65
+00:02:18,860 --> 00:02:21,150
+or in the data stream, every single bit,
+
+66
+00:02:21,150 --> 00:02:22,470
+there's no pattern.
+
+67
+00:02:22,470 --> 00:02:24,630
+So they're only going to be
+able to decode that message
+
+68
+00:02:24,630 --> 00:02:27,220
+if they're able to get a copy
+of our one-time use pads.
+
+69
+00:02:27,220 --> 00:02:30,150
+Now there is one problem
+with a one-time pad though,
+
+70
+00:02:30,150 --> 00:02:31,530
+and it's that there is not such thing
+
+71
+00:02:31,530 --> 00:02:33,610
+as a truly random sequence of numbers
+
+72
+00:02:33,610 --> 00:02:35,690
+if those numbers are
+created by a computer.
+
+73
+00:02:35,690 --> 00:02:37,220
+Computer aren't random.
+
+74
+00:02:37,220 --> 00:02:39,100
+They're based on math and algorithms.
+
+75
+00:02:39,100 --> 00:02:41,210
+And so, computers can't simply create
+
+76
+00:02:41,210 --> 00:02:42,630
+purely random numbers.
+
+77
+00:02:42,630 --> 00:02:45,330
+Instead, they try to simulate
+it, using algorithms,
+
+78
+00:02:45,330 --> 00:02:46,780
+and they try to create what's known
+
+79
+00:02:46,780 --> 00:02:50,420
+as a Pseudo-Random Number
+Generator, or PRNG.
+
+80
+00:02:50,420 --> 00:02:52,450
+This is an algorithm that
+spits out what looks,
+
+81
+00:02:52,450 --> 00:02:54,320
+to you and me, like random numbers,
+
+82
+00:02:54,320 --> 00:02:56,410
+but to other computers,
+they can figure out
+
+83
+00:02:56,410 --> 00:02:57,730
+what the initial seed was
+
+84
+00:02:57,730 --> 00:03:00,270
+and then that takes away the randomness.
+
+85
+00:03:00,270 --> 00:03:02,670
+These numbers are used
+for a variety of purposes,
+
+86
+00:03:02,670 --> 00:03:05,330
+including encryption, as
+well as game development
+
+87
+00:03:05,330 --> 00:03:08,110
+and other things that you
+might need a random number for.
+
+88
+00:03:08,110 --> 00:03:10,640
+For example, you may wish
+to have images uploaded
+
+89
+00:03:10,640 --> 00:03:13,110
+by your users and assign a random filename
+
+90
+00:03:13,110 --> 00:03:14,860
+made out of a series of numbers.
+
+91
+00:03:14,860 --> 00:03:17,290
+In truth, though, the
+numbers aren't purely random,
+
+92
+00:03:17,290 --> 00:03:18,820
+because computer create them based
+
+93
+00:03:18,820 --> 00:03:20,380
+on mathematical functions.
+
+94
+00:03:20,380 --> 00:03:22,670
+Or, you may need to generate
+a unique session key
+
+95
+00:03:22,670 --> 00:03:24,440
+to identify a user, and this would be
+
+96
+00:03:24,440 --> 00:03:26,870
+an appropriate place to
+use a pseudo-random number.
+
+97
+00:03:26,870 --> 00:03:29,010
+But, if someone can
+figure out the sequence
+
+98
+00:03:29,010 --> 00:03:30,790
+of pseudo-random numbers you're using,
+
+99
+00:03:30,790 --> 00:03:32,130
+they can guess the next session,
+
+100
+00:03:32,130 --> 00:03:34,010
+and do a session hijack.
+
+101
+00:03:34,010 --> 00:03:36,110
+Going back to our
+one-time use pad, though,
+
+102
+00:03:36,110 --> 00:03:39,040
+if we could create the truly
+random sequence of numbers
+
+103
+00:03:39,040 --> 00:03:41,440
+then we could securely exchange
+the information contained
+
+104
+00:03:41,440 --> 00:03:43,540
+in that one-time use pad
+and then we would have
+
+105
+00:03:43,540 --> 00:03:46,130
+a truly unbreakable encryption cipher.
+
+106
+00:03:46,130 --> 00:03:47,304
+Unfortunately, though,
+we don't have a truly
+
+107
+00:03:47,304 --> 00:03:50,320
+random sequence of numbers
+that we can rely on.
+
+108
+00:03:50,320 --> 00:03:52,735
+So one-time pads aren't often used.
+
+109
+00:03:52,735 --> 00:03:56,630
+Instead, we use the concept
+on one-time use passwords.
+
+110
+00:03:56,630 --> 00:03:58,090
+You've seen this discussed inside
+
+111
+00:03:58,090 --> 00:04:00,320
+our multi-fact authentication lesson.
+
+112
+00:04:00,320 --> 00:04:02,440
+For example, you could use a random number
+
+113
+00:04:02,440 --> 00:04:04,160
+that's texted to you by your website
+
+114
+00:04:04,160 --> 00:04:05,810
+whenever you attempt to log in.
+
+115
+00:04:05,810 --> 00:04:07,990
+Or, you might have an RSA secure token
+
+116
+00:04:07,990 --> 00:04:09,640
+that displays pseudo-random numbers
+
+117
+00:04:09,640 --> 00:04:11,490
+that you use to prove you have possession
+
+118
+00:04:11,490 --> 00:04:14,280
+of that token as your second
+fact of authentication.
+
+119
+00:04:14,280 --> 00:04:16,310
+These are two good
+examples of where we use
+
+120
+00:04:16,310 --> 00:04:19,003
+pseudo-random numbers in
+the security of our network.
+

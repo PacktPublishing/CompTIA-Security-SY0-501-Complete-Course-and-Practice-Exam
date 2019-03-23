@@ -1,0 +1,971 @@
+﻿1
+00:00:00,760 --> 00:00:02,130
+- Firewalls.
+
+2
+00:00:02,130 --> 00:00:04,770
+Firewalls are primarily
+used to section off
+
+3
+00:00:04,770 --> 00:00:07,180
+and protect one network from another.
+
+4
+00:00:07,180 --> 00:00:10,400
+Now when we talk about firewalls,
+there's three main types.
+
+5
+00:00:10,400 --> 00:00:12,600
+There's software-based, hardware-based,
+
+6
+00:00:12,600 --> 00:00:14,510
+and embedded firewalls.
+
+7
+00:00:14,510 --> 00:00:17,090
+Software-based firewalls are
+run as a piece of software
+
+8
+00:00:17,090 --> 00:00:18,770
+on a host or a server.
+
+9
+00:00:18,770 --> 00:00:20,960
+In fact, if you're
+running a Windows server,
+
+10
+00:00:20,960 --> 00:00:24,500
+those have a built-in Windows
+Firewall that you can enable.
+
+11
+00:00:24,500 --> 00:00:26,080
+Hardware firewalls, on the other hand,
+
+12
+00:00:26,080 --> 00:00:28,420
+are a standalone device
+that's actually an appliance
+
+13
+00:00:28,420 --> 00:00:30,090
+that's installed into your network.
+
+14
+00:00:30,090 --> 00:00:31,840
+It looks like another
+switch or another router
+
+15
+00:00:31,840 --> 00:00:33,640
+that goes into your network stack.
+
+16
+00:00:33,640 --> 00:00:36,670
+The third type of firewall is
+known as an embedded firewall.
+
+17
+00:00:36,670 --> 00:00:39,370
+Embedded firewalls work
+as a single function
+
+18
+00:00:39,370 --> 00:00:41,380
+out of many on a single device.
+
+19
+00:00:41,380 --> 00:00:43,960
+So if you have a small
+office home office router
+
+20
+00:00:43,960 --> 00:00:45,950
+or a unified threat management device,
+
+21
+00:00:45,950 --> 00:00:48,010
+these are examples of
+an embedded firewall.
+
+22
+00:00:48,010 --> 00:00:50,140
+It's one piece of the larger device
+
+23
+00:00:50,140 --> 00:00:52,210
+that does many different functions.
+
+24
+00:00:52,210 --> 00:00:55,030
+Firewalls can operate
+in many different ways.
+
+25
+00:00:55,030 --> 00:00:57,080
+The first one is packet filtering.
+
+26
+00:00:57,080 --> 00:00:59,240
+Packet filtering is going
+to inspect each packet
+
+27
+00:00:59,240 --> 00:01:00,940
+as it passes through the firewall,
+
+28
+00:01:00,940 --> 00:01:02,570
+and it'll accept it or reject it
+
+29
+00:01:02,570 --> 00:01:04,510
+based on the rules that it's been given.
+
+30
+00:01:04,510 --> 00:01:06,590
+This relies on the
+firewall's configuration
+
+31
+00:01:06,590 --> 00:01:09,010
+and the access control
+list that's been installed.
+
+32
+00:01:09,010 --> 00:01:10,900
+If I'm running a web server, for example,
+
+33
+00:01:10,900 --> 00:01:13,900
+I would configure my firewall
+to allow traffic inbound
+
+34
+00:01:13,900 --> 00:01:16,270
+on port 80 and port 443
+
+35
+00:01:16,270 --> 00:01:18,150
+but close all of the other ports
+
+36
+00:01:18,150 --> 00:01:20,300
+because port 80 gives web traffic,
+
+37
+00:01:20,300 --> 00:01:23,030
+and port 443 gives secure web traffic,
+
+38
+00:01:23,030 --> 00:01:24,890
+and so, those are expected to be used.
+
+39
+00:01:24,890 --> 00:01:27,070
+There are two types of packet filtering,
+
+40
+00:01:27,070 --> 00:01:29,130
+stateless and stateful.
+
+41
+00:01:29,130 --> 00:01:30,800
+With stateless packet filtering,
+
+42
+00:01:30,800 --> 00:01:32,890
+it's simply going to
+accept or reject packets
+
+43
+00:01:32,890 --> 00:01:34,170
+based on the IP address
+
+44
+00:01:34,170 --> 00:01:36,030
+and the port number that was requested.
+
+45
+00:01:36,030 --> 00:01:37,320
+So if I'm running a web server
+
+46
+00:01:37,320 --> 00:01:39,320
+and you requested to come in on port 80,
+
+47
+00:01:39,320 --> 00:01:40,390
+I would allow that,
+
+48
+00:01:40,390 --> 00:01:42,400
+but if you requested
+to come in on port 53,
+
+49
+00:01:42,400 --> 00:01:45,690
+I would deny it because it's
+not in my access control list.
+
+50
+00:01:45,690 --> 00:01:47,820
+Now a stateful packet
+filter, on the other hand,
+
+51
+00:01:47,820 --> 00:01:49,220
+is going to keep track of requests
+
+52
+00:01:49,220 --> 00:01:50,950
+that leave through the firewall.
+
+53
+00:01:50,950 --> 00:01:53,640
+So if I make a request from
+a host through the firewall,
+
+54
+00:01:53,640 --> 00:01:55,870
+it will temporarily open up a port number
+
+55
+00:01:55,870 --> 00:01:57,150
+that I made the request from,
+
+56
+00:01:57,150 --> 00:02:00,950
+some random high port number
+like 50,000 or 56,000.
+
+57
+00:02:00,950 --> 00:02:03,000
+By using stateful packet inspection,
+
+58
+00:02:03,000 --> 00:02:06,470
+you can almost entirely
+eliminate IP spoofing as a threat
+
+59
+00:02:06,470 --> 00:02:08,440
+because the firewall is
+going to inspect the header
+
+60
+00:02:08,440 --> 00:02:10,240
+of each packet being received.
+
+61
+00:02:10,240 --> 00:02:12,690
+It's then going to compare that
+against what it was expecting
+
+62
+00:02:12,690 --> 00:02:14,760
+based on the request
+that recently went out,
+
+63
+00:02:14,760 --> 00:02:18,110
+and then, it's going to make
+its accept or reject decisions
+
+64
+00:02:18,110 --> 00:02:20,180
+based on this addition information.
+
+65
+00:02:20,180 --> 00:02:22,720
+This is a much more in-depth inspection
+
+66
+00:02:22,720 --> 00:02:24,820
+than a stateless one does.
+
+67
+00:02:24,820 --> 00:02:27,950
+Now, NAT filtering is another
+type of filtering we can do.
+
+68
+00:02:27,950 --> 00:02:30,220
+This is going to filter
+traffic according to the port,
+
+69
+00:02:30,220 --> 00:02:32,670
+whether it's a TCP or UDP port.
+
+70
+00:02:32,670 --> 00:02:33,790
+This filtering can be done
+
+71
+00:02:33,790 --> 00:02:35,820
+by simply checking the
+endpoint connections,
+
+72
+00:02:35,820 --> 00:02:38,780
+by matching the incoming
+traffic to the requesting IP,
+
+73
+00:02:38,780 --> 00:02:40,490
+and by matching the incoming traffic
+
+74
+00:02:40,490 --> 00:02:43,050
+to the requesting IP address and port.
+
+75
+00:02:43,050 --> 00:02:45,770
+Now, the next one we have is
+an application-layer gateway,
+
+76
+00:02:45,770 --> 00:02:47,080
+or ALG.
+
+77
+00:02:47,080 --> 00:02:49,200
+This is going to apply security mechanisms
+
+78
+00:02:49,200 --> 00:02:53,000
+to specific applications
+such as FDP or Telnet.
+
+79
+00:02:53,000 --> 00:02:54,410
+Now, instead of blocking traffic
+
+80
+00:02:54,410 --> 00:02:56,800
+based on the Telnet port of port 23,
+
+81
+00:02:56,800 --> 00:02:58,960
+instead, it's going to inspect each packet
+
+82
+00:02:58,960 --> 00:03:01,590
+and determine which
+application it was meant for,
+
+83
+00:03:01,590 --> 00:03:03,570
+and if it finds out that
+it was meant for Telnet,
+
+84
+00:03:03,570 --> 00:03:06,080
+it would block it because
+that was unauthorized.
+
+85
+00:03:06,080 --> 00:03:08,340
+This is a resource-intensive process,
+
+86
+00:03:08,340 --> 00:03:09,950
+but it is a powerful layer of security
+
+87
+00:03:09,950 --> 00:03:11,900
+that can be added on into your network.
+
+88
+00:03:11,900 --> 00:03:14,360
+These are also known as Layer 7 firewalls
+
+89
+00:03:14,360 --> 00:03:16,810
+because they operate at
+the application layer.
+
+90
+00:03:16,810 --> 00:03:18,210
+The next type of firewall we have
+
+91
+00:03:18,210 --> 00:03:20,010
+is a circuit-level gateway,
+
+92
+00:03:20,010 --> 00:03:22,490
+which works at the session
+layer of the OSI model
+
+93
+00:03:22,490 --> 00:03:24,100
+and applies security mechanisms
+
+94
+00:03:24,100 --> 00:03:27,530
+when a TCP or a UDP connection
+is first established.
+
+95
+00:03:27,530 --> 00:03:29,540
+Now, once that connection is established,
+
+96
+00:03:29,540 --> 00:03:31,290
+the packets can then be sent or received
+
+97
+00:03:31,290 --> 00:03:33,480
+without any further inspection or checks
+
+98
+00:03:33,480 --> 00:03:34,850
+because all of that was done
+
+99
+00:03:34,850 --> 00:03:37,030
+during the session establishment.
+
+100
+00:03:37,030 --> 00:03:39,250
+Another thing we can do
+is use MAC filtering,
+
+101
+00:03:39,250 --> 00:03:40,440
+and we use MAC filtering,
+
+102
+00:03:40,440 --> 00:03:42,200
+this is going to filter out computers
+
+103
+00:03:42,200 --> 00:03:45,150
+and prevent them from
+accessing beyond the firewall
+
+104
+00:03:45,150 --> 00:03:46,810
+based on their MAC addresses.
+
+105
+00:03:46,810 --> 00:03:49,140
+This is used as part of
+your local area network
+
+106
+00:03:49,140 --> 00:03:51,260
+before it gets out into the routing
+
+107
+00:03:51,260 --> 00:03:53,010
+and Layer 3 logical addresses
+
+108
+00:03:53,010 --> 00:03:55,030
+that go out beyond the network.
+
+109
+00:03:55,030 --> 00:03:57,370
+All of these things can be
+configured based upon rules
+
+110
+00:03:57,370 --> 00:03:59,960
+set up in the firewall's
+access control list.
+
+111
+00:03:59,960 --> 00:04:01,340
+In an access control list,
+
+112
+00:04:01,340 --> 00:04:04,340
+you can either explicitly
+allow, explicitly deny,
+
+113
+00:04:04,340 --> 00:04:06,010
+or implicitly deny traffic
+
+114
+00:04:06,010 --> 00:04:08,330
+that's sent or received
+through the firewall.
+
+115
+00:04:08,330 --> 00:04:10,030
+When I talk about an explicit allow,
+
+116
+00:04:10,030 --> 00:04:11,510
+this means that traffic should be allowed
+
+117
+00:04:11,510 --> 00:04:12,960
+to enter or leave the network
+
+118
+00:04:12,960 --> 00:04:15,390
+because the rule allows for it to happen.
+
+119
+00:04:15,390 --> 00:04:17,520
+For example, if I have
+a rule like this one,
+
+120
+00:04:17,520 --> 00:04:22,520
+allow TCP 10.0.0.2 any port 80,
+
+121
+00:04:22,700 --> 00:04:24,410
+this is saying that with the host
+
+122
+00:04:24,410 --> 00:04:27,450
+that has an IP address of 10.0.0.2,
+
+123
+00:04:27,450 --> 00:04:29,390
+it can send packets out of the network
+
+124
+00:04:29,390 --> 00:04:31,210
+to any IP address it wants
+
+125
+00:04:31,210 --> 00:04:33,560
+as long as it's requesting
+that over port 80,
+
+126
+00:04:33,560 --> 00:04:35,690
+which is used for web browsing normally.
+
+127
+00:04:35,690 --> 00:04:37,410
+Firewall rules are normally read
+
+128
+00:04:37,410 --> 00:04:40,240
+as an action to be
+performed, allow or deny,
+
+129
+00:04:40,240 --> 00:04:42,770
+the type of traffic, TCP or UDP,
+
+130
+00:04:42,770 --> 00:04:45,290
+the IP source, the IP destination,
+
+131
+00:04:45,290 --> 00:04:47,190
+and the port that's concerned.
+
+132
+00:04:47,190 --> 00:04:49,000
+Now if I'm going to use an explicit deny,
+
+133
+00:04:49,000 --> 00:04:50,900
+this means that traffic
+should not be allowed
+
+134
+00:04:50,900 --> 00:04:54,010
+to enter or leave the network
+because this rule says so.
+
+135
+00:04:54,010 --> 00:04:55,540
+For example, if I have a rule like
+
+136
+00:04:55,540 --> 00:04:58,910
+deny TCP any any port 23,
+
+137
+00:04:58,910 --> 00:05:01,180
+this would deny any devices on my network
+
+138
+00:05:01,180 --> 00:05:03,070
+from sending information to any devices
+
+139
+00:05:03,070 --> 00:05:05,590
+outside of my network over port 23,
+
+140
+00:05:05,590 --> 00:05:07,950
+and this should effectively block Telnet.
+
+141
+00:05:07,950 --> 00:05:10,470
+Now, what happens if I
+don't explicitly allow
+
+142
+00:05:10,470 --> 00:05:12,500
+or explicitly deny something?
+
+143
+00:05:12,500 --> 00:05:14,150
+Well, depending on your firewall,
+
+144
+00:05:14,150 --> 00:05:17,320
+it may implicitly allow
+it or implicitly deny it.
+
+145
+00:05:17,320 --> 00:05:18,780
+Now, I would like to add a rule
+
+146
+00:05:18,780 --> 00:05:20,530
+that implicitly denies anything
+
+147
+00:05:20,530 --> 00:05:22,570
+to ensure that we always
+have the best security.
+
+148
+00:05:22,570 --> 00:05:25,610
+I only want things allowed
+that I have explicitly allowed.
+
+149
+00:05:25,610 --> 00:05:28,760
+So, basically, when a firewall
+ACL is being processed,
+
+150
+00:05:28,760 --> 00:05:30,870
+it processes the traffic
+from the first rule
+
+151
+00:05:30,870 --> 00:05:32,630
+all the way down to the last rule.
+
+152
+00:05:32,630 --> 00:05:34,360
+As soon as it finds a matching rule,
+
+153
+00:05:34,360 --> 00:05:37,490
+it processes that rule and
+stops going the rest of the way,
+
+154
+00:05:37,490 --> 00:05:39,250
+so for an implicit deny,
+
+155
+00:05:39,250 --> 00:05:42,210
+I would just simply add a
+statement at the bottom of the ACL
+
+156
+00:05:42,210 --> 00:05:43,500
+that blocks everything else
+
+157
+00:05:43,500 --> 00:05:44,740
+that has not already been blocked
+
+158
+00:05:44,740 --> 00:05:46,670
+by one of our previous rules.
+
+159
+00:05:46,670 --> 00:05:48,150
+This might look like something like
+
+160
+00:05:48,150 --> 00:05:51,410
+deny TCP any any port any.
+
+161
+00:05:51,410 --> 00:05:53,390
+Essentially, I like to think of the ACL
+
+162
+00:05:53,390 --> 00:05:56,230
+as somebody standing at the
+door to a building with a list,
+
+163
+00:05:56,230 --> 00:05:58,040
+and that list has two sides to it.
+
+164
+00:05:58,040 --> 00:06:00,640
+It has the allowed people
+and the denied people.
+
+165
+00:06:00,640 --> 00:06:03,450
+As you come up to the door, if
+your name isn't on the list,
+
+166
+00:06:03,450 --> 00:06:05,710
+they don't find it on the
+allowed or the denied,
+
+167
+00:06:05,710 --> 00:06:08,330
+then we're implicitly going
+to say you can't get in,
+
+168
+00:06:08,330 --> 00:06:10,430
+but if I see that your name
+is on the allowed list,
+
+169
+00:06:10,430 --> 00:06:11,540
+I'm going to let you in,
+
+170
+00:06:11,540 --> 00:06:13,450
+and if I see your name
+is on the denied list,
+
+171
+00:06:13,450 --> 00:06:15,310
+I'm definitely not going to let you in.
+
+172
+00:06:15,310 --> 00:06:16,950
+That's the idea here when
+we start talking about
+
+173
+00:06:16,950 --> 00:06:20,770
+explicit allow, explicit
+deny, and implicit deny.
+
+174
+00:06:20,770 --> 00:06:23,300
+Most newer firewalls are
+set to implicitly deny
+
+175
+00:06:23,300 --> 00:06:24,290
+by default now,
+
+176
+00:06:24,290 --> 00:06:25,770
+so the statement may not be needed
+
+177
+00:06:25,770 --> 00:06:27,450
+on your particular firewall,
+
+178
+00:06:27,450 --> 00:06:28,770
+but if you're in doubt,
+
+179
+00:06:28,770 --> 00:06:31,120
+there is no harm in
+adding this implicit deny
+
+180
+00:06:31,120 --> 00:06:32,570
+at the end of your ACLs
+
+181
+00:06:32,570 --> 00:06:34,750
+to ensure that things are
+going to be blocked by default,
+
+182
+00:06:34,750 --> 00:06:35,950
+and you're only allowing in
+
+183
+00:06:35,950 --> 00:06:37,990
+what you explicitly allow it to be
+
+184
+00:06:37,990 --> 00:06:40,320
+with that rule inside the ACL.
+
+185
+00:06:40,320 --> 00:06:43,100
+Now, when firewalls first
+became popular to use,
+
+186
+00:06:43,100 --> 00:06:46,290
+they operated pretty much
+at the Layer 3 or Layer 4.
+
+187
+00:06:46,290 --> 00:06:48,810
+This means that they would
+block based on IP addresses
+
+188
+00:06:48,810 --> 00:06:50,840
+or IP addresses and ports.
+
+189
+00:06:50,840 --> 00:06:52,980
+More recently, though,
+application firewalls
+
+190
+00:06:52,980 --> 00:06:54,920
+have begin rising in popularity.
+
+191
+00:06:54,920 --> 00:06:57,320
+These application firewalls
+operate at Layer 7
+
+192
+00:06:57,320 --> 00:06:59,620
+of the OSI model, the application layer,
+
+193
+00:06:59,620 --> 00:07:01,320
+and this makes traffic control decisions
+
+194
+00:07:01,320 --> 00:07:03,200
+based on the applications being used,
+
+195
+00:07:03,200 --> 00:07:07,620
+things like FTP, HTTP, Telnet, and others.
+
+196
+00:07:07,620 --> 00:07:09,290
+As time continues to move on,
+
+197
+00:07:09,290 --> 00:07:11,980
+firewalls are continuing
+to advance their capability
+
+198
+00:07:11,980 --> 00:07:14,910
+to control traffic in
+even more complex ways.
+
+199
+00:07:14,910 --> 00:07:17,430
+This is always going to help
+us increase our security
+
+200
+00:07:17,430 --> 00:07:19,960
+because we can dial in
+even more specifically
+
+201
+00:07:19,960 --> 00:07:22,540
+what we're trying to block and
+what we're trying to allow.
+
+202
+00:07:22,540 --> 00:07:24,980
+Now, one modern type of
+firewall you may come across
+
+203
+00:07:24,980 --> 00:07:28,770
+is known as a web
+application firewall, or WAF.
+
+204
+00:07:28,770 --> 00:07:31,250
+A web application firewall
+is installed on a server
+
+205
+00:07:31,250 --> 00:07:32,270
+in your environment,
+
+206
+00:07:32,270 --> 00:07:34,120
+and it provides traffic
+control in the data
+
+207
+00:07:34,120 --> 00:07:36,920
+that's being sent to and
+from your web applications.
+
+208
+00:07:36,920 --> 00:07:39,010
+These are useful in
+helping to mitigate threats
+
+209
+00:07:39,010 --> 00:07:41,930
+like cross-site scripting
+and SQL injection attacks
+
+210
+00:07:41,930 --> 00:07:43,720
+because these web application firewalls
+
+211
+00:07:43,720 --> 00:07:45,260
+are designed to specifically look
+
+212
+00:07:45,260 --> 00:07:47,720
+for these type of threats and block them.
+
+213
+00:07:47,720 --> 00:07:50,530
+As you see, there are lots of
+different types of firewalls
+
+214
+00:07:50,530 --> 00:07:52,450
+and lots of ways to implement them,
+
+215
+00:07:52,450 --> 00:07:54,440
+but the key is you want to make sure
+
+216
+00:07:54,440 --> 00:07:56,360
+that you're telling them
+what they're allowed
+
+217
+00:07:56,360 --> 00:07:57,910
+and what they're supposed to be blocking
+
+218
+00:07:57,910 --> 00:08:00,320
+because this will help you
+have a more secure network
+
+219
+00:08:00,320 --> 00:08:01,363
+as you move forward.
+
+220
+00:08:02,371 --> 00:08:04,392
+(electronic buzzing)
+

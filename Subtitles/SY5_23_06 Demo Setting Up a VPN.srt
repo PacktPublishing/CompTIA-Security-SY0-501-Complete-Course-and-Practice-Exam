@@ -1,0 +1,187 @@
+﻿1
+00:00:00,480 --> 00:00:02,310
+- In this demonstration,
+you're going to learn how
+
+2
+00:00:02,310 --> 00:00:04,800
+to create a VPN connection
+from a Windows machine
+
+3
+00:00:04,800 --> 00:00:07,060
+in order to secure its
+connection over a wired
+
+4
+00:00:07,060 --> 00:00:08,850
+or wireless network all the way back
+
+5
+00:00:08,850 --> 00:00:10,290
+to the corporate network.
+
+6
+00:00:10,290 --> 00:00:11,690
+Let's jump into the lab environment
+
+7
+00:00:11,690 --> 00:00:14,150
+and get started setting up our VPN.
+
+8
+00:00:14,150 --> 00:00:16,070
+In this demonstration,
+I'm going to show you how
+
+9
+00:00:16,070 --> 00:00:18,940
+to create a VPN connection
+on a Windows machine.
+
+10
+00:00:18,940 --> 00:00:21,460
+For this example, I'm going
+to use a Windows 7 machine,
+
+11
+00:00:21,460 --> 00:00:23,140
+but it's pretty much the same process
+
+12
+00:00:23,140 --> 00:00:24,910
+in any version of Windows.
+
+13
+00:00:24,910 --> 00:00:26,010
+What we're going to do
+is I'm going to click
+
+14
+00:00:26,010 --> 00:00:28,350
+on this wireless network
+that's currently connected,
+
+15
+00:00:28,350 --> 00:00:31,340
+and I'm going to go to Open
+Network and Sharing Center.
+
+16
+00:00:31,340 --> 00:00:32,370
+Now, from here, we're going to go
+
+17
+00:00:32,370 --> 00:00:34,560
+to Set up a new connection or network,
+
+18
+00:00:34,560 --> 00:00:36,170
+and this will bring up our dialog box
+
+19
+00:00:36,170 --> 00:00:37,570
+to create our VPN.
+
+20
+00:00:37,570 --> 00:00:39,350
+We want to use Connect to a workplace,
+
+21
+00:00:39,350 --> 00:00:42,100
+which is going to set up our
+dial-up or VPN connection.
+
+22
+00:00:42,100 --> 00:00:44,300
+We'll hit Next, and then from here,
+
+23
+00:00:44,300 --> 00:00:46,020
+we're going to either
+use it over the internet
+
+24
+00:00:46,020 --> 00:00:47,510
+or a direct dial.
+
+25
+00:00:47,510 --> 00:00:50,200
+In our case, we're going to
+create a secure VPN tunnel
+
+26
+00:00:50,200 --> 00:00:51,530
+over the internet.
+
+27
+00:00:51,530 --> 00:00:52,940
+And then we'll give it our IP address,
+
+28
+00:00:52,940 --> 00:00:56,800
+in my case, it's 198.10.20.12.
+
+29
+00:00:56,800 --> 00:00:59,893
+And I'll give it a name, let's
+call it the Corporate VPN.
+
+30
+00:01:01,340 --> 00:01:03,310
+And then from there,
+we're going to hit Next.
+
+31
+00:01:03,310 --> 00:01:05,840
+We have to put in our
+username and our password,
+
+32
+00:01:05,840 --> 00:01:08,300
+so let's say it was jason.dion
+
+33
+00:01:08,300 --> 00:01:10,500
+and my password of password
+
+34
+00:01:11,620 --> 00:01:13,393
+and then we can hit Connect.
+
+35
+00:01:17,460 --> 00:01:18,293
+And there you go,
+
+36
+00:01:18,293 --> 00:01:20,430
+you're now connected to the VPN
+
+37
+00:01:20,430 --> 00:01:22,850
+and you can see that we have an access
+
+38
+00:01:22,850 --> 00:01:24,450
+over a VPN connection,
+
+39
+00:01:24,450 --> 00:01:27,510
+and we have our wireless
+connectivity on top of that.
+
+40
+00:01:27,510 --> 00:01:29,700
+And that's going to
+make that secure tunnel
+
+41
+00:01:29,700 --> 00:01:32,610
+so that nobody can see anything
+that we're transmitting
+
+42
+00:01:32,610 --> 00:01:36,953
+from our laptop over the internet
+back into our VPN network.
+

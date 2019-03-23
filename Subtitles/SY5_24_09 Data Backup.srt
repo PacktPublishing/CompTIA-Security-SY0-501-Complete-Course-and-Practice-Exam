@@ -1,0 +1,355 @@
+﻿1
+00:00:00,520 --> 00:00:03,710
+- In the last lesson we mentioned
+cold sites and warm sites,
+
+2
+00:00:03,710 --> 00:00:05,310
+and for these to work you have to be able
+
+3
+00:00:05,310 --> 00:00:07,010
+to bring your data and get 'em over
+
+4
+00:00:07,010 --> 00:00:09,050
+to those new networks
+that you install there.
+
+5
+00:00:09,050 --> 00:00:10,730
+Well, to do that you have to have
+
+6
+00:00:10,730 --> 00:00:12,680
+a good backup to begin with.
+
+7
+00:00:12,680 --> 00:00:15,540
+Data backups can be
+conducted using full backups,
+
+8
+00:00:15,540 --> 00:00:18,150
+incremental backups, or
+differential backups.
+
+9
+00:00:18,150 --> 00:00:19,890
+Now, when I discuss each of these types
+
+10
+00:00:19,890 --> 00:00:21,740
+I'm going to use the
+word drive to describe
+
+11
+00:00:21,740 --> 00:00:23,760
+the way data is being backed up.
+
+12
+00:00:23,760 --> 00:00:25,400
+This can be the entire hard disk,
+
+13
+00:00:25,400 --> 00:00:28,170
+but it can also be just a
+file or a folder on that disk
+
+14
+00:00:28,170 --> 00:00:30,730
+depending on how you scope
+your backup configurations.
+
+15
+00:00:30,730 --> 00:00:32,650
+But for the purposes of my explanations
+
+16
+00:00:32,650 --> 00:00:34,960
+and these definitions, I'm
+just going to say drive
+
+17
+00:00:34,960 --> 00:00:37,370
+throughout the rest of the
+lesson to keep it easy.
+
+18
+00:00:37,370 --> 00:00:40,310
+Now, the first kind we have
+is known as a full backup.
+
+19
+00:00:40,310 --> 00:00:42,660
+When you do a full backup,
+all of the contents
+
+20
+00:00:42,660 --> 00:00:45,960
+of your drive are backed up,
+that's every single file.
+
+21
+00:00:45,960 --> 00:00:47,720
+Now, when we go to an incremental backup,
+
+22
+00:00:47,720 --> 00:00:49,780
+which is our second type,
+this is going to backup
+
+23
+00:00:49,780 --> 00:00:51,260
+only the contents of the drive
+
+24
+00:00:51,260 --> 00:00:53,570
+that have changed since
+the last full backup,
+
+25
+00:00:53,570 --> 00:00:56,020
+or since your last incremental backup.
+
+26
+00:00:56,020 --> 00:00:58,060
+Now, the third category we have is known
+
+27
+00:00:58,060 --> 00:00:59,670
+as a differential backup.
+
+28
+00:00:59,670 --> 00:01:02,100
+Differential backups will
+only backup the contents
+
+29
+00:01:02,100 --> 00:01:05,260
+of the drive that have changed
+since the last full backup.
+
+30
+00:01:05,260 --> 00:01:07,700
+So, let's say that every
+Sunday at 9:00 p.m.
+
+31
+00:01:07,700 --> 00:01:10,270
+I run a full weekly backup of the drive,
+
+32
+00:01:10,270 --> 00:01:12,880
+then the rest of the week
+I use a differential backup
+
+33
+00:01:12,880 --> 00:01:14,660
+to create backups of any files or folders
+
+34
+00:01:14,660 --> 00:01:18,050
+that have changed since Sunday
+when I did that full backup.
+
+35
+00:01:18,050 --> 00:01:19,510
+This is good because if I have a drive
+
+36
+00:01:19,510 --> 00:01:22,130
+fail on Wednesday, I can
+restore from the full backup
+
+37
+00:01:22,130 --> 00:01:24,420
+we made on Sunday and then
+the differential backup
+
+38
+00:01:24,420 --> 00:01:27,000
+that I made on Tuesday,
+and all the file changes
+
+39
+00:01:27,000 --> 00:01:28,610
+that happened on Monday and Tuesday
+
+40
+00:01:28,610 --> 00:01:31,970
+would also be included in that
+Tuesday differential backup.
+
+41
+00:01:31,970 --> 00:01:34,110
+Now, there is one problem
+with full backups,
+
+42
+00:01:34,110 --> 00:01:35,900
+they take a lot of time.
+
+43
+00:01:35,900 --> 00:01:38,170
+Differential backups take up less time,
+
+44
+00:01:38,170 --> 00:01:39,560
+but they can still take a while
+
+45
+00:01:39,560 --> 00:01:41,100
+if you have a lot of changes,
+
+46
+00:01:41,100 --> 00:01:43,160
+and so many organizations instead,
+
+47
+00:01:43,160 --> 00:01:45,820
+use what's known as an incremental backup.
+
+48
+00:01:45,820 --> 00:01:48,610
+Now, this only creates a backup
+of everything that's changed
+
+49
+00:01:48,610 --> 00:01:50,240
+since the last full backup,
+
+50
+00:01:50,240 --> 00:01:52,630
+or since the last incremental backup.
+
+51
+00:01:52,630 --> 00:01:54,140
+So let's go back to our example
+
+52
+00:01:54,140 --> 00:01:56,130
+and configure our backups for our server.
+
+53
+00:01:56,130 --> 00:01:57,840
+Let's say we decide to do a full backup
+
+54
+00:01:57,840 --> 00:01:59,740
+every Sunday just like before,
+
+55
+00:01:59,740 --> 00:02:01,850
+but instead of using a differential backup
+
+56
+00:02:01,850 --> 00:02:04,320
+we're going to use an
+incremental backup each night.
+
+57
+00:02:04,320 --> 00:02:05,900
+This is going to save us some time.
+
+58
+00:02:05,900 --> 00:02:07,710
+So, Monday we do an incremental,
+
+59
+00:02:07,710 --> 00:02:08,980
+Tuesday we do an incremental,
+
+60
+00:02:08,980 --> 00:02:10,260
+Wednesday I do an incremental,
+
+61
+00:02:10,260 --> 00:02:13,640
+Thursday I do an incremental,
+and Friday my drive fails.
+
+62
+00:02:13,640 --> 00:02:16,760
+Which backups do I need to
+use to restore all my data?
+
+63
+00:02:16,760 --> 00:02:19,280
+Well, instead of needing
+Sunday, the full backup,
+
+64
+00:02:19,280 --> 00:02:22,270
+and Thursday night, if we'd
+done a differential backup,
+
+65
+00:02:22,270 --> 00:02:23,990
+we're now going to have to go and get
+
+66
+00:02:23,990 --> 00:02:27,090
+every single one from
+Sunday, the full backup,
+
+67
+00:02:27,090 --> 00:02:28,600
+and then Monday's incremental,
+
+68
+00:02:28,600 --> 00:02:30,870
+Tuesday's incremental,
+Wednesday's incremental,
+
+69
+00:02:30,870 --> 00:02:32,430
+and finally, Thursday's incremental,
+
+70
+00:02:32,430 --> 00:02:34,530
+and we'll have to restore
+them in that order.
+
+71
+00:02:34,530 --> 00:02:36,260
+Now you can see the tough choice we have
+
+72
+00:02:36,260 --> 00:02:38,980
+between using incrementals
+and differentials,
+
+73
+00:02:38,980 --> 00:02:41,750
+because incrementals take
+a lot less time to backup,
+
+74
+00:02:41,750 --> 00:02:44,460
+but the differentials
+make it a lot quicker
+
+75
+00:02:44,460 --> 00:02:45,700
+when we need to restore,
+
+76
+00:02:45,700 --> 00:02:47,750
+and so this going to be a
+choice you have to make.
+
+77
+00:02:47,750 --> 00:02:50,540
+Do you want quick backups
+and lengthy restores,
+
+78
+00:02:50,540 --> 00:02:54,502
+or do you want long
+backups and quick restores?
+
+79
+00:02:54,502 --> 00:02:56,969
+(electronic beats)
+

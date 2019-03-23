@@ -1,0 +1,351 @@
+﻿1
+00:00:01,243 --> 00:00:02,450
+- In this section of the course,
+
+2
+00:00:02,450 --> 00:00:05,380
+we're going to be discussing
+monitoring and auditing.
+
+3
+00:00:05,380 --> 00:00:07,480
+Let's begin with monitoring first.
+
+4
+00:00:07,480 --> 00:00:08,620
+When we talk about monitoring,
+
+5
+00:00:08,620 --> 00:00:10,810
+one of the main jobs of security analyst,
+
+6
+00:00:10,810 --> 00:00:12,820
+is to really monitor the network.
+
+7
+00:00:12,820 --> 00:00:15,060
+We're like detectives, we're
+trying to route out anything
+
+8
+00:00:15,060 --> 00:00:16,650
+that doesn't appear quite right.
+
+9
+00:00:16,650 --> 00:00:20,010
+And this can be done manually
+or through an automated means.
+
+10
+00:00:20,010 --> 00:00:21,730
+When we do this to an automated means,
+
+11
+00:00:21,730 --> 00:00:24,260
+it's done through one of three methods.
+
+12
+00:00:24,260 --> 00:00:26,580
+It's either signature-based, anomaly-based
+
+13
+00:00:26,580 --> 00:00:28,210
+or behavior-based.
+
+14
+00:00:28,210 --> 00:00:30,500
+Now, when we talk about
+signature-based monitoring,
+
+15
+00:00:30,500 --> 00:00:32,630
+this is where your network
+traffic is analyzed
+
+16
+00:00:32,630 --> 00:00:34,820
+for predetermined attack patterns.
+
+17
+00:00:34,820 --> 00:00:35,820
+And so if I said,
+
+18
+00:00:35,820 --> 00:00:37,860
+every time you see somebody
+walk through the door
+
+19
+00:00:37,860 --> 00:00:39,760
+who is five foot eight with brown hair
+
+20
+00:00:39,760 --> 00:00:42,430
+and whose name is Jason,
+that's a signature.
+
+21
+00:00:42,430 --> 00:00:43,750
+So you would stop me at the door
+
+22
+00:00:43,750 --> 00:00:45,420
+because I met that criteria.
+
+23
+00:00:45,420 --> 00:00:47,690
+That's the idea with the
+signature-based attack.
+
+24
+00:00:47,690 --> 00:00:50,420
+The second type is know as anomaly-based.
+
+25
+00:00:50,420 --> 00:00:52,500
+Now when we do anomaly-based monitoring,
+
+26
+00:00:52,500 --> 00:00:55,550
+we have to create a baseline
+of what normal is first.
+
+27
+00:00:55,550 --> 00:00:57,240
+And once we established the baseline,
+
+28
+00:00:57,240 --> 00:00:59,390
+then we can look at any
+other network traffic
+
+29
+00:00:59,390 --> 00:01:01,500
+that starts following
+outside that baseline
+
+30
+00:01:01,500 --> 00:01:03,090
+for further evaluation.
+
+31
+00:01:03,090 --> 00:01:06,020
+So let's say you decided to
+park your car on my street,
+
+32
+00:01:06,020 --> 00:01:08,210
+and you start watching all
+the traffic that goes by,
+
+33
+00:01:08,210 --> 00:01:10,220
+and normally you see a lot
+of people leave for work
+
+34
+00:01:10,220 --> 00:01:12,500
+between 7 a.m and 9 a.m
+
+35
+00:01:12,500 --> 00:01:16,840
+but, one time you saw
+people not leave until noon.
+
+36
+00:01:16,840 --> 00:01:19,220
+You'd go, "hmm, that's
+out of the ordinary."
+
+37
+00:01:19,220 --> 00:01:22,180
+Normally that person leaves
+their house before nine,
+
+38
+00:01:22,180 --> 00:01:23,860
+and so that's outside the normal
+
+39
+00:01:23,860 --> 00:01:25,190
+and we're going to look into that further.
+
+40
+00:01:25,190 --> 00:01:28,050
+It's an anomaly, it's
+outside of the baseline.
+
+41
+00:01:28,050 --> 00:01:31,070
+The third type we have is
+what's known as behavior-based.
+
+42
+00:01:31,070 --> 00:01:34,260
+Behavior-based is an activity
+that's going to be evaluated
+
+43
+00:01:34,260 --> 00:01:37,100
+based on previous behaviors
+of the applications,
+
+44
+00:01:37,100 --> 00:01:40,270
+the executables and the
+operating system in comparison
+
+45
+00:01:40,270 --> 00:01:42,300
+to the current activity of the system.
+
+46
+00:01:42,300 --> 00:01:44,360
+Now the problem with
+behavior-based analysis
+
+47
+00:01:44,360 --> 00:01:46,300
+or behavior-based
+monitoring is that it tends
+
+48
+00:01:46,300 --> 00:01:49,060
+to result in a lot of false positives
+
+49
+00:01:49,060 --> 00:01:51,050
+because there's a large
+number of applications
+
+50
+00:01:51,050 --> 00:01:52,540
+and lots of different relationships
+
+51
+00:01:52,540 --> 00:01:54,050
+between those applications.
+
+52
+00:01:54,050 --> 00:01:55,480
+If you think about your computer,
+
+53
+00:01:55,480 --> 00:01:57,520
+how many different
+applications are installed?
+
+54
+00:01:57,520 --> 00:01:59,510
+And how many ways do
+they talk to each other?
+
+55
+00:01:59,510 --> 00:02:02,200
+You probably have Word,
+and PowerPoint, and Excel
+
+56
+00:02:02,200 --> 00:02:05,010
+and Chrome, and Firefox and maybe Outlook.
+
+57
+00:02:05,010 --> 00:02:07,700
+And probably 50 or 60 other applications.
+
+58
+00:02:07,700 --> 00:02:09,300
+For you to be able to
+create a good baseline
+
+59
+00:02:09,300 --> 00:02:11,580
+for all those applications
+would take time.
+
+60
+00:02:11,580 --> 00:02:13,610
+And because that's usually not done well,
+
+61
+00:02:13,610 --> 00:02:16,830
+behavior-based tends to be
+a lot of false positives
+
+62
+00:02:16,830 --> 00:02:19,330
+because people don't configure
+it properly to begin with.
+
+63
+00:02:19,330 --> 00:02:21,090
+The one that has the least false positives
+
+64
+00:02:21,090 --> 00:02:22,520
+is signature-based.
+
+65
+00:02:22,520 --> 00:02:24,290
+Anomaly-based has a little bit more
+
+66
+00:02:24,290 --> 00:02:26,530
+and then behavior-based has a lot more.
+
+67
+00:02:26,530 --> 00:02:28,700
+So that's the three types
+of methods we can use,
+
+68
+00:02:28,700 --> 00:02:31,400
+and these methods don't have
+to be used in isolation.
+
+69
+00:02:31,400 --> 00:02:33,310
+Often times, in an intrusion detection
+
+70
+00:02:33,310 --> 00:02:34,880
+or intrusion prevention system,
+
+71
+00:02:34,880 --> 00:02:37,770
+we're actually going to combine
+them into a hybrid approach.
+
+72
+00:02:37,770 --> 00:02:40,440
+So maybe I'm going to use
+anomaly-based detection
+
+73
+00:02:40,440 --> 00:02:42,140
+and signature-based detection,
+
+74
+00:02:42,140 --> 00:02:44,890
+and that give me two different
+ways of capturing traffic
+
+75
+00:02:44,890 --> 00:02:46,500
+for further analysis.
+
+76
+00:02:46,500 --> 00:02:48,850
+Now, that's the beginning of this section.
+
+77
+00:02:48,850 --> 00:02:51,350
+Now that we've got the
+basics covered of monitoring,
+
+78
+00:02:51,350 --> 00:02:53,873
+let's dive a little bit
+deeper in the next lesson.
+

@@ -1,0 +1,202 @@
+﻿1
+00:00:01,000 --> 00:00:02,400
+- OVAL.
+
+2
+00:00:02,400 --> 00:00:04,690
+The Open Vulnerability
+and Assessment Language,
+
+3
+00:00:04,690 --> 00:00:06,810
+or OVAL as it's known, is a standard
+
+4
+00:00:06,810 --> 00:00:08,560
+that was designed to regulate the transfer
+
+5
+00:00:08,560 --> 00:00:11,400
+of secure public
+information across networks
+
+6
+00:00:11,400 --> 00:00:14,020
+and the internet to
+utilize any security tools
+
+7
+00:00:14,020 --> 00:00:16,170
+and services available at the time.
+
+8
+00:00:16,170 --> 00:00:18,740
+Now, what does this really
+mean in layman's terms?
+
+9
+00:00:18,740 --> 00:00:21,190
+Well, OVAL is an attempt
+to create a standard
+
+10
+00:00:21,190 --> 00:00:23,440
+way for vulnerability management software,
+
+11
+00:00:23,440 --> 00:00:25,890
+scanners and other tools
+to share their data
+
+12
+00:00:25,890 --> 00:00:28,590
+with each other and with other programs.
+
+13
+00:00:28,590 --> 00:00:30,540
+Now, just like I can send you a photograph
+
+14
+00:00:30,540 --> 00:00:32,760
+saved as a JPEG file,
+and pretty much every
+
+15
+00:00:32,760 --> 00:00:34,560
+program knows how to open it and display
+
+16
+00:00:34,560 --> 00:00:36,560
+that information
+properly, because they all
+
+17
+00:00:36,560 --> 00:00:38,420
+understand what the
+JPEG format looks like,
+
+18
+00:00:38,420 --> 00:00:39,950
+well, that's what OVAL does,
+
+19
+00:00:39,950 --> 00:00:42,550
+but for vulnerability
+assessment information.
+
+20
+00:00:42,550 --> 00:00:45,160
+Now, OVAL is comprised
+of two different parts.
+
+21
+00:00:45,160 --> 00:00:46,850
+There's a language component to it,
+
+22
+00:00:46,850 --> 00:00:48,430
+and an interpreter.
+
+23
+00:00:48,430 --> 00:00:51,220
+The OVAL Language is
+written as an XML schema
+
+24
+00:00:51,220 --> 00:00:53,390
+that's used to define and
+describe the information
+
+25
+00:00:53,390 --> 00:00:55,200
+that's being created by the OVAL Language,
+
+26
+00:00:55,200 --> 00:00:56,480
+and it's allowing it to be shared
+
+27
+00:00:56,480 --> 00:00:58,640
+among various programs and tools.
+
+28
+00:00:58,640 --> 00:01:00,480
+Now, the OVAL Interpreter
+on the other hand
+
+29
+00:01:00,480 --> 00:01:02,410
+is a reference model that was developed
+
+30
+00:01:02,410 --> 00:01:04,230
+to make sure that the
+information being passed
+
+31
+00:01:04,230 --> 00:01:05,860
+around by all of these programs,
+
+32
+00:01:05,860 --> 00:01:07,800
+it actually complies with the OVAL schemas
+
+33
+00:01:07,800 --> 00:01:09,910
+and definitions that the language created.
+
+34
+00:01:09,910 --> 00:01:12,610
+Because OVAL can be used
+by lots of different tools,
+
+35
+00:01:12,610 --> 00:01:15,460
+it has become a large part
+of vulnerability assessments,
+
+36
+00:01:15,460 --> 00:01:17,900
+patch management, auditing, the sharing
+
+37
+00:01:17,900 --> 00:01:20,590
+of threat indicators,
+and multiple other uses.
+
+38
+00:01:20,590 --> 00:01:22,210
+Now, for the Security+ exam,
+
+39
+00:01:22,210 --> 00:01:24,330
+you just have to remember
+that OVAL stands for
+
+40
+00:01:24,330 --> 00:01:26,670
+the Open Vulnerability
+and Assessment Language,
+
+41
+00:01:26,670 --> 00:01:28,540
+and that it's used to
+share data between lots
+
+42
+00:01:28,540 --> 00:01:30,190
+of different tools that are focused on
+
+43
+00:01:30,190 --> 00:01:32,000
+vulnerability assessments and management.
+
+44
+00:01:32,000 --> 00:01:34,681
+And if you do that, you're
+going to do just fine.
+
+45
+00:01:34,681 --> 00:01:36,879
+(electronic buzzing)
+

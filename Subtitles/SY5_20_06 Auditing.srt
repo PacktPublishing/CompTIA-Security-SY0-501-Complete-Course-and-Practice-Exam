@@ -1,0 +1,246 @@
+﻿1
+00:00:00,640 --> 00:00:03,730
+- Auditing; auditing is
+a technical assessment
+
+2
+00:00:03,730 --> 00:00:07,150
+conducted on applications,
+systems, or networks.
+
+3
+00:00:07,150 --> 00:00:09,620
+Auditing is essentially
+a detective control.
+
+4
+00:00:09,620 --> 00:00:11,140
+We're looking to make sure everything
+
+5
+00:00:11,140 --> 00:00:13,460
+was being done correctly,
+and if anything went wrong,
+
+6
+00:00:13,460 --> 00:00:16,070
+we can go back and put
+together those pieces.
+
+7
+00:00:16,070 --> 00:00:17,420
+Now when you think about auditing,
+
+8
+00:00:17,420 --> 00:00:20,360
+auditing can be conducted
+manually or using tools.
+
+9
+00:00:20,360 --> 00:00:21,910
+For a manual audit, you're going to review
+
+10
+00:00:21,910 --> 00:00:23,770
+the organization's security logs,
+
+11
+00:00:23,770 --> 00:00:26,510
+access control lists, user
+rights and permissions,
+
+12
+00:00:26,510 --> 00:00:29,240
+their group policies,
+their vulnerability scans,
+
+13
+00:00:29,240 --> 00:00:30,900
+their written organizational policies,
+
+14
+00:00:30,900 --> 00:00:33,070
+and you may interview personnel.
+
+15
+00:00:33,070 --> 00:00:35,410
+When I think of auditing,
+especially on the exam,
+
+16
+00:00:35,410 --> 00:00:38,170
+think of the fact that
+logs are part of auditing
+
+17
+00:00:38,170 --> 00:00:40,920
+because those get tied
+together very frequently
+
+18
+00:00:40,920 --> 00:00:42,860
+inside the auditing concept.
+
+19
+00:00:42,860 --> 00:00:45,770
+Now when we talk about auditing,
+there's also software tools
+
+20
+00:00:45,770 --> 00:00:47,810
+that we can use to conduct auditing.
+
+21
+00:00:47,810 --> 00:00:50,120
+Programs like the built in
+auditing and logging features
+
+22
+00:00:50,120 --> 00:00:52,490
+inside Windows and
+Linux are really useful,
+
+23
+00:00:52,490 --> 00:00:55,260
+but there's also complex
+auditing suites available
+
+24
+00:00:55,260 --> 00:00:57,940
+that you can buy as
+commercially available products.
+
+25
+00:00:57,940 --> 00:01:00,430
+As I said, auditing
+can be a manual process
+
+26
+00:01:00,430 --> 00:01:04,200
+or an automated one, but usually
+it's a combination of both.
+
+27
+00:01:04,200 --> 00:01:05,660
+When I conduct security audits
+
+28
+00:01:05,660 --> 00:01:07,000
+of an organization's security,
+
+29
+00:01:07,000 --> 00:01:08,740
+I usually first sit down
+with their leadership
+
+30
+00:01:08,740 --> 00:01:11,570
+and determine what the scope
+of the audit is going to be.
+
+31
+00:01:11,570 --> 00:01:13,030
+I want to ensure that
+they have good backups
+
+32
+00:01:13,030 --> 00:01:14,600
+of the network before I get started.
+
+33
+00:01:14,600 --> 00:01:16,630
+Then I'll scan their
+network for vulnerabilities
+
+34
+00:01:16,630 --> 00:01:18,180
+using a vulnerability scanning tool,
+
+35
+00:01:18,180 --> 00:01:20,432
+and while that's being
+run, then I'll go back
+
+36
+00:01:20,432 --> 00:01:22,280
+and I'll start looking at their policies
+
+37
+00:01:22,280 --> 00:01:23,710
+and interviewing their
+people and doing all that
+
+38
+00:01:23,710 --> 00:01:25,240
+offline type of stuff.
+
+39
+00:01:25,240 --> 00:01:26,950
+Then I can bring it all back together,
+
+40
+00:01:26,950 --> 00:01:30,060
+collate all that data, come
+up with a prioritized plan
+
+41
+00:01:30,060 --> 00:01:31,970
+of action, and then I can tell them
+
+42
+00:01:31,970 --> 00:01:34,090
+what kind of risks they
+need to mitigate first,
+
+43
+00:01:34,090 --> 00:01:36,390
+and which are the things they
+need to put money towards
+
+44
+00:01:36,390 --> 00:01:38,680
+to best secure their
+network much more quickly
+
+45
+00:01:38,680 --> 00:01:40,030
+and more efficiently.
+
+46
+00:01:40,030 --> 00:01:41,450
+This is the whole idea of auditing.
+
+47
+00:01:41,450 --> 00:01:42,830
+It's when you go into a network
+
+48
+00:01:42,830 --> 00:01:44,620
+and you start figuring out exactly what
+
+49
+00:01:44,620 --> 00:01:46,740
+that security posture is, and make sure
+
+50
+00:01:46,740 --> 00:01:48,840
+things are being done right, and logs
+
+51
+00:01:48,840 --> 00:01:50,880
+are a big part of that,
+because it's going to tell you
+
+52
+00:01:50,880 --> 00:01:52,678
+whether things really
+are being done that way,
+
+53
+00:01:52,678 --> 00:01:54,827
+or if they're not.
+
+54
+00:01:54,827 --> 00:01:57,103
+(digital buzzing)
+

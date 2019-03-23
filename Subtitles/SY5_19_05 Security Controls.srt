@@ -1,0 +1,840 @@
+﻿1
+00:00:00,690 --> 00:00:02,310
+- Now that we've dug into the concept
+
+2
+00:00:02,310 --> 00:00:03,750
+of risk a little bit more,
+
+3
+00:00:03,750 --> 00:00:04,870
+I think it's appropriate for us
+
+4
+00:00:04,870 --> 00:00:07,010
+to cover the concept of security controls
+
+5
+00:00:07,010 --> 00:00:08,580
+because that's exactly
+what we're going to use
+
+6
+00:00:08,580 --> 00:00:10,970
+when we try to mitigate a particular risk.
+
+7
+00:00:10,970 --> 00:00:13,200
+Now, security controls
+are first broken down
+
+8
+00:00:13,200 --> 00:00:17,150
+into three types, physical,
+technical and administrative.
+
+9
+00:00:17,150 --> 00:00:18,070
+As you might guess,
+
+10
+00:00:18,070 --> 00:00:19,930
+physical controls are security measures
+
+11
+00:00:19,930 --> 00:00:21,760
+that are designed to deter or prevent
+
+12
+00:00:21,760 --> 00:00:23,980
+unauthorized access to
+sensitive information
+
+13
+00:00:23,980 --> 00:00:25,440
+or the systems that contain it,
+
+14
+00:00:25,440 --> 00:00:27,650
+by preventing physical access.
+
+15
+00:00:27,650 --> 00:00:29,440
+So when we discussed physical security
+
+16
+00:00:29,440 --> 00:00:30,600
+earlier in this course,
+
+17
+00:00:30,600 --> 00:00:32,880
+we were focused on a
+lot of physical controls
+
+18
+00:00:32,880 --> 00:00:34,620
+like fences and door locks
+
+19
+00:00:34,620 --> 00:00:36,940
+and alarm systems and security guards,
+
+20
+00:00:36,940 --> 00:00:38,370
+all of these things are focused
+
+21
+00:00:38,370 --> 00:00:41,490
+on protecting the physical
+computers, servers and networks
+
+22
+00:00:41,490 --> 00:00:44,740
+from being accessed by people
+outside our organization.
+
+23
+00:00:44,740 --> 00:00:46,360
+Our second type of security control
+
+24
+00:00:46,360 --> 00:00:48,210
+is called the technical control.
+
+25
+00:00:48,210 --> 00:00:50,740
+Technical controls are
+safeguards and countermeasures.
+
+26
+00:00:50,740 --> 00:00:54,140
+They're used to avoid, detect,
+counteract, and minimize
+
+27
+00:00:54,140 --> 00:00:57,160
+our security risks to our
+systems and information.
+
+28
+00:00:57,160 --> 00:01:00,150
+So we talk about using passwords
+and access controllers,
+
+29
+00:01:00,150 --> 00:01:02,270
+and encryption for our hard drives
+
+30
+00:01:02,270 --> 00:01:04,000
+and multi-factor authentication,
+
+31
+00:01:04,000 --> 00:01:06,630
+we're really talking about
+technical controls here.
+
+32
+00:01:06,630 --> 00:01:08,190
+The third type of security control
+
+33
+00:01:08,190 --> 00:01:10,320
+is called an administrative control.
+
+34
+00:01:10,320 --> 00:01:11,950
+Administrative controls are focused
+
+35
+00:01:11,950 --> 00:01:13,720
+on changing the behavior of people
+
+36
+00:01:13,720 --> 00:01:16,250
+instead of removing the
+actual risk involved.
+
+37
+00:01:16,250 --> 00:01:18,180
+So if I create a policy or procedure,
+
+38
+00:01:18,180 --> 00:01:20,710
+that states that every employee
+has to lock their computer
+
+39
+00:01:20,710 --> 00:01:22,540
+whenever they're going to
+be away from their desk,
+
+40
+00:01:22,540 --> 00:01:24,340
+this is an administrative control.
+
+41
+00:01:24,340 --> 00:01:26,510
+There's no technical
+control being used here.
+
+42
+00:01:26,510 --> 00:01:29,110
+If you get up and walk away
+and return within two minutes,
+
+43
+00:01:29,110 --> 00:01:30,640
+and you didn't lock your workstation,
+
+44
+00:01:30,640 --> 00:01:33,490
+there's no technical control
+that's going to lock it for you.
+
+45
+00:01:33,490 --> 00:01:36,630
+I just made up a policy and
+it's purely administrative.
+
+46
+00:01:36,630 --> 00:01:38,470
+Now, other examples of this include things
+
+47
+00:01:38,470 --> 00:01:41,630
+like mandatory vacations,
+user education and training,
+
+48
+00:01:41,630 --> 00:01:43,310
+creating disaster recovery plans,
+
+49
+00:01:43,310 --> 00:01:45,110
+and implementing job rotation,
+
+50
+00:01:45,110 --> 00:01:48,110
+all of these are examples
+of administrative controls.
+
+51
+00:01:48,110 --> 00:01:50,670
+Now, the National Institute
+of Standards and Technology
+
+52
+00:01:50,670 --> 00:01:53,600
+or NIST, actually has
+three other categories
+
+53
+00:01:53,600 --> 00:01:55,940
+that we organize Security
+Controls in as well.
+
+54
+00:01:55,940 --> 00:01:57,460
+These are management controls,
+
+55
+00:01:57,460 --> 00:02:00,280
+operational controls
+and technical controls.
+
+56
+00:02:00,280 --> 00:02:02,230
+Management controls are security controls
+
+57
+00:02:02,230 --> 00:02:03,690
+that are focused on decision-making
+
+58
+00:02:03,690 --> 00:02:05,530
+and the management of risk.
+
+59
+00:02:05,530 --> 00:02:06,680
+This usually includes things
+
+60
+00:02:06,680 --> 00:02:09,760
+like policies, procedures,
+legal compliance,
+
+61
+00:02:09,760 --> 00:02:12,070
+software development
+methodologies that you choose,
+
+62
+00:02:12,070 --> 00:02:14,400
+setting up a good vulnerability
+management program,
+
+63
+00:02:14,400 --> 00:02:16,090
+and other things like that.
+
+64
+00:02:16,090 --> 00:02:18,930
+Management controls are all
+about how your system security
+
+65
+00:02:18,930 --> 00:02:21,340
+is going to be managed and overseen.
+
+66
+00:02:21,340 --> 00:02:23,170
+Now, operational controls are focused
+
+67
+00:02:23,170 --> 00:02:25,050
+on things that are done by people.
+
+68
+00:02:25,050 --> 00:02:27,060
+With operational controls
+I'm trying to increase
+
+69
+00:02:27,060 --> 00:02:29,600
+the security of the system,
+by controlling the actions
+
+70
+00:02:29,600 --> 00:02:31,800
+of the individuals and
+the groups who use it.
+
+71
+00:02:31,800 --> 00:02:34,680
+This includes user training,
+configuration management,
+
+72
+00:02:34,680 --> 00:02:36,510
+testing our disaster recovery plans,
+
+73
+00:02:36,510 --> 00:02:38,430
+and conducting incident handling.
+
+74
+00:02:38,430 --> 00:02:40,570
+These controls are performed
+by technical people
+
+75
+00:02:40,570 --> 00:02:42,730
+in order to carry out
+the overall direction
+
+76
+00:02:42,730 --> 00:02:45,100
+that was provided by management controls.
+
+77
+00:02:45,100 --> 00:02:48,280
+The third category NIST uses,
+is called technical controls.
+
+78
+00:02:48,280 --> 00:02:49,990
+These are logical controls that are put
+
+79
+00:02:49,990 --> 00:02:52,070
+into a system to help secure it.
+
+80
+00:02:52,070 --> 00:02:53,620
+This is things like triple A,
+
+81
+00:02:53,620 --> 00:02:56,300
+the authentication,
+authorization and accounting,
+
+82
+00:02:56,300 --> 00:02:59,420
+access control, encryption
+technology, passwords,
+
+83
+00:02:59,420 --> 00:03:01,470
+and configuring your security devices.
+
+84
+00:03:01,470 --> 00:03:03,990
+Anything that is technical
+and performed by the computer
+
+85
+00:03:03,990 --> 00:03:06,510
+can really be put into this category.
+
+86
+00:03:06,510 --> 00:03:08,350
+So, now that we've covered
+two different groups
+
+87
+00:03:08,350 --> 00:03:09,820
+of three categories each,
+
+88
+00:03:09,820 --> 00:03:13,210
+I bet you think we're done but
+unfortunately, not quite yet.
+
+89
+00:03:13,210 --> 00:03:15,270
+We have yet another group of three,
+
+90
+00:03:15,270 --> 00:03:17,500
+that can be used to
+describe security controls.
+
+91
+00:03:17,500 --> 00:03:20,790
+They are preventive,
+detective, and corrective.
+
+92
+00:03:20,790 --> 00:03:22,780
+Preventative controls
+are security controls
+
+93
+00:03:22,780 --> 00:03:25,080
+that are installed
+before an event happens,
+
+94
+00:03:25,080 --> 00:03:27,430
+and they're designed to prevent
+something from occurring.
+
+95
+00:03:27,430 --> 00:03:29,010
+For example, you might install
+
+96
+00:03:29,010 --> 00:03:31,960
+a technical control like a
+RAID in your file server,
+
+97
+00:03:31,960 --> 00:03:34,450
+to ensure that your data
+always has redundancy available
+
+98
+00:03:34,450 --> 00:03:36,540
+and prevent data loss from occurring.
+
+99
+00:03:36,540 --> 00:03:38,310
+Maybe you're worried about a power outage,
+
+100
+00:03:38,310 --> 00:03:40,230
+so you install battery backup or an UPS,
+
+101
+00:03:40,230 --> 00:03:42,890
+in order to prevent a brownout
+or a blackout from happening
+
+102
+00:03:42,890 --> 00:03:45,070
+and causing your
+workstation to lose power.
+
+103
+00:03:45,070 --> 00:03:47,890
+These are considered
+preventative controls.
+
+104
+00:03:47,890 --> 00:03:50,860
+The second type of control is
+called a detective control.
+
+105
+00:03:50,860 --> 00:03:52,680
+Detective controls are
+used during an event
+
+106
+00:03:52,680 --> 00:03:55,500
+to find out whether or not
+something bad may have happened.
+
+107
+00:03:55,500 --> 00:03:57,330
+If you have a closed-circuit TV system,
+
+108
+00:03:57,330 --> 00:03:58,960
+being monitored by a security guard,
+
+109
+00:03:58,960 --> 00:04:01,070
+this is a type of detective control.
+
+110
+00:04:01,070 --> 00:04:03,720
+Intrusion detection systems,
+audit logs and alarms
+
+111
+00:04:03,720 --> 00:04:06,370
+are all different types of
+detective controls as well,
+
+112
+00:04:06,370 --> 00:04:08,100
+when they have logging enabled.
+
+113
+00:04:08,100 --> 00:04:10,440
+Now, these aren't going to
+stop a bad thing from happening
+
+114
+00:04:10,440 --> 00:04:12,230
+but they are going to
+allow you to at least know
+
+115
+00:04:12,230 --> 00:04:14,330
+that it happened and follow up on it.
+
+116
+00:04:14,330 --> 00:04:17,200
+The third type of control is
+called a corrective control.
+
+117
+00:04:17,200 --> 00:04:19,800
+Corrective controls are
+used after an event occurs.
+
+118
+00:04:19,800 --> 00:04:21,900
+So, let's say somebody
+hacks into your server
+
+119
+00:04:21,900 --> 00:04:23,490
+and they erase your hard drive,
+
+120
+00:04:23,490 --> 00:04:25,070
+well if this happens you're going to hope
+
+121
+00:04:25,070 --> 00:04:26,890
+you have a good backup copy somewhere.
+
+122
+00:04:26,890 --> 00:04:28,730
+If you've been doing good tape backups,
+
+123
+00:04:28,730 --> 00:04:30,590
+this is called a corrective control
+
+124
+00:04:30,590 --> 00:04:32,900
+because it's going to allow you
+to recover from this data loss
+
+125
+00:04:32,900 --> 00:04:35,430
+and by fixing something after it happens,
+
+126
+00:04:35,430 --> 00:04:37,500
+it becomes a corrective control.
+
+127
+00:04:37,500 --> 00:04:38,840
+Other examples of this are found
+
+128
+00:04:38,840 --> 00:04:41,700
+as part of incident response
+or disaster recovery,
+
+129
+00:04:41,700 --> 00:04:43,720
+or restoring technologies for data loss,
+
+130
+00:04:43,720 --> 00:04:45,880
+or replacing devices
+that've been malfunctioned,
+
+131
+00:04:45,880 --> 00:04:48,280
+or switching your operations
+to an alternate location,
+
+132
+00:04:48,280 --> 00:04:49,670
+to continue your business functions
+
+133
+00:04:49,670 --> 00:04:51,550
+in case there's a disaster and you need
+
+134
+00:04:51,550 --> 00:04:53,600
+a continuity of operations.
+
+135
+00:04:53,600 --> 00:04:56,290
+So you may be wondering,
+can something be in one
+
+136
+00:04:56,290 --> 00:04:57,440
+or more categories?
+
+137
+00:04:57,440 --> 00:04:58,810
+Well, absolutely.
+
+138
+00:04:58,810 --> 00:05:00,900
+I've mentioned some of
+them as we've gone through.
+
+139
+00:05:00,900 --> 00:05:03,630
+Consider the example of a
+closed-circuit TV system,
+
+140
+00:05:03,630 --> 00:05:06,520
+if I have it installed it can
+serve as a detective control
+
+141
+00:05:06,520 --> 00:05:08,470
+because I can see if
+something's happening,
+
+142
+00:05:08,470 --> 00:05:11,180
+but it's also categorized
+as a physical control
+
+143
+00:05:11,180 --> 00:05:13,030
+because it protects our physical devices
+
+144
+00:05:13,030 --> 00:05:15,690
+by allowing us to see people
+as they approach the devices.
+
+145
+00:05:15,690 --> 00:05:17,560
+Similarly, if I have a password policy
+
+146
+00:05:17,560 --> 00:05:18,940
+created for my organization,
+
+147
+00:05:18,940 --> 00:05:20,740
+this isn't just a management control
+
+148
+00:05:20,740 --> 00:05:23,290
+but it's also an administrative
+control because again,
+
+149
+00:05:23,290 --> 00:05:25,610
+policies fall into both those areas.
+
+150
+00:05:25,610 --> 00:05:28,480
+Now, I know we've covered a lot
+of different controls so far
+
+151
+00:05:28,480 --> 00:05:30,990
+but I have just one more control to cover,
+
+152
+00:05:30,990 --> 00:05:33,240
+it's called a compensating control.
+
+153
+00:05:33,240 --> 00:05:35,760
+Now a compensating control is
+used whenever you can't meet
+
+154
+00:05:35,760 --> 00:05:38,260
+the requirements for a normal control.
+
+155
+00:05:38,260 --> 00:05:39,980
+For example, let's say your organization
+
+156
+00:05:39,980 --> 00:05:41,690
+has a physical security policy
+
+157
+00:05:41,690 --> 00:05:44,050
+that states that every
+door to a networking closet
+
+158
+00:05:44,050 --> 00:05:47,440
+or server room has to have a
+retina scan enabled door lock,
+
+159
+00:05:47,440 --> 00:05:49,490
+to protect the devices in those rooms.
+
+160
+00:05:49,490 --> 00:05:51,880
+Well, maybe one of your
+branch offices is located
+
+161
+00:05:51,880 --> 00:05:53,710
+in some far off country overseas,
+
+162
+00:05:53,710 --> 00:05:56,110
+and they have no retina
+scan enabled door locks
+
+163
+00:05:56,110 --> 00:05:57,730
+being sold in that region.
+
+164
+00:05:57,730 --> 00:06:00,010
+Well, instead of using
+a retina scan door lock,
+
+165
+00:06:00,010 --> 00:06:02,320
+you decide to install a cipher door lock.
+
+166
+00:06:02,320 --> 00:06:05,220
+The cipher lock will be
+considered a compensating control
+
+167
+00:06:05,220 --> 00:06:07,800
+until you can get a retina
+scan enabled door lock
+
+168
+00:06:07,800 --> 00:06:10,640
+ordered, shipped and
+installed at this location.
+
+169
+00:06:10,640 --> 00:06:13,070
+Now, keep in mind that if you
+use a compensating control,
+
+170
+00:06:13,070 --> 00:06:15,030
+you are putting in place a different thing
+
+171
+00:06:15,030 --> 00:06:16,460
+than the original requirement,
+
+172
+00:06:16,460 --> 00:06:18,430
+but you're still attempting
+to get the same level
+
+173
+00:06:18,430 --> 00:06:20,800
+or close to the same level of security.
+
+174
+00:06:20,800 --> 00:06:22,500
+Any residual risk that is not covered
+
+175
+00:06:22,500 --> 00:06:24,630
+by the compensating control is considered
+
+176
+00:06:24,630 --> 00:06:26,460
+accepted risk by the organization
+
+177
+00:06:26,460 --> 00:06:28,830
+because this security
+control doesn't fully cover
+
+178
+00:06:28,830 --> 00:06:31,760
+the same requirements as the
+original control might've.
+
+179
+00:06:31,760 --> 00:06:34,160
+For the exam, I want you to
+make sure you're prepared
+
+180
+00:06:34,160 --> 00:06:37,030
+to categorize things into these
+different types of controls,
+
+181
+00:06:37,030 --> 00:06:38,920
+based on the ten types
+of security controls
+
+182
+00:06:38,920 --> 00:06:40,490
+we covered in this lesson.
+
+183
+00:06:40,490 --> 00:06:42,100
+Keep in mind, some things can go
+
+184
+00:06:42,100 --> 00:06:44,490
+into multiple categories and that's okay,
+
+185
+00:06:44,490 --> 00:06:46,560
+that's why I presented these
+things in the three groups
+
+186
+00:06:46,560 --> 00:06:49,676
+of three, and then the
+compensating control.
+
+187
+00:06:49,676 --> 00:06:51,929
+(electronic music)
+

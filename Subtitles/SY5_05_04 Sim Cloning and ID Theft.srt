@@ -1,0 +1,489 @@
+﻿1
+00:00:00,200 --> 00:00:02,313
+- SIM cloning, and ID theft.
+
+2
+00:00:03,340 --> 00:00:05,610
+If you've gone and bought
+a new cell phone recently,
+
+3
+00:00:05,610 --> 00:00:06,930
+you've gone to the store,
+
+4
+00:00:06,930 --> 00:00:09,070
+they've pulled out a little
+chip out of your phone,
+
+5
+00:00:09,070 --> 00:00:11,120
+and placed it into your new phone.
+
+6
+00:00:11,120 --> 00:00:12,670
+What is that chip?
+
+7
+00:00:12,670 --> 00:00:14,380
+Well, that's a SIM card.
+
+8
+00:00:14,380 --> 00:00:17,420
+It stands for Subscriber Identity Module.
+
+9
+00:00:17,420 --> 00:00:20,190
+This is an integrated
+circuit that securely stores
+
+10
+00:00:20,190 --> 00:00:22,640
+the international mobile
+subscriber identity,
+
+11
+00:00:22,640 --> 00:00:25,680
+your IMSI number and its related key.
+
+12
+00:00:25,680 --> 00:00:27,830
+This is what tells the cellphone towers
+
+13
+00:00:27,830 --> 00:00:30,840
+which device is assigned to which number.
+
+14
+00:00:30,840 --> 00:00:33,540
+Now, if someone is able
+to clone your SIM card,
+
+15
+00:00:33,540 --> 00:00:35,350
+they can pretend they're you.
+
+16
+00:00:35,350 --> 00:00:38,290
+This was very popular in
+the early days of cellphones
+
+17
+00:00:38,290 --> 00:00:40,480
+because if I could pretend that I was you,
+
+18
+00:00:40,480 --> 00:00:42,970
+I could rack up lots
+of long-distance calls
+
+19
+00:00:42,970 --> 00:00:44,900
+and lots of minutes used on cellular,
+
+20
+00:00:44,900 --> 00:00:46,120
+and not get charged for 'em
+
+21
+00:00:46,120 --> 00:00:47,900
+because, you would get charged for 'em.
+
+22
+00:00:47,900 --> 00:00:51,160
+And so people would go
+through and impersonate you
+
+23
+00:00:51,160 --> 00:00:53,870
+and they would do this
+by cloning your SIM card.
+
+24
+00:00:53,870 --> 00:00:56,410
+Now SIM cloning allows two cell phones
+
+25
+00:00:56,410 --> 00:00:58,340
+to utilize the same service
+
+26
+00:00:58,340 --> 00:01:00,140
+and allows the attacker to gain access
+
+27
+00:01:00,140 --> 00:01:01,990
+to the phone's personal data.
+
+28
+00:01:01,990 --> 00:01:03,990
+So if I'm cloning your SIM card
+
+29
+00:01:03,990 --> 00:01:05,730
+the towers think I'm you.
+
+30
+00:01:05,730 --> 00:01:07,540
+So when somebody sends you a text message,
+
+31
+00:01:07,540 --> 00:01:09,550
+I get a copy and you get a copy.
+
+32
+00:01:09,550 --> 00:01:12,140
+And so now I'm able to keep
+track of what you're getting.
+
+33
+00:01:12,140 --> 00:01:14,460
+Now this is very dangerous for you,
+
+34
+00:01:14,460 --> 00:01:17,730
+the good news is that
+SIM has changed it's ways
+
+35
+00:01:17,730 --> 00:01:18,700
+over the years.
+
+36
+00:01:18,700 --> 00:01:20,330
+The first versions of SIM cards
+
+37
+00:01:20,330 --> 00:01:21,870
+were very easy to clone,
+
+38
+00:01:21,870 --> 00:01:23,700
+but the newer SIM version two cards
+
+39
+00:01:23,700 --> 00:01:25,650
+are much much harder.
+
+40
+00:01:25,650 --> 00:01:28,810
+So this gives us a lot more security.
+
+41
+00:01:28,810 --> 00:01:31,630
+Now one of the second problems
+we have with mobile phones
+
+42
+00:01:31,630 --> 00:01:33,380
+and SIM cards and phone numbers,
+
+43
+00:01:33,380 --> 00:01:35,950
+is when people try to
+take over your phone.
+
+44
+00:01:35,950 --> 00:01:37,810
+And so you may think alright, great,
+
+45
+00:01:37,810 --> 00:01:40,220
+SIM card cloning is almost
+a thing of the past,
+
+46
+00:01:40,220 --> 00:01:42,110
+version two has taken care of it.
+
+47
+00:01:42,110 --> 00:01:43,870
+Well, attackers are smart,
+
+48
+00:01:43,870 --> 00:01:47,380
+and they find other ways to
+hijack your cell phone account.
+
+49
+00:01:47,380 --> 00:01:49,020
+What they started doing now
+
+50
+00:01:49,020 --> 00:01:51,550
+is they will call up
+your cell phone provider
+
+51
+00:01:51,550 --> 00:01:53,080
+and pretend to be you.
+
+52
+00:01:53,080 --> 00:01:55,020
+This is a social engineering scheme.
+
+53
+00:01:55,020 --> 00:01:57,150
+They'll say I just bought a new phone
+
+54
+00:01:57,150 --> 00:01:59,020
+and I need to get it activated.
+
+55
+00:01:59,020 --> 00:02:01,340
+And the nice customer
+service agent will ask them
+
+56
+00:02:01,340 --> 00:02:03,140
+some basic questions about themselves,
+
+57
+00:02:03,140 --> 00:02:04,690
+like maybe their date of birth,
+
+58
+00:02:04,690 --> 00:02:05,790
+where they went to high school,
+
+59
+00:02:05,790 --> 00:02:07,150
+their name and address,
+
+60
+00:02:07,150 --> 00:02:09,250
+things that you can usually find online.
+
+61
+00:02:09,250 --> 00:02:10,730
+So the attacker pretends to be you
+
+62
+00:02:10,730 --> 00:02:12,310
+and gives that information,
+
+63
+00:02:12,310 --> 00:02:15,090
+the customer service agent
+is wonderfully helpful,
+
+64
+00:02:15,090 --> 00:02:17,100
+and they transfer your phone service
+
+65
+00:02:17,100 --> 00:02:19,160
+from you to the attacker.
+
+66
+00:02:19,160 --> 00:02:20,920
+Now the attacker has a phone
+
+67
+00:02:20,920 --> 00:02:24,140
+and a new SIM card that is
+now attached to your number.
+
+68
+00:02:24,140 --> 00:02:25,210
+Why are they doing this?
+
+69
+00:02:25,210 --> 00:02:27,100
+Why do they want your phone number?
+
+70
+00:02:27,100 --> 00:02:30,210
+Well, it comes down to
+two step authentication.
+
+71
+00:02:30,210 --> 00:02:33,710
+A lot of websites now are using
+two factor authentication.
+
+72
+00:02:33,710 --> 00:02:36,370
+Where you log in and then
+they send you a text message
+
+73
+00:02:36,370 --> 00:02:37,950
+with a secret code
+
+74
+00:02:37,950 --> 00:02:39,930
+that you then put into
+the website to verify
+
+75
+00:02:39,930 --> 00:02:41,550
+you are who you say your are.
+
+76
+00:02:41,550 --> 00:02:44,580
+If the attacker is able to
+take over your phone number,
+
+77
+00:02:44,580 --> 00:02:45,960
+they can now pretend to be you
+
+78
+00:02:45,960 --> 00:02:48,830
+and log into your bank,
+your Facebook, your Gmail,
+
+79
+00:02:48,830 --> 00:02:50,170
+or whatever else you have
+
+80
+00:02:50,170 --> 00:02:51,890
+for two factor authentication.
+
+81
+00:02:51,890 --> 00:02:54,380
+This is becoming a big problem,
+
+82
+00:02:54,380 --> 00:02:55,840
+and so you have to be careful
+
+83
+00:02:55,840 --> 00:02:57,610
+where you post your phone number.
+
+84
+00:02:57,610 --> 00:02:59,900
+Because if somebody now
+has your phone number,
+
+85
+00:02:59,900 --> 00:03:01,370
+and they've already stolen your account,
+
+86
+00:03:01,370 --> 00:03:03,910
+your email and maybe your password,
+
+87
+00:03:03,910 --> 00:03:05,660
+they can now take over your phone number
+
+88
+00:03:05,660 --> 00:03:07,040
+and then take over your accounts.
+
+89
+00:03:07,040 --> 00:03:11,030
+So this is what we call ID
+theft, or account takeover.
+
+90
+00:03:11,030 --> 00:03:13,080
+So, how do we combat this?
+
+91
+00:03:13,080 --> 00:03:15,180
+Well, one of the ways is to be careful
+
+92
+00:03:15,180 --> 00:03:17,100
+where you post your phone number.
+
+93
+00:03:17,100 --> 00:03:19,160
+Because if you are a
+victim of a data breach
+
+94
+00:03:19,160 --> 00:03:22,230
+and somebody has stolen
+your name and your address
+
+95
+00:03:22,230 --> 00:03:23,250
+and your email,
+
+96
+00:03:23,250 --> 00:03:25,100
+and now they have your phone number,
+
+97
+00:03:25,100 --> 00:03:27,800
+they can perform this
+account takeover against you,
+
+98
+00:03:27,800 --> 00:03:29,980
+and now they're going to be
+able to log into your accounts
+
+99
+00:03:29,980 --> 00:03:30,880
+as if they were you,
+
+100
+00:03:30,880 --> 00:03:34,200
+even if you had the two
+factor authentication set up.
+
+101
+00:03:34,200 --> 00:03:36,610
+So, what do we recommend to bypass this
+
+102
+00:03:36,610 --> 00:03:38,630
+if you really want to be paranoid?
+
+103
+00:03:38,630 --> 00:03:41,250
+Well, you can go and get
+a google voice number
+
+104
+00:03:41,250 --> 00:03:42,730
+or something of that nature.
+
+105
+00:03:42,730 --> 00:03:45,060
+Where you have a single phone
+number that people call,
+
+106
+00:03:45,060 --> 00:03:47,760
+and then nobody knows your
+actual cell phone number
+
+107
+00:03:47,760 --> 00:03:49,050
+that's behind it.
+
+108
+00:03:49,050 --> 00:03:50,960
+You then can use that cell phone number
+
+109
+00:03:50,960 --> 00:03:53,700
+to validate your accounts for
+two factor authentication.
+
+110
+00:03:53,700 --> 00:03:55,980
+Again, this is getting a little paranoid
+
+111
+00:03:55,980 --> 00:03:58,190
+but this is something that
+some people are worried about
+
+112
+00:03:58,190 --> 00:03:59,320
+and are taking this action
+
+113
+00:03:59,320 --> 00:04:00,770
+and these steps to bypass it.
+

@@ -1,0 +1,412 @@
+﻿1
+00:00:00,270 --> 00:00:01,340
+- In the last lesson,
+
+2
+00:00:01,340 --> 00:00:03,560
+we discussed the different
+types of power conditions
+
+3
+00:00:03,560 --> 00:00:05,180
+that can affect our systems.
+
+4
+00:00:05,180 --> 00:00:06,240
+Now, to mitigate these,
+
+5
+00:00:06,240 --> 00:00:08,290
+we used different forms of backup power.
+
+6
+00:00:08,290 --> 00:00:10,000
+The first type of backup power we have
+
+7
+00:00:10,000 --> 00:00:13,620
+is called a UPS or an
+Uninterruptible Power Supply
+
+8
+00:00:13,620 --> 00:00:15,180
+and this is going to
+combine the functionality
+
+9
+00:00:15,180 --> 00:00:17,880
+of a surge suppressor
+with a battery backup.
+
+10
+00:00:17,880 --> 00:00:19,110
+Now, the great thing about these
+
+11
+00:00:19,110 --> 00:00:21,220
+is they can also provide
+line conditioning.
+
+12
+00:00:21,220 --> 00:00:22,530
+So they can protect against things like
+
+13
+00:00:22,530 --> 00:00:24,370
+brown outs, sags and surges.
+
+14
+00:00:24,370 --> 00:00:25,870
+So if you have short durations of times
+
+15
+00:00:25,870 --> 00:00:27,388
+where the power goes down or goes up,
+
+16
+00:00:27,388 --> 00:00:29,340
+that line conditioning function
+
+17
+00:00:29,340 --> 00:00:30,690
+can help protect your machines
+
+18
+00:00:30,690 --> 00:00:32,330
+and keep them running smoothly.
+
+19
+00:00:32,330 --> 00:00:35,740
+Now, backups like these are
+good for short durations of time
+
+20
+00:00:35,740 --> 00:00:38,390
+but they usually don't last
+more than 15 or 30 minutes.
+
+21
+00:00:38,390 --> 00:00:39,710
+Some of the largest ones I've seen
+
+22
+00:00:39,710 --> 00:00:41,170
+and most expensive ones I've seen
+
+23
+00:00:41,170 --> 00:00:43,470
+can actually last up to about 60 minutes.
+
+24
+00:00:43,470 --> 00:00:46,219
+But again, this is a relatively
+short period of time.
+
+25
+00:00:46,219 --> 00:00:48,110
+So if you need to go longer than that,
+
+26
+00:00:48,110 --> 00:00:50,290
+we start looking at a backup generator.
+
+27
+00:00:50,290 --> 00:00:53,210
+A backup generator is part
+of an emergency power system.
+
+28
+00:00:53,210 --> 00:00:54,400
+It's used when there's an outage
+
+29
+00:00:54,400 --> 00:00:56,725
+of your regular power supply
+for the electric grid.
+
+30
+00:00:56,725 --> 00:00:59,840
+Now, some emergency power
+systems might include things like
+
+31
+00:00:59,840 --> 00:01:02,790
+lighting for your hallways
+or special fuel cells.
+
+32
+00:01:02,790 --> 00:01:04,260
+Larger commercial backup generators
+
+33
+00:01:04,260 --> 00:01:06,150
+can actually power the entire building
+
+34
+00:01:06,150 --> 00:01:07,710
+or large portions of it.
+
+35
+00:01:07,710 --> 00:01:10,050
+Now, it just depends on how
+much fuel you have available
+
+36
+00:01:10,050 --> 00:01:12,090
+and how much power you need to generate.
+
+37
+00:01:12,090 --> 00:01:13,670
+There's really three types of generators
+
+38
+00:01:13,670 --> 00:01:14,700
+that we're going to talk about.
+
+39
+00:01:14,700 --> 00:01:16,750
+There's portable gas-engine generators,
+
+40
+00:01:16,750 --> 00:01:18,180
+permanently installed generators,
+
+41
+00:01:18,180 --> 00:01:20,160
+and battery-inverter generators.
+
+42
+00:01:20,160 --> 00:01:21,850
+A portable gas-engine generator
+
+43
+00:01:21,850 --> 00:01:23,760
+is the least expensive type to run
+
+44
+00:01:23,760 --> 00:01:27,860
+and it usually uses gasoline
+or sometimes even solar power.
+
+45
+00:01:27,860 --> 00:01:29,950
+These tend to be noisy
+when they're gas engines.
+
+46
+00:01:29,950 --> 00:01:31,120
+They're high maintenance
+
+47
+00:01:31,120 --> 00:01:32,600
+and they have to be started manually
+
+48
+00:01:32,600 --> 00:01:34,290
+and you'll usually plug
+in an extension cord
+
+49
+00:01:34,290 --> 00:01:35,840
+and run that into your building.
+
+50
+00:01:35,840 --> 00:01:38,390
+So, you're not going to use
+this for a large server room
+
+51
+00:01:38,390 --> 00:01:40,710
+but you may be able to keep
+some specialized equipment up
+
+52
+00:01:40,710 --> 00:01:42,723
+and running using one of
+these portable systems.
+
+53
+00:01:42,723 --> 00:01:45,000
+Now, when you start going
+to larger generators,
+
+54
+00:01:45,000 --> 00:01:47,600
+you start talking about
+permanently installed generators.
+
+55
+00:01:47,600 --> 00:01:49,070
+These are much more expensive
+
+56
+00:01:49,070 --> 00:01:51,170
+and much more complex to install.
+
+57
+00:01:51,170 --> 00:01:52,920
+But they're always there.
+
+58
+00:01:52,920 --> 00:01:54,930
+Generally, these will run on natural gas,
+
+59
+00:01:54,930 --> 00:01:57,050
+propane or diesel fuel.
+
+60
+00:01:57,050 --> 00:01:58,110
+They tend to be quieter
+
+61
+00:01:58,110 --> 00:01:58,943
+and they can be connected directly
+
+62
+00:01:58,943 --> 00:02:00,960
+to your organizations electric panel.
+
+63
+00:02:00,960 --> 00:02:02,450
+So if you lose power to the building,
+
+64
+00:02:02,450 --> 00:02:04,170
+somebody can go and turn on this generator
+
+65
+00:02:04,170 --> 00:02:05,890
+and bring it back online.
+
+66
+00:02:05,890 --> 00:02:07,380
+The third type of generator that we have
+
+67
+00:02:07,380 --> 00:02:09,790
+is known as a battery inverter generator.
+
+68
+00:02:09,790 --> 00:02:11,670
+These are based on lead acid batteries.
+
+69
+00:02:11,670 --> 00:02:12,870
+They're supper quiet
+
+70
+00:02:12,870 --> 00:02:15,290
+and they require very
+little user interaction,
+
+71
+00:02:15,290 --> 00:02:17,660
+aside from maybe an uncommon
+restart once in a while
+
+72
+00:02:17,660 --> 00:02:20,200
+and changing out the batteries
+every couple of years.
+
+73
+00:02:20,200 --> 00:02:21,730
+They are well matched to environments
+
+74
+00:02:21,730 --> 00:02:23,670
+that require a low amount of wattage
+
+75
+00:02:23,670 --> 00:02:26,600
+or are the victims of
+short power outages only.
+
+76
+00:02:26,600 --> 00:02:28,540
+They can't withhold your whole facility
+
+77
+00:02:28,540 --> 00:02:30,760
+or data center for a long period of time.
+
+78
+00:02:30,760 --> 00:02:33,471
+But if you combine something
+like the battery generators
+
+79
+00:02:33,471 --> 00:02:36,120
+with the diesel commercial generators,
+
+80
+00:02:36,120 --> 00:02:37,540
+you can actually have the battery
+
+81
+00:02:37,540 --> 00:02:39,070
+take over the short period of time
+
+82
+00:02:39,070 --> 00:02:41,570
+and the diesels take over
+the long period of time.
+
+83
+00:02:41,570 --> 00:02:42,800
+So, how do you decide
+
+84
+00:02:42,800 --> 00:02:44,500
+which ones right for your organization?
+
+85
+00:02:44,500 --> 00:02:47,090
+Well, it's going to depend
+on your organizations needs,
+
+86
+00:02:47,090 --> 00:02:49,380
+the amount of money you want
+to spend on backup power,
+
+87
+00:02:49,380 --> 00:02:51,230
+how much downtime you can afford to have
+
+88
+00:02:51,230 --> 00:02:52,310
+and how quickly that power
+
+89
+00:02:52,310 --> 00:02:54,000
+needs to be provided to your systems.
+
+90
+00:02:54,000 --> 00:02:56,190
+Also, you need to consider
+the type of fuel source
+
+91
+00:02:56,190 --> 00:02:57,370
+that's available in your area.
+
+92
+00:02:57,370 --> 00:02:59,110
+Do you have gas or propane?
+
+93
+00:02:59,110 --> 00:03:01,080
+Or diesel or batteries available?
+
+94
+00:03:01,080 --> 00:03:03,610
+All of that is going to
+factor into your decision
+
+95
+00:03:03,610 --> 00:03:06,160
+to decide which type of
+generator is right for you.
+

@@ -1,0 +1,742 @@
+﻿1
+00:00:00,470 --> 00:00:02,270
+- Telephony devices.
+
+2
+00:00:02,270 --> 00:00:04,530
+Telephony is a term
+that's used for a device
+
+3
+00:00:04,530 --> 00:00:07,660
+that provides voice
+communication to your end users.
+
+4
+00:00:07,660 --> 00:00:10,120
+Originally, telephony was used in networks
+
+5
+00:00:10,120 --> 00:00:12,240
+to make connections with the outside world
+
+6
+00:00:12,240 --> 00:00:13,790
+such us through your modem.
+
+7
+00:00:13,790 --> 00:00:16,590
+So a modem was this old
+device that we used to use
+
+8
+00:00:16,590 --> 00:00:18,840
+that would allow us to
+modulate and demodulate
+
+9
+00:00:18,840 --> 00:00:21,200
+digital information into an analog signal
+
+10
+00:00:21,200 --> 00:00:24,030
+that could transmit over a
+standard dial-up connection.
+
+11
+00:00:24,030 --> 00:00:26,190
+So if you used AOL as a dial-up connection
+
+12
+00:00:26,190 --> 00:00:27,320
+way back in the day,
+
+13
+00:00:27,320 --> 00:00:29,540
+you would put your phone
+line into your computer,
+
+14
+00:00:29,540 --> 00:00:31,300
+it would take your ones and zeros,
+
+15
+00:00:31,300 --> 00:00:33,520
+convert them into signals of sound
+
+16
+00:00:33,520 --> 00:00:35,820
+and transmit that over the phone line.
+
+17
+00:00:35,820 --> 00:00:38,500
+Now, modems were a great
+attack vector though
+
+18
+00:00:38,500 --> 00:00:39,920
+from the security perspective.
+
+19
+00:00:39,920 --> 00:00:41,480
+And for the Security Plus exam,
+
+20
+00:00:41,480 --> 00:00:44,040
+you need to know the
+concept of war dialing.
+
+21
+00:00:44,040 --> 00:00:46,120
+War dialing is simply when an attacker
+
+22
+00:00:46,120 --> 00:00:47,860
+starts dialing random phone numbers
+
+23
+00:00:47,860 --> 00:00:50,910
+to see if any modems would
+answer on the other side.
+
+24
+00:00:50,910 --> 00:00:52,760
+So a lot of servers back in those days
+
+25
+00:00:52,760 --> 00:00:54,320
+will have dial-up modems
+
+26
+00:00:54,320 --> 00:00:56,860
+so that remote technicians
+could dial into the server,
+
+27
+00:00:56,860 --> 00:00:59,650
+gain access and make
+changes to due support.
+
+28
+00:00:59,650 --> 00:01:00,970
+Well, if I was an attacker
+
+29
+00:01:00,970 --> 00:01:04,840
+and I started dialing random
+numbers like 555-1234,
+
+30
+00:01:04,840 --> 00:01:05,673
+nobody there.
+
+31
+00:01:05,673 --> 00:01:09,180
+555-1235 and just keep adding numbers,
+
+32
+00:01:09,180 --> 00:01:11,800
+eventually, I'll find
+some server that answers.
+
+33
+00:01:11,800 --> 00:01:14,960
+And if they do, I now have
+a way into that network.
+
+34
+00:01:14,960 --> 00:01:17,510
+So how do we protect modems in our systems
+
+35
+00:01:17,510 --> 00:01:19,750
+for any dialog resources that we may have
+
+36
+00:01:19,750 --> 00:01:21,780
+from this type of thing like war dialing?
+
+37
+00:01:21,780 --> 00:01:23,260
+Well, one of the main things to do
+
+38
+00:01:23,260 --> 00:01:25,170
+is use a callback feature.
+
+39
+00:01:25,170 --> 00:01:27,380
+If you still have modems,
+which most of us don't
+
+40
+00:01:27,380 --> 00:01:29,520
+in our networks anymore, but if you do,
+
+41
+00:01:29,520 --> 00:01:32,410
+you want to make them set so
+that when somebody calls in,
+
+42
+00:01:32,410 --> 00:01:34,020
+they would then hang up
+
+43
+00:01:34,020 --> 00:01:35,900
+and the modem, if it
+recognize that phone number
+
+44
+00:01:35,900 --> 00:01:38,330
+based on caller ID will
+then call them back
+
+45
+00:01:38,330 --> 00:01:39,810
+and initiate the connection.
+
+46
+00:01:39,810 --> 00:01:42,510
+This will verify that the person
+is who they think they are
+
+47
+00:01:42,510 --> 00:01:43,930
+and who they say they are.
+
+48
+00:01:43,930 --> 00:01:46,560
+Now, you always want to also
+use some form of authentication,
+
+49
+00:01:46,560 --> 00:01:48,110
+like a username or password.
+
+50
+00:01:48,110 --> 00:01:50,490
+But preferably, you want to
+use something more complex
+
+51
+00:01:50,490 --> 00:01:53,470
+like two factor or
+multi-factor authentication.
+
+52
+00:01:53,470 --> 00:01:56,110
+The best practice though is to
+do what most of us have done,
+
+53
+00:01:56,110 --> 00:01:58,530
+and that's eliminate modems where possible
+
+54
+00:01:58,530 --> 00:02:00,010
+and switch to remote access
+
+55
+00:02:00,010 --> 00:02:04,040
+to using things like an SSH
+connection over VPN tunnels.
+
+56
+00:02:04,040 --> 00:02:06,350
+Now, while it's great to try
+to eliminate all your modems,
+
+57
+00:02:06,350 --> 00:02:08,320
+sometimes, you still have old systems
+
+58
+00:02:08,320 --> 00:02:10,050
+and you simply can't do that.
+
+59
+00:02:10,050 --> 00:02:12,690
+If you have to maintain a
+dial-up modem for some reason,
+
+60
+00:02:12,690 --> 00:02:15,470
+you want to make sure you keep
+that dial-up number a secret.
+
+61
+00:02:15,470 --> 00:02:17,030
+And so somebody's going
+to have to work hard
+
+62
+00:02:17,030 --> 00:02:18,040
+to be able to find it
+
+63
+00:02:18,040 --> 00:02:19,700
+and be able to get into your system.
+
+64
+00:02:19,700 --> 00:02:21,460
+Again, if you have a dial-up modem,
+
+65
+00:02:21,460 --> 00:02:23,040
+you want to use good authentication.
+
+66
+00:02:23,040 --> 00:02:24,760
+You want to be able to use
+things that will help prevent it
+
+67
+00:02:24,760 --> 00:02:27,210
+like callbacks and other
+things to help secure it,
+
+68
+00:02:27,210 --> 00:02:29,770
+because these are prime
+targets for attackers.
+
+69
+00:02:29,770 --> 00:02:32,190
+Now, the next type of telephony
+equipment I want to talk about
+
+70
+00:02:32,190 --> 00:02:33,760
+is a PBX system.
+
+71
+00:02:33,760 --> 00:02:35,530
+A PBX equipment is something
+you're going to find
+
+72
+00:02:35,530 --> 00:02:37,160
+much more often in your networks
+
+73
+00:02:37,160 --> 00:02:38,810
+than you are going to find modems.
+
+74
+00:02:38,810 --> 00:02:42,100
+A PBX system stands for
+a Public Branch Exchange.
+
+75
+00:02:42,100 --> 00:02:44,410
+Essentially, this is the telephone system
+
+76
+00:02:44,410 --> 00:02:47,730
+that runs all of the internal
+phone lines for your company.
+
+77
+00:02:47,730 --> 00:02:49,040
+If you're sitting in your office
+
+78
+00:02:49,040 --> 00:02:51,580
+and you want to call your
+accountant inside the office
+
+79
+00:02:51,580 --> 00:02:53,500
+and you dial the last four
+digits of his phone number
+
+80
+00:02:53,500 --> 00:02:55,750
+only to get him, that internal call
+
+81
+00:02:55,750 --> 00:02:57,870
+is being routed through your PBX system,
+
+82
+00:02:57,870 --> 00:02:59,940
+through that public branch exchange.
+
+83
+00:02:59,940 --> 00:03:03,000
+Now, attackers like to
+target PBX systems too,
+
+84
+00:03:03,000 --> 00:03:05,560
+and it's not necessarily to
+try to break into the system
+
+85
+00:03:05,560 --> 00:03:07,290
+and be able to get information out of us,
+
+86
+00:03:07,290 --> 00:03:10,570
+but instead, it's because they
+want to get free long distance.
+
+87
+00:03:10,570 --> 00:03:12,170
+Now, some of us use our cellphones
+
+88
+00:03:12,170 --> 00:03:14,940
+and we get free calling across
+the entire United States.
+
+89
+00:03:14,940 --> 00:03:17,110
+So long distance doesn't
+seem like a big deal.
+
+90
+00:03:17,110 --> 00:03:18,770
+But, if you want to start placing calls
+
+91
+00:03:18,770 --> 00:03:20,250
+all the way around the world,
+
+92
+00:03:20,250 --> 00:03:22,190
+and you can break in to
+somebody's PBX system,
+
+93
+00:03:22,190 --> 00:03:24,530
+they're going to get the
+bill for it and you're not.
+
+94
+00:03:24,530 --> 00:03:26,550
+So that's why attacker would do this.
+
+95
+00:03:26,550 --> 00:03:28,730
+Now, how do you secure your PBX system?
+
+96
+00:03:28,730 --> 00:03:30,010
+Well, one of the best ways
+
+97
+00:03:30,010 --> 00:03:32,380
+is to actually mount it in a locked room
+
+98
+00:03:32,380 --> 00:03:34,210
+inside your telephone area.
+
+99
+00:03:34,210 --> 00:03:35,360
+By putting it in a locked room,
+
+100
+00:03:35,360 --> 00:03:38,120
+it means only authorized
+maintenance technicians
+
+101
+00:03:38,120 --> 00:03:40,530
+can get into it and touch the system.
+
+102
+00:03:40,530 --> 00:03:44,020
+Also, you want to disable
+any remote access to that PBX
+
+103
+00:03:44,020 --> 00:03:45,370
+and any remote access ports
+
+104
+00:03:45,370 --> 00:03:47,050
+because again, that's where attackers
+
+105
+00:03:47,050 --> 00:03:50,370
+are most commonly going to
+be accessing your PBX from.
+
+106
+00:03:50,370 --> 00:03:53,870
+Now, well, PBX systems are
+still fairly common in industry.
+
+107
+00:03:53,870 --> 00:03:56,210
+They are getting replaced in large numbers
+
+108
+00:03:56,210 --> 00:03:57,810
+in favor of VOIP.
+
+109
+00:03:57,810 --> 00:03:58,710
+What is VOIP?
+
+110
+00:03:58,710 --> 00:04:01,340
+Well, it's Voice Over Internet Protocol.
+
+111
+00:04:01,340 --> 00:04:04,230
+VOIP is much cheaper than
+the traditional PBX system
+
+112
+00:04:04,230 --> 00:04:06,470
+and it's a lot more
+secure and easier to run
+
+113
+00:04:06,470 --> 00:04:08,320
+if you can figure it properly.
+
+114
+00:04:08,320 --> 00:04:09,900
+Some organizations will actually run
+
+115
+00:04:09,900 --> 00:04:11,420
+two different networks now.
+
+116
+00:04:11,420 --> 00:04:13,820
+One for data and one for the VOIP network.
+
+117
+00:04:13,820 --> 00:04:15,390
+And this will allow
+them to be able to have
+
+118
+00:04:15,390 --> 00:04:17,590
+two separate networks that
+gives you more security.
+
+119
+00:04:17,590 --> 00:04:18,980
+But a lot of organizations
+
+120
+00:04:18,980 --> 00:04:20,800
+try to take the easy or cheaper way
+
+121
+00:04:20,800 --> 00:04:23,630
+of combining them both onto
+a single combined network.
+
+122
+00:04:23,630 --> 00:04:25,060
+And now you have VOIP devices
+
+123
+00:04:25,060 --> 00:04:27,630
+sharing the network the
+data devices are onto
+
+124
+00:04:27,630 --> 00:04:29,000
+like your computers.
+
+125
+00:04:29,000 --> 00:04:30,630
+Now, if you do this, you want to make sure
+
+126
+00:04:30,630 --> 00:04:32,300
+you put at least the VOIP devices
+
+127
+00:04:32,300 --> 00:04:34,800
+on their own VLAN and their own subnets
+
+128
+00:04:34,800 --> 00:04:36,630
+to help create some of that separation
+
+129
+00:04:36,630 --> 00:04:38,840
+and segmentation we talked about earlier.
+
+130
+00:04:38,840 --> 00:04:41,610
+Now, VOIP works by relying on IP phones,
+
+131
+00:04:41,610 --> 00:04:43,900
+software, and VOIP gateways.
+
+132
+00:04:43,900 --> 00:04:45,870
+An IP phone is simply a physical device
+
+133
+00:04:45,870 --> 00:04:47,480
+that looks like a regular telephone
+
+134
+00:04:47,480 --> 00:04:49,290
+but takes a network cable into it
+
+135
+00:04:49,290 --> 00:04:50,930
+as opposed to a phone cable.
+
+136
+00:04:50,930 --> 00:04:53,060
+This thing connects back
+to the VOIP gateway,
+
+137
+00:04:53,060 --> 00:04:55,260
+which will make the conversation happen
+
+138
+00:04:55,260 --> 00:04:57,120
+between your phone and
+the remote destination
+
+139
+00:04:57,120 --> 00:04:58,450
+that you're trying to call.
+
+140
+00:04:58,450 --> 00:04:59,930
+To secure VOIP devices,
+
+141
+00:04:59,930 --> 00:05:01,720
+you want to update the device's firmware
+
+142
+00:05:01,720 --> 00:05:04,280
+because these IP phones
+are devices afterall,
+
+143
+00:05:04,280 --> 00:05:05,690
+and they do get firmware updates
+
+144
+00:05:05,690 --> 00:05:07,090
+that have patches and security
+
+145
+00:05:07,090 --> 00:05:08,260
+when they've been hacked.
+
+146
+00:05:08,260 --> 00:05:10,560
+You also want to make sure
+you're using good authentication,
+
+147
+00:05:10,560 --> 00:05:12,970
+good encryption to make sure
+maintaining the integrity
+
+148
+00:05:12,970 --> 00:05:15,820
+and confidentiality of the
+phone calls you're making
+
+149
+00:05:15,820 --> 00:05:18,500
+between your VOIP device, the VOIP gateway
+
+150
+00:05:18,500 --> 00:05:20,490
+and then the remove destination.
+
+151
+00:05:20,490 --> 00:05:23,140
+Availability is another
+concern you have with VOIP.
+
+152
+00:05:23,140 --> 00:05:24,100
+When you're dealing with VOIP
+
+153
+00:05:24,100 --> 00:05:26,160
+and we talked about this
+back in network plus,
+
+154
+00:05:26,160 --> 00:05:29,300
+you have to make sure implementing
+good quality of service.
+
+155
+00:05:29,300 --> 00:05:31,400
+This isn't as much a security concern,
+
+156
+00:05:31,400 --> 00:05:34,500
+but because availability
+is part of the CIA triad,
+
+157
+00:05:34,500 --> 00:05:36,960
+we do want to be keeping
+that in mind as well.
+
+158
+00:05:36,960 --> 00:05:38,030
+VOIP takes a lot of bandwidth
+
+159
+00:05:38,030 --> 00:05:40,100
+and it takes a lot of
+good quality of service,
+
+160
+00:05:40,100 --> 00:05:43,510
+meaning it needs a short delay
+inside the communications.
+
+161
+00:05:43,510 --> 00:05:45,770
+Otherwise, your phone
+calls don't sound good.
+
+162
+00:05:45,770 --> 00:05:48,320
+And that can become leading
+to a denial of service.
+
+163
+00:05:48,320 --> 00:05:49,710
+And so making sure that you have
+
+164
+00:05:49,710 --> 00:05:51,320
+the proper quality of service
+
+165
+00:05:51,320 --> 00:05:52,490
+put into your networks
+
+166
+00:05:52,490 --> 00:05:53,640
+will your allow your VOIP devices
+
+167
+00:05:53,640 --> 00:05:55,210
+to communicate more securely,
+
+168
+00:05:55,210 --> 00:05:57,853
+more quickly, and have
+better availability.
+

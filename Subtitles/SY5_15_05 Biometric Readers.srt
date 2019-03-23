@@ -1,0 +1,524 @@
+﻿1
+00:00:00,680 --> 00:00:02,570
+- Biometric readers.
+
+2
+00:00:02,570 --> 00:00:04,750
+Biometrics rely on
+physical characteristics,
+
+3
+00:00:04,750 --> 00:00:07,180
+to identify a person properly.
+
+4
+00:00:07,180 --> 00:00:09,477
+This is most commonly done
+by using your fingerprints,
+
+5
+00:00:09,477 --> 00:00:11,516
+by scanning the retina inside your eye,
+
+6
+00:00:11,516 --> 00:00:13,090
+or by measuring the distance,
+
+7
+00:00:13,090 --> 00:00:15,270
+between different parts of your face.
+
+8
+00:00:15,270 --> 00:00:16,700
+Now if you remember all the way back,
+
+9
+00:00:16,700 --> 00:00:17,970
+to section one of this course,
+
+10
+00:00:17,970 --> 00:00:20,520
+we talked about the five
+factors of authentication.
+
+11
+00:00:20,520 --> 00:00:22,748
+This was something you
+know, something you have,
+
+12
+00:00:22,748 --> 00:00:25,000
+something you are, something you do,
+
+13
+00:00:25,000 --> 00:00:26,430
+and somewhere you are.
+
+14
+00:00:26,430 --> 00:00:27,900
+Now when we talk about biometrics,
+
+15
+00:00:27,900 --> 00:00:30,519
+we're focused on that third
+factor: something you are.
+
+16
+00:00:30,519 --> 00:00:32,690
+Because this is some part of you.
+
+17
+00:00:32,690 --> 00:00:35,740
+It's your eye, it's your
+fingerprint, it's your voice,
+
+18
+00:00:35,740 --> 00:00:36,990
+it's something that is innately,
+
+19
+00:00:36,990 --> 00:00:39,487
+part of your ability
+and part of your person.
+
+20
+00:00:39,487 --> 00:00:41,260
+Now when we talk about fingerprints,
+
+21
+00:00:41,260 --> 00:00:42,110
+fingerprints have become,
+
+22
+00:00:42,110 --> 00:00:44,240
+a very common identification system.
+
+23
+00:00:44,240 --> 00:00:46,520
+At this point it's even
+gone beyond door locks,
+
+24
+00:00:46,520 --> 00:00:48,450
+and it's now integrated
+into our smart phones,
+
+25
+00:00:48,450 --> 00:00:49,756
+and our lap tops for log in.
+
+26
+00:00:49,756 --> 00:00:53,490
+For example if you have an
+iPhone between a 5s model,
+
+27
+00:00:53,490 --> 00:00:55,160
+all the way up through the eight series,
+
+28
+00:00:55,160 --> 00:00:58,039
+those have a thumbprint
+long in called touch ID.
+
+29
+00:00:58,039 --> 00:00:59,499
+Whenever you press your index finger,
+
+30
+00:00:59,499 --> 00:01:02,700
+or your thumb to the
+sensor it will log you in.
+
+31
+00:01:02,700 --> 00:01:05,700
+Now the newest iPhones have
+done away with touch ID,
+
+32
+00:01:05,700 --> 00:01:07,100
+in favor of face ID.
+
+33
+00:01:07,100 --> 00:01:09,010
+So if you have an iPhone X or newer,
+
+34
+00:01:09,010 --> 00:01:11,750
+they actually have the front
+facing camera scan your face,
+
+35
+00:01:11,750 --> 00:01:13,220
+and measure the distance between,
+
+36
+00:01:13,220 --> 00:01:16,011
+different areas of your face
+to uniquely identify you.
+
+37
+00:01:16,011 --> 00:01:18,560
+This allows you to just
+hold up the phone in front,
+
+38
+00:01:18,560 --> 00:01:20,000
+and it logs you in automatically,
+
+39
+00:01:20,000 --> 00:01:23,050
+by identifying that it is
+you that's holding the phone.
+
+40
+00:01:23,050 --> 00:01:25,130
+These types of devices
+are also being integrated,
+
+41
+00:01:25,130 --> 00:01:27,507
+into door locks and physical
+access control systems,
+
+42
+00:01:27,507 --> 00:01:28,753
+like man traps.
+
+43
+00:01:28,753 --> 00:01:31,160
+I used to work in one high security area,
+
+44
+00:01:31,160 --> 00:01:33,460
+where every day you had
+to use a retina scan,
+
+45
+00:01:33,460 --> 00:01:35,950
+to gain access to the facility.
+
+46
+00:01:35,950 --> 00:01:37,730
+I've also worked in places that have used,
+
+47
+00:01:37,730 --> 00:01:39,380
+a fingerprint and a pin number.
+
+48
+00:01:39,380 --> 00:01:41,060
+that allowed you to
+get through a man trap.
+
+49
+00:01:41,060 --> 00:01:43,570
+It really does depend on how
+your system wants to be set up,
+
+50
+00:01:43,570 --> 00:01:46,660
+and how your organization
+views it's security practices.
+
+51
+00:01:46,660 --> 00:01:48,400
+Now with biometrics we do have,
+
+52
+00:01:48,400 --> 00:01:50,498
+a couple of challenges
+that we have to focus on.
+
+53
+00:01:50,498 --> 00:01:53,740
+Namely the acceptance and rejection rates.
+
+54
+00:01:53,740 --> 00:01:55,470
+Obviously since we're using biometrics,
+
+55
+00:01:55,470 --> 00:01:56,990
+as a form of authentication,
+
+56
+00:01:56,990 --> 00:01:59,235
+we should be worried about
+it's false acceptance rate.
+
+57
+00:01:59,235 --> 00:02:01,257
+The false acceptance rate or FAR,
+
+58
+00:02:01,257 --> 00:02:04,980
+is the rate that the system
+authenticates a user as valid,
+
+59
+00:02:04,980 --> 00:02:06,700
+even though that person
+should not have been,
+
+60
+00:02:06,700 --> 00:02:08,780
+granted access to the system.
+
+61
+00:02:08,780 --> 00:02:11,360
+For example if you walked up
+to the fingerprint reader,
+
+62
+00:02:11,360 --> 00:02:13,560
+placed your finger on
+it and it accepts you,
+
+63
+00:02:13,560 --> 00:02:15,700
+because the system though you were me,
+
+64
+00:02:15,700 --> 00:02:18,240
+that would be considered
+a false acceptance.
+
+65
+00:02:18,240 --> 00:02:19,530
+To prevent unauthorized people,
+
+66
+00:02:19,530 --> 00:02:21,272
+from entering the building
+or using our system,
+
+67
+00:02:21,272 --> 00:02:24,310
+we would want to ideally get
+that false acceptance rate,
+
+68
+00:02:24,310 --> 00:02:28,060
+down to zero by increasing the
+sensitivity of our scanners.
+
+69
+00:02:28,060 --> 00:02:29,800
+Now on the other side of the spectrum,
+
+70
+00:02:29,800 --> 00:02:31,235
+we have a false rejection.
+
+71
+00:02:31,235 --> 00:02:32,870
+And a lot of people don't think,
+
+72
+00:02:32,870 --> 00:02:34,290
+a false rejections a problem,
+
+73
+00:02:34,290 --> 00:02:37,233
+but it is just as big of a
+problem as a false acceptance.
+
+74
+00:02:37,233 --> 00:02:39,015
+Let's go back to the last example.
+
+75
+00:02:39,015 --> 00:02:41,726
+If I increase the sensitivity
+of the fingerprint scanner,
+
+76
+00:02:41,726 --> 00:02:42,995
+to attempt to eliminate all,
+
+77
+00:02:42,995 --> 00:02:45,670
+of the false acceptance rates or FAR,
+
+78
+00:02:45,670 --> 00:02:49,754
+I may inadvertently increase
+my false rejection rate or FRR.
+
+79
+00:02:49,754 --> 00:02:52,210
+A false rejection occurs any time,
+
+80
+00:02:52,210 --> 00:02:54,570
+the biometrics system denies a user,
+
+81
+00:02:54,570 --> 00:02:56,820
+who should have been allowed
+access to the system.
+
+82
+00:02:56,820 --> 00:02:59,497
+So using that log in
+example with my finger,
+
+83
+00:02:59,497 --> 00:03:01,160
+let's assume that you were able to,
+
+84
+00:03:01,160 --> 00:03:03,080
+log in as me using your fingerprint.
+
+85
+00:03:03,080 --> 00:03:05,514
+So I increase that sensitivity
+up to it's highest level.
+
+86
+00:03:05,514 --> 00:03:08,740
+Now there's no more false
+acceptances occurring.
+
+87
+00:03:08,740 --> 00:03:10,300
+But about half of the time,
+
+88
+00:03:10,300 --> 00:03:12,570
+when I try to log in I'm being rejected.
+
+89
+00:03:12,570 --> 00:03:14,610
+Even though I'm an authorized user.
+
+90
+00:03:14,610 --> 00:03:16,980
+Now this is the idea of a false rejection,
+
+91
+00:03:16,980 --> 00:03:19,590
+and why it's also
+considered a big problem.
+
+92
+00:03:19,590 --> 00:03:21,150
+Because if it's failing to allow me,
+
+93
+00:03:21,150 --> 00:03:22,950
+to authenticate half of the time,
+
+94
+00:03:22,950 --> 00:03:25,550
+that means half the time
+I can't get to work.
+
+95
+00:03:25,550 --> 00:03:27,700
+So how can I perfectly tune the system,
+
+96
+00:03:27,700 --> 00:03:30,880
+to eliminate the false acceptance
+and the false rejection?
+
+97
+00:03:30,880 --> 00:03:32,470
+Well I try to achieve a balance,
+
+98
+00:03:32,470 --> 00:03:33,790
+where the false acceptance rate,
+
+99
+00:03:33,790 --> 00:03:36,530
+and the false rejection rate become equal.
+
+100
+00:03:36,530 --> 00:03:39,750
+This is known as the
+equal error rate or ERR,
+
+101
+00:03:39,750 --> 00:03:41,530
+more commonly though
+you'll see this called,
+
+102
+00:03:41,530 --> 00:03:44,750
+the crossover error rate
+or CER out in the industry.
+
+103
+00:03:44,750 --> 00:03:47,350
+This is because your
+false acceptance rate,
+
+104
+00:03:47,350 --> 00:03:48,910
+and your false rejection rate,
+
+105
+00:03:48,910 --> 00:03:52,028
+intersect at that crossover
+error rate or CER.
+
+106
+00:03:52,028 --> 00:03:54,503
+The crossover error rate uses a measure,
+
+107
+00:03:54,503 --> 00:03:57,192
+of the effectiveness of a
+given biometrics system.
+
+108
+00:03:57,192 --> 00:03:59,130
+So when you're looking to purchase one,
+
+109
+00:03:59,130 --> 00:04:00,510
+you can use this as a factor,
+
+110
+00:04:00,510 --> 00:04:01,959
+in your decision making process.
+
+111
+00:04:01,959 --> 00:04:03,370
+You want one that doesn't have,
+
+112
+00:04:03,370 --> 00:04:05,229
+a huge error to the positive side,
+
+113
+00:04:05,229 --> 00:04:07,390
+or a huge error to the negative side.
+
+114
+00:04:07,390 --> 00:04:10,220
+If you can get one that has
+a good crossover error rate,
+
+115
+00:04:10,220 --> 00:04:11,700
+that's going to make
+sure that your people,
+
+116
+00:04:11,700 --> 00:04:13,410
+are getting authenticated
+when you should be,
+
+117
+00:04:13,410 --> 00:04:15,060
+and rejected when they should be.
+
+118
+00:04:16,010 --> 00:04:18,050
+(electrical arc zaps quietly)
+

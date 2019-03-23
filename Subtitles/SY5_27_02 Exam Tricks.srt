@@ -1,0 +1,508 @@
+﻿1
+00:00:00,370 --> 00:00:03,430
+- As promised, here are my
+top five tips for increasing
+
+2
+00:00:03,430 --> 00:00:06,860
+your score on the CompTIA
+security plus exam and really any
+
+3
+00:00:06,860 --> 00:00:08,990
+CompTIA exam you take in the future.
+
+4
+00:00:08,990 --> 00:00:11,430
+Number one; use a cheat sheet.
+
+5
+00:00:11,430 --> 00:00:13,590
+Now I'm not talking about
+writing it down on a piece
+
+6
+00:00:13,590 --> 00:00:15,270
+of paper and carrying
+it into the test center
+
+7
+00:00:15,270 --> 00:00:17,480
+because you're not allowed
+to carry anything into the
+
+8
+00:00:17,480 --> 00:00:18,620
+test center with you.
+
+9
+00:00:18,620 --> 00:00:21,550
+But they are going to give you
+a a white board or dry erase
+
+10
+00:00:21,550 --> 00:00:23,630
+sheet that's the size
+of about a normal piece
+
+11
+00:00:23,630 --> 00:00:24,780
+of printer paper.
+
+12
+00:00:24,780 --> 00:00:27,600
+Once the clock starts you're
+allowed to brain dump stuff
+
+13
+00:00:27,600 --> 00:00:30,580
+onto that paper, things
+like ports and terms and
+
+14
+00:00:30,580 --> 00:00:32,810
+anything else you might
+forget by the time you get to
+
+15
+00:00:32,810 --> 00:00:34,530
+question 66 and beyond.
+
+16
+00:00:34,530 --> 00:00:37,770
+So while you know that
+port 80 is http right now,
+
+17
+00:00:37,770 --> 00:00:40,040
+you might forget it somewhere
+towards the end of the exam
+
+18
+00:00:40,040 --> 00:00:41,590
+when it's been about an hour, right.
+
+19
+00:00:41,590 --> 00:00:43,560
+You get fatigued and you
+start forgetting things.
+
+20
+00:00:43,560 --> 00:00:46,520
+So I do recommend writing
+things down like ports,
+
+21
+00:00:46,520 --> 00:00:48,970
+protocols, anything that you
+might think you're going to
+
+22
+00:00:48,970 --> 00:00:51,190
+forget by the second half of the exam.
+
+23
+00:00:51,190 --> 00:00:54,300
+Using that cheat sheet is going
+to be really helpful for you.
+
+24
+00:00:54,300 --> 00:00:56,750
+Second, skip the simulations.
+
+25
+00:00:56,750 --> 00:00:59,700
+Yes the simulations, or
+performance based questions
+
+26
+00:00:59,700 --> 00:01:02,440
+as CompTIA calls it, are
+usually the first three to five
+
+27
+00:01:02,440 --> 00:01:04,080
+questions on the exam.
+
+28
+00:01:04,080 --> 00:01:06,740
+Now these simulations actually
+account for more points than
+
+29
+00:01:06,740 --> 00:01:09,940
+multiple choice so why am I
+telling you to skip them first?
+
+30
+00:01:09,940 --> 00:01:12,260
+Well it's because most
+students find these to be the
+
+31
+00:01:12,260 --> 00:01:15,550
+hardest questions on the
+exam, so my recommendation is
+
+32
+00:01:15,550 --> 00:01:18,400
+when the exam starts simply
+mark them for review,
+
+33
+00:01:18,400 --> 00:01:21,560
+skip them and do all of your
+multiple choice items first.
+
+34
+00:01:21,560 --> 00:01:24,000
+I've seen students who will
+spend an hour on those first
+
+35
+00:01:24,000 --> 00:01:26,200
+five simulations and then
+run out of time for the
+
+36
+00:01:26,200 --> 00:01:28,210
+multiple choice and they fail the exam.
+
+37
+00:01:28,210 --> 00:01:30,450
+Instead I want you to go
+through all the multiple choice
+
+38
+00:01:30,450 --> 00:01:33,340
+first and you'll still
+probably have about 45 minutes
+
+39
+00:01:33,340 --> 00:01:35,520
+or 30 minutes left to do the simulations.
+
+40
+00:01:35,520 --> 00:01:38,670
+They don't take that long
+but they are more difficult
+
+41
+00:01:38,670 --> 00:01:41,080
+and so by skipping them
+you're going to gain a lot of
+
+42
+00:01:41,080 --> 00:01:43,170
+confidence going through those
+multiple choice questions
+
+43
+00:01:43,170 --> 00:01:45,530
+first, and then when you get
+to the simulations you're
+
+44
+00:01:45,530 --> 00:01:47,350
+actually going to remember
+things from the multiple choice
+
+45
+00:01:47,350 --> 00:01:49,690
+that'll help you answer
+some of those questions.
+
+46
+00:01:49,690 --> 00:01:51,500
+Third, take a guess.
+
+47
+00:01:51,500 --> 00:01:53,430
+When in doubt take a guess.
+
+48
+00:01:53,430 --> 00:01:56,510
+On the CompTIA security plus
+and all of the CompTIA exams
+
+49
+00:01:56,510 --> 00:01:59,870
+there is no penalty for wrong
+answers so when in doubt
+
+50
+00:01:59,870 --> 00:02:02,640
+try to eliminate as many
+choices as possible and guess
+
+51
+00:02:02,640 --> 00:02:04,450
+between those remaining choices.
+
+52
+00:02:04,450 --> 00:02:07,320
+The multiple choice questions
+only have four options
+
+53
+00:02:07,320 --> 00:02:09,440
+so you know that if you find
+one or two of those that
+
+54
+00:02:09,440 --> 00:02:11,890
+aren't right, you're already
+exponentially increasing
+
+55
+00:02:11,890 --> 00:02:14,310
+your chances of guessing the
+correct answer out of the
+
+56
+00:02:14,310 --> 00:02:17,220
+remaining three or two
+options that are left.
+
+57
+00:02:17,220 --> 00:02:19,990
+Now fourth, I want you to pick
+the best time for the exam.
+
+58
+00:02:19,990 --> 00:02:21,300
+This is really important.
+
+59
+00:02:21,300 --> 00:02:23,400
+Are you a morning person
+or a night person?
+
+60
+00:02:23,400 --> 00:02:25,450
+Pick the time of day
+that works best for you.
+
+61
+00:02:25,450 --> 00:02:27,660
+You want to be awake, you want
+to be alert and you want to
+
+62
+00:02:27,660 --> 00:02:28,880
+be well rested.
+
+63
+00:02:28,880 --> 00:02:31,240
+Don't try to squeeze the
+exam in after working a long
+
+64
+00:02:31,240 --> 00:02:32,310
+day at the office.
+
+65
+00:02:32,310 --> 00:02:35,490
+Personally I like to schedule
+my exams around 10am.
+
+66
+00:02:35,490 --> 00:02:37,590
+That way I don't have
+to wake up super early,
+
+67
+00:02:37,590 --> 00:02:40,180
+I can avoid rush hour traffic
+going to the testing center
+
+68
+00:02:40,180 --> 00:02:42,387
+and I can get there and just
+kind of relax before I go
+
+69
+00:02:42,387 --> 00:02:43,920
+and take the exam.
+
+70
+00:02:43,920 --> 00:02:46,330
+Now when you schedule your
+exam also make sure you allow
+
+71
+00:02:46,330 --> 00:02:48,660
+enough time to relax before the exam.
+
+72
+00:02:48,660 --> 00:02:51,540
+One of the things I do is I
+show up about 30 minutes early.
+
+73
+00:02:51,540 --> 00:02:53,860
+There's nothing worse than
+showing up at a testing center
+
+74
+00:02:53,860 --> 00:02:57,320
+at nine 59 when your exam
+is scheduled to start at 10.
+
+75
+00:02:57,320 --> 00:03:00,040
+Instead show up 20 to 30 minutes earlier,
+
+76
+00:03:00,040 --> 00:03:02,220
+you can sit in your car for
+a little bit and calm down.
+
+77
+00:03:02,220 --> 00:03:03,860
+You can go upstairs and use the restroom,
+
+78
+00:03:03,860 --> 00:03:05,630
+and then go check in for the exam.
+
+79
+00:03:05,630 --> 00:03:08,650
+This will help increase
+your score, I promise you.
+
+80
+00:03:08,650 --> 00:03:11,860
+Now my final and fifth
+tip is be confident.
+
+81
+00:03:11,860 --> 00:03:13,140
+You have got this.
+
+82
+00:03:13,140 --> 00:03:14,180
+You can do this.
+
+83
+00:03:14,180 --> 00:03:16,150
+When you walk into the
+testing center, you shouldn't
+
+84
+00:03:16,150 --> 00:03:18,710
+be wondering if you're going
+to pass, instead you should
+
+85
+00:03:18,710 --> 00:03:20,830
+already have studied all the
+information in this course.
+
+86
+00:03:20,830 --> 00:03:23,380
+You've watched all the videos,
+you've taken all the quizzes,
+
+87
+00:03:23,380 --> 00:03:25,820
+you've downloaded the study
+guide, you've gone through it
+
+88
+00:03:25,820 --> 00:03:28,000
+and now you're going to go
+take my practice exam right
+
+89
+00:03:28,000 --> 00:03:29,070
+after this video.
+
+90
+00:03:29,070 --> 00:03:31,500
+If you aren't confident right
+now then you need to wait
+
+91
+00:03:31,500 --> 00:03:33,470
+to schedule your exam
+until you've taken a bunch
+
+92
+00:03:33,470 --> 00:03:34,740
+of practice exams.
+
+93
+00:03:34,740 --> 00:03:37,060
+In this course I have a
+full length practice exam
+
+94
+00:03:37,060 --> 00:03:38,910
+that's going to help you
+determine if you're ready
+
+95
+00:03:38,910 --> 00:03:39,990
+for the exam.
+
+96
+00:03:39,990 --> 00:03:42,100
+Take that practice exam
+and if you aren't scoring
+
+97
+00:03:42,100 --> 00:03:44,780
+high enough, restudy the
+areas you missed and then take
+
+98
+00:03:44,780 --> 00:03:45,613
+it again.
+
+99
+00:03:45,613 --> 00:03:46,930
+Still not confident?
+
+100
+00:03:46,930 --> 00:03:49,420
+Go and find more practice
+exams to take, either on this
+
+101
+00:03:49,420 --> 00:03:51,970
+site or from a text book or other sites.
+
+102
+00:03:51,970 --> 00:03:54,560
+Keep practicing these exams
+until you feel confident
+
+103
+00:03:54,560 --> 00:03:57,550
+and ready to go and
+then schedule the exam,
+
+104
+00:03:57,550 --> 00:03:59,530
+walk in there knowing
+you're going to pass,
+
+105
+00:03:59,530 --> 00:04:02,440
+just like he did, and if
+you follow my five tips
+
+106
+00:04:02,440 --> 00:04:04,620
+you're going to be ready to
+take the security plus exam
+
+107
+00:04:04,620 --> 00:04:06,730
+and pass it on your first attempt.
+
+108
+00:04:06,730 --> 00:04:09,433
+Now, let's go ahead and get you certified.
+

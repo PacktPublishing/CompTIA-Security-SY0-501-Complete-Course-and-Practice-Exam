@@ -1,0 +1,172 @@
+﻿1
+00:00:00,370 --> 00:00:02,170
+- Switches can also provide the ability
+
+2
+00:00:02,170 --> 00:00:04,510
+to create virtual local area networks.
+
+3
+00:00:04,510 --> 00:00:06,990
+This adds a layer of
+separation to our networks
+
+4
+00:00:06,990 --> 00:00:09,540
+without requiring us to
+buy additional switches
+
+5
+00:00:09,540 --> 00:00:12,130
+that have to be configured
+and installed on the network.
+
+6
+00:00:12,130 --> 00:00:14,450
+VLANs are implemented
+to segment our network,
+
+7
+00:00:14,450 --> 00:00:17,020
+reduce collisions, organize our networks,
+
+8
+00:00:17,020 --> 00:00:19,450
+boost performance and increase security.
+
+9
+00:00:19,450 --> 00:00:22,450
+Unfortunately attackers
+have created VLAN hopping
+
+10
+00:00:22,450 --> 00:00:24,420
+which allows them to
+break out of our VLANs
+
+11
+00:00:24,420 --> 00:00:26,630
+and access other VLAN data though.
+
+12
+00:00:26,630 --> 00:00:28,680
+There's a couple of mechanisms to do this.
+
+13
+00:00:28,680 --> 00:00:31,310
+The first method is
+known as switch spoofing.
+
+14
+00:00:31,310 --> 00:00:33,590
+In this attack, an attacker
+essentially configures
+
+15
+00:00:33,590 --> 00:00:35,600
+their device to pretend that it's a switch
+
+16
+00:00:35,600 --> 00:00:37,010
+and they connect to a switch port
+
+17
+00:00:37,010 --> 00:00:40,710
+to negotiate a trunk link
+and break out of the VLAN.
+
+18
+00:00:40,710 --> 00:00:43,640
+To prevent this, you can disable
+dynamic trunking protocol
+
+19
+00:00:43,640 --> 00:00:46,290
+or DTP on all your switch ports,
+
+20
+00:00:46,290 --> 00:00:49,360
+place all your unplugged
+ports into an unused VLAN,
+
+21
+00:00:49,360 --> 00:00:50,920
+explicitly forward frames
+
+22
+00:00:50,920 --> 00:00:53,400
+and avoid default VLAN names.
+
+23
+00:00:53,400 --> 00:00:56,310
+The second method is what's
+known as double tagging.
+
+24
+00:00:56,310 --> 00:00:58,260
+As traffic goes across a switch,
+
+25
+00:00:58,260 --> 00:01:00,600
+it reads the outermost VLAN tag first,
+
+26
+00:01:00,600 --> 00:01:02,590
+strips it off and then routes the traffic
+
+27
+00:01:02,590 --> 00:01:04,050
+to the proper VLAN.
+
+28
+00:01:04,050 --> 00:01:05,280
+In double tagging though,
+
+29
+00:01:05,280 --> 00:01:07,870
+an attacker actually adds two VLAN tags,
+
+30
+00:01:07,870 --> 00:01:10,000
+an outer tag and an inner tag,
+
+31
+00:01:10,000 --> 00:01:12,220
+so as traffic goes
+through the first switch,
+
+32
+00:01:12,220 --> 00:01:13,600
+it removes the outer tag
+
+33
+00:01:13,600 --> 00:01:16,840
+and is then forwarded to the
+destination of the inner tag.
+
+34
+00:01:16,840 --> 00:01:19,120
+You can prevent this by
+moving all the ports out
+
+35
+00:01:19,120 --> 00:01:20,573
+of the default VLAN group.
+
+36
+00:01:20,573 --> 00:01:22,640
+Double tagging can also be prevented
+
+37
+00:01:22,640 --> 00:01:24,510
+by upgrading your switch's firmware,
+
+38
+00:01:24,510 --> 00:01:27,400
+utilizing an unused
+VLAN as the default VLAN
+
+39
+00:01:27,400 --> 00:01:29,563
+and redesigning the VLAN structures.
+

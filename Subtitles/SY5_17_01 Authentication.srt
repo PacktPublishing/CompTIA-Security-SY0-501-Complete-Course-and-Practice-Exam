@@ -1,0 +1,841 @@
+﻿1
+00:00:01,260 --> 00:00:02,223
+- Authentication.
+
+2
+00:00:03,080 --> 00:00:04,460
+As the security of our networks
+
+3
+00:00:04,460 --> 00:00:06,760
+becomes more important
+to our organizations,
+
+4
+00:00:06,760 --> 00:00:08,830
+we have to continue to seek better ways
+
+5
+00:00:08,830 --> 00:00:10,640
+to increase that security.
+
+6
+00:00:10,640 --> 00:00:12,630
+Now although many organizations have been
+
+7
+00:00:12,630 --> 00:00:15,200
+increasingly adding
+difficult password schemes
+
+8
+00:00:15,200 --> 00:00:16,910
+to create a more secure network
+
+9
+00:00:16,910 --> 00:00:18,500
+such as using things like upper case
+
+10
+00:00:18,500 --> 00:00:19,740
+and lower case letters,
+
+11
+00:00:19,740 --> 00:00:20,573
+numbers,
+
+12
+00:00:20,573 --> 00:00:21,406
+symbols
+
+13
+00:00:21,406 --> 00:00:23,435
+and passwords over 14
+characters in length,
+
+14
+00:00:23,435 --> 00:00:24,920
+studies have shown
+
+15
+00:00:24,920 --> 00:00:27,110
+that the use of
+multi-factor authentication,
+
+16
+00:00:27,110 --> 00:00:29,780
+is exponentially more secure.
+
+17
+00:00:29,780 --> 00:00:32,670
+Now what exactly is
+multi-factor authentication?
+
+18
+00:00:32,670 --> 00:00:34,840
+Well, it's the use of two or more means
+
+19
+00:00:34,840 --> 00:00:36,870
+to prove a user's identity.
+
+20
+00:00:36,870 --> 00:00:39,340
+There are five basic
+factors of authentication
+
+21
+00:00:39,340 --> 00:00:41,000
+that you can consider when determining
+
+22
+00:00:41,000 --> 00:00:43,260
+if is who they say they are.
+
+23
+00:00:43,260 --> 00:00:44,510
+They are knowledge,
+
+24
+00:00:44,510 --> 00:00:45,370
+ownership,
+
+25
+00:00:45,370 --> 00:00:46,370
+characteristic,
+
+26
+00:00:46,370 --> 00:00:47,203
+location
+
+27
+00:00:47,203 --> 00:00:48,500
+and action.
+
+28
+00:00:48,500 --> 00:00:50,190
+Now the knowledge factor is concerned
+
+29
+00:00:50,190 --> 00:00:53,190
+with the user providing a
+piece of memorized information.
+
+30
+00:00:53,190 --> 00:00:54,510
+This can be a password,
+
+31
+00:00:54,510 --> 00:00:55,350
+a pin,
+
+32
+00:00:55,350 --> 00:00:56,850
+a combination to a lock,
+
+33
+00:00:56,850 --> 00:00:58,140
+their mother's maiden name,
+
+34
+00:00:58,140 --> 00:00:59,510
+their social security number,
+
+35
+00:00:59,510 --> 00:01:00,420
+their birthday,
+
+36
+00:01:00,420 --> 00:01:01,560
+their place of birth
+
+37
+00:01:01,560 --> 00:01:03,400
+or any other piece of information
+
+38
+00:01:03,400 --> 00:01:04,570
+that can be memorized
+
+39
+00:01:04,570 --> 00:01:06,880
+and recited when they're asked for it.
+
+40
+00:01:06,880 --> 00:01:10,140
+The second factor is what we
+call the ownership factor.
+
+41
+00:01:10,140 --> 00:01:12,410
+Now an ownership factor
+is concerned with a user
+
+42
+00:01:12,410 --> 00:01:14,720
+proving that they have
+something in their possession
+
+43
+00:01:14,720 --> 00:01:16,570
+that uniquely identifies them.
+
+44
+00:01:16,570 --> 00:01:17,460
+In the real world,
+
+45
+00:01:17,460 --> 00:01:18,390
+this might be something like
+
+46
+00:01:18,390 --> 00:01:21,140
+pulling out your driver's
+license or your passport.
+
+47
+00:01:21,140 --> 00:01:22,600
+Now in the electronic world though,
+
+48
+00:01:22,600 --> 00:01:23,780
+we use other things.
+
+49
+00:01:23,780 --> 00:01:25,250
+Things like token devices
+
+50
+00:01:25,250 --> 00:01:26,638
+that are small handheld device
+
+51
+00:01:26,638 --> 00:01:28,530
+that has a randomly generated code
+
+52
+00:01:28,530 --> 00:01:30,760
+that changes every 30 to 60 seconds
+
+53
+00:01:30,760 --> 00:01:32,860
+that the server and the client both know.
+
+54
+00:01:32,860 --> 00:01:34,400
+It could be something like a smart card
+
+55
+00:01:34,400 --> 00:01:35,940
+that you insert into a card reader
+
+56
+00:01:35,940 --> 00:01:38,150
+on your desktop that gives you access.
+
+57
+00:01:38,150 --> 00:01:39,320
+It could be a USB dongle
+
+58
+00:01:39,320 --> 00:01:40,350
+where you plug it in
+
+59
+00:01:40,350 --> 00:01:41,920
+and that gives you access.
+
+60
+00:01:41,920 --> 00:01:43,980
+Or it can be an authentication mechanism
+
+61
+00:01:43,980 --> 00:01:46,320
+that sends you a unique and random number
+
+62
+00:01:46,320 --> 00:01:47,640
+each time you try to log in
+
+63
+00:01:47,640 --> 00:01:48,920
+and they text that to you
+
+64
+00:01:48,920 --> 00:01:50,480
+and you then enter back in
+
+65
+00:01:50,480 --> 00:01:52,110
+showing that you have physical possession
+
+66
+00:01:52,110 --> 00:01:53,030
+of your cellphone
+
+67
+00:01:53,030 --> 00:01:54,760
+that accesses your token.
+
+68
+00:01:54,760 --> 00:01:56,340
+The third thing we have is what's called
+
+69
+00:01:56,340 --> 00:01:57,870
+the characteristic factor.
+
+70
+00:01:57,870 --> 00:01:59,560
+Now a characteristic is defined
+
+71
+00:01:59,560 --> 00:02:01,750
+as something that the person is.
+
+72
+00:02:01,750 --> 00:02:02,900
+This is usually accomplished
+
+73
+00:02:02,900 --> 00:02:05,390
+using some form of bio-metric technology.
+
+74
+00:02:05,390 --> 00:02:06,860
+Like a fingerprint scanner,
+
+75
+00:02:06,860 --> 00:02:08,000
+an iris reader
+
+76
+00:02:08,000 --> 00:02:10,490
+or a facial recognition unlock feature.
+
+77
+00:02:10,490 --> 00:02:11,410
+For example,
+
+78
+00:02:11,410 --> 00:02:13,250
+on the old iPhone 5S,
+
+79
+00:02:13,250 --> 00:02:14,590
+they had a fingerprint reader
+
+80
+00:02:14,590 --> 00:02:16,110
+embedded into the home button
+
+81
+00:02:16,110 --> 00:02:17,420
+and you put your thumb on there
+
+82
+00:02:17,420 --> 00:02:19,000
+and that would unlock the phone.
+
+83
+00:02:19,000 --> 00:02:20,180
+Now on the newer iPhones,
+
+84
+00:02:20,180 --> 00:02:21,280
+the iPhone X's,
+
+85
+00:02:21,280 --> 00:02:23,620
+they utilize a dual front facing camera
+
+86
+00:02:23,620 --> 00:02:25,180
+that's going to scan your face
+
+87
+00:02:25,180 --> 00:02:26,890
+and figure out if it is you
+
+88
+00:02:26,890 --> 00:02:29,030
+based on the distance
+between different features,
+
+89
+00:02:29,030 --> 00:02:30,930
+like your nose to your ear.
+
+90
+00:02:30,930 --> 00:02:32,020
+Another form of this,
+
+91
+00:02:32,020 --> 00:02:34,130
+is called a vocal pattern recognition
+
+92
+00:02:34,130 --> 00:02:35,250
+where someone is going to speak
+
+93
+00:02:35,250 --> 00:02:37,440
+and it's going to pick out
+the pattern of your voice,
+
+94
+00:02:37,440 --> 00:02:39,010
+to uniquely identify you.
+
+95
+00:02:39,010 --> 00:02:40,840
+This is something that
+banks are beginning using
+
+96
+00:02:40,840 --> 00:02:43,090
+to uniquely identify their
+customers over the phone
+
+97
+00:02:43,090 --> 00:02:45,003
+before helping them with
+the customer service.
+
+98
+00:02:45,003 --> 00:02:46,820
+Now the fourth factor we have,
+
+99
+00:02:46,820 --> 00:02:48,013
+is called location.
+
+100
+00:02:48,013 --> 00:02:50,530
+This factor refers to where a person is
+
+101
+00:02:50,530 --> 00:02:52,500
+when they're trying to
+log into their account.
+
+102
+00:02:52,500 --> 00:02:53,333
+For example,
+
+103
+00:02:53,333 --> 00:02:55,340
+I tend to travel a lot for work.
+
+104
+00:02:55,340 --> 00:02:57,060
+When I attempt to log
+into my Gmail account
+
+105
+00:02:57,060 --> 00:02:58,030
+when I'm traveling,
+
+106
+00:02:58,030 --> 00:03:00,380
+their system can sometimes
+flag that as unusual,
+
+107
+00:03:00,380 --> 00:03:01,830
+and they'll ask me for a second piece
+
+108
+00:03:01,830 --> 00:03:03,390
+of information to verify,
+
+109
+00:03:03,390 --> 00:03:05,050
+I am who I say I am.
+
+110
+00:03:05,050 --> 00:03:06,830
+You're organization may require a user
+
+111
+00:03:06,830 --> 00:03:08,270
+to be within a certain city,
+
+112
+00:03:08,270 --> 00:03:10,640
+a state or country before they can log in
+
+113
+00:03:10,640 --> 00:03:13,700
+based on the GPS of your
+device or the IP address
+
+114
+00:03:13,700 --> 00:03:15,680
+from where you're attempting access.
+
+115
+00:03:15,680 --> 00:03:17,120
+Our fifth and final factor,
+
+116
+00:03:17,120 --> 00:03:18,340
+is called action.
+
+117
+00:03:18,340 --> 00:03:21,000
+An action refers to
+something that a user does.
+
+118
+00:03:21,000 --> 00:03:24,010
+This isn't a commonly used
+factor in many networks though.
+
+119
+00:03:24,010 --> 00:03:25,740
+The action factor can be something
+
+120
+00:03:25,740 --> 00:03:27,560
+that talks about how
+you perform something.
+
+121
+00:03:27,560 --> 00:03:28,393
+For example,
+
+122
+00:03:28,393 --> 00:03:29,330
+the way you draw a picture,
+
+123
+00:03:29,330 --> 00:03:30,610
+or the way you sign your name,
+
+124
+00:03:30,610 --> 00:03:32,890
+could be used as an action factor.
+
+125
+00:03:32,890 --> 00:03:35,020
+So now that we covered the five factors,
+
+126
+00:03:35,020 --> 00:03:36,200
+I want to drive home a really
+
+127
+00:03:36,200 --> 00:03:37,970
+important concept for the exam.
+
+128
+00:03:37,970 --> 00:03:39,770
+If you're only using one of these factors
+
+129
+00:03:39,770 --> 00:03:41,690
+at a time to identify your user,
+
+130
+00:03:41,690 --> 00:03:44,360
+this is called single-factor
+authentication.
+
+131
+00:03:44,360 --> 00:03:45,980
+Now sometimes you can have two
+
+132
+00:03:45,980 --> 00:03:47,740
+or more things being asked for,
+
+133
+00:03:47,740 --> 00:03:50,700
+but they're all the same
+type of one of these five.
+
+134
+00:03:50,700 --> 00:03:51,533
+For example,
+
+135
+00:03:51,533 --> 00:03:52,670
+if I say you logged in
+
+136
+00:03:52,670 --> 00:03:54,660
+using your username and your password,
+
+137
+00:03:54,660 --> 00:03:55,690
+this is two things.
+
+138
+00:03:55,690 --> 00:03:58,800
+Is this multi-factor or
+single-factor authentication?
+
+139
+00:03:58,800 --> 00:04:00,900
+Well, because a username and a password
+
+140
+00:04:00,900 --> 00:04:02,190
+are both something you know,
+
+141
+00:04:02,190 --> 00:04:03,510
+or a knowledge factor,
+
+142
+00:04:03,510 --> 00:04:04,580
+this is still considered
+
+143
+00:04:04,580 --> 00:04:06,380
+single-factor authentication.
+
+144
+00:04:06,380 --> 00:04:09,280
+This is an important concept
+to understand for the exam.
+
+145
+00:04:09,280 --> 00:04:10,500
+Now to increase security,
+
+146
+00:04:10,500 --> 00:04:13,150
+we want to use at least two
+factors of authentication
+
+147
+00:04:13,150 --> 00:04:16,320
+creating dual-factor or
+multi-factor authentication.
+
+148
+00:04:16,320 --> 00:04:17,170
+For example,
+
+149
+00:04:17,170 --> 00:04:19,800
+if you had a smart card
+token and a pin number,
+
+150
+00:04:19,800 --> 00:04:21,130
+that's something you have,
+
+151
+00:04:21,130 --> 00:04:21,963
+possession,
+
+152
+00:04:21,963 --> 00:04:23,270
+and something you know,
+
+153
+00:04:23,270 --> 00:04:24,170
+knowledge.
+
+154
+00:04:24,170 --> 00:04:25,010
+You put these together,
+
+155
+00:04:25,010 --> 00:04:26,250
+that gives you two factors
+
+156
+00:04:26,250 --> 00:04:28,220
+which is multi-factor authentication.
+
+157
+00:04:28,220 --> 00:04:29,544
+Now this is going to be a lot more secure,
+
+158
+00:04:29,544 --> 00:04:31,310
+because you have two different things
+
+159
+00:04:31,310 --> 00:04:32,540
+that the person has to have
+
+160
+00:04:32,540 --> 00:04:34,250
+to be able to get into your system.
+
+161
+00:04:34,250 --> 00:04:36,320
+Security is constantly evolving,
+
+162
+00:04:36,320 --> 00:04:38,130
+and so we're always adding additional
+
+163
+00:04:38,130 --> 00:04:40,150
+mechanisms of authentication.
+
+164
+00:04:40,150 --> 00:04:41,940
+The most securities is what we call,
+
+165
+00:04:41,940 --> 00:04:44,160
+the one-time used password.
+
+166
+00:04:44,160 --> 00:04:45,990
+These are implemented
+generally using either
+
+167
+00:04:45,990 --> 00:04:48,800
+a time-based or a hash-based mechanism.
+
+168
+00:04:48,800 --> 00:04:51,490
+Now with a Time-based
+One Time used Password,
+
+169
+00:04:51,490 --> 00:04:53,300
+or a TOTP,
+
+170
+00:04:53,300 --> 00:04:54,590
+a password is computed from
+
+171
+00:04:54,590 --> 00:04:56,890
+a shared secret and a current time.
+
+172
+00:04:56,890 --> 00:04:58,943
+This is often used with RSA key fobs,
+
+173
+00:04:58,943 --> 00:05:01,520
+where they create a
+seemingly random number
+
+174
+00:05:01,520 --> 00:05:03,990
+that's displayed on this ownership factor,
+
+175
+00:05:03,990 --> 00:05:05,400
+and then you're going to type that in
+
+176
+00:05:05,400 --> 00:05:07,360
+and the server and the
+client both would know it,
+
+177
+00:05:07,360 --> 00:05:08,830
+but nobody else will.
+
+178
+00:05:08,830 --> 00:05:10,410
+And since these passwords are constantly
+
+179
+00:05:10,410 --> 00:05:12,410
+changing every 30 or 60 seconds,
+
+180
+00:05:12,410 --> 00:05:14,020
+they can only be used one time,
+
+181
+00:05:14,020 --> 00:05:16,060
+before they start changing again.
+
+182
+00:05:16,060 --> 00:05:18,470
+Now this time-based approach
+is actually a variation
+
+183
+00:05:18,470 --> 00:05:19,980
+of the hash-based approach
+
+184
+00:05:19,980 --> 00:05:22,150
+known as the HMAC-based One Time
+
+185
+00:05:22,150 --> 00:05:24,654
+Password algorithm or HOTP.
+
+186
+00:05:24,654 --> 00:05:27,230
+This algorithm actually
+computes a password
+
+187
+00:05:27,230 --> 00:05:28,540
+from a shared secret
+
+188
+00:05:28,540 --> 00:05:29,373
+and it's synchronized
+
+189
+00:05:29,373 --> 00:05:31,660
+across both the client and the server.
+
+190
+00:05:31,660 --> 00:05:34,220
+Each time that password
+is entered in to log in,
+
+191
+00:05:34,220 --> 00:05:35,560
+a new password is created
+
+192
+00:05:35,560 --> 00:05:37,320
+using this hash-based algorithm
+
+193
+00:05:37,320 --> 00:05:39,010
+and it's synchronized between the client
+
+194
+00:05:39,010 --> 00:05:42,570
+and the server making sure
+that it's only used one time.
+
+195
+00:05:42,570 --> 00:05:43,410
+As you can see,
+
+196
+00:05:43,410 --> 00:05:46,310
+there are a lot of ways
+to conduct authentication.
+
+197
+00:05:46,310 --> 00:05:47,590
+In this section of the course,
+
+198
+00:05:47,590 --> 00:05:50,410
+we're going to focus
+exclusively on authentication,
+
+199
+00:05:50,410 --> 00:05:51,490
+the different technologies
+
+200
+00:05:51,490 --> 00:05:53,640
+and the different
+mechanisms that are used.
+

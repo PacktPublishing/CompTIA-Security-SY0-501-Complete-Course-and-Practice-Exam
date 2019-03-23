@@ -1,0 +1,384 @@
+﻿1
+00:00:00,500 --> 00:00:01,960
+- In this section of the course,
+
+2
+00:00:01,960 --> 00:00:04,210
+we're going to focus on
+the baseline knowledge
+
+3
+00:00:04,210 --> 00:00:05,266
+that you need to understand
+
+4
+00:00:05,266 --> 00:00:07,750
+before we can start
+digging into all of the
+
+5
+00:00:07,750 --> 00:00:09,973
+technical pieces cyber security.
+
+6
+00:00:09,973 --> 00:00:12,014
+Cyber security is hard.
+
+7
+00:00:12,014 --> 00:00:14,040
+There's always going to be a friction
+
+8
+00:00:14,040 --> 00:00:16,778
+that exists between
+security and convenience.
+
+9
+00:00:16,778 --> 00:00:18,600
+Think about at your house.
+
+10
+00:00:18,600 --> 00:00:20,210
+When you set up your wireless network
+
+11
+00:00:20,210 --> 00:00:21,894
+what kind of password did you use?
+
+12
+00:00:21,894 --> 00:00:23,740
+Did you use a short password
+
+13
+00:00:23,740 --> 00:00:25,225
+like puppy or baseball?
+
+14
+00:00:25,225 --> 00:00:27,830
+Or did you use something
+that was much longer
+
+15
+00:00:27,830 --> 00:00:30,025
+and more complicated and
+difficult to remember?
+
+16
+00:00:30,025 --> 00:00:32,670
+Well, if you had a long, hard,
+
+17
+00:00:32,670 --> 00:00:33,874
+and complicated password,
+
+18
+00:00:33,874 --> 00:00:36,550
+your network is going
+to be much more secure,
+
+19
+00:00:36,550 --> 00:00:39,300
+but it's also much less convenient.
+
+20
+00:00:39,300 --> 00:00:40,133
+Think about it.
+
+21
+00:00:40,133 --> 00:00:41,310
+If your friend comes over and says
+
+22
+00:00:41,310 --> 00:00:42,730
+can I connect to your Wi-Fi?
+
+23
+00:00:42,730 --> 00:00:44,260
+You've got to go type in this long,
+
+24
+00:00:44,260 --> 00:00:46,070
+complicated password each time
+
+25
+00:00:46,070 --> 00:00:47,290
+and that's just one example
+
+26
+00:00:47,290 --> 00:00:48,410
+of the challenge that we have
+
+27
+00:00:48,410 --> 00:00:50,690
+between security and convenience.
+
+28
+00:00:50,690 --> 00:00:53,090
+As people, we want convenience,
+
+29
+00:00:53,090 --> 00:00:54,550
+but when we have convenience
+
+30
+00:00:54,550 --> 00:00:56,085
+we lose out on security.
+
+31
+00:00:56,085 --> 00:00:57,540
+To increase security,
+
+32
+00:00:57,540 --> 00:00:59,740
+we have to make things
+a bit more challenging
+
+33
+00:00:59,740 --> 00:01:00,920
+and more difficult,
+
+34
+00:01:00,920 --> 00:01:03,371
+but, again, that takes
+away from convenience.
+
+35
+00:01:03,371 --> 00:01:04,740
+This is the balance
+
+36
+00:01:04,740 --> 00:01:05,790
+that we're always dealing with
+
+37
+00:01:05,790 --> 00:01:07,560
+inside our organizations.
+
+38
+00:01:07,560 --> 00:01:09,566
+As organizations have
+fought with this challenge,
+
+39
+00:01:09,566 --> 00:01:11,290
+there are things that have went out
+
+40
+00:01:11,290 --> 00:01:12,760
+in this convenience sector
+
+41
+00:01:12,760 --> 00:01:14,870
+that have given us less security.
+
+42
+00:01:14,870 --> 00:01:15,703
+As we look at that,
+
+43
+00:01:15,703 --> 00:01:16,920
+that's one of the reasons
+
+44
+00:01:16,920 --> 00:01:18,860
+why we continue to have cyber attacks
+
+45
+00:01:18,860 --> 00:01:20,549
+and data breaches to this day.
+
+46
+00:01:20,549 --> 00:01:24,470
+Just last year, there was
+1.3 million dollars spent
+
+47
+00:01:24,470 --> 00:01:26,568
+per data breach by major companies.
+
+48
+00:01:26,568 --> 00:01:28,440
+This is an amazing fact
+
+49
+00:01:28,440 --> 00:01:29,890
+and an astounding figure,
+
+50
+00:01:29,890 --> 00:01:32,094
+but the reason is because
+we have this trade-off.
+
+51
+00:01:32,094 --> 00:01:34,300
+We have to make things easy for our users
+
+52
+00:01:34,300 --> 00:01:36,260
+to use them on a daily basis
+
+53
+00:01:36,260 --> 00:01:38,990
+but challenging enough
+that hackers can't get in.
+
+54
+00:01:38,990 --> 00:01:40,530
+Now, this section of the course
+
+55
+00:01:40,530 --> 00:01:43,130
+we're going to talk
+about those foundations.
+
+56
+00:01:43,130 --> 00:01:44,920
+Things like the CIA triad,
+
+57
+00:01:44,920 --> 00:01:46,330
+the triple As of security,
+
+58
+00:01:46,330 --> 00:01:47,530
+and much more,
+
+59
+00:01:47,530 --> 00:01:48,850
+but before we do that,
+
+60
+00:01:48,850 --> 00:01:50,668
+we have to define two terms.
+
+61
+00:01:50,668 --> 00:01:53,270
+This first is information security.
+
+62
+00:01:53,270 --> 00:01:55,800
+Information security is
+the act of protecting data
+
+63
+00:01:55,800 --> 00:01:57,955
+and information from unauthorized access,
+
+64
+00:01:57,955 --> 00:02:00,790
+unlawful modification and disruption,
+
+65
+00:02:00,790 --> 00:02:03,164
+disclosure, and corruption,
+and destruction.
+
+66
+00:02:03,164 --> 00:02:06,508
+Simply put, when we talk
+about information security,
+
+67
+00:02:06,508 --> 00:02:08,070
+we're talking about the data
+
+68
+00:02:08,070 --> 00:02:09,440
+that the systems are holding,
+
+69
+00:02:09,440 --> 00:02:10,990
+not the systems themselves.
+
+70
+00:02:10,990 --> 00:02:13,454
+Which brings us to our second definition,
+
+71
+00:02:13,454 --> 00:02:15,918
+information systems security.
+
+72
+00:02:15,918 --> 00:02:18,050
+Information systems security
+
+73
+00:02:18,050 --> 00:02:19,978
+is the act of protecting the systems
+
+74
+00:02:19,978 --> 00:02:22,534
+that hold and process our critical data.
+
+75
+00:02:22,534 --> 00:02:23,686
+That can be a computer,
+
+76
+00:02:23,686 --> 00:02:25,910
+a server, a network device,
+
+77
+00:02:25,910 --> 00:02:27,033
+or even your smartphone.
+
+78
+00:02:27,033 --> 00:02:29,399
+If we're talking about
+protecting the data itself,
+
+79
+00:02:29,399 --> 00:02:30,972
+it's information security,
+
+80
+00:02:30,972 --> 00:02:33,306
+but if we're talking about the
+devices that hold the data,
+
+81
+00:02:33,306 --> 00:02:36,487
+then we're talking about
+information systems security.
+
+82
+00:02:36,487 --> 00:02:39,110
+Now, as we go through
+the rest of section one,
+
+83
+00:02:39,110 --> 00:02:41,169
+we're going to cover a
+lot of different topics.
+
+84
+00:02:41,169 --> 00:02:43,460
+We're not going to cover
+them in depth, though.
+
+85
+00:02:43,460 --> 00:02:46,310
+We're just going to scratch the
+surface here in section one.
+
+86
+00:02:46,310 --> 00:02:47,440
+We'll return to them in depth
+
+87
+00:02:47,440 --> 00:02:49,870
+in sections two, three, four, and beyond,
+
+88
+00:02:49,870 --> 00:02:51,760
+as we go and get into the level of detail
+
+89
+00:02:51,760 --> 00:02:54,220
+that you'll need to be
+successful in this class
+
+90
+00:02:54,220 --> 00:02:55,833
+and on the certification exam.
+

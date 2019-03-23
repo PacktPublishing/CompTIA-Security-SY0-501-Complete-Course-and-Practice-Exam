@@ -1,0 +1,282 @@
+﻿1
+00:00:00,300 --> 00:00:01,950
+- Insider threat.
+
+2
+00:00:01,950 --> 00:00:04,190
+What is an insider threat?
+
+3
+00:00:04,190 --> 00:00:06,730
+In my opinion, an insider
+threat is probably one
+
+4
+00:00:06,730 --> 00:00:09,371
+of the worst and most dangerous things
+
+5
+00:00:09,371 --> 00:00:11,790
+to your organization.
+
+6
+00:00:11,790 --> 00:00:13,680
+An insider threat is
+simply somebody who works
+
+7
+00:00:13,680 --> 00:00:16,220
+for your organization, but
+they have ulterior motives
+
+8
+00:00:16,220 --> 00:00:19,050
+and they want to do something
+negative to your organization.
+
+9
+00:00:19,050 --> 00:00:21,130
+For example, let's say that I hired you on
+
+10
+00:00:21,130 --> 00:00:23,830
+to be my employee and you
+decide to come work for me.
+
+11
+00:00:23,830 --> 00:00:26,610
+The first thing I'm going to
+do is give you account access.
+
+12
+00:00:26,610 --> 00:00:28,470
+So I give you a username and password.
+
+13
+00:00:28,470 --> 00:00:31,210
+Now your a standard user, but
+you can log on to our network,
+
+14
+00:00:31,210 --> 00:00:33,500
+you can access our files
+and our shared drive,
+
+15
+00:00:33,500 --> 00:00:34,630
+the ones that you have permissions to,
+
+16
+00:00:34,630 --> 00:00:37,140
+and you can send emails
+and you can go on the web
+
+17
+00:00:37,140 --> 00:00:38,860
+and those type of things, right?
+
+18
+00:00:38,860 --> 00:00:40,250
+Well, let's say that you build up trust
+
+19
+00:00:40,250 --> 00:00:42,110
+in my organization for
+about three to six months
+
+20
+00:00:42,110 --> 00:00:44,500
+and I give you more and more
+access to different things
+
+21
+00:00:44,500 --> 00:00:46,710
+throughout our organization
+that you need access to.
+
+22
+00:00:46,710 --> 00:00:48,480
+You have access to maybe
+all of our slide decks
+
+23
+00:00:48,480 --> 00:00:50,700
+and all of our videos and
+all that kind of stuff.
+
+24
+00:00:50,700 --> 00:00:53,580
+Well, if you took all that
+data, copied it for yourself
+
+25
+00:00:53,580 --> 00:00:55,220
+and then gave it to my competitors,
+
+26
+00:00:55,220 --> 00:00:57,530
+you would be an insider
+threat in that case, right?
+
+27
+00:00:57,530 --> 00:00:59,330
+Because you've stolen
+the information from us
+
+28
+00:00:59,330 --> 00:01:01,070
+and given it out to other people.
+
+29
+00:01:01,070 --> 00:01:03,360
+That is why insiders are so dangerous,
+
+30
+00:01:03,360 --> 00:01:04,870
+because they're hard to detect,
+
+31
+00:01:04,870 --> 00:01:06,760
+because they already have
+authorized permissions
+
+32
+00:01:06,760 --> 00:01:09,520
+on the network to access
+those files and folders.
+
+33
+00:01:09,520 --> 00:01:11,400
+Now, if you're an insider threat,
+
+34
+00:01:11,400 --> 00:01:13,070
+you might also decide
+to download something
+
+35
+00:01:13,070 --> 00:01:15,550
+like a key logger or some
+kind of malicious software
+
+36
+00:01:15,550 --> 00:01:17,970
+that can go around and collect
+data throughout the network.
+
+37
+00:01:17,970 --> 00:01:21,140
+Again, as somebody who is
+authenticated and trusted
+
+38
+00:01:21,140 --> 00:01:22,520
+on the inside of the network,
+
+39
+00:01:22,520 --> 00:01:24,040
+we're not necessarily looking for you,
+
+40
+00:01:24,040 --> 00:01:25,220
+we're looking for bad guys trying
+
+41
+00:01:25,220 --> 00:01:26,520
+to break in at the boundary
+
+42
+00:01:26,520 --> 00:01:28,460
+and a lot of times, we
+forget about those people
+
+43
+00:01:28,460 --> 00:01:31,810
+inside our walls already that
+are doing things against us.
+
+44
+00:01:31,810 --> 00:01:33,420
+And so, when you think about this
+
+45
+00:01:33,420 --> 00:01:34,860
+from a security perspective,
+
+46
+00:01:34,860 --> 00:01:36,610
+you need to think not just of the bad guy
+
+47
+00:01:36,610 --> 00:01:39,260
+who's outside your walls
+trying to break in,
+
+48
+00:01:39,260 --> 00:01:40,990
+but you also need to
+think about those people
+
+49
+00:01:40,990 --> 00:01:43,480
+who you trust, those employees you have
+
+50
+00:01:43,480 --> 00:01:45,120
+because they may not be working
+
+51
+00:01:45,120 --> 00:01:46,590
+with your best interests at heart.
+
+52
+00:01:46,590 --> 00:01:48,250
+And so you have to keep an eye on that
+
+53
+00:01:48,250 --> 00:01:50,220
+and there's lots of ways to do that.
+
+54
+00:01:50,220 --> 00:01:53,230
+One of the ways we talked
+about before was DLP.
+
+55
+00:01:53,230 --> 00:01:54,910
+Data Loss Protection, right?
+
+56
+00:01:54,910 --> 00:01:57,380
+You install Data Loss Protection
+and it will keep track
+
+57
+00:01:57,380 --> 00:01:59,940
+of all the files that are
+being copied and downloaded
+
+58
+00:01:59,940 --> 00:02:01,570
+so you can go back and figure out,
+
+59
+00:02:01,570 --> 00:02:03,540
+was that person really stealing from you
+
+60
+00:02:03,540 --> 00:02:05,360
+or were they just doing their job?
+
+61
+00:02:05,360 --> 00:02:07,290
+That's the idea with an insider threat
+
+62
+00:02:07,290 --> 00:02:08,600
+and it's something you need to be aware of
+
+63
+00:02:08,600 --> 00:02:10,223
+as a good security professional.
+

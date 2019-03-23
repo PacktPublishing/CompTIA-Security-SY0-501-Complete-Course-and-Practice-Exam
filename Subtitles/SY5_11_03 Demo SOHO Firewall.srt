@@ -1,0 +1,468 @@
+﻿1
+00:00:00,250 --> 00:00:02,210
+- In this demonstration,
+we're going to explore
+
+2
+00:00:02,210 --> 00:00:05,520
+a basic small office, home
+office network firewall.
+
+3
+00:00:05,520 --> 00:00:07,870
+In this example, I'm going
+to use a typical router
+
+4
+00:00:07,870 --> 00:00:10,330
+switch access point combination device
+
+5
+00:00:10,330 --> 00:00:12,450
+manufactured by Netgear and marketed
+
+6
+00:00:12,450 --> 00:00:15,110
+as a wireless router N300 model.
+
+7
+00:00:15,110 --> 00:00:16,550
+Now, this is probably very similar
+
+8
+00:00:16,550 --> 00:00:17,640
+to what most of you are using
+
+9
+00:00:17,640 --> 00:00:20,330
+in your small office or
+home office environments.
+
+10
+00:00:20,330 --> 00:00:22,450
+Your interface and
+settings on your firewall
+
+11
+00:00:22,450 --> 00:00:24,070
+are going to look a little
+different than mine,
+
+12
+00:00:24,070 --> 00:00:26,230
+but it's still going to give
+you the same general idea
+
+13
+00:00:26,230 --> 00:00:27,610
+of what kind of options there are
+
+14
+00:00:27,610 --> 00:00:29,650
+and how you can configure
+one of these firewalls
+
+15
+00:00:29,650 --> 00:00:31,530
+at your network boundary.
+
+16
+00:00:31,530 --> 00:00:33,700
+So, on the screen you can see the basic
+
+17
+00:00:33,700 --> 00:00:36,670
+web-based access for this wireless router,
+
+18
+00:00:36,670 --> 00:00:39,170
+wireless access point combination device.
+
+19
+00:00:39,170 --> 00:00:41,330
+Now, on mine, I'm going to go to security,
+
+20
+00:00:41,330 --> 00:00:43,200
+which is where the firewall is located
+
+21
+00:00:43,200 --> 00:00:45,090
+and it's under block services
+
+22
+00:00:45,090 --> 00:00:46,800
+on this particular router.
+
+23
+00:00:46,800 --> 00:00:49,450
+Now, usually, most of these small office,
+
+24
+00:00:49,450 --> 00:00:51,230
+home office routers are
+going to have a very
+
+25
+00:00:51,230 --> 00:00:53,410
+weak type firewall and they hide it
+
+26
+00:00:53,410 --> 00:00:54,530
+by calling it something else
+
+27
+00:00:54,530 --> 00:00:56,260
+instead of calling it a firewall.
+
+28
+00:00:56,260 --> 00:00:57,670
+So, it'll be called block sites,
+
+29
+00:00:57,670 --> 00:01:00,760
+block services, block ports,
+something of that nature.
+
+30
+00:01:00,760 --> 00:01:02,600
+So in this case, it's block services
+
+31
+00:01:02,600 --> 00:01:04,450
+and I can do it based on a schedule
+
+32
+00:01:04,450 --> 00:01:05,440
+so I only want it to be done
+
+33
+00:01:05,440 --> 00:01:07,960
+at certain times in the day or always.
+
+34
+00:01:07,960 --> 00:01:09,960
+Let's say I want to block
+something like Telnet.
+
+35
+00:01:09,960 --> 00:01:13,330
+I'm going to always block
+it, I'm going to add a block,
+
+36
+00:01:13,330 --> 00:01:16,270
+and the block I want to use
+is going to be a service,
+
+37
+00:01:16,270 --> 00:01:18,110
+and go down to Telnet.
+
+38
+00:01:18,110 --> 00:01:20,890
+Now, it automatically knows
+that Telnet is port 23,
+
+39
+00:01:20,890 --> 00:01:22,920
+so it's going to block port 23 for me.
+
+40
+00:01:22,920 --> 00:01:25,680
+It's called Telnet because
+this is a pre-defined one,
+
+41
+00:01:25,680 --> 00:01:27,760
+and then I can block
+it for all IP addresses
+
+42
+00:01:27,760 --> 00:01:30,380
+in this network, or only
+certain IP addresses
+
+43
+00:01:30,380 --> 00:01:31,960
+or a certain range.
+
+44
+00:01:31,960 --> 00:01:34,290
+So, maybe I want to block it
+for everything for Telnet.
+
+45
+00:01:34,290 --> 00:01:36,910
+That's fine, we can go ahead
+and add that to our list.
+
+46
+00:01:36,910 --> 00:01:38,160
+Now, if we want to add something else.
+
+47
+00:01:38,160 --> 00:01:39,620
+Let's say I have another rule.
+
+48
+00:01:39,620 --> 00:01:42,380
+In this case, I want to block port 666
+
+49
+00:01:42,380 --> 00:01:43,470
+because maybe there's a game
+
+50
+00:01:43,470 --> 00:01:45,270
+I don't want my kids playing on that.
+
+51
+00:01:45,270 --> 00:01:47,440
+So, I'll block it as port 666.
+
+52
+00:01:47,440 --> 00:01:49,800
+I'm going to make it TCP, UDP, or both.
+
+53
+00:01:49,800 --> 00:01:51,330
+I'm going to say both in this case.
+
+54
+00:01:51,330 --> 00:01:53,610
+And I'm just going to call it game.
+
+55
+00:01:53,610 --> 00:01:55,860
+And then I can block it for an IP range.
+
+56
+00:01:55,860 --> 00:01:58,730
+Maybe I don't want it to
+be accessed by my kids,
+
+57
+00:01:58,730 --> 00:02:02,237
+which all have their
+devices in the 10.0.0.2
+
+58
+00:02:02,237 --> 00:02:04,610
+and 10.0.0.10 range.
+
+59
+00:02:04,610 --> 00:02:06,730
+If I do that, I can go ahead and hit add,
+
+60
+00:02:06,730 --> 00:02:09,310
+and again that adds another
+rule to the firewall
+
+61
+00:02:09,310 --> 00:02:14,310
+where we are blocking port
+666 over that range of IPs.
+
+62
+00:02:14,580 --> 00:02:15,710
+Now you can see how this works
+
+63
+00:02:15,710 --> 00:02:18,260
+as you can add or delete different rules.
+
+64
+00:02:18,260 --> 00:02:19,850
+Then I can go through
+and I can do another one.
+
+65
+00:02:19,850 --> 00:02:24,850
+Let's say I want to block the ftp server.
+
+66
+00:02:24,930 --> 00:02:26,320
+So, I will just go through here,
+
+67
+00:02:26,320 --> 00:02:29,980
+and say user defined,
+port 20 through port 21
+
+68
+00:02:29,980 --> 00:02:32,390
+because that is the connection port
+
+69
+00:02:32,390 --> 00:02:34,590
+and the data ports for ftp.
+
+70
+00:02:34,590 --> 00:02:36,813
+And then we'll give it a name of ftp.
+
+71
+00:02:37,900 --> 00:02:39,890
+And we can do it for all IP addresses
+
+72
+00:02:39,890 --> 00:02:43,120
+in this range so nobody
+can access ftp server.
+
+73
+00:02:43,120 --> 00:02:45,650
+That's the idea of how
+this firewall works.
+
+74
+00:02:45,650 --> 00:02:47,820
+And you can do it, in
+this case, it's blocking
+
+75
+00:02:47,820 --> 00:02:50,360
+the outbound connections
+because it's preventing
+
+76
+00:02:50,360 --> 00:02:53,240
+us from sending things
+out to the internet.
+
+77
+00:02:53,240 --> 00:02:55,310
+Now, if we want to block
+things from coming in
+
+78
+00:02:55,310 --> 00:02:57,290
+from the internet, we're
+going to have to do that
+
+79
+00:02:57,290 --> 00:02:59,990
+in a different firewall
+on this particular device
+
+80
+00:02:59,990 --> 00:03:03,940
+because this one only has
+the outbound defined here.
+
+81
+00:03:03,940 --> 00:03:06,760
+It's going to have what
+things as it's going out
+
+82
+00:03:06,760 --> 00:03:08,050
+to the internet.
+
+83
+00:03:08,050 --> 00:03:10,720
+Now, if I want to do
+this on inbound stuff,
+
+84
+00:03:10,720 --> 00:03:12,140
+I would have to go and find that
+
+85
+00:03:12,140 --> 00:03:13,560
+in this particular router.
+
+86
+00:03:13,560 --> 00:03:14,780
+That's usually going to be something like
+
+87
+00:03:14,780 --> 00:03:16,590
+port forwarding or port triggering
+
+88
+00:03:16,590 --> 00:03:18,880
+or something like a static route.
+
+89
+00:03:18,880 --> 00:03:21,700
+And so in this case, I can
+port forward or port trigger
+
+90
+00:03:21,700 --> 00:03:23,480
+and say hey if something's
+trying to come in
+
+91
+00:03:23,480 --> 00:03:28,480
+on port 21, ftp, it can go
+and be routed to my server
+
+92
+00:03:28,610 --> 00:03:32,350
+which is at the .50, for instance.
+
+93
+00:03:32,350 --> 00:03:34,430
+And so now, anything that
+comes in that's trying
+
+94
+00:03:34,430 --> 00:03:36,770
+to get to this router on port 21,
+
+95
+00:03:36,770 --> 00:03:40,940
+is going to be forwarded over
+to that IP address of .50.
+
+96
+00:03:40,940 --> 00:03:43,490
+So that's how you allow
+things in to your network
+
+97
+00:03:43,490 --> 00:03:45,810
+based on this particular firewall.
+
+98
+00:03:45,810 --> 00:03:48,100
+Now, how do you block
+things at the firewall?
+
+99
+00:03:48,100 --> 00:03:49,830
+Well, in this particular router,
+
+100
+00:03:49,830 --> 00:03:51,350
+everything is blocked by default
+
+101
+00:03:51,350 --> 00:03:53,450
+because it's doing an implicit deny.
+
+102
+00:03:53,450 --> 00:03:55,960
+So anytime I add a rule like ftp here,
+
+103
+00:03:55,960 --> 00:03:58,450
+that's doing an explicit allow
+
+104
+00:03:58,450 --> 00:03:59,800
+and so anything you don't allow
+
+105
+00:03:59,800 --> 00:04:01,240
+is going to be blocked by default
+
+106
+00:04:01,240 --> 00:04:04,073
+on the inbound, based on
+this particular router.
+

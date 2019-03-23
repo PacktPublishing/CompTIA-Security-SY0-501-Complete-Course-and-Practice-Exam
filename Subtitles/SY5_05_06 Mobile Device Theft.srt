@@ -1,0 +1,377 @@
+﻿1
+00:00:00,520 --> 00:00:04,160
+- Mobile devices are an
+increasingly large part of our life.
+
+2
+00:00:04,160 --> 00:00:06,910
+They are doing everything
+with us these days.
+
+3
+00:00:06,910 --> 00:00:09,160
+When we're on travel, we have 'em with us.
+
+4
+00:00:09,160 --> 00:00:12,380
+And sometimes if we're not
+careful, someone can steal 'em.
+
+5
+00:00:12,380 --> 00:00:14,840
+For example, this guy's
+about to get his iPad
+
+6
+00:00:14,840 --> 00:00:16,410
+stolen out of his backpack.
+
+7
+00:00:16,410 --> 00:00:18,430
+It's not going to be a
+very good day for him.
+
+8
+00:00:18,430 --> 00:00:20,830
+Now, we have to think
+about all of the data
+
+9
+00:00:20,830 --> 00:00:22,370
+that's on that device.
+
+10
+00:00:22,370 --> 00:00:24,360
+Let's say you were on a
+family trip and you just took
+
+11
+00:00:24,360 --> 00:00:27,060
+a whole bunch of pictures
+from your vacation.
+
+12
+00:00:27,060 --> 00:00:29,120
+And now you're returning
+to the United States,
+
+13
+00:00:29,120 --> 00:00:30,110
+you're going through the airport,
+
+14
+00:00:30,110 --> 00:00:32,080
+and somebody steals your phone.
+
+15
+00:00:32,080 --> 00:00:34,600
+You're not just losing
+the value of your phone,
+
+16
+00:00:34,600 --> 00:00:36,970
+but you're losing the value
+of all of those memories
+
+17
+00:00:36,970 --> 00:00:38,810
+that may be irreplaceable.
+
+18
+00:00:38,810 --> 00:00:40,610
+So when you think about
+what's on your device,
+
+19
+00:00:40,610 --> 00:00:42,130
+one of the most important things
+
+20
+00:00:42,130 --> 00:00:45,700
+is to always ensure that you
+have a good device backup.
+
+21
+00:00:45,700 --> 00:00:48,350
+And the reason is, the
+memories, the photos,
+
+22
+00:00:48,350 --> 00:00:50,810
+your files, that's irreplaceable.
+
+23
+00:00:50,810 --> 00:00:53,850
+The device itself, you may
+have cell phone insurance for
+
+24
+00:00:53,850 --> 00:00:55,350
+or you'll just go buy a new one.
+
+25
+00:00:55,350 --> 00:00:58,090
+But the information on it
+is what's really critical.
+
+26
+00:00:58,090 --> 00:01:00,190
+Now, let's take it to a darker side.
+
+27
+00:01:00,190 --> 00:01:02,050
+What else is on your device?
+
+28
+00:01:02,050 --> 00:01:03,560
+Well, if you're like most people,
+
+29
+00:01:03,560 --> 00:01:05,630
+you also do mobile banking on your device.
+
+30
+00:01:05,630 --> 00:01:09,320
+And so if you don't have your
+device encrypted and locked
+
+31
+00:01:09,320 --> 00:01:11,760
+and protected, somebody
+can take that device
+
+32
+00:01:11,760 --> 00:01:13,320
+and access your account.
+
+33
+00:01:13,320 --> 00:01:14,850
+That's another big issue.
+
+34
+00:01:14,850 --> 00:01:16,830
+So what do we do about this?
+
+35
+00:01:16,830 --> 00:01:20,000
+Well, the first thing is we
+want to encrypt our device.
+
+36
+00:01:20,000 --> 00:01:23,100
+We want to use full disk
+encryption on our cell phones
+
+37
+00:01:23,100 --> 00:01:24,350
+and our tablets.
+
+38
+00:01:24,350 --> 00:01:27,320
+By doing this, even if someone
+is able to steal the device,
+
+39
+00:01:27,320 --> 00:01:28,960
+they won't be able to
+access the information
+
+40
+00:01:28,960 --> 00:01:32,950
+on the device without the
+proper PIN and encryption key.
+
+41
+00:01:32,950 --> 00:01:35,140
+Additionally, we want to make sure
+
+42
+00:01:35,140 --> 00:01:38,300
+that we're thinking about setting
+up tracking on our device.
+
+43
+00:01:38,300 --> 00:01:40,160
+If the device is lost or stolen,
+
+44
+00:01:40,160 --> 00:01:42,410
+you should be able to be
+pulling the information
+
+45
+00:01:42,410 --> 00:01:45,510
+from that phone and
+where its GPS location is
+
+46
+00:01:45,510 --> 00:01:47,130
+to determine where it is.
+
+47
+00:01:47,130 --> 00:01:49,210
+Now, just because you know where it is,
+
+48
+00:01:49,210 --> 00:01:51,370
+doesn't mean you should
+go get it yourself.
+
+49
+00:01:51,370 --> 00:01:53,510
+In fact, police recommend that you don't
+
+50
+00:01:53,510 --> 00:01:56,290
+try to recover your device
+alone if it's stolen.
+
+51
+00:01:56,290 --> 00:01:58,080
+Instead, you should go to the police
+
+52
+00:01:58,080 --> 00:02:01,060
+and have them go with you to
+the location of your device
+
+53
+00:02:01,060 --> 00:02:02,010
+that you've been able to find
+
+54
+00:02:02,010 --> 00:02:03,940
+based on its location tracking.
+
+55
+00:02:03,940 --> 00:02:06,940
+And how exactly can you find
+out where your phone is?
+
+56
+00:02:06,940 --> 00:02:08,770
+Well, if you're using an Apple device,
+
+57
+00:02:08,770 --> 00:02:10,530
+you can use Find my iPhone.
+
+58
+00:02:10,530 --> 00:02:13,310
+If you're using Android,
+you can use Find my Phone.
+
+59
+00:02:13,310 --> 00:02:15,630
+These are websites that
+connect to your phone
+
+60
+00:02:15,630 --> 00:02:18,560
+based on its data location
+and its GPS signal
+
+61
+00:02:18,560 --> 00:02:21,440
+and it will tell you where
+that phone is located.
+
+62
+00:02:21,440 --> 00:02:24,400
+Now, these sites also have
+some additional features.
+
+63
+00:02:24,400 --> 00:02:26,720
+One of them is the remote lock option.
+
+64
+00:02:26,720 --> 00:02:29,190
+This will allow you to
+remotely lock you phone
+
+65
+00:02:29,190 --> 00:02:30,380
+from the website.
+
+66
+00:02:30,380 --> 00:02:33,200
+This will make it so it
+requires a PIN or a password
+
+67
+00:02:33,200 --> 00:02:35,130
+before the person who has your device
+
+68
+00:02:35,130 --> 00:02:38,430
+can actually log in to it
+and get access to your data.
+
+69
+00:02:38,430 --> 00:02:40,660
+Another great feature of
+these sites is the ability
+
+70
+00:02:40,660 --> 00:02:42,670
+to conduct a remote wipe.
+
+71
+00:02:42,670 --> 00:02:43,970
+A remote wipe is going to allow you
+
+72
+00:02:43,970 --> 00:02:46,470
+to remotely erase the
+contents of the device
+
+73
+00:02:46,470 --> 00:02:48,500
+to ensure that no information is recovered
+
+74
+00:02:48,500 --> 00:02:49,820
+by the thief.
+
+75
+00:02:49,820 --> 00:02:52,550
+Now, why would you want to
+remotely wipe your device?
+
+76
+00:02:52,550 --> 00:02:55,410
+Because maybe you have some
+personal things on that,
+
+77
+00:02:55,410 --> 00:02:57,350
+maybe you have personal text messages
+
+78
+00:02:57,350 --> 00:02:59,770
+or photographs or banking information
+
+79
+00:02:59,770 --> 00:03:01,570
+that you don't want anybody seeing.
+
+80
+00:03:01,570 --> 00:03:04,020
+By using remote wipe, even if the criminal
+
+81
+00:03:04,020 --> 00:03:05,980
+has your device, they're
+not going to be able
+
+82
+00:03:05,980 --> 00:03:07,740
+to see anything on it
+because you've already
+
+83
+00:03:07,740 --> 00:03:10,443
+formatted the device, even
+from a remote location.
+

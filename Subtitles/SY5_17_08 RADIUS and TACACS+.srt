@@ -1,0 +1,260 @@
+﻿1
+00:00:01,130 --> 00:00:03,440
+- RADIUS and TACACS+.
+
+2
+00:00:03,440 --> 00:00:07,200
+RADIUS is the Remote Authentication
+Dial-In User Service.
+
+3
+00:00:07,200 --> 00:00:09,030
+It provides centralized administration
+
+4
+00:00:09,030 --> 00:00:12,190
+of dial-up, VPN, and
+wireless authentication
+
+5
+00:00:12,190 --> 00:00:15,100
+so that you can use that with both 802.1x
+
+6
+00:00:15,100 --> 00:00:18,800
+and the Extensible
+Authentication Protocol, or EAP.
+
+7
+00:00:18,800 --> 00:00:21,320
+RADIUS is a client/server
+protocol that runs
+
+8
+00:00:21,320 --> 00:00:23,400
+over the seventh layer of the OSI model,
+
+9
+00:00:23,400 --> 00:00:24,930
+the application layer.
+
+10
+00:00:24,930 --> 00:00:26,620
+RADIUS is usually configured to be run
+
+11
+00:00:26,620 --> 00:00:29,210
+on a separate server,
+but it can also be loaded
+
+12
+00:00:29,210 --> 00:00:32,330
+up on a Windows server in
+smaller domain environments.
+
+13
+00:00:32,330 --> 00:00:34,400
+RADIUS is used to authenticate users,
+
+14
+00:00:34,400 --> 00:00:35,820
+authorize them to services,
+
+15
+00:00:35,820 --> 00:00:38,440
+and account for their
+usage of those services.
+
+16
+00:00:38,440 --> 00:00:40,880
+This is the typical
+AAA that we spoke about
+
+17
+00:00:40,880 --> 00:00:43,330
+all the way back in
+section one of the course,
+
+18
+00:00:43,330 --> 00:00:46,640
+Authentication,
+Authorization, and Accounting.
+
+19
+00:00:46,640 --> 00:00:49,760
+RADIUS also utilizes UDP
+for making its connections,
+
+20
+00:00:49,760 --> 00:00:51,990
+making it fairly fast
+during its authentication
+
+21
+00:00:51,990 --> 00:00:54,080
+to authorization functions.
+
+22
+00:00:54,080 --> 00:00:56,290
+RADIUS commonly uses port 1812
+
+23
+00:00:56,290 --> 00:00:57,790
+for its authentication messages,
+
+24
+00:00:57,790 --> 00:01:00,930
+and port 1813 for its accounting messages.
+
+25
+00:01:00,930 --> 00:01:02,660
+Some proprietary versions of RADIUS
+
+26
+00:01:02,660 --> 00:01:07,140
+may also use ports 1645 and 1646 instead.
+
+27
+00:01:07,140 --> 00:01:09,960
+Now, exam tip here, I
+would have these ports
+
+28
+00:01:09,960 --> 00:01:11,900
+memorized as part of the things you need
+
+29
+00:01:11,900 --> 00:01:13,760
+to know before test day because you may
+
+30
+00:01:13,760 --> 00:01:15,670
+see some test questions on 'em.
+
+31
+00:01:15,670 --> 00:01:18,430
+Now, while RADIUS is a
+cross-platform standard,
+
+32
+00:01:18,430 --> 00:01:20,710
+there is a proprietary protocol from Cisco
+
+33
+00:01:20,710 --> 00:01:23,150
+called TACACS+ that
+we've mentioned before.
+
+34
+00:01:23,150 --> 00:01:25,270
+This is the Terminal
+Access Controller Access
+
+35
+00:01:25,270 --> 00:01:27,640
+Control System Plus which
+can perform the role
+
+36
+00:01:27,640 --> 00:01:30,880
+of an authenticator in an 802.1x network.
+
+37
+00:01:30,880 --> 00:01:32,750
+Now, it's up to you to determine which one
+
+38
+00:01:32,750 --> 00:01:35,040
+is best for your organization's needs.
+
+39
+00:01:35,040 --> 00:01:37,370
+Personally, I've used
+RADIUS almost exclusively
+
+40
+00:01:37,370 --> 00:01:38,960
+within my organizations.
+
+41
+00:01:38,960 --> 00:01:41,280
+I've found that TACACS+
+is a little bit slower
+
+42
+00:01:41,280 --> 00:01:43,510
+to operate because it's relying on TCP
+
+43
+00:01:43,510 --> 00:01:46,890
+instead of UDP, and operates over port 49.
+
+44
+00:01:46,890 --> 00:01:49,370
+But TACACS+ does have some benefits.
+
+45
+00:01:49,370 --> 00:01:50,850
+It gives you some additional security
+
+46
+00:01:50,850 --> 00:01:53,300
+and independently conducts
+its authentication,
+
+47
+00:01:53,300 --> 00:01:55,920
+authorization, and accounting processes.
+
+48
+00:01:55,920 --> 00:01:58,320
+TACACS+ supports all network protocols.
+
+49
+00:01:58,320 --> 00:01:59,670
+But RADIUS, on the other hand,
+
+50
+00:01:59,670 --> 00:02:01,850
+doesn't support the
+remote access protocol,
+
+51
+00:02:01,850 --> 00:02:05,590
+NetBIOS Frame protocol,
+X.25 PAD connections,
+
+52
+00:02:05,590 --> 00:02:06,610
+and some others.
+
+53
+00:02:06,610 --> 00:02:09,260
+Overall, TACACS+ is an excellent choice,
+
+54
+00:02:09,260 --> 00:02:10,840
+but only if you're going to be using Cisco
+
+55
+00:02:10,840 --> 00:02:12,380
+devices across your network.
+
+56
+00:02:12,380 --> 00:02:15,040
+Because if you want to have
+that cross-platform capability,
+
+57
+00:02:15,040 --> 00:02:16,550
+then you're going to
+have to go with RADIUS,
+
+58
+00:02:16,550 --> 00:02:18,507
+the way that I've chosen in the past.
+
+59
+00:02:18,507 --> 00:02:20,719
+(electronic droning)
+

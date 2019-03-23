@@ -1,0 +1,119 @@
+﻿1
+00:00:00,230 --> 00:00:01,620
+- In this section of the course,
+
+2
+00:00:01,620 --> 00:00:03,760
+we're going to talk
+about securing your wired
+
+3
+00:00:03,760 --> 00:00:05,370
+and wireless networks.
+
+4
+00:00:05,370 --> 00:00:07,300
+We're going to start out
+with wired network devices,
+
+5
+00:00:07,300 --> 00:00:09,040
+things like switches and routers,
+
+6
+00:00:09,040 --> 00:00:10,700
+and then we'll move into the cabling
+
+7
+00:00:10,700 --> 00:00:12,950
+that helps put all
+these networks together.
+
+8
+00:00:12,950 --> 00:00:14,260
+After that, we're going to start talking
+
+9
+00:00:14,260 --> 00:00:15,470
+about wireless networks
+
+10
+00:00:15,470 --> 00:00:17,070
+and how we can better secure them
+
+11
+00:00:17,070 --> 00:00:18,440
+and all the different types of attacks
+
+12
+00:00:18,440 --> 00:00:20,500
+that exist for wireless networks.
+
+13
+00:00:20,500 --> 00:00:22,880
+We'll even go through a
+demonstration in this section
+
+14
+00:00:22,880 --> 00:00:24,530
+where I'm going to show you how easy it is
+
+15
+00:00:24,530 --> 00:00:26,030
+to break wireless encryption
+
+16
+00:00:26,030 --> 00:00:26,920
+and we'll be able to do that
+
+17
+00:00:26,920 --> 00:00:28,610
+in about just two or three minutes.
+
+18
+00:00:28,610 --> 00:00:30,240
+So it's really important to understand
+
+19
+00:00:30,240 --> 00:00:32,100
+how to secure your networks properly
+
+20
+00:00:32,100 --> 00:00:34,410
+so attackers can't do this to you.
+
+21
+00:00:34,410 --> 00:00:36,710
+Now finally, we're going
+to round out this section
+
+22
+00:00:36,710 --> 00:00:39,100
+by covering other types
+of wireless technology
+
+23
+00:00:39,100 --> 00:00:40,420
+in addition to wifi,
+
+24
+00:00:40,420 --> 00:00:43,310
+things like RFID,
+near-field communications,
+
+25
+00:00:43,310 --> 00:00:45,460
+bluetooth, satellite communication,
+
+26
+00:00:45,460 --> 00:00:47,720
+GPS, cellular, and others.
+
+27
+00:00:47,720 --> 00:00:49,806
+So let's get started.
+
+28
+00:00:49,806 --> 00:00:51,994
+(techno music)
+

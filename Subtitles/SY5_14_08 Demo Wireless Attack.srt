@@ -1,0 +1,764 @@
+﻿1
+00:00:00,370 --> 00:00:03,280
+- In this lesson I'm going to
+demonstrate how to conduct an
+
+2
+00:00:03,280 --> 00:00:05,240
+initialization vector attack on a
+
+3
+00:00:05,240 --> 00:00:07,200
+WEP protected access point.
+
+4
+00:00:07,200 --> 00:00:10,060
+As I said before, WEP is
+extremely insecure because
+
+5
+00:00:10,060 --> 00:00:13,100
+it only uses a 24 bit
+initialization vector.
+
+6
+00:00:13,100 --> 00:00:15,970
+Regardless of what key you
+choose, this attack is going to
+
+7
+00:00:15,970 --> 00:00:18,010
+work every single time.
+
+8
+00:00:18,010 --> 00:00:20,525
+This is the reason that I say
+you never, ever want to use
+
+9
+00:00:20,525 --> 00:00:21,990
+WEP in your networks.
+
+10
+00:00:21,990 --> 00:00:24,580
+If you find a network using
+WEP in your organization,
+
+11
+00:00:24,580 --> 00:00:28,160
+you should immediately work
+to upgrade it to WPA2 instead.
+
+12
+00:00:28,160 --> 00:00:29,960
+Let's jump into the lab
+and I'll show you exactly
+
+13
+00:00:29,960 --> 00:00:31,070
+how this works.
+
+14
+00:00:31,070 --> 00:00:32,660
+So the first thing we're going
+to do is where you're going to
+
+15
+00:00:32,660 --> 00:00:36,800
+start with airodump-ng and
+then the card that we have
+
+16
+00:00:36,800 --> 00:00:38,123
+which is wlan0mon.
+
+17
+00:00:39,110 --> 00:00:41,365
+And notice it's starting
+to scan for that particular
+
+18
+00:00:41,365 --> 00:00:43,000
+network that we're looking for.
+
+19
+00:00:43,000 --> 00:00:46,290
+In our case, we already found
+it, it is wireless hacking.
+
+20
+00:00:46,290 --> 00:00:48,600
+This WEP network right here.
+
+21
+00:00:48,600 --> 00:00:53,600
+And this is the BSSID, or the
+Mac address for that network.
+
+22
+00:00:53,830 --> 00:00:58,290
+So, for us to attack it, we are
+going to use airodump-ng again.
+
+23
+00:00:58,290 --> 00:01:02,660
+And in this case we are
+going to specifically tell it
+
+24
+00:01:02,660 --> 00:01:06,370
+which channel we want to go
+after, which is channel one,
+
+25
+00:01:06,370 --> 00:01:08,630
+right here, from the
+wireless hacking network.
+
+26
+00:01:08,630 --> 00:01:12,240
+We want to go after the
+BSSID that was provided
+
+27
+00:01:12,240 --> 00:01:15,810
+for that network, and we want to go ahead
+
+28
+00:01:15,810 --> 00:01:19,380
+and write that data to a
+file which is going to be
+
+29
+00:01:19,380 --> 00:01:24,380
+wireless hacking dump, is what
+we're going to call that file.
+
+30
+00:01:25,070 --> 00:01:26,790
+And then we're going to
+give it the card itself,
+
+31
+00:01:26,790 --> 00:01:30,940
+which is wlan0mon, and
+hit enter, and off it goes
+
+32
+00:01:30,940 --> 00:01:34,280
+starting to scan the
+network, which is helpful.
+
+33
+00:01:34,280 --> 00:01:35,540
+But we're not quite there yet.
+
+34
+00:01:35,540 --> 00:01:38,450
+Notice the data packets are
+climbing, but we haven't yet
+
+35
+00:01:38,450 --> 00:01:41,250
+associated ourself to that
+network to be able to start
+
+36
+00:01:41,250 --> 00:01:43,860
+doing things like packet
+injection and capturing those
+
+37
+00:01:43,860 --> 00:01:45,370
+initialization vectors.
+
+38
+00:01:45,370 --> 00:01:48,250
+So I'm going to go ahead and
+put this up here to make some
+
+39
+00:01:48,250 --> 00:01:52,640
+extra room and we'll just
+bring that right across the top
+
+40
+00:01:52,640 --> 00:01:54,090
+and let it continue to run.
+
+41
+00:01:54,090 --> 00:01:57,440
+We're going to open up a new
+terminal and I'm going to bring that
+
+42
+00:01:57,440 --> 00:01:58,980
+down here to the bottom.
+
+43
+00:01:58,980 --> 00:02:03,010
+Now, in the new terminal what
+I need to do is I need to
+
+44
+00:02:03,010 --> 00:02:06,300
+start doing a authentication
+to the network using
+
+45
+00:02:06,300 --> 00:02:10,700
+fake authentication, which is
+our first step in the hack.
+
+46
+00:02:10,700 --> 00:02:14,850
+So, that first step in the
+hack is that we are going to do
+
+47
+00:02:14,850 --> 00:02:18,613
+a program called aireplay,
+and in aireplay-ng,
+
+48
+00:02:21,430 --> 00:02:23,730
+we are going to use
+fakeauth as our command,
+
+49
+00:02:23,730 --> 00:02:27,750
+zero for infinite attempts,
+dash a and the Mac address
+
+50
+00:02:27,750 --> 00:02:30,300
+that we are going after,
+which again we still
+
+51
+00:02:30,300 --> 00:02:31,933
+have pasted right there.
+
+52
+00:02:32,830 --> 00:02:35,700
+And then we're going to use
+the Mac address that we are
+
+53
+00:02:35,700 --> 00:02:39,410
+coming from, which we
+have to find ourself.
+
+54
+00:02:39,410 --> 00:02:42,440
+So we are going to open
+up another terminal,
+
+55
+00:02:42,440 --> 00:02:44,470
+can see how you start getting
+quite a few terminals,
+
+56
+00:02:44,470 --> 00:02:47,190
+and just type in something like ifconfig.
+
+57
+00:02:47,190 --> 00:02:49,690
+When you do that, you're
+going to get the Mac address
+
+58
+00:02:49,690 --> 00:02:54,690
+for wlan0mon, and the first
+12 digits here is that
+
+59
+00:02:55,730 --> 00:02:57,540
+Mac address for our network card.
+
+60
+00:02:57,540 --> 00:03:02,070
+So I'm just going to copy that
+and then we can paste that in.
+
+61
+00:03:02,070 --> 00:03:05,650
+Now, this use dashes, but
+for this particular command
+
+62
+00:03:05,650 --> 00:03:08,400
+you have to use colons, so
+I'm going to arrow through
+
+63
+00:03:08,400 --> 00:03:12,163
+and change those to
+colons, as you can see.
+
+64
+00:03:13,420 --> 00:03:15,610
+And the command's not done yet,
+'cause what's the one thing
+
+65
+00:03:15,610 --> 00:03:16,960
+we haven't told it?
+
+66
+00:03:16,960 --> 00:03:19,100
+We haven't told it which card to use.
+
+67
+00:03:19,100 --> 00:03:24,100
+So we have to use wlan0mon,
+and then we will hit enter,
+
+68
+00:03:24,610 --> 00:03:27,460
+and off it goes sending a authentication.
+
+69
+00:03:27,460 --> 00:03:29,900
+We not have an authentication
+made with this network.
+
+70
+00:03:29,900 --> 00:03:32,580
+So we can move into the
+second phase of our attack,
+
+71
+00:03:32,580 --> 00:03:35,860
+which is going to be the packet injection.
+
+72
+00:03:35,860 --> 00:03:38,730
+So, for the packet injection
+we are going to still use
+
+73
+00:03:38,730 --> 00:03:40,140
+the aireplay command.
+
+74
+00:03:40,140 --> 00:03:42,030
+Most of it is going to be the
+same, so what I'm going to do
+
+75
+00:03:42,030 --> 00:03:44,130
+instead of typing it
+all is hit the up arrow,
+
+76
+00:03:44,130 --> 00:03:46,680
+which will bring back
+the last command I used.
+
+77
+00:03:46,680 --> 00:03:48,740
+The big differences here
+is we are not going to use
+
+78
+00:03:48,740 --> 00:03:50,420
+fake authentication anymore.
+
+79
+00:03:50,420 --> 00:03:55,030
+Instead, we want to use an
+arpreplay so that we can create
+
+80
+00:03:55,030 --> 00:03:57,670
+additional traffic on this network.
+
+81
+00:03:57,670 --> 00:04:00,300
+Instead of a for the access point,
+we're going to use b for the
+
+82
+00:04:00,300 --> 00:04:03,170
+access point which tells
+it that's the base station.
+
+83
+00:04:03,170 --> 00:04:05,040
+We're still going to use the
+card that we're coming from
+
+84
+00:04:05,040 --> 00:04:07,700
+and the network card wlan0mon.
+
+85
+00:04:07,700 --> 00:04:11,340
+When we hit enter, off it
+goes, and notice that we have
+
+86
+00:04:11,340 --> 00:04:14,330
+a couple of arp packets
+here, and our data is
+
+87
+00:04:14,330 --> 00:04:15,163
+going to start going up.
+
+88
+00:04:15,163 --> 00:04:16,360
+We have a lot of frame loss.
+
+89
+00:04:16,360 --> 00:04:18,070
+Once you have a couple
+of arp requests that have
+
+90
+00:04:18,070 --> 00:04:21,303
+been successful, you can hit
+Control + c and stop that.
+
+91
+00:04:22,410 --> 00:04:24,670
+Now, with this attack,
+it does help if this
+
+92
+00:04:24,670 --> 00:04:26,200
+is a busy network.
+
+93
+00:04:26,200 --> 00:04:28,090
+Right now, as we're doing
+this, you can see the
+
+94
+00:04:28,090 --> 00:04:29,650
+data packets are going up.
+
+95
+00:04:29,650 --> 00:04:31,620
+The reason those data packets
+are going up is because
+
+96
+00:04:31,620 --> 00:04:35,390
+I'm streaming YouTube on the
+device, this base station here,
+
+97
+00:04:35,390 --> 00:04:40,240
+which this client, which is
+my iPhone, is talking to this
+
+98
+00:04:40,240 --> 00:04:43,080
+access point and streaming
+YouTube, which is collecting
+
+99
+00:04:43,080 --> 00:04:44,570
+a lot of data.
+
+100
+00:04:44,570 --> 00:04:47,160
+Now, the next thing you want
+to do is start cracking.
+
+101
+00:04:47,160 --> 00:04:51,170
+Every 5,000 data packets that
+go up, it will start trying
+
+102
+00:04:51,170 --> 00:04:52,630
+to do another attempt.
+
+103
+00:04:52,630 --> 00:04:56,280
+It's really easy, you just
+use aircrack-ng, and then the
+
+104
+00:04:56,280 --> 00:04:59,233
+file name of what you're
+going to be using.
+
+105
+00:04:59,233 --> 00:05:04,233
+Let me clear the screen here,
+and the file that I'm going to
+
+106
+00:05:05,080 --> 00:05:09,260
+be using is wirelesshackingdump-02.cap.
+
+107
+00:05:09,260 --> 00:05:10,910
+The reason it's the second
+one's 'cause I've run this
+
+108
+00:05:10,910 --> 00:05:12,780
+attempt once before showing you.
+
+109
+00:05:12,780 --> 00:05:16,150
+So, all we're going to use
+is aircrack-ng and then the
+
+110
+00:05:16,150 --> 00:05:19,660
+file name that you're
+going after, and hit enter.
+
+111
+00:05:19,660 --> 00:05:21,720
+Off it goes, starting to crack away.
+
+112
+00:05:21,720 --> 00:05:25,560
+Right now it already has
+14,000 initialization vectors
+
+113
+00:05:25,560 --> 00:05:27,630
+collected, and you can see
+that here from the data,
+
+114
+00:05:27,630 --> 00:05:28,950
+but that wasn't enough.
+
+115
+00:05:28,950 --> 00:05:32,080
+So when this hits 15,000, you're
+going to see this kick off
+
+116
+00:05:32,080 --> 00:05:34,840
+again without me doing
+anything, and we'll see if we
+
+117
+00:05:34,840 --> 00:05:36,570
+can crack that key.
+
+118
+00:05:36,570 --> 00:05:37,760
+So here it goes again.
+
+119
+00:05:37,760 --> 00:05:40,670
+It's going off and testing
+the different keys.
+
+120
+00:05:40,670 --> 00:05:41,630
+And it didn't find it.
+
+121
+00:05:41,630 --> 00:05:43,800
+So it'll try again at 20,000.
+
+122
+00:05:43,800 --> 00:05:46,160
+Generally, it's going to
+find it somewhere between
+
+123
+00:05:46,160 --> 00:05:48,680
+10,000 and 25,000.
+
+124
+00:05:48,680 --> 00:05:51,710
+It really depends on where
+that particular key is inside
+
+125
+00:05:51,710 --> 00:05:54,710
+the key space, depending
+on what that hexadecimal
+
+126
+00:05:54,710 --> 00:05:56,053
+password was that we used.
+
+127
+00:06:01,900 --> 00:06:04,240
+So again, you can see the
+data packets climbing up
+
+128
+00:06:04,240 --> 00:06:06,290
+as I'm streaming different YouTube videos.
+
+129
+00:06:06,290 --> 00:06:07,940
+Every time I start another video it starts
+
+130
+00:06:07,940 --> 00:06:09,410
+downloading all that data.
+
+131
+00:06:09,410 --> 00:06:12,560
+All those frames have an
+initialization vector in there,
+
+132
+00:06:12,560 --> 00:06:14,210
+and they're able to be
+captured so that we can
+
+133
+00:06:14,210 --> 00:06:16,050
+start seeing that information.
+
+134
+00:06:16,050 --> 00:06:17,380
+So now we have over 20,000.
+
+135
+00:06:17,380 --> 00:06:19,480
+It's going to try again and there it is.
+
+136
+00:06:19,480 --> 00:06:20,680
+It found our key.
+
+137
+00:06:20,680 --> 00:06:24,520
+17, 25, 83, A-E-F-A.
+
+138
+00:06:24,520 --> 00:06:26,460
+So, we now have a key.
+
+139
+00:06:26,460 --> 00:06:27,730
+What are we going to do with it?
+
+140
+00:06:27,730 --> 00:06:30,260
+Well, the next thing we want
+to do is we want to see if that
+
+141
+00:06:30,260 --> 00:06:33,480
+key actually works and be
+able to get onto a network.
+
+142
+00:06:33,480 --> 00:06:35,220
+We can do that through
+Kali or we can do it
+
+143
+00:06:35,220 --> 00:06:37,760
+through your Windows
+machine or your Mac machine,
+
+144
+00:06:37,760 --> 00:06:40,060
+it depends on what
+you're ultimate goal is.
+
+145
+00:06:40,060 --> 00:06:42,580
+For this example, I'm going
+to show you how to use it
+
+146
+00:06:42,580 --> 00:06:45,610
+inside your Macintosh machine.
+
+147
+00:06:45,610 --> 00:06:48,862
+You can do the same thing in
+Windows, and again in Kali.
+
+148
+00:06:48,862 --> 00:06:52,310
+If we can cancel this
+capturing at this point,
+
+149
+00:06:52,310 --> 00:06:55,080
+so we'll hit Control + c, and
+we're going to switch back
+
+150
+00:06:55,080 --> 00:06:58,570
+to our client machine,
+in my case Macintosh.
+
+151
+00:06:58,570 --> 00:07:01,740
+So now that we're back
+on our Windows or our
+
+152
+00:07:01,740 --> 00:07:03,720
+Macintosh machine, you'll connect to that
+
+153
+00:07:03,720 --> 00:07:05,790
+wireless network just
+like you normally do.
+
+154
+00:07:05,790 --> 00:07:07,990
+So we're going to go down to
+wireless hacking, and it's
+
+155
+00:07:07,990 --> 00:07:09,825
+going to ask us for the passcode.
+
+156
+00:07:09,825 --> 00:07:14,825
+My passcode that we just
+cracked was 17, 25, 83, A-E-F-A,
+
+157
+00:07:16,950 --> 00:07:20,990
+and if I go ahead and join,
+we should see if I can pull
+
+158
+00:07:20,990 --> 00:07:23,350
+an IP address from this network.
+
+159
+00:07:23,350 --> 00:07:26,490
+And if we look at it, you can
+see here we did pull and IP
+
+160
+00:07:26,490 --> 00:07:29,610
+address from this network,
+and we are connected to that
+
+161
+00:07:29,610 --> 00:07:34,060
+access point starting
+with c8 a7, that BSSID,
+
+162
+00:07:34,060 --> 00:07:36,930
+which is the one for wireless hacking.
+
+163
+00:07:36,930 --> 00:07:40,009
+So, our hack did work
+and it was successful.
+
+164
+00:07:40,009 --> 00:07:42,029
+(techno music)
+

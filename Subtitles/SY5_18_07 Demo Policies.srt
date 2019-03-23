@@ -1,0 +1,573 @@
+﻿1
+00:00:00,170 --> 00:00:02,400
+- In this lesson, we're
+going to jump into the lab,
+
+2
+00:00:02,400 --> 00:00:05,330
+and I'm going to tell you how
+to create good group policies
+
+3
+00:00:05,330 --> 00:00:06,360
+for your passwords.
+
+4
+00:00:06,360 --> 00:00:08,330
+We're going to focus on four key areas.
+
+5
+00:00:08,330 --> 00:00:10,770
+We're going to talk
+about complexity, length,
+
+6
+00:00:10,770 --> 00:00:13,080
+password reuse, and password age.
+
+7
+00:00:13,080 --> 00:00:14,480
+Let's go ahead and jump
+in the lab environment
+
+8
+00:00:14,480 --> 00:00:15,313
+and get started.
+
+9
+00:00:16,270 --> 00:00:18,610
+In order for us to create
+our password policies,
+
+10
+00:00:18,610 --> 00:00:20,730
+we're going to use the
+group policy editor.
+
+11
+00:00:20,730 --> 00:00:22,560
+I'm using a Windows 10 machine here
+
+12
+00:00:22,560 --> 00:00:25,880
+on a local computer network
+that is not part of a domain.
+
+13
+00:00:25,880 --> 00:00:26,920
+Using a domain environment,
+
+14
+00:00:26,920 --> 00:00:29,620
+you can use your global
+policy orchestrator,
+
+15
+00:00:29,620 --> 00:00:30,640
+but for a local machine,
+
+16
+00:00:30,640 --> 00:00:32,840
+we're going to stick with
+the group policy editor.
+
+17
+00:00:32,840 --> 00:00:33,890
+Now, to do this, we're going to go to
+
+18
+00:00:33,890 --> 00:00:37,840
+our computer configuration and
+click on "Windows settings,"
+
+19
+00:00:37,840 --> 00:00:39,800
+and then we're going to
+select, underneath it,
+
+20
+00:00:39,800 --> 00:00:41,143
+the security settings.
+
+21
+00:00:42,080 --> 00:00:43,510
+Underneath security settings,
+
+22
+00:00:43,510 --> 00:00:45,763
+you'll see that we have account policies,
+
+23
+00:00:46,690 --> 00:00:50,610
+and inside there we have
+the password policy.
+
+24
+00:00:50,610 --> 00:00:51,700
+Now you'll see that there are
+
+25
+00:00:51,700 --> 00:00:53,160
+several different settings here,
+
+26
+00:00:53,160 --> 00:00:55,350
+including enforcing the password history,
+
+27
+00:00:55,350 --> 00:00:57,360
+the minimum age, the maximum age,
+
+28
+00:00:57,360 --> 00:00:58,700
+the minimum password length,
+
+29
+00:00:58,700 --> 00:01:00,990
+the password that must meet
+complexity requirements,
+
+30
+00:01:00,990 --> 00:01:03,720
+and storing your passwords
+using reversible encryption.
+
+31
+00:01:03,720 --> 00:01:07,250
+So first we're going to go
+through and set up our complexity.
+
+32
+00:01:07,250 --> 00:01:10,460
+Complexity talks about how
+that password needs to be.
+
+33
+00:01:10,460 --> 00:01:12,660
+Does it need to have
+upper case and lower case?
+
+34
+00:01:12,660 --> 00:01:14,240
+Special characters and numbers?
+
+35
+00:01:14,240 --> 00:01:16,460
+So if we right click it
+and go to properties,
+
+36
+00:01:16,460 --> 00:01:17,470
+we can then select it,
+
+37
+00:01:17,470 --> 00:01:20,620
+and just simply enable it, and hit apply.
+
+38
+00:01:20,620 --> 00:01:24,110
+This is going to require that
+our password now have complexity.
+
+39
+00:01:24,110 --> 00:01:25,870
+It means it's going to
+have at least characters
+
+40
+00:01:25,870 --> 00:01:28,280
+from three of the
+following four categories.
+
+41
+00:01:28,280 --> 00:01:30,370
+That would be upper case, lower case,
+
+42
+00:01:30,370 --> 00:01:32,170
+numbers, and special characters.
+
+43
+00:01:32,170 --> 00:01:35,880
+So if I have something that
+has password 1 exclamation,
+
+44
+00:01:35,880 --> 00:01:37,500
+that would meet password complexity,
+
+45
+00:01:37,500 --> 00:01:39,460
+according to this definition.
+
+46
+00:01:39,460 --> 00:01:40,920
+Next we'll hit "okay."
+
+47
+00:01:40,920 --> 00:01:42,110
+and we're going to go to our next thing,
+
+48
+00:01:42,110 --> 00:01:44,090
+which is going to be our
+minimum password length.
+
+49
+00:01:44,090 --> 00:01:46,370
+Right now, that is zero characters.
+
+50
+00:01:46,370 --> 00:01:49,430
+Zero characters means I
+can have a blank password.
+
+51
+00:01:49,430 --> 00:01:50,770
+Now if you remember from my lessons,
+
+52
+00:01:50,770 --> 00:01:52,540
+what did I recommend that we use?
+
+53
+00:01:52,540 --> 00:01:55,170
+Something of at least
+14 characters, or more.
+
+54
+00:01:55,170 --> 00:01:56,700
+According to the Security Plus exam,
+
+55
+00:01:56,700 --> 00:01:58,440
+we want at least eight characters.
+
+56
+00:01:58,440 --> 00:02:01,690
+And so, we would have a
+minimum of eight characters.
+
+57
+00:02:01,690 --> 00:02:03,740
+But for your security, and mine,
+
+58
+00:02:03,740 --> 00:02:05,770
+I'm going to use 14 characters.
+
+59
+00:02:05,770 --> 00:02:07,440
+And again you'll hit "apply."
+
+60
+00:02:07,440 --> 00:02:08,560
+And if you look at the explanation,
+
+61
+00:02:08,560 --> 00:02:10,010
+it explains that you can have it
+
+62
+00:02:10,010 --> 00:02:12,440
+anything between one and 20 characters.
+
+63
+00:02:12,440 --> 00:02:15,780
+If you have it set to zero,
+it would be no password.
+
+64
+00:02:15,780 --> 00:02:17,470
+Go ahead an hit "okay."
+
+65
+00:02:17,470 --> 00:02:20,010
+And the next thing we're going
+to do is our password age.
+
+66
+00:02:20,010 --> 00:02:21,970
+How old must our password be?
+
+67
+00:02:21,970 --> 00:02:24,270
+Can our password be
+change and be zero days?
+
+68
+00:02:24,270 --> 00:02:25,600
+That's fine.
+
+69
+00:02:25,600 --> 00:02:26,690
+What is the maximum?
+
+70
+00:02:26,690 --> 00:02:28,900
+Right now it's saying 42 days.
+
+71
+00:02:28,900 --> 00:02:30,120
+That means every 42 days,
+
+72
+00:02:30,120 --> 00:02:31,910
+I'm going to have to change that password.
+
+73
+00:02:31,910 --> 00:02:33,320
+If you remember what I recommended,
+
+74
+00:02:33,320 --> 00:02:35,830
+it was something like 90 days, right?
+
+75
+00:02:35,830 --> 00:02:39,010
+And so we can hit "apply,"
+and we can go to explain.
+
+76
+00:02:39,010 --> 00:02:40,850
+42 is a fine number, it's short,
+
+77
+00:02:40,850 --> 00:02:43,290
+but that's the default
+that they have right now.
+
+78
+00:02:43,290 --> 00:02:45,250
+Some place between 30 and 90 days.
+
+79
+00:02:45,250 --> 00:02:46,660
+If it's for your home network,
+
+80
+00:02:46,660 --> 00:02:48,720
+90 days is sufficient and will have you
+
+81
+00:02:48,720 --> 00:02:50,170
+changing it often enough.
+
+82
+00:02:50,170 --> 00:02:51,110
+You can actually change this
+
+83
+00:02:51,110 --> 00:02:55,210
+anywhere between one and 999 days.
+
+84
+00:02:55,210 --> 00:02:57,830
+You can also set it so
+that it never expires.
+
+85
+00:02:57,830 --> 00:02:59,840
+I do not recommend doing that.
+
+86
+00:02:59,840 --> 00:03:02,350
+And our final setting is password history.
+
+87
+00:03:02,350 --> 00:03:04,150
+This means how many passwords will
+
+88
+00:03:04,150 --> 00:03:07,210
+Windows remember and
+not let you use again?
+
+89
+00:03:07,210 --> 00:03:09,920
+For example, let's say my
+password was "password,"
+
+90
+00:03:09,920 --> 00:03:11,847
+and then I change it to "password1"
+
+91
+00:03:11,847 --> 00:03:13,290
+and then I change it to "password2."
+
+92
+00:03:13,290 --> 00:03:15,650
+That is three different
+passwords I've used.
+
+93
+00:03:15,650 --> 00:03:17,540
+So if I set that to three,
+
+94
+00:03:17,540 --> 00:03:21,427
+I would then have to make
+another one called "password3"
+
+95
+00:03:21,427 --> 00:03:24,000
+before I could go back to the
+original one of "password."
+
+96
+00:03:24,000 --> 00:03:25,350
+That's the idea here.
+
+97
+00:03:25,350 --> 00:03:27,110
+Generally in high security environments,
+
+98
+00:03:27,110 --> 00:03:29,040
+you want something like 24.
+
+99
+00:03:29,040 --> 00:03:30,520
+If you're in a lower security environment,
+
+100
+00:03:30,520 --> 00:03:32,320
+something like five would be fine.
+
+101
+00:03:32,320 --> 00:03:34,260
+Because, if you change it five times
+
+102
+00:03:34,260 --> 00:03:35,938
+and you're doing it every 90 days,
+
+103
+00:03:35,938 --> 00:03:38,740
+you're going to go
+about a year and a third
+
+104
+00:03:38,740 --> 00:03:40,280
+before you have to change it again,
+
+105
+00:03:40,280 --> 00:03:41,690
+or about a year and a half.
+
+106
+00:03:41,690 --> 00:03:43,210
+And if you go to the explanation again,
+
+107
+00:03:43,210 --> 00:03:45,130
+this gives you that same explanation.
+
+108
+00:03:45,130 --> 00:03:46,580
+If you have zero, that means you can
+
+109
+00:03:46,580 --> 00:03:48,400
+constantly reuse the same password.
+
+110
+00:03:48,400 --> 00:03:50,910
+So if I require you to change
+your password every 90 days,
+
+111
+00:03:50,910 --> 00:03:52,740
+but I left the password history at zero,
+
+112
+00:03:52,740 --> 00:03:53,890
+guess what I can do?
+
+113
+00:03:53,890 --> 00:03:56,350
+Change my password to the same password.
+
+114
+00:03:56,350 --> 00:03:58,580
+And that resets the 90
+day clock and go again.
+
+115
+00:03:58,580 --> 00:04:00,380
+Not a very good thing for security.
+
+116
+00:04:00,380 --> 00:04:03,010
+So now you understand some
+of the basic group policies
+
+117
+00:04:03,010 --> 00:04:05,970
+that you can set inside
+here for your passwords.
+
+118
+00:04:05,970 --> 00:04:08,960
+And something like this
+is a fairly adequate setup
+
+119
+00:04:08,960 --> 00:04:11,080
+for a small or medium size business.
+
+120
+00:04:11,080 --> 00:04:12,500
+If you want to make it more secure,
+
+121
+00:04:12,500 --> 00:04:15,740
+you can do that by
+minimizing the password age,
+
+122
+00:04:15,740 --> 00:04:18,070
+take that down to 30 days, maybe,
+
+123
+00:04:18,070 --> 00:04:20,100
+and maximizing your password history.
+
+124
+00:04:20,100 --> 00:04:22,140
+Something more like 24.
+
+125
+00:04:22,140 --> 00:04:24,020
+So that's the idea here when you're using
+
+126
+00:04:24,020 --> 00:04:25,690
+your local group policy editor.
+
+127
+00:04:25,690 --> 00:04:27,070
+If you're doing this on a domain,
+
+128
+00:04:27,070 --> 00:04:29,040
+you can then take that
+and push this policy out
+
+129
+00:04:29,040 --> 00:04:31,020
+to every single computer on the domain
+
+130
+00:04:31,020 --> 00:04:32,470
+and they'll a ll have to follow your
+
+131
+00:04:32,470 --> 00:04:34,663
+new strong password policy.
+
+132
+00:04:34,663 --> 00:04:37,027
+(techno music)
+

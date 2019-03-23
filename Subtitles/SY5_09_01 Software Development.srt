@@ -1,0 +1,1053 @@
+﻿1
+00:00:00,730 --> 00:00:02,040
+- In this section of the course,
+
+2
+00:00:02,040 --> 00:00:04,400
+we're going to talk about
+software development.
+
+3
+00:00:04,400 --> 00:00:05,960
+When a piece of software is created,
+
+4
+00:00:05,960 --> 00:00:08,140
+it requires a lot of work.
+
+5
+00:00:08,140 --> 00:00:10,800
+Each and every function that's
+performed by that software
+
+6
+00:00:10,800 --> 00:00:13,730
+has to be written to be able
+to do its intended role.
+
+7
+00:00:13,730 --> 00:00:16,240
+This often requires the work
+of dozens of programmers
+
+8
+00:00:16,240 --> 00:00:18,920
+and hundreds of thousands
+of lines of code.
+
+9
+00:00:18,920 --> 00:00:21,730
+Often, when a bug is found
+in a piece of software,
+
+10
+00:00:21,730 --> 00:00:24,360
+I hear people ask why that
+company didn't figure it out
+
+11
+00:00:24,360 --> 00:00:26,300
+before the software was released.
+
+12
+00:00:26,300 --> 00:00:27,790
+Well, there's lots of different ways
+
+13
+00:00:27,790 --> 00:00:29,250
+to conduct software testing,
+
+14
+00:00:29,250 --> 00:00:31,710
+and we're going to talk about
+them later on in the section.
+
+15
+00:00:31,710 --> 00:00:34,220
+But bugs are still going
+to find their way into code
+
+16
+00:00:34,220 --> 00:00:37,230
+because our software is
+so complex these days.
+
+17
+00:00:37,230 --> 00:00:40,170
+Let's take, for example, the
+Windows 10 operating system.
+
+18
+00:00:40,170 --> 00:00:43,190
+It consists of over 50
+million lines of code
+
+19
+00:00:43,190 --> 00:00:44,920
+and took the involvement of hundreds
+
+20
+00:00:44,920 --> 00:00:46,420
+of different programmers.
+
+21
+00:00:46,420 --> 00:00:48,800
+With that much complexity,
+there's always a chance
+
+22
+00:00:48,800 --> 00:00:51,650
+that an error is going to be
+introduced into the code base.
+
+23
+00:00:51,650 --> 00:00:53,540
+Now, to try and counteract the complexity
+
+24
+00:00:53,540 --> 00:00:54,548
+of our software development,
+
+25
+00:00:54,548 --> 00:00:57,550
+many models and methods
+have been introduced,
+
+26
+00:00:57,550 --> 00:00:59,040
+the most common of which is known
+
+27
+00:00:59,040 --> 00:01:02,600
+as the software development
+life cycle or SLDC.
+
+28
+00:01:02,600 --> 00:01:05,370
+The software development life
+cycle is an organized process
+
+29
+00:01:05,370 --> 00:01:07,780
+of developing a secure
+software application
+
+30
+00:01:07,780 --> 00:01:10,440
+throughout its life cycle
+throughout the project.
+
+31
+00:01:10,440 --> 00:01:11,662
+This process covers everything
+
+32
+00:01:11,662 --> 00:01:13,710
+from the initial idea of the software,
+
+33
+00:01:13,710 --> 00:01:15,360
+through its coding and testing,
+
+34
+00:01:15,360 --> 00:01:18,320
+and even into its
+deployment and retirement.
+
+35
+00:01:18,320 --> 00:01:19,690
+The software development life cycle
+
+36
+00:01:19,690 --> 00:01:22,560
+is based on a generic
+Waterfall model of development.
+
+37
+00:01:22,560 --> 00:01:23,900
+Each phase of a life cycle
+
+38
+00:01:23,900 --> 00:01:26,350
+is broken down into smaller portions.
+
+39
+00:01:26,350 --> 00:01:29,010
+As each one is finished,
+the next one has begun.
+
+40
+00:01:29,010 --> 00:01:31,110
+The reason this model
+is termed the Waterfall
+
+41
+00:01:31,110 --> 00:01:33,630
+is that information and
+the software product itself
+
+42
+00:01:33,630 --> 00:01:35,940
+flows from the top stage all the way down
+
+43
+00:01:35,940 --> 00:01:38,140
+to the bottom stage,
+getting more developed
+
+44
+00:01:38,140 --> 00:01:39,920
+as it progresses downward.
+
+45
+00:01:39,920 --> 00:01:41,790
+Visually, this looks like a waterfall,
+
+46
+00:01:41,790 --> 00:01:44,030
+as shown in this example on the screen.
+
+47
+00:01:44,030 --> 00:01:46,690
+Different organizations use
+different phases or stages
+
+48
+00:01:46,690 --> 00:01:49,120
+as part of their software
+development life cycle though,
+
+49
+00:01:49,120 --> 00:01:51,180
+but for the CompTIA Security+ exam,
+
+50
+00:01:51,180 --> 00:01:54,580
+you need to know the seven
+phases as CompTIA defines them.
+
+51
+00:01:54,580 --> 00:01:57,150
+Now, let's cover each
+of theses seven phases.
+
+52
+00:01:57,150 --> 00:01:59,710
+The first phase is planning and analysis.
+
+53
+00:01:59,710 --> 00:02:02,080
+During this stage, the goals
+of the software project
+
+54
+00:02:02,080 --> 00:02:04,730
+are determined, the
+stakeholder needs are assessed,
+
+55
+00:02:04,730 --> 00:02:07,500
+and all of the high level
+planning work is conducted.
+
+56
+00:02:07,500 --> 00:02:09,210
+Essentially, this is where things go
+
+57
+00:02:09,210 --> 00:02:11,625
+from a rough idea that someone
+had for a piece of software
+
+58
+00:02:11,625 --> 00:02:14,750
+into a bit more formalized
+and well developed concept
+
+59
+00:02:14,750 --> 00:02:17,360
+that we can plan the rest of
+our development cycle against.
+
+60
+00:02:17,360 --> 00:02:18,876
+Once all the requirements
+have been gathered,
+
+61
+00:02:18,876 --> 00:02:20,420
+we can move into the phase
+
+62
+00:02:20,420 --> 00:02:23,010
+that's known as software
+or systems design.
+
+63
+00:02:23,010 --> 00:02:24,840
+It's during this stage
+that the application
+
+64
+00:02:24,840 --> 00:02:28,550
+or system is defined, outlined,
+and diagrammed in detail.
+
+65
+00:02:28,550 --> 00:02:30,210
+Essentially, this is where we focus
+
+66
+00:02:30,210 --> 00:02:33,050
+on the overarching inputs
+and outputs of each function
+
+67
+00:02:33,050 --> 00:02:34,890
+that are going to make
+up the final software
+
+68
+00:02:34,890 --> 00:02:36,900
+that's going to be
+released to our customer.
+
+69
+00:02:36,900 --> 00:02:38,580
+At this point, we still haven't created
+
+70
+00:02:38,580 --> 00:02:40,234
+any programming code though.
+
+71
+00:02:40,234 --> 00:02:42,270
+This brings us to the third phase,
+
+72
+00:02:42,270 --> 00:02:44,230
+which is called implementation.
+
+73
+00:02:44,230 --> 00:02:46,690
+During implementation,
+programmers will begin to code
+
+74
+00:02:46,690 --> 00:02:48,010
+all of the various functions
+
+75
+00:02:48,010 --> 00:02:49,970
+that are needed for the final product.
+
+76
+00:02:49,970 --> 00:02:51,870
+As each piece of the code is developed,
+
+77
+00:02:51,870 --> 00:02:52,840
+the programmers will conduct
+
+78
+00:02:52,840 --> 00:02:54,540
+some basic debugging and testing
+
+79
+00:02:54,540 --> 00:02:57,000
+to ensure that its functionality
+is working properly.
+
+80
+00:02:57,000 --> 00:02:58,270
+But, at this point,
+
+81
+00:02:58,270 --> 00:03:01,290
+there's been no formal
+testing completed yet.
+
+82
+00:03:01,290 --> 00:03:02,690
+The fourth phase is reserved
+
+83
+00:03:02,690 --> 00:03:05,170
+for that formalized
+testing of the application.
+
+84
+00:03:05,170 --> 00:03:07,030
+It's during this phase
+that we get the code
+
+85
+00:03:07,030 --> 00:03:08,610
+and we check it through a myriad
+
+86
+00:03:08,610 --> 00:03:10,700
+of different testing methodologies.
+
+87
+00:03:10,700 --> 00:03:12,240
+We're going to spend an entire lesson
+
+88
+00:03:12,240 --> 00:03:15,690
+on those testing methodologies
+later on in this section.
+
+89
+00:03:15,690 --> 00:03:17,160
+Once the testing is complete,
+
+90
+00:03:17,160 --> 00:03:19,150
+the integration phase will begin.
+
+91
+00:03:19,150 --> 00:03:21,310
+During this phase, the
+application or system
+
+92
+00:03:21,310 --> 00:03:24,030
+is integrated into the
+larger network environment.
+
+93
+00:03:24,030 --> 00:03:25,190
+Whereas in phase four,
+
+94
+00:03:25,190 --> 00:03:28,260
+we focused on testing the
+individual application or system,
+
+95
+00:03:28,260 --> 00:03:30,234
+in phase five, the integration phase,
+
+96
+00:03:30,234 --> 00:03:32,770
+we're focused on testing
+the end-to-end service
+
+97
+00:03:32,770 --> 00:03:35,250
+to ensure that all of the
+pieces and all of the parts
+
+98
+00:03:35,250 --> 00:03:38,220
+can communicate effectively and correctly.
+
+99
+00:03:38,220 --> 00:03:39,970
+For example, if you finish developing
+
+100
+00:03:39,970 --> 00:03:42,330
+a new software application
+to provide quiz questions
+
+101
+00:03:42,330 --> 00:03:43,990
+to your students through the website,
+
+102
+00:03:43,990 --> 00:03:45,000
+now you have to make sure
+
+103
+00:03:45,000 --> 00:03:46,620
+that you integrate that quiz application
+
+104
+00:03:46,620 --> 00:03:50,050
+into the web server, the
+databases that hold the questions,
+
+105
+00:03:50,050 --> 00:03:52,110
+the network connectivity,
+and everything else
+
+106
+00:03:52,110 --> 00:03:55,190
+that connects your server
+to the outside world.
+
+107
+00:03:55,190 --> 00:03:56,620
+Connecting these different applications
+
+108
+00:03:56,620 --> 00:03:59,890
+and systems together is
+known as integration.
+
+109
+00:03:59,890 --> 00:04:02,290
+The sixth phase is known as deployment.
+
+110
+00:04:02,290 --> 00:04:04,390
+During deployment, your
+application or system
+
+111
+00:04:04,390 --> 00:04:06,440
+will be moved into the
+production environment
+
+112
+00:04:06,440 --> 00:04:08,470
+where your customers and your end users
+
+113
+00:04:08,470 --> 00:04:10,810
+can now utilize it to perform their work.
+
+114
+00:04:10,810 --> 00:04:12,107
+In the example of Windows 10,
+
+115
+00:04:12,107 --> 00:04:15,160
+deployment occurred when it
+was installed on a new PC
+
+116
+00:04:15,160 --> 00:04:17,210
+or it was downloaded
+from Microsoft's website
+
+117
+00:04:17,210 --> 00:04:20,250
+to upgrade your current
+Windows 8.1 workstation.
+
+118
+00:04:20,250 --> 00:04:22,570
+This is the phase that
+allows real work to be done
+
+119
+00:04:22,570 --> 00:04:25,100
+using your new software applications.
+
+120
+00:04:25,100 --> 00:04:27,840
+The seventh and final phase
+is called maintenance.
+
+121
+00:04:27,840 --> 00:04:29,556
+As I stated at the
+beginning of this lecture,
+
+122
+00:04:29,556 --> 00:04:32,710
+software bugs and
+vulnerabilities do happen.
+
+123
+00:04:32,710 --> 00:04:34,140
+This means that, once your product
+
+124
+00:04:34,140 --> 00:04:35,600
+is released into deployment,
+
+125
+00:04:35,600 --> 00:04:37,643
+your work is still not finished.
+
+126
+00:04:37,643 --> 00:04:40,631
+Instead, the programmers are
+now focused on bug fixes,
+
+127
+00:04:40,631 --> 00:04:43,410
+patches, and updates to
+the version of the software
+
+128
+00:04:43,410 --> 00:04:45,000
+that you're going to end up using.
+
+129
+00:04:45,000 --> 00:04:47,310
+Additionally, your
+organizational service desk
+
+130
+00:04:47,310 --> 00:04:49,490
+is now focused on helping your end users
+
+131
+00:04:49,490 --> 00:04:51,680
+to understand how to
+properly use this program
+
+132
+00:04:51,680 --> 00:04:53,700
+more efficiently and effectively.
+
+133
+00:04:53,700 --> 00:04:56,251
+This is another piece of the
+larger ongoing maintenance
+
+134
+00:04:56,251 --> 00:04:57,840
+that an organization will do
+
+135
+00:04:57,840 --> 00:04:59,980
+as part of its software
+development life cycle.
+
+136
+00:04:59,980 --> 00:05:02,000
+When we discuss maintenance
+of the software,
+
+137
+00:05:02,000 --> 00:05:04,570
+two very important concepts
+are version control
+
+138
+00:05:04,570 --> 00:05:06,330
+and configuration management.
+
+139
+00:05:06,330 --> 00:05:07,890
+This will ensure that, as you update
+
+140
+00:05:07,890 --> 00:05:10,240
+or fix a problem in
+your baseline software,
+
+141
+00:05:10,240 --> 00:05:12,606
+you have a way to identify
+what is the newest version
+
+142
+00:05:12,606 --> 00:05:14,940
+and what is the older version.
+
+143
+00:05:14,940 --> 00:05:17,500
+Often, this is done
+using a numbering scheme
+
+144
+00:05:17,500 --> 00:05:20,960
+that consists of major, minor,
+and build version numbers.
+
+145
+00:05:20,960 --> 00:05:25,890
+For example, if you're
+running Windows 10.0.12425,
+
+146
+00:05:25,890 --> 00:05:28,260
+that shows up as a major version 10,
+
+147
+00:05:28,260 --> 00:05:32,890
+a minor version 0, and
+a build number of 12425.
+
+148
+00:05:32,890 --> 00:05:36,160
+Eventually, this software
+will become outdated and old
+
+149
+00:05:36,160 --> 00:05:38,020
+and it will have to be retired.
+
+150
+00:05:38,020 --> 00:05:40,500
+Under the CompTIA model,
+this is also considered
+
+151
+00:05:40,500 --> 00:05:43,050
+part of that seventh
+phase called maintenance.
+
+152
+00:05:43,050 --> 00:05:45,000
+In other SDLC models through,
+
+153
+00:05:45,000 --> 00:05:47,890
+retirement is often
+considered its own phase.
+
+154
+00:05:47,890 --> 00:05:50,040
+For example, Windows XP is considered
+
+155
+00:05:50,040 --> 00:05:52,800
+a piece of unsupported or retired software
+
+156
+00:05:52,800 --> 00:05:55,330
+because it's no longer
+supported by Microsoft.
+
+157
+00:05:55,330 --> 00:05:58,530
+Therefore, if your organization
+is running Windows XP still,
+
+158
+00:05:58,530 --> 00:06:00,120
+you need to develop a retirement plan
+
+159
+00:06:00,120 --> 00:06:02,900
+to migrate your current
+business functions and processes
+
+160
+00:06:02,900 --> 00:06:05,000
+off of those Windows XP workstations
+
+161
+00:06:05,000 --> 00:06:07,490
+and into a more modern and
+supported version of Windows,
+
+162
+00:06:07,490 --> 00:06:09,020
+like Windows 10.
+
+163
+00:06:09,020 --> 00:06:11,540
+Now, the Waterfall model
+works great for projects
+
+164
+00:06:11,540 --> 00:06:13,870
+that are very complex,
+and they also are great
+
+165
+00:06:13,870 --> 00:06:16,200
+for things that need
+high levels of security.
+
+166
+00:06:16,200 --> 00:06:17,033
+This is accomplished
+
+167
+00:06:17,033 --> 00:06:18,620
+through that testing that we talked about.
+
+168
+00:06:18,620 --> 00:06:21,000
+But this does take up a lot of time
+
+169
+00:06:21,000 --> 00:06:24,380
+and it doesn't support rapid
+development or rapid changes.
+
+170
+00:06:24,380 --> 00:06:26,610
+For example, under a
+Waterfall development,
+
+171
+00:06:26,610 --> 00:06:28,200
+it can take six to 12 months
+
+172
+00:06:28,200 --> 00:06:29,930
+to get from the first planning phase
+
+173
+00:06:29,930 --> 00:06:31,390
+all the way through to deployment
+
+174
+00:06:31,390 --> 00:06:33,350
+and maintenance in the seventh phase.
+
+175
+00:06:33,350 --> 00:06:34,539
+Any changes in your requirements
+
+176
+00:06:34,539 --> 00:06:37,410
+would require us to go
+back to an earlier stage
+
+177
+00:06:37,410 --> 00:06:39,710
+and continue down that Waterfall again.
+
+178
+00:06:39,710 --> 00:06:40,989
+In a strict Waterfall scenario,
+
+179
+00:06:40,989 --> 00:06:43,360
+you wouldn't even be able
+to add additional features
+
+180
+00:06:43,360 --> 00:06:46,010
+until the initial product
+was already delivered.
+
+181
+00:06:46,010 --> 00:06:48,110
+This means you're going to have
+to wait for the next version
+
+182
+00:06:48,110 --> 00:06:49,850
+to release those and get those changes out
+
+183
+00:06:49,850 --> 00:06:51,290
+to your end users.
+
+184
+00:06:51,290 --> 00:06:53,970
+In response to this, a different
+way of software development
+
+185
+00:06:53,970 --> 00:06:55,330
+has risen in popularity.
+
+186
+00:06:55,330 --> 00:06:57,189
+This is known as Agile development.
+
+187
+00:06:57,189 --> 00:06:59,300
+Agile software development is performed
+
+188
+00:06:59,300 --> 00:07:01,227
+in time-boxed or small increments
+
+189
+00:07:01,227 --> 00:07:04,550
+to allow it to be more adaptive
+to changing requirements.
+
+190
+00:07:04,550 --> 00:07:07,010
+In Agile, we still
+perform most of the phases
+
+191
+00:07:07,010 --> 00:07:08,720
+that make up the Waterfall model,
+
+192
+00:07:08,720 --> 00:07:11,940
+but the big difference is we
+do them much, much quicker.
+
+193
+00:07:11,940 --> 00:07:14,420
+For example, many Agile
+development projects
+
+194
+00:07:14,420 --> 00:07:17,230
+work in either a two-week
+or a four-week time period
+
+195
+00:07:17,230 --> 00:07:18,770
+known as a sprint.
+
+196
+00:07:18,770 --> 00:07:21,339
+The goal in Agile is to release
+smaller product portions
+
+197
+00:07:21,339 --> 00:07:23,400
+more quickly and more often,
+
+198
+00:07:23,400 --> 00:07:24,660
+and at the end of every sprint,
+
+199
+00:07:24,660 --> 00:07:26,240
+something has to be released.
+
+200
+00:07:26,240 --> 00:07:28,130
+In a Waterfall model, for example,
+
+201
+00:07:28,130 --> 00:07:30,320
+we might be trying to release
+and entire operating system
+
+202
+00:07:30,320 --> 00:07:32,689
+like Windows 10, but in
+Agile, we would release
+
+203
+00:07:32,689 --> 00:07:35,610
+just three or four features
+in this two-week period,
+
+204
+00:07:35,610 --> 00:07:37,300
+and then, we'd add another few features
+
+205
+00:07:37,300 --> 00:07:38,620
+for the next two-week period,
+
+206
+00:07:38,620 --> 00:07:40,239
+and we'll continually add small pieces
+
+207
+00:07:40,239 --> 00:07:42,688
+until we provide the additional
+functionality we want
+
+208
+00:07:42,688 --> 00:07:45,660
+all along the way for this final product.
+
+209
+00:07:45,660 --> 00:07:46,990
+For the Security+ exam,
+
+210
+00:07:46,990 --> 00:07:49,060
+you don't need to know Agile in depth.
+
+211
+00:07:49,060 --> 00:07:51,280
+If you really want to dig
+into Agile project management
+
+212
+00:07:51,280 --> 00:07:53,430
+and development though, I
+would recommend watching
+
+213
+00:07:53,430 --> 00:07:55,920
+our course on PRINCE2 Agile Foundation,
+
+214
+00:07:55,920 --> 00:07:58,520
+which is an excellent certification
+for Agile development.
+
+215
+00:07:58,520 --> 00:07:59,550
+This will give you a great primer
+
+216
+00:07:59,550 --> 00:08:02,530
+on using many different types
+of Agile development methods
+
+217
+00:08:02,530 --> 00:08:05,350
+when doing software or other
+highly adaptable projects.
+
+218
+00:08:05,350 --> 00:08:07,380
+The final term that I wanted
+to cover in this lesson
+
+219
+00:08:07,380 --> 00:08:08,560
+is known as DevOps.
+
+220
+00:08:08,560 --> 00:08:11,330
+DevOps is a term created
+from the words development
+
+221
+00:08:11,330 --> 00:08:12,670
+and operations.
+
+222
+00:08:12,670 --> 00:08:14,130
+This is a way of conducting business
+
+223
+00:08:14,130 --> 00:08:15,350
+where the software developers
+
+224
+00:08:15,350 --> 00:08:16,813
+an the IT operations personnel
+
+225
+00:08:16,813 --> 00:08:19,360
+work closely together to
+speed up the development
+
+226
+00:08:19,360 --> 00:08:21,070
+and deployment of the applications
+
+227
+00:08:21,070 --> 00:08:23,489
+and to get things out
+to the end user quicker.
+
+228
+00:08:23,489 --> 00:08:25,470
+Because of the reduced timeline,
+
+229
+00:08:25,470 --> 00:08:26,688
+it's a good idea to embed
+a security-minded person
+
+230
+00:08:26,688 --> 00:08:29,840
+into the DevOps team as well
+
+231
+00:08:29,840 --> 00:08:32,424
+to ensure that good
+cybersecurity is not sacrificed
+
+232
+00:08:32,424 --> 00:08:35,361
+in an effort to get the
+product out quicker.
+
+233
+00:08:35,361 --> 00:08:37,726
+(vibrating music)
+

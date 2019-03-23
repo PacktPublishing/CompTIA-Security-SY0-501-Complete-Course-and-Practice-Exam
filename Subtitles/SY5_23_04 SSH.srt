@@ -1,0 +1,318 @@
+﻿1
+00:00:00,840 --> 00:00:02,710
+- SSH or Secure Shell is
+
+2
+00:00:02,710 --> 00:00:04,620
+another protocol that we often use
+
+3
+00:00:04,620 --> 00:00:06,850
+to tunnel other protocols through.
+
+4
+00:00:06,850 --> 00:00:08,470
+Secure Shell is a protocol
+
+5
+00:00:08,470 --> 00:00:09,830
+that we can create a secure channel
+
+6
+00:00:09,830 --> 00:00:12,090
+between two computers or network devices
+
+7
+00:00:12,090 --> 00:00:13,650
+and this allows one device
+
+8
+00:00:13,650 --> 00:00:15,970
+to actually take control
+over another device.
+
+9
+00:00:15,970 --> 00:00:17,940
+So if I wanted to connect
+my laptop to a server
+
+10
+00:00:17,940 --> 00:00:19,940
+so that I can do remote
+execution of commands
+
+11
+00:00:19,940 --> 00:00:21,380
+as a system administrator,
+
+12
+00:00:21,380 --> 00:00:23,580
+I would use Secure Shell to do that.
+
+13
+00:00:23,580 --> 00:00:25,400
+Basically, Secure Shell was designed
+
+14
+00:00:25,400 --> 00:00:26,660
+as a replacement for Telnet
+
+15
+00:00:26,660 --> 00:00:29,120
+because Telnet, we've
+already said, is bad.
+
+16
+00:00:29,120 --> 00:00:31,700
+Telnet sends everything in
+the clear and unencrypted.
+
+17
+00:00:31,700 --> 00:00:33,820
+SSH on the other-hand, allows us to have
+
+18
+00:00:33,820 --> 00:00:36,474
+this nice encrypted tunnel
+that protects our data.
+
+19
+00:00:36,474 --> 00:00:39,300
+SSH was originally used in Unix and Linux,
+
+20
+00:00:39,300 --> 00:00:41,850
+but now, you're finding
+it in Windows as well.
+
+21
+00:00:41,850 --> 00:00:43,310
+It is very heavily used
+
+22
+00:00:43,310 --> 00:00:45,690
+as a text based remote control method
+
+23
+00:00:45,690 --> 00:00:47,930
+for anything that you need
+to be able to get into
+
+24
+00:00:47,930 --> 00:00:49,180
+and do remote control of.
+
+25
+00:00:49,180 --> 00:00:50,570
+Things like routers and switches,
+
+26
+00:00:50,570 --> 00:00:51,840
+you Telnet into them
+
+27
+00:00:51,840 --> 00:00:52,910
+to get to their command-line
+
+28
+00:00:52,910 --> 00:00:54,510
+and be able to set up commands.
+
+29
+00:00:54,510 --> 00:00:56,380
+Same thing you can do
+that for a Windows server
+
+30
+00:00:56,380 --> 00:00:58,450
+or to a Linux or a Unix server.
+
+31
+00:00:58,450 --> 00:01:00,920
+SSH is going to require
+that you have two things.
+
+32
+00:01:00,920 --> 00:01:03,280
+You have to have a server
+which is known as a daemon
+
+33
+00:01:03,280 --> 00:01:04,500
+that can be run on once device
+
+34
+00:01:04,500 --> 00:01:06,750
+and then you have a client
+on the second device.
+
+35
+00:01:06,750 --> 00:01:08,740
+So on my laptop, I have an SSH client
+
+36
+00:01:08,740 --> 00:01:11,850
+and I connect in to the
+server daemon that I can then
+
+37
+00:01:11,850 --> 00:01:13,040
+take control of that server
+
+38
+00:01:13,040 --> 00:01:14,840
+and do what I need to do with it.
+
+39
+00:01:14,840 --> 00:01:16,440
+Now, when we talk about SSH,
+
+40
+00:01:16,440 --> 00:01:18,500
+it operates over port 22.
+
+41
+00:01:18,500 --> 00:01:19,600
+And you may remember that from our
+
+42
+00:01:19,600 --> 00:01:21,260
+ports and protocol lesson.
+
+43
+00:01:21,260 --> 00:01:22,750
+Now, we also talked about the fact
+
+44
+00:01:22,750 --> 00:01:24,890
+that secure copy and secure FTP
+
+45
+00:01:24,890 --> 00:01:26,830
+also operate over port 22.
+
+46
+00:01:26,830 --> 00:01:27,930
+Now why is that?
+
+47
+00:01:27,930 --> 00:01:31,690
+Well, it's because secure
+copy and secure FTP or SFTP
+
+48
+00:01:31,690 --> 00:01:35,370
+both operate in an SSH
+tunnel to be able to operate
+
+49
+00:01:35,370 --> 00:01:37,660
+and that's what gives them their security.
+
+50
+00:01:37,660 --> 00:01:39,330
+Another great thing about SSH
+
+51
+00:01:39,330 --> 00:01:41,160
+is that you can use
+public key cryptography
+
+52
+00:01:41,160 --> 00:01:42,610
+to secure its connections.
+
+53
+00:01:42,610 --> 00:01:44,790
+So just like we created a TLS tunnel,
+
+54
+00:01:44,790 --> 00:01:48,050
+we can do the same thing but using SSH.
+
+55
+00:01:48,050 --> 00:01:49,940
+Now when we talk about SSH,
+
+56
+00:01:49,940 --> 00:01:51,350
+there's a couple of versions of it.
+
+57
+00:01:51,350 --> 00:01:54,560
+There was version 1, version
+1.5 and then version 2
+
+58
+00:01:54,560 --> 00:01:56,180
+are the three big ones out there.
+
+59
+00:01:56,180 --> 00:01:58,740
+The earlier versions, version 1 and 1.5,
+
+60
+00:01:58,740 --> 00:02:01,400
+had issues with unauthorized
+insertion of content,
+
+61
+00:02:01,400 --> 00:02:02,520
+improper forwarding of those
+
+62
+00:02:02,520 --> 00:02:04,300
+secure connections to other servers
+
+63
+00:02:04,300 --> 00:02:06,140
+and integer overflow issues.
+
+64
+00:02:06,140 --> 00:02:07,870
+But all of that was fixed thankfully,
+
+65
+00:02:07,870 --> 00:02:09,870
+in SSH version 2.
+
+66
+00:02:09,870 --> 00:02:11,700
+Version 2 also added Diffie-Hellman
+
+67
+00:02:11,700 --> 00:02:14,500
+for secure key exchanges
+and the use of MACs,
+
+68
+00:02:14,500 --> 00:02:16,500
+which are Message Authentication Codes
+
+69
+00:02:16,500 --> 00:02:19,160
+and this provides us
+integrity checking of the data
+
+70
+00:02:19,160 --> 00:02:21,200
+as it's being transferred
+over the network.
+
+71
+00:02:21,200 --> 00:02:23,620
+This makes SSH a great tool for us
+
+72
+00:02:23,620 --> 00:02:25,720
+and something that we heavily, heavily use
+
+73
+00:02:25,720 --> 00:02:28,420
+as security administrators
+and network administrators.
+
+74
+00:02:29,367 --> 00:02:31,001
+(electronic crackling)
+

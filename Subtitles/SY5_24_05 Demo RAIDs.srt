@@ -1,0 +1,444 @@
+﻿1
+00:00:00,869 --> 00:00:02,110
+- In this demonstration,
+
+2
+00:00:02,110 --> 00:00:04,140
+you're going to learn how
+to create a software RAID
+
+3
+00:00:04,140 --> 00:00:05,730
+on a Windows machine.
+
+4
+00:00:05,730 --> 00:00:07,610
+My machine has a few hard drives,
+
+5
+00:00:07,610 --> 00:00:08,880
+and we're going to go ahead and use
+
+6
+00:00:08,880 --> 00:00:10,089
+the Windows disk management tool
+
+7
+00:00:10,089 --> 00:00:12,340
+to setup two different RAID systems on it.
+
+8
+00:00:12,340 --> 00:00:14,380
+Now, one is going to be a RAID 0,
+
+9
+00:00:14,380 --> 00:00:16,990
+which is going to provide us
+with more speed and performance
+
+10
+00:00:16,990 --> 00:00:18,960
+by splitting the data
+being read and write,
+
+11
+00:00:18,960 --> 00:00:21,800
+into to two separate drives
+on two different disks.
+
+12
+00:00:21,800 --> 00:00:24,100
+Now, each disk is going
+to get half of the data.
+
+13
+00:00:24,100 --> 00:00:25,760
+This means, if I lose one of the drives,
+
+14
+00:00:25,760 --> 00:00:27,569
+I'm going to lose all of the data.
+
+15
+00:00:27,569 --> 00:00:30,853
+Now, on the other hand, I'm
+going to create a second RAID.
+
+16
+00:00:31,828 --> 00:00:32,661
+This is going to be a RAID 1,
+
+17
+00:00:32,661 --> 00:00:34,310
+which allows us to have two hard disks
+
+18
+00:00:34,310 --> 00:00:35,750
+operating in a mirror.
+
+19
+00:00:35,750 --> 00:00:38,569
+So, both disks are going to have
+exactly the same data on 'em.
+
+20
+00:00:38,569 --> 00:00:40,930
+This means I'm not going to
+get the performance boost
+
+21
+00:00:40,930 --> 00:00:42,240
+I get with a RAID 0,
+
+22
+00:00:42,240 --> 00:00:43,840
+but I do get redundancy.
+
+23
+00:00:43,840 --> 00:00:44,860
+So, if one disk fails,
+
+24
+00:00:44,860 --> 00:00:47,070
+the other disk is still
+going to be maintaining
+
+25
+00:00:47,070 --> 00:00:49,046
+a fully online and ready to use copy
+
+26
+00:00:49,046 --> 00:00:51,129
+of all of the data and information.
+
+27
+00:00:51,129 --> 00:00:53,590
+Now, let's go ahead and jump into the lab,
+
+28
+00:00:53,590 --> 00:00:56,490
+and let me show you how to
+create these two types of RAIDs.
+
+29
+00:00:56,490 --> 00:00:58,040
+So, on this Windows 10 machine,
+
+30
+00:00:58,040 --> 00:00:59,270
+I current have a C drive
+
+31
+00:00:59,270 --> 00:01:00,900
+with the operating system installed,
+
+32
+00:01:00,900 --> 00:01:03,490
+and I have four blank disks
+that have been installed.
+
+33
+00:01:03,490 --> 00:01:04,887
+I'm going to go ahead and
+go to my disk management,
+
+34
+00:01:04,887 --> 00:01:07,890
+and inside my disk management,
+under computer management,
+
+35
+00:01:07,890 --> 00:01:10,680
+you will see that I have four
+disks that are brand new.
+
+36
+00:01:10,680 --> 00:01:12,467
+I'm going to go ahead
+and initialize those.
+
+37
+00:01:12,467 --> 00:01:14,830
+Now that I've initialized them,
+
+38
+00:01:14,830 --> 00:01:16,918
+I have these four unallocated disks
+
+39
+00:01:16,918 --> 00:01:20,760
+sitting here at the bottom,
+and my current C drive.
+
+40
+00:01:20,760 --> 00:01:22,000
+So, what I want to do is,
+
+41
+00:01:22,000 --> 00:01:24,340
+I want to create two different RAIDs.
+
+42
+00:01:24,340 --> 00:01:26,320
+I'm going to create one for video editing,
+
+43
+00:01:26,320 --> 00:01:29,188
+which means I want
+performance over redundancy.
+
+44
+00:01:29,188 --> 00:01:30,240
+So, what I'm going to do is,
+
+45
+00:01:30,240 --> 00:01:32,100
+I'm going to right click on my first disk,
+
+46
+00:01:32,100 --> 00:01:34,370
+and go to new striped volume.
+
+47
+00:01:34,370 --> 00:01:37,068
+Because, I'm going to stripe
+across disk one and disk two
+
+48
+00:01:37,068 --> 00:01:40,490
+to make my RAID 0, to give
+me that performance I want.
+
+49
+00:01:40,490 --> 00:01:41,900
+As I walk through the wizard,
+
+50
+00:01:41,900 --> 00:01:43,520
+I'm going to add the second disk to it.
+
+51
+00:01:43,520 --> 00:01:44,929
+So, I have disk one and disk two,
+
+52
+00:01:44,929 --> 00:01:47,660
+then I'm going to go down next,
+
+53
+00:01:47,660 --> 00:01:49,070
+I'm going to give it a drive letter.
+
+54
+00:01:49,070 --> 00:01:51,960
+In this case, I'm just going to
+go ahead and call it drive D.
+
+55
+00:01:51,960 --> 00:01:52,793
+Hit next.
+
+56
+00:01:52,793 --> 00:01:53,740
+I'm going to give it a name.
+
+57
+00:01:53,740 --> 00:01:54,790
+I'm going to call it editing,
+
+58
+00:01:54,790 --> 00:01:56,590
+because I'm going to use
+it for video editing.
+
+59
+00:01:56,590 --> 00:01:58,110
+And then, I'll hit next.
+
+60
+00:01:58,110 --> 00:01:59,490
+And then, we'll finish.
+
+61
+00:01:59,490 --> 00:02:01,010
+And, we'll say yes,
+
+62
+00:02:01,010 --> 00:02:01,860
+and off it goes.
+
+63
+00:02:01,860 --> 00:02:06,860
+I now have, drive D,
+which is 1.57 terabytes,
+
+64
+00:02:07,150 --> 00:02:08,260
+and I have 100% free,
+
+65
+00:02:08,260 --> 00:02:10,790
+because I have two, 800 gigabyte drives
+
+66
+00:02:10,790 --> 00:02:13,060
+working in tandem to give me
+
+67
+00:02:13,060 --> 00:02:15,960
+that one, logical drive, drive D.
+
+68
+00:02:15,960 --> 00:02:18,060
+But, if either of those disks fails,
+
+69
+00:02:18,060 --> 00:02:19,780
+drive D will be gone.
+
+70
+00:02:19,780 --> 00:02:22,320
+Now, let's go ahead and
+create a redundant drive,
+
+71
+00:02:22,320 --> 00:02:24,250
+which is going to be drive three and four.
+
+72
+00:02:24,250 --> 00:02:27,060
+I'm going to add them
+together as a mirrored volume.
+
+73
+00:02:27,060 --> 00:02:28,649
+Now, when I add both of those in,
+
+74
+00:02:28,649 --> 00:02:30,550
+I'm going to get two disks,
+
+75
+00:02:30,550 --> 00:02:33,330
+but I'm only going to get
+one disk's worth of space.
+
+76
+00:02:33,330 --> 00:02:35,238
+I'm going to call this R for redundancy.
+
+77
+00:02:35,238 --> 00:02:39,543
+And so, over here for R, I'm
+going to call it redundant,
+
+78
+00:02:41,000 --> 00:02:43,090
+and we'll go ahead and format it.
+
+79
+00:02:43,090 --> 00:02:47,080
+And notice, I now have
+this redundant drive,
+
+80
+00:02:47,080 --> 00:02:48,868
+which is called drive R.
+
+81
+00:02:48,868 --> 00:02:51,860
+And, drive R is a mirrored drive,
+
+82
+00:02:51,860 --> 00:02:53,200
+it is going to be dynamic.
+
+83
+00:02:53,200 --> 00:02:55,760
+And you'll notice that it
+only has a capacity size
+
+84
+00:02:55,760 --> 00:02:57,410
+of one of those drives,
+
+85
+00:02:57,410 --> 00:02:58,746
+because one is acting as primary
+
+86
+00:02:58,746 --> 00:03:01,840
+and one is acting as
+backup, where both of them
+
+87
+00:03:01,840 --> 00:03:03,550
+have the exact same information.
+
+88
+00:03:03,550 --> 00:03:05,089
+And, if either of them goes offline,
+
+89
+00:03:05,089 --> 00:03:07,970
+the other drive will still take over.
+
+90
+00:03:07,970 --> 00:03:09,950
+That gives me my fault tolerance,
+
+91
+00:03:09,950 --> 00:03:12,460
+and that creates a 50% overhead,
+
+92
+00:03:12,460 --> 00:03:15,100
+or a loss of one drive's worth of space.
+
+93
+00:03:15,100 --> 00:03:16,638
+But, that's the sacrifice.
+
+94
+00:03:16,638 --> 00:03:19,890
+Do you want performance,
+and double the space?
+
+95
+00:03:19,890 --> 00:03:23,260
+Or, do you want redundancy,
+and half the space?
+
+96
+00:03:23,260 --> 00:03:25,160
+That's the choice that we're making here.
+
+97
+00:03:25,160 --> 00:03:26,790
+Now, in my case I chose both.
+
+98
+00:03:26,790 --> 00:03:28,730
+I wanted one drive as my scratch drive
+
+99
+00:03:28,730 --> 00:03:29,690
+for all my video editing,
+
+100
+00:03:29,690 --> 00:03:31,640
+and I wanted my redundant drive to be
+
+101
+00:03:31,640 --> 00:03:33,270
+where I store the finished products,
+
+102
+00:03:33,270 --> 00:03:36,238
+and it gives me that redundancy
+that I was looking for.
+
+103
+00:03:36,238 --> 00:03:38,677
+(electronic music)
+

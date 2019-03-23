@@ -1,0 +1,395 @@
+﻿1
+00:00:00,350 --> 00:00:02,520
+- The three A's of security.
+
+2
+00:00:02,520 --> 00:00:05,170
+The three A's of security
+are authentication,
+
+3
+00:00:05,170 --> 00:00:07,290
+authorization, and accounting.
+
+4
+00:00:07,290 --> 00:00:08,580
+Authentication occurs
+
+5
+00:00:08,580 --> 00:00:11,020
+when a person's identity
+is established with proof
+
+6
+00:00:11,020 --> 00:00:12,850
+and is confirmed by the system.
+
+7
+00:00:12,850 --> 00:00:14,530
+You do this every single day.
+
+8
+00:00:14,530 --> 00:00:17,200
+In fact, you did it when
+you logged into this course.
+
+9
+00:00:17,200 --> 00:00:19,700
+When you entered in your email
+address and your password,
+
+10
+00:00:19,700 --> 00:00:20,780
+you're making a claim
+
+11
+00:00:20,780 --> 00:00:23,010
+that you are the student
+who paid for this course.
+
+12
+00:00:23,010 --> 00:00:25,040
+And by doing that, you're
+checked by the system
+
+13
+00:00:25,040 --> 00:00:26,530
+and granted access.
+
+14
+00:00:26,530 --> 00:00:29,690
+Now, there are different ways
+to authenticate who you are.
+
+15
+00:00:29,690 --> 00:00:31,050
+In the real world, for example,
+
+16
+00:00:31,050 --> 00:00:33,730
+if you get pulled over for
+speeding by a police officer,
+
+17
+00:00:33,730 --> 00:00:35,340
+you may pull out your driver's license
+
+18
+00:00:35,340 --> 00:00:37,230
+and show them that it is you
+
+19
+00:00:37,230 --> 00:00:39,150
+and that you are who you say you are.
+
+20
+00:00:39,150 --> 00:00:40,570
+This is your proof.
+
+21
+00:00:40,570 --> 00:00:41,950
+Now, in the digital world,
+
+22
+00:00:41,950 --> 00:00:44,350
+we have five methods of authentication.
+
+23
+00:00:44,350 --> 00:00:45,660
+We have something you know,
+
+24
+00:00:45,660 --> 00:00:48,400
+which would be something like
+a password or a username.
+
+25
+00:00:48,400 --> 00:00:49,980
+We have something that you are,
+
+26
+00:00:49,980 --> 00:00:51,460
+which would be something
+like your fingerprint
+
+27
+00:00:51,460 --> 00:00:53,750
+or an eye scan, or an retina scan.
+
+28
+00:00:53,750 --> 00:00:55,120
+We have something you have.
+
+29
+00:00:55,120 --> 00:00:56,450
+This would be something like a token,
+
+30
+00:00:56,450 --> 00:00:58,790
+a driver's license, or a credit card.
+
+31
+00:00:58,790 --> 00:01:00,230
+It could be something you do,
+
+32
+00:01:00,230 --> 00:01:01,480
+which is the way that you speak
+
+33
+00:01:01,480 --> 00:01:03,380
+or the way that you sign your name.
+
+34
+00:01:03,380 --> 00:01:05,340
+And it can be somewhere you are,
+
+35
+00:01:05,340 --> 00:01:07,200
+which we know as your location factor
+
+36
+00:01:07,200 --> 00:01:09,290
+based on your GPS location.
+
+37
+00:01:09,290 --> 00:01:11,820
+Now, we're going to talk about
+each of those five factors
+
+38
+00:01:11,820 --> 00:01:15,080
+in much more depth when we get
+to our authentication lesson
+
+39
+00:01:15,080 --> 00:01:17,000
+later on in this course.
+
+40
+00:01:17,000 --> 00:01:19,510
+The second A is authorization.
+
+41
+00:01:19,510 --> 00:01:22,140
+Authorization occurs when
+a user is given access
+
+42
+00:01:22,140 --> 00:01:23,760
+to a certain piece of data
+
+43
+00:01:23,760 --> 00:01:26,140
+or certain areas of the building.
+
+44
+00:01:26,140 --> 00:01:27,570
+Have you ever walked into a building
+
+45
+00:01:27,570 --> 00:01:29,890
+and saw a sign that
+said restricted access,
+
+46
+00:01:29,890 --> 00:01:31,700
+authorized personnel only?
+
+47
+00:01:31,700 --> 00:01:34,330
+Well, that means you
+can't go in that area.
+
+48
+00:01:34,330 --> 00:01:36,240
+It may be something
+like a maintenance room
+
+49
+00:01:36,240 --> 00:01:38,000
+or some place where they have generators
+
+50
+00:01:38,000 --> 00:01:39,940
+and only the mechanics can get in there.
+
+51
+00:01:39,940 --> 00:01:41,810
+They have special keys or special badges
+
+52
+00:01:41,810 --> 00:01:43,620
+that will let them into those areas.
+
+53
+00:01:43,620 --> 00:01:47,060
+That area is some place you
+are not authorized to go.
+
+54
+00:01:47,060 --> 00:01:48,930
+The third A is accounting.
+
+55
+00:01:48,930 --> 00:01:51,130
+Accounting ensures that tracking of data,
+
+56
+00:01:51,130 --> 00:01:54,380
+computer usage, and network
+resources is maintained.
+
+57
+00:01:54,380 --> 00:01:55,620
+Now, when we do that,
+
+58
+00:01:55,620 --> 00:01:58,300
+it's usually put in
+something called a log file.
+
+59
+00:01:58,300 --> 00:01:59,820
+This is a file on a computer
+
+60
+00:01:59,820 --> 00:02:02,080
+that's essentially just
+a large text document.
+
+61
+00:02:02,080 --> 00:02:04,600
+And it keeps track of all sorts of things.
+
+62
+00:02:04,600 --> 00:02:06,490
+This may be all of the
+internet connections
+
+63
+00:02:06,490 --> 00:02:07,510
+that are leaving the network,
+
+64
+00:02:07,510 --> 00:02:09,110
+as shown here on the screen.
+
+65
+00:02:09,110 --> 00:02:11,280
+Or it may be a list of all of the people
+
+66
+00:02:11,280 --> 00:02:14,810
+who tried to log on to a
+particular file or website.
+
+67
+00:02:14,810 --> 00:02:17,450
+All sorts of different logs
+are kept on your computer
+
+68
+00:02:17,450 --> 00:02:19,330
+to keep track of all of the various things
+
+69
+00:02:19,330 --> 00:02:20,260
+that are being done.
+
+70
+00:02:20,260 --> 00:02:23,100
+And this is all to ensure
+good accounting practices
+
+71
+00:02:23,100 --> 00:02:24,390
+are being used.
+
+72
+00:02:24,390 --> 00:02:26,300
+Because if you have a data breach,
+
+73
+00:02:26,300 --> 00:02:28,410
+or you have some kind
+of an insider threat,
+
+74
+00:02:28,410 --> 00:02:31,250
+you can go back and look at
+the data in your log files
+
+75
+00:02:31,250 --> 00:02:34,040
+to figure out who did what and when.
+
+76
+00:02:34,040 --> 00:02:36,470
+That's what accounting allows you to do.
+
+77
+00:02:36,470 --> 00:02:39,270
+Now, if you have proof that
+somebody did something,
+
+78
+00:02:39,270 --> 00:02:40,580
+that they took an action,
+
+79
+00:02:40,580 --> 00:02:43,150
+we cal this non-repudiation.
+
+80
+00:02:43,150 --> 00:02:45,960
+Non-repudiation simply
+means the user can't say
+
+81
+00:02:45,960 --> 00:02:47,310
+they didn't take the action
+
+82
+00:02:47,310 --> 00:02:49,200
+because you have proof they did.
+
+83
+00:02:49,200 --> 00:02:51,280
+For example, if you sent an email to me,
+
+84
+00:02:51,280 --> 00:02:53,340
+and you signed it with
+a digital signature,
+
+85
+00:02:53,340 --> 00:02:55,480
+you're the only person in the whole world
+
+86
+00:02:55,480 --> 00:02:58,050
+who has that private
+digital signature key.
+
+87
+00:02:58,050 --> 00:03:00,530
+I know for sure that you sent that email.
+
+88
+00:03:00,530 --> 00:03:02,500
+You can't tell me later
+that you didn't send it
+
+89
+00:03:02,500 --> 00:03:04,200
+because now I have proof.
+
+90
+00:03:04,200 --> 00:03:05,960
+That's non-repudiation.
+
+91
+00:03:05,960 --> 00:03:08,605
+(upbeat music)
+

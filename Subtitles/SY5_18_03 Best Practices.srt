@@ -1,0 +1,767 @@
+﻿1
+00:00:00,570 --> 00:00:02,240
+- In this lesson, we're
+going to talk about
+
+2
+00:00:02,240 --> 00:00:04,515
+some of the best practices
+for access control.
+
+3
+00:00:04,515 --> 00:00:05,750
+There's several of them out there
+
+4
+00:00:05,750 --> 00:00:06,850
+that I want you to remember
+
+5
+00:00:06,850 --> 00:00:08,160
+and think about as you're setting up
+
+6
+00:00:08,160 --> 00:00:09,810
+your access control systems.
+
+7
+00:00:09,810 --> 00:00:11,982
+The first one is known as implicit deny.
+
+8
+00:00:11,982 --> 00:00:15,390
+All access to a resource
+should be denied by default,
+
+9
+00:00:15,390 --> 00:00:18,020
+and only allowed when
+it's explicitly stated.
+
+10
+00:00:18,020 --> 00:00:19,924
+So for instance, when
+I create a new folder,
+
+11
+00:00:19,924 --> 00:00:23,240
+by default I want it to not
+allow people to have access,
+
+12
+00:00:23,240 --> 00:00:25,270
+and then I would go ahead and give access
+
+13
+00:00:25,270 --> 00:00:27,000
+to the people that need access to it.
+
+14
+00:00:27,000 --> 00:00:29,330
+This gives you a higher
+security environment.
+
+15
+00:00:29,330 --> 00:00:30,500
+Now, by default,
+
+16
+00:00:30,500 --> 00:00:33,130
+a lot of systems are
+actually done the other way.
+
+17
+00:00:33,130 --> 00:00:35,170
+They're done where it's an explicit deny.
+
+18
+00:00:35,170 --> 00:00:37,410
+Everything is allowed until you deny it.
+
+19
+00:00:37,410 --> 00:00:38,910
+If you want to have a
+secure system though,
+
+20
+00:00:38,910 --> 00:00:41,070
+you want to configure it as explicit deny.
+
+21
+00:00:41,070 --> 00:00:43,070
+You want to deny, deny, deny,
+
+22
+00:00:43,070 --> 00:00:45,496
+and only allow people in
+that you want to have in.
+
+23
+00:00:45,496 --> 00:00:47,120
+The next one we want to think about
+
+24
+00:00:47,120 --> 00:00:48,670
+is least privilege.
+
+25
+00:00:48,670 --> 00:00:50,830
+Users are only given the
+lowest level of access
+
+26
+00:00:50,830 --> 00:00:53,210
+they need to perform their job functions.
+
+27
+00:00:53,210 --> 00:00:54,043
+This kind of goes back to,
+
+28
+00:00:54,043 --> 00:00:57,380
+do I want them to be a user,
+a power user, or an admin?
+
+29
+00:00:57,380 --> 00:01:00,130
+Well, if they don't need all
+the functions of an admin,
+
+30
+00:01:00,130 --> 00:01:01,210
+then don't make them an admin,
+
+31
+00:01:01,210 --> 00:01:02,380
+make them a power-user.
+
+32
+00:01:02,380 --> 00:01:03,550
+If they don't need the power-user,
+
+33
+00:01:03,550 --> 00:01:04,760
+then make them a regular user,
+
+34
+00:01:04,760 --> 00:01:06,791
+and take away as much
+permissions as you can,
+
+35
+00:01:06,791 --> 00:01:09,210
+to give people the least they need.
+
+36
+00:01:09,210 --> 00:01:10,370
+This is going to make sure that people
+
+37
+00:01:10,370 --> 00:01:13,139
+have what they need to do their
+job, but not anything more.
+
+38
+00:01:13,139 --> 00:01:14,880
+For example, let's say that
+
+39
+00:01:14,880 --> 00:01:17,160
+somebody works in sales or marketing.
+
+40
+00:01:17,160 --> 00:01:20,050
+Do they need to have access
+to employee salary data?
+
+41
+00:01:20,050 --> 00:01:22,830
+Well, no, but if someone
+works in accounting or HR,
+
+42
+00:01:22,830 --> 00:01:24,190
+they need that information.
+
+43
+00:01:24,190 --> 00:01:26,280
+The accountants need it
+so they can pay the bills,
+
+44
+00:01:26,280 --> 00:01:27,760
+the HR guys need it so they can figure out
+
+45
+00:01:27,760 --> 00:01:29,330
+when you need a raise, right?
+
+46
+00:01:29,330 --> 00:01:31,330
+So you need to make sure
+you segment people out
+
+47
+00:01:31,330 --> 00:01:33,300
+and give them the least
+amount of permission possible
+
+48
+00:01:33,300 --> 00:01:35,234
+so that these things don't creep on you.
+
+49
+00:01:35,234 --> 00:01:36,990
+Also, when you start thinking about this,
+
+50
+00:01:36,990 --> 00:01:38,660
+you got to think about all
+the different personal data
+
+51
+00:01:38,660 --> 00:01:40,260
+that exists on your network, right?
+
+52
+00:01:40,260 --> 00:01:41,330
+So as an HR person,
+
+53
+00:01:41,330 --> 00:01:43,397
+you have access to tons
+of personal information.
+
+54
+00:01:43,397 --> 00:01:45,008
+People's social security numbers,
+
+55
+00:01:45,008 --> 00:01:46,280
+their dates of birth,
+
+56
+00:01:46,280 --> 00:01:47,870
+their home address, their phone numbers,
+
+57
+00:01:47,870 --> 00:01:49,070
+all of that stuff.
+
+58
+00:01:49,070 --> 00:01:51,278
+But as an IT guy, I don't
+need to know that stuff,
+
+59
+00:01:51,278 --> 00:01:53,740
+and so I should be kept out of that area
+
+60
+00:01:53,740 --> 00:01:55,550
+because I don't need the personal data.
+
+61
+00:01:55,550 --> 00:01:57,870
+Again, this is the whole idea
+of keeping those permissions
+
+62
+00:01:57,870 --> 00:01:59,190
+as low as possible,
+
+63
+00:01:59,190 --> 00:02:00,490
+so that people don't creep around,
+
+64
+00:02:00,490 --> 00:02:02,360
+and get information they don't need.
+
+65
+00:02:02,360 --> 00:02:03,610
+The next best practice is
+
+66
+00:02:03,610 --> 00:02:05,770
+maintaining a separation of duties.
+
+67
+00:02:05,770 --> 00:02:08,090
+This means that you're going
+to require more than one person
+
+68
+00:02:08,090 --> 00:02:10,940
+to conduct a sensitive task or operation.
+
+69
+00:02:10,940 --> 00:02:12,380
+So I'll give you a great example of this
+
+70
+00:02:12,380 --> 00:02:13,580
+from the corporate world.
+
+71
+00:02:13,580 --> 00:02:14,848
+If you look in the corporate world,
+
+72
+00:02:14,848 --> 00:02:17,780
+they have lots of money in
+their checking accounts, right?
+
+73
+00:02:17,780 --> 00:02:19,470
+Well, who's going to be
+able to sign the checks
+
+74
+00:02:19,470 --> 00:02:20,660
+for a corporation,
+
+75
+00:02:20,660 --> 00:02:22,862
+and, does it only require
+one person or two?
+
+76
+00:02:22,862 --> 00:02:26,250
+Let's say that they were going
+to write a check for $10,000,
+
+77
+00:02:26,250 --> 00:02:28,250
+that should probably have two signatures,
+
+78
+00:02:28,250 --> 00:02:30,610
+so that no one employee can
+write themselves a check
+
+79
+00:02:30,610 --> 00:02:32,800
+for $10,000 and steal it.
+
+80
+00:02:32,800 --> 00:02:34,680
+So by having two-person integrity here,
+
+81
+00:02:34,680 --> 00:02:36,340
+by doing this separation of duties,
+
+82
+00:02:36,340 --> 00:02:37,960
+where you have a sign and a counter-sign,
+
+83
+00:02:37,960 --> 00:02:39,230
+you prevent fraud.
+
+84
+00:02:39,230 --> 00:02:41,120
+Well, we do the same thing in technology.
+
+85
+00:02:41,120 --> 00:02:42,860
+For example, you might set up your system
+
+86
+00:02:42,860 --> 00:02:45,460
+that any time someone wants
+to download more that 5GB
+
+87
+00:02:45,460 --> 00:02:46,600
+from your share drive,
+
+88
+00:02:46,600 --> 00:02:47,860
+they need two administrators
+
+89
+00:02:47,860 --> 00:02:50,410
+to sign off on that using
+digital credentials.
+
+90
+00:02:50,410 --> 00:02:52,330
+That can help you
+prevent data loss, right?
+
+91
+00:02:52,330 --> 00:02:54,070
+We don't want somebody
+downloading our entire share drive
+
+92
+00:02:54,070 --> 00:02:55,760
+and running off with all of our data.
+
+93
+00:02:55,760 --> 00:02:57,530
+That's the idea of separation of duties,
+
+94
+00:02:57,530 --> 00:02:59,800
+is making sure that it
+takes more than one person
+
+95
+00:02:59,800 --> 00:03:02,570
+to do some kind of critical operation.
+
+96
+00:03:02,570 --> 00:03:04,120
+Now the other thing with
+separation of duties
+
+97
+00:03:04,120 --> 00:03:06,920
+is you can also implement
+this using a single user,
+
+98
+00:03:06,920 --> 00:03:09,800
+by having someone who has
+an admin and a user account.
+
+99
+00:03:09,800 --> 00:03:12,060
+Now, for example, I work on a daily basis
+
+100
+00:03:12,060 --> 00:03:14,410
+on my user account, which is called Jason,
+
+101
+00:03:14,410 --> 00:03:15,940
+but if I need to install a program,
+
+102
+00:03:15,940 --> 00:03:17,870
+I can't do that from Jason's account.
+
+103
+00:03:17,870 --> 00:03:19,454
+Instead I have to log-out,
+
+104
+00:03:19,454 --> 00:03:21,330
+log-in as an administrator,
+
+105
+00:03:21,330 --> 00:03:22,770
+and then install the program.
+
+106
+00:03:22,770 --> 00:03:24,330
+Why do I do that to myself?
+
+107
+00:03:24,330 --> 00:03:25,980
+Why do I make my life hard?
+
+108
+00:03:25,980 --> 00:03:28,120
+Well, because it prevents
+malware from spreading
+
+109
+00:03:28,120 --> 00:03:29,630
+if an infection occurs.
+
+110
+00:03:29,630 --> 00:03:31,730
+If Jason as a user is surfing the internet
+
+111
+00:03:31,730 --> 00:03:33,520
+and downloads a piece of malware,
+
+112
+00:03:33,520 --> 00:03:36,140
+it can only run as Jason, as the user,
+
+113
+00:03:36,140 --> 00:03:37,510
+and not as the admin.
+
+114
+00:03:37,510 --> 00:03:39,160
+So by forcing me to log-out,
+
+115
+00:03:39,160 --> 00:03:41,770
+and then install something
+using admin permissions,
+
+116
+00:03:41,770 --> 00:03:43,010
+that going to prevent spreads,
+
+117
+00:03:43,010 --> 00:03:45,117
+and it is a form of separation of duties.
+
+118
+00:03:45,117 --> 00:03:47,586
+Now in Windows, this type
+of separation of duties
+
+119
+00:03:47,586 --> 00:03:51,290
+can be done automatically using the UAC,
+
+120
+00:03:51,290 --> 00:03:53,030
+or User Account Controls.
+
+121
+00:03:53,030 --> 00:03:55,080
+We're going to talk about
+that later in its own lesson
+
+122
+00:03:55,080 --> 00:03:56,738
+at the end of this section.
+
+123
+00:03:56,738 --> 00:03:59,230
+Now the last best practice
+I want to talk about here
+
+124
+00:03:59,230 --> 00:04:00,860
+is called job rotation.
+
+125
+00:04:00,860 --> 00:04:03,390
+This occurs where users are
+cycled through various jobs
+
+126
+00:04:03,390 --> 00:04:05,330
+to learn the overall operations better,
+
+127
+00:04:05,330 --> 00:04:08,030
+it reduces their boredom, it
+enhances their skill level,
+
+128
+00:04:08,030 --> 00:04:10,716
+and most importantly it
+actually increases our security.
+
+129
+00:04:10,716 --> 00:04:12,540
+Now, how does all this happen?
+
+130
+00:04:12,540 --> 00:04:14,380
+Well, job rotation helps the employee
+
+131
+00:04:14,380 --> 00:04:16,904
+become more well-rounded
+and learn new skills.
+
+132
+00:04:16,904 --> 00:04:19,420
+Let's say I took somebody
+who is in the sale department
+
+133
+00:04:19,420 --> 00:04:21,260
+and now move over to the
+marketing department.
+
+134
+00:04:21,260 --> 00:04:22,750
+And then maybe I move them from marketing
+
+135
+00:04:22,750 --> 00:04:23,980
+and they go into to HR,
+
+136
+00:04:23,980 --> 00:04:25,650
+and we just keep moving
+people throughout the company
+
+137
+00:04:25,650 --> 00:04:28,630
+as they progress upwards
+and across the organization.
+
+138
+00:04:28,630 --> 00:04:30,450
+They're learning new
+skills everywhere they go
+
+139
+00:04:30,450 --> 00:04:32,490
+and bringing that organizational
+knowledge with them.
+
+140
+00:04:32,490 --> 00:04:33,940
+This is great for the company,
+
+141
+00:04:33,940 --> 00:04:35,650
+but also it's great for security
+
+142
+00:04:35,650 --> 00:04:37,614
+because job rotation helps us identity
+
+143
+00:04:37,614 --> 00:04:41,265
+theft, fraud and abuse
+within the organization.
+
+144
+00:04:41,265 --> 00:04:42,424
+How does it does that?
+
+145
+00:04:42,424 --> 00:04:44,600
+Well, let's say that you were in IT,
+
+146
+00:04:44,600 --> 00:04:45,700
+and I moved you from IT
+
+147
+00:04:45,700 --> 00:04:47,520
+and put you someplace else for two weeks.
+
+148
+00:04:47,520 --> 00:04:48,560
+While you're gone,
+
+149
+00:04:48,560 --> 00:04:50,480
+somebody else is having to do your job.
+
+150
+00:04:50,480 --> 00:04:51,652
+If you were stealing information
+
+151
+00:04:51,652 --> 00:04:53,199
+or weren't doing your job properly,
+
+152
+00:04:53,199 --> 00:04:55,560
+that person's going to be
+able to figure that out.
+
+153
+00:04:55,560 --> 00:04:57,080
+That's the whole idea with job rotation,
+
+154
+00:04:57,080 --> 00:04:58,930
+is it forces additional security
+
+155
+00:04:58,930 --> 00:05:01,270
+and checks and balances into the system.
+
+156
+00:05:01,270 --> 00:05:02,850
+Another variation of job rotation
+
+157
+00:05:02,850 --> 00:05:04,745
+is known as mandatory vacation.
+
+158
+00:05:04,745 --> 00:05:08,330
+Now mandatory vacation means
+I require all of my employees
+
+159
+00:05:08,330 --> 00:05:10,870
+to take two weeks of
+vacation every year, right?
+
+160
+00:05:10,870 --> 00:05:12,460
+Now, most of the companies do this
+
+161
+00:05:12,460 --> 00:05:14,310
+because they want you to have a good time,
+
+162
+00:05:14,310 --> 00:05:16,400
+and they want you to have
+some time off and relax,
+
+163
+00:05:16,400 --> 00:05:17,690
+and recharge, and go to the beach,
+
+164
+00:05:17,690 --> 00:05:19,510
+and all of that kind of good stuff.
+
+165
+00:05:19,510 --> 00:05:21,000
+And I want that too, right?
+
+166
+00:05:21,000 --> 00:05:22,290
+But from a security standpoint,
+
+167
+00:05:22,290 --> 00:05:24,810
+by forcing those vacations
+that means somebody else
+
+168
+00:05:24,810 --> 00:05:26,750
+has to come in and cover for your job,
+
+169
+00:05:26,750 --> 00:05:28,340
+and when they're covering for your job,
+
+170
+00:05:28,340 --> 00:05:30,280
+they may find the things
+you've been doing wrong,
+
+171
+00:05:30,280 --> 00:05:33,182
+and doing all those things
+that are theft to the company,
+
+172
+00:05:33,182 --> 00:05:35,470
+fraud, and all those other issues.
+
+173
+00:05:35,470 --> 00:05:37,380
+That's the idea, and so large corporations
+
+174
+00:05:37,380 --> 00:05:39,869
+have really embraced this
+idea of mandatory vacations,
+
+175
+00:05:39,869 --> 00:05:41,920
+because it allows them to uncover things
+
+176
+00:05:41,920 --> 00:05:44,120
+that they wouldn't have
+uncovered otherwise.
+
